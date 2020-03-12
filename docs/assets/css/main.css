@@ -258,7 +258,7 @@ a{
 	bottom: 14px;
 }
 .main-about__bg{
-	background-image: url(../img/image.png);
+	background-color: #212121;
 	padding: 190px;
 	position: absolute;
 	width: 100%;
@@ -281,6 +281,7 @@ a{
 	align-items: center;
 	flex-direction: column;
 }
+
 .main-about__bg--icono{
 	position: absolute;
 	top: 91px;
