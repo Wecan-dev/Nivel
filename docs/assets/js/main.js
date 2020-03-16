@@ -227,7 +227,8 @@ $('.main-about-carousel').slick({
   slidesToShow: 4,
   arrows: true,
   slidesToScroll: 1,
-  responsive: [{
+  responsive:  [
+  {
     breakpoint: 1024,
     settings: {
       slidesToShow: 3,
@@ -254,4 +255,5 @@ $('.main-about-carousel').slick({
     // settings: "unslick"
     // instead of a settings object
     ]
+    
   });

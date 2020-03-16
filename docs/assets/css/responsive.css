@@ -1,0 +1,63 @@
+@media (min-width: 0px) and (max-width: 767px) {
+ /* HOME*/
+
+ .main-banner__palabra{
+   right: 0;
+   top: 385px;
+}
+.main-banner .mask .main-banner__palabra p{
+    font-size: 75px;
+}
+.main-banner .mask .main-banner__text .main-banner__title p{
+    font-size: 43px;
+}
+.main-banner__title{
+    width: 100%;
+}
+.main-banner .mask .main-banner__text{
+    width: 60%;
+}
+.title-welcome{
+    font-size: 20px;
+}
+.main-blog__content{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+}
+.main-enlaces__content{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.container-contacto{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.formulario{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.main-title__blog{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.text-blog{
+    font-size: 17px;
+}
+.main-proyectos__items{
+    display: grid;
+    grid-template-columns: 1fr ;
+}
+.main-card__proyectos--text{
+    width: 100%;
+}
+.proyectos-text{
+    width: 100%;
+}
+.title-nivel2--line{
+    text-align: center;
+}
+textarea{
+    width: 100% !important;
+}
+}
