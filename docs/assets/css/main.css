@@ -1201,14 +1201,115 @@ a {
 	display: grid !important;
 	grid-template-columns: 535px 1fr;
 	padding-top: 100px;
+}
+
+.main-proyectos__img {
+	overflow: hidden;
+	display: flex;
+	justify-content: flex-end;
+}
 
 
+
+
+
+
+
+
+
+.main-proyectos__img .line {
+	top: 25px;
+	left: 25px;
+}
+
+.main-proyectos__img .line {
+	position: absolute;
+
+	z-index: 999;
+	width: -webkit-calc(50% - 20px);
+	width: -moz-calc(50% - 20px);
+	width: calc(50% - 20px);
+	height: -webkit-calc(50% - 20px);
+	height: -moz-calc(50% - 20px);
+	height: calc(50% - 20px);
+	-webkit-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	transition: all .3s ease;
+}
+
+
+.line:before {
+	height: 1px;
+	width: 0;
+	content: '';
+	background: #fff;
+	display: block;
+	-webkit-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	-moz-transition: all .5s ease;
+	transition: all .5s ease;
+}
+
+.line:after {
+	height: 0;
+	width: 1px;
+	content: '';
+	background: #fff;
+	display: block;
+	-webkit-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	-moz-transition: all .5s ease;
+	transition: all .5s ease;
+}
+
+.main-proyectos__img:hover .line:before,
+.main-proyectos__img:hover .line:before {
+	width: 100%;
+}
+
+.main-proyectos__img:hover .line:after,
+.main-proyectos__img:hover .line:after {
+	height: 100%;
+}
+
+.main-proyectos__img .line-bottom {
+	top: auto;
+	left: auto;
+	bottom: 25px;
+	right: 25px;
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+
+
+
+
+
+
+
+
+.main-proyectos__img--hidden {
+	position: relative;
+	width: 68%;
+	overflow: hidden;
+}
+
+
+.main-proyectos__img:hover .img-proyectos {
+	transition: all 500ms ease;
+	transform: scale(1.3);
 }
 
 .img-proyectos {
 	width: 100%;
+	transition: all 500ms ease;
 	height: 450px;
 	object-fit: contain;
+	overflow: hidden;
 
 }
 
@@ -1471,7 +1572,21 @@ strong {
 	padding-top: 50px;
 }
 
+.main-blog__img {
+	overflow: hidden;
+	transition: all 500ms ease;
+}
+
+.main-blog__img:hover .img-blog {
+	transform: scale(1.3);
+	transition: all 500ms ease;
+	opacity: 0.4;
+}
+
+
 .img-blog {
+	transition: all 500ms ease;
+
 	width: 100%;
 }
 
@@ -1510,8 +1625,18 @@ strong {
 
 .text-blog {
 	margin-bottom: 0rem;
-	font-weight: 800;
+	color: #000;
 	font-size: 19px;
+	font-style: italic;
+	transition: all 500ms ease;
+}
+
+
+.text-blog:hover {
+	color: #d71f26;
+	transition: all 500ms ease;
+	text-decoration: none;
+
 }
 
 .main-blog__body {
@@ -1787,8 +1912,8 @@ textarea {
 }
 
 .main-details__video {
-	padding-top: 50px;
-	padding-bottom: 80px;
+	/* padding-top: 50px;
+	padding-bottom: 80px; */
 }
 
 .img-video__details {
@@ -1847,7 +1972,32 @@ textarea {
 	margin-bottom: 0rem;
 }
 
-.main-details__projects--content {}
+.main-details__projects--content {
+	display: grid;
+	grid-template-columns: 35% 65%;
+
+}
+
+
+.main-details__slick--content .slick-list {
+	padding-left: 0 !important;
+}
+
+.main-details__slick--content .slick-slide {
+	margin-right: 2rem;
+}
+
+/* .main-details__slick--img {
+	margin-right: 3rem;
+} */
+
+.details-slick__img {
+	width: 100%;
+}
+
+.main-details__descripcion {
+	margin-left: 8rem;
+}
 
 .main-details__icono {
 	display: flex;
@@ -1879,10 +2029,10 @@ textarea {
 	display: flex !important;
 }
 
-.main-details__projects--planos {
+/* .main-details__projects--planos {
 	padding-top: 80px;
 	padding-bottom: 80px;
-}
+} */
 
 .main-details__projects--planos .slick-dots li button:before {
 	position: absolute;
@@ -1930,6 +2080,31 @@ textarea {
 	padding-right: 60px;
 }
 
+.main-details__projects--zona .main-details__descripcion {
+
+	margin-right: 5rem;
+}
+
+.main-details__descripcion {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+
+
+.main-details__projects--avance .main-details__projects--content {
+	grid-template-columns: 45% 55%;
+}
+
+.main-details__projects--avance .main-details__descripcion {
+	padding-right: 3rem;
+}
+
+.main-details__projects--avance .main-details__projects--slick {
+	padding-left: 5rem;
+}
+
 .main-details__galeria--title {
 	display: flex;
 	justify-content: center;
@@ -1945,9 +2120,6 @@ textarea {
 	margin: 0 10px;
 }
 
-.main-details__galeria {
-	padding-top: 80px;
-}
 
 .main-details__galeria .slick-dots li button:before {
 	position: absolute;
@@ -1982,9 +2154,7 @@ textarea {
 	width: 100%;
 }
 
-.main-details__ubicacion {
-	padding-top: 80px;
-}
+
 
 .main-details__ubicacion--img {
 	position: relative;
@@ -2002,6 +2172,10 @@ textarea {
 }
 
 .img-icono__ubicacion {
+	width: 100%;
+}
+
+.img-ubicacion {
 	width: 100%;
 }
 
