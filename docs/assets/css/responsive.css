@@ -16,10 +16,12 @@
 
     .main-banner__title {
         width: 100%;
+        display: flex;
+        justify-content: center;
     }
 
     .main-banner .mask .main-banner__text {
-        width: 60%;
+        width: 100%;
     }
 
     .title-welcome {
@@ -183,7 +185,9 @@
     /* HOME*/
 
     .main-banner__title {
-        width: 42%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
     }
 
     .main-banner__palabra {
