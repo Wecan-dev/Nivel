@@ -2228,6 +2228,17 @@ textarea {
 	width: 100%;
 }
 
+.main-details__ubicacion--form .d-flex {
+	justify-content: space-between;
+}
+
+.main-details__ubicacion--form .d-flex .form-group {
+	width: 49%;
+}
+
+.main-details__ubicacion--form {
+	background: #212121;
+}
 
 /*DETALLE-PROYECTO*/
 

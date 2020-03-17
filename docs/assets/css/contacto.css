@@ -112,6 +112,12 @@
     padding: 60px 70px;
 }
 
+.main-contactform__box h2 {
+    color: #fff;
+    font-weight: 200;
+    margin-bottom: 20px;
+}
+
 .main-contactform__box form .form-group input,
 .main-contactform__box form .form-group textarea {
     font-family: Helvetica;
