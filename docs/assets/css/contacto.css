@@ -1,0 +1,306 @@
+.btn_custom {
+    display: inline-block;
+    width: auto;
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 1.5em;
+    letter-spacing: 2px;
+    font-weight: 400;
+    outline: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: color .2s ease-in-out, background-color .2s ease-in-out, border-color .2s ease-in-out;
+    -o-transition: color .2s ease-in-out, background-color .2s ease-in-out, border-color .2s ease-in-out;
+    transition: color .2s ease-in-out, background-color .2s ease-in-out, border-color .2s ease-in-out;
+    padding: 10px 50px;
+    cursor: pointer;
+    text-align: center;
+    font-family: 'Oswald';
+  }
+  
+  .btn--filled--red {
+    color: #fff;
+    background-color: #d71f26;
+    border: 1px solid transparent;
+    transition: 0.3s ease-in-out;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.62px;
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  .btn--filled--red:hover {
+    text-decoration: none;
+    background-color: #fff;
+    color: #000;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    box-shadow: 5px 40px -10px rgba(0, 0, 0, 0.57);
+    transition: 0.3s ease-in-out;
+  }
+.main-banner__palabra--contacto{
+    top: 145px;
+    right: -35px;
+}
+.main-banner__palabra--contacto p{
+    text-transform: uppercase;
+    line-height: 7rem;
+    
+}
+.main-banner__palabra--contacto p:nth-child(2){
+    font-size: 90px !important;
+    position: absolute;
+    right: 20px;
+}
+section{
+    padding: 100px 0;
+}
+.main-contactform__content{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-gap: 30px;
+}
+
+.main-contactform__ul{
+    padding-left: 0;
+    list-style: none;
+}
+.main-contactform__ul li{
+    margin-bottom: 15px;
+}
+.main-contactform__ul li:last-child a{
+    margin-right: 10px;
+
+}
+
+.main-contactform__info p, .main-contactform__ul li a{
+    font-family: 'Helvetica';
+    font-size: 14px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: 0.55px;
+    color: #000000;
+}
+.main-contactform__ul li a p{
+    margin-bottom: 0;
+    margin-left: 10px;
+}
+.main-contactform__ul li a:hover{
+    text-decoration: none;
+}
+.main-contactform__ul li a img{
+    object-fit: scale-down;
+}
+.main-contactform__box{
+    background-color: #212121;
+    padding: 60px 70px;
+}
+.main-contactform__box form .form-group input,.main-contactform__box form .form-group textarea{
+    font-family: Helvetica;
+    font-size: 15px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.52px;
+    color: #8a9997;
+}
+.main-contactform__textarea{
+    width: 100% !important;
+}
+.custom-control-label{
+    margin-bottom: 0;
+    color: #fff;
+    font-size: 13px;
+    font-family: 'Helvetica';
+    letter-spacing: 0.45px;
+}
+.main-contactform__textlink{
+    font-size: 13px;
+    color: #fff;
+    font-family: 'Helvetica';
+    letter-spacing: 0.45px;
+    text-decoration: underline;
+}
+.main-contactorm__textlink:hover{
+    text-decoration: none;
+    color: #fff;
+}
+.main-contactform__btnbox{
+    margin-top: 35px;
+}
+.main-contactform__maps{
+    height: 412px;
+}
+.main-contactform__maps iframe{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 0;
+}
+
+
+/* GRACIAS**/
+.main-banner__text--center{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+.main-banner__title.main-banner__title--large p{
+    font-size: 110px !important;
+}
+.main-banner__description p{
+    font-family: Helvetica;
+    font-size: 28px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 4.29px;
+    color: #ffffff;
+    text-align: center;
+}
+.main-banner__description p strong{
+    font-family: Oswald;
+    font-size: 25px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 3.9px;
+    color: #ffffff;
+}
+
+@media (min-width: 0px) and (max-width: 767px) {
+    .main-contactform__content{
+        grid-template-columns: 100%;
+    }
+    .main-nivel__title.main-nivel__title--column .title-nivel2--line{
+        text-align: start;
+    }
+    .main-contactform{
+        padding: 20px 0 0px 0;
+    }
+    .main-contactform__box{
+        padding: 20px;
+    }
+    .main-contactform .container{
+        padding: 0;
+    }
+    .main-contactform__item:nth-child(1){
+        padding: 20px;
+    }
+    .main-banner__palabra--contacto{
+        top: 150px !important;
+    }
+    .main-banner__palabra--contacto{
+        top: 125px !important;
+        right: -25px !important;
+    }
+    .main-banner .mask .main-banner__palabra p{
+        font-size: 60px;
+    }
+    .main-banner__palabra--contacto p:nth-child(2){
+        font-size: 40px !important;
+    }
+    .main-banner__palabra--contacto p{
+        line-height: 3rem;
+    }
+    .main-banner__text--contact .main-banner__title{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    /** GRACIAS*/
+    .main-banner__title.main-banner__title--large{
+        display: flex;
+        justify-content: center;
+    }
+    .main-banner__title.main-banner__title--large p{
+        font-size: 55px !important;
+    }
+    .main-banner__description p{
+        font-size: 20px;
+    }
+    .main-banner__description p strong{
+        font-size: 20px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .main-contactform{
+        padding: 50px 0;
+    }
+    .main-contactform__box{
+        padding: 30px;
+    }
+    .main-contactform__content{
+        grid-template-columns: 40% 60%;
+    }
+    .main-contactform__maps{
+        height: 300px;
+    }
+    .main-banner .mask .main-banner__palabra p{
+        font-size: 90px;
+    }
+    .main-banner__palabra--contacto p:nth-child(2){
+        font-size: 60px !important;
+    }
+    .main-banner__palabra--contacto p{
+        line-height: 5rem;
+    }
+    .main-banner .mask .main-banner__text{
+        width: 100%;
+        padding: 15px;
+    }
+    /** GRACIAS*/
+    .main-banner__title.main-banner__title--large{
+        display: flex;
+        justify-content: center;
+    }
+    .main-banner__title.main-banner__title--large p{
+        font-size: 90px !important;
+    }
+    .main-banner__description p{
+        font-size: 22px;
+    }
+    .main-banner__description p strong{
+        font-size: 20px;
+    }
+}
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .main-banner .mask .main-banner__palabra p{
+        font-size: 120px;
+    }
+    .main-banner__palabra--contacto p:nth-child(2){
+        font-size: 60px;
+    }
+    .main-banner__palabra--contacto p{
+        line-height: 5rem;
+    }
+    .main-banner .mask .main-banner__text{
+        width: 100%;
+        padding: 40px;
+    }
+    /** GRACIAS*/
+    .main-banner__title.main-banner__title--large p{
+        font-size: 90px !important;
+    }
+    .main-banner__description p{
+        font-size: 22px;
+    }
+    .main-banner__description p strong{
+        font-size: 20px;
+    }
+}

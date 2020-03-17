@@ -6,7 +6,7 @@
    top: 385px;
 }
 .main-banner .mask .main-banner__palabra p{
-    font-size: 75px;
+    font-size: 60px;
 }
 .main-banner .mask .main-banner__text .main-banner__title p{
     font-size: 43px;
@@ -15,7 +15,7 @@
     width: 100%;
 }
 .main-banner .mask .main-banner__text{
-    width: 60%;
+    width: 100%;
 }
 .title-welcome{
     font-size: 20px;
