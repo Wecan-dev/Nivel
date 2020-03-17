@@ -1,63 +1,290 @@
 @media (min-width: 0px) and (max-width: 767px) {
- /* HOME*/
+    /* HOME*/
 
- .main-banner__palabra{
-   right: 0;
-   top: 385px;
+    .main-banner__palabra {
+        right: 0;
+        top: 385px;
+    }
+
+    .main-banner .mask .main-banner__palabra p {
+        font-size: 75px;
+    }
+
+    .main-banner .mask .main-banner__text .main-banner__title p {
+        font-size: 43px;
+    }
+
+    .main-banner__title {
+        width: 100%;
+    }
+
+    .main-banner .mask .main-banner__text {
+        width: 60%;
+    }
+
+    .title-welcome {
+        font-size: 18px;
+    }
+
+    .main-blog__content {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+    }
+
+    .main-enlaces__content {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .container-contacto {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .formulario {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .main-title__blog {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .text-blog {
+        font-size: 17px;
+    }
+
+    .main-proyectos__items {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .main-card__proyectos--text {
+        width: 100%;
+    }
+
+    .proyectos-text {
+        width: 100%;
+    }
+
+    .title-nivel2--line {
+        text-align: initial;
+    }
+
+    textarea {
+        width: 100% !important;
+    }
+
+    .main-proyectos__content .slick-next,
+    .main-proyectos__content .slick-prev {
+        bottom: 0px !important;
+    }
+
+    .main-proyectos__content .slick-next {
+        left: 55% !important;
+
+    }
+
+    .main-proyectos__content .slick-prev {
+        right: 35% !important;
+    }
+
+    .main-proyectos__content .slick-next:hover {
+        left: 65% !important;
+    }
+
+    .main-proyectos__content .slick-prev:hover {
+        right: 40% !important;
+    }
+
+    .main-video__content .slick-next,
+    .main-video__content .slick-prev {
+        bottom: -210px !important;
+    }
+
+    .main-video__content .slick-next {
+        left: 56% !important;
+    }
+
+    .main-video__content .slick-prev {
+        right: 36% !important;
+    }
+
+    .main-video__content .slick-next:hover {
+        left: 60% !important;
+    }
+
+    .main-video__content .slick-prev:hover {
+        right: 40% !important;
+    }
+
+    .main-details__projects--content {
+        grid-template-columns: 100%;
+        padding: 0 1rem;
+    }
+
+    .main-details__video--content {
+        grid-template-columns: 100%;
+    }
+
+    .main-details__descripcion {
+        margin-left: 0;
+        padding-right: 0 !important;
+    }
+
+    .main-details__projects--content {
+        grid-template-columns: 100% !important;
+        padding: 0 1rem;
+    }
+
+    .main-details__ubicacion--content {
+        grid-template-columns: 100% !important;
+
+    }
+
+    .main-details__projects--avance .main-details__projects--slick {
+        padding-left: 0;
+    }
+
+    .main-details__planos--items {
+        flex-wrap: wrap;
+    }
+
+    .main-details__planos--img {
+        padding-right: 0px;
+    }
+
+    .main-details__projects--zona .main-details__descripcion {
+        margin-right: 0;
+    }
+
+    .main-details__planos--img img {
+        width: 100%;
+    }
+
+    .main-details__slick--content .slick-slide {
+        margin-right: 0;
+    }
+
+    .main-details__galeria--title {
+        display: block;
+    }
+
+    .main-details__icono--content2 {
+        padding: 0;
+    }
 }
-.main-banner .mask .main-banner__palabra p{
-    font-size: 75px;
-}
-.main-banner .mask .main-banner__text .main-banner__title p{
-    font-size: 43px;
-}
-.main-banner__title{
-    width: 100%;
-}
-.main-banner .mask .main-banner__text{
-    width: 60%;
-}
-.title-welcome{
-    font-size: 20px;
-}
-.main-blog__content{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 20px;
-}
-.main-enlaces__content{
-    display: grid;
-    grid-template-columns: 1fr;
-}
-.container-contacto{
-    display: grid;
-    grid-template-columns: 1fr;
-}
-.formulario{
-    display: grid;
-    grid-template-columns: 1fr;
-}
-.main-title__blog{
-    display: grid;
-    grid-template-columns: 1fr;
-}
-.text-blog{
-    font-size: 17px;
-}
-.main-proyectos__items{
-    display: grid;
-    grid-template-columns: 1fr ;
-}
-.main-card__proyectos--text{
-    width: 100%;
-}
-.proyectos-text{
-    width: 100%;
-}
-.title-nivel2--line{
-    text-align: center;
-}
-textarea{
-    width: 100% !important;
-}
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    /* HOME*/
+
+    .main-banner__title {
+        width: 42%;
+    }
+
+    .main-banner__palabra {
+        right: 25px;
+    }
+
+    .main-banner .mask .main-banner__palabra p {
+        font-size: 115px;
+    }
+
+    .main-banner .mask .main-banner__text .main-banner__title p {
+        font-size: 50px;
+    }
+
+    .title-welcome {
+        font-size: 30px;
+    }
+
+    .proyectos-text {
+        width: 70%;
+    }
+
+    .main-title__blog {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .formulario {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .main-enlaces__content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    textarea {
+        width: 100% !important;
+    }
+
+    .main-proyectos__items {
+        display: grid !important;
+        grid-template-columns: 388px 1fr;
+    }
+
+    .main-card__proyectos--text {
+        width: 100%;
+
+    }
+
+    .img-proyectos {
+        object-fit: none;
+    }
+
+    .main-video__bg--text {
+        display: none;
+    }
+
+    .main-video__bg--color {
+        height: 13rem;
+        bottom: -36px;
+    }
+
+    .video-bg__text {
+
+        bottom: -18px;
+        right: 108px;
+    }
+
+    .main-video__content .slick-next,
+    .main-video__content .slick-prev {
+        bottom: -130px !important;
+    }
+
+    .main-video__content .slick-prev {
+        right: 47% !important;
+    }
+
+    .main-video__content .slick-next {
+        left: 59% !important;
+    }
+
+    .main-video__content .slick-next:hover {
+        left: 60% !important;
+    }
+
+    .main-video__content .slick-prev:hover {
+        right: 49% !important;
+    }
+
+    .main-proyectos__content .slick-next,
+    .main-proyectos__content .slick-prev {
+        bottom: -70px !important;
+    }
+
+    .main-proyectos__content .slick-prev {
+        right: 43% !important;
+    }
+
+    .main-proyectos__content .slick-next {
+        left: 61% !important;
+    }
 }
