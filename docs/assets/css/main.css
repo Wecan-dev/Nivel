@@ -316,7 +316,20 @@ button:focus {
 	text-transform: capitalize;
 	font-family: "Century Gothic", sans-serif;
 }
-
+.main-logo__collapse{
+	margin-bottom: 30px;
+}
+.nav-item{
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	padding: 10px;
+}
+.nav-item:first-child{
+	border-top: 2px solid #fff;
+}
+.nav-item:last-child{
+	border-bottom: 2px solid #fff;
+}
 .main-banner {
 	position: relative;
 	overflow: hidden;
