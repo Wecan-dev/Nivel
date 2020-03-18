@@ -1624,6 +1624,7 @@ strong {
 	margin: 0 10px;
 }
 
+
 .main-title__blog {
 	display: grid;
 	grid-template-columns: 150px 1fr;
@@ -1651,6 +1652,9 @@ strong {
 
 .main-blog__card {
 	box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2), 0px 6px 10px 0px rgba(0, 0, 0, 0.14), 0px 1px 18px 0px rgba(0, 0, 0, 0.12);
+}
+.main-blog__card.main-blog__card--single{
+	box-shadow: none !important;
 }
 
 .text-blog {
