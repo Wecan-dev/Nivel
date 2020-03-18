@@ -213,6 +213,20 @@
         padding-top: 0;
         padding-bottom: 0;
     }
+
+    .main-projects__content {
+        grid-template-columns: 100%;
+    }
+
+    .main-projects__tabs ul {
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-projects__tabs a {
+        margin-right: 0;
+    }
 }
 
 
