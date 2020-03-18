@@ -178,6 +178,41 @@
     .main-details__icono--content2 {
         padding: 0;
     }
+
+    .main-nosotros__content {
+
+        grid-template-columns: 100%;
+    }
+
+    .main-nosotros__content--text {
+        padding-right: 0;
+        margin-bottom: 2rem;
+    }
+
+    .main-experiencia__content {
+        grid-template-columns: 100%;
+    }
+
+    .main-nosotros__carousel .slick-slide {
+        margin-right: 0;
+        margin-bottom: 1rem;
+        margin-left: 1px;
+    }
+
+    .nosotros-video__img {
+        height: 20rem;
+        object-fit: cover;
+    }
+
+    .main-testimonios__content {
+
+        padding-top: 0px;
+    }
+
+    .main-experiencia {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
 }
 
 
@@ -325,5 +360,19 @@
         grid-template-columns: 50% 50%;
         padding-left: 1.5rem;
         padding-right: 1.5rem;
+    }
+
+    .main-nosotros__content {
+        grid-template-columns: 50% 50%;
+    }
+
+    .main-experiencia {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .main-experiencia__content {
+
+        grid-template-columns: 1fr 1fr;
     }
 }
