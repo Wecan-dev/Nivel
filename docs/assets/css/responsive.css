@@ -24,8 +24,19 @@
         width: 100%;
     }
 
+    .main-video {
+        /* margin-bottom: 100px; */
+    }
+
+    .main-proyectos__grid {
+        padding-bottom: 0;
+    }
+
     .title-welcome {
-        font-size: 18px;
+        padding: 1.5rem;
+        font-size: 30px;
+        letter-spacing: 5px;
+        font-weight: 700;
     }
 
     .main-blog__content {
@@ -77,6 +88,29 @@
 
     textarea {
         width: 100% !important;
+    }
+
+    .main-nivel__title {
+        padding: 1.5rem;
+    }
+
+    .main-video__bg--color,
+    .main-video__bg--text {
+        display: none;
+    }
+
+    .video-bg__text {
+        padding: 1rem;
+        left: 50%;
+        transform: translateX(-50%);
+        border: 1px solid;
+        right: initial;
+        bottom: -90px;
+    }
+
+    .main-about__bg {
+        height: 50%;
+        padding: 0;
     }
 
     .main-proyectos__content .slick-next,
@@ -227,6 +261,32 @@
     .main-projects__tabs a {
         margin-right: 0;
     }
+
+    .main-proyectos {
+        padding-top: 100px;
+    }
+
+    .service-about__grid {
+        grid-template-columns: 100%;
+    }
+
+    .service-steps__grid {
+        grid-template-columns: 100%;
+        gap: 3rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .service-form__container {
+        width: 100%;
+    }
+
+    .service-form button {
+        padding: 1rem;
+        width: 100%;
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
 }
 
 
@@ -278,6 +338,8 @@
     textarea {
         width: 100% !important;
     }
+
+
 
     .main-proyectos__items {
         display: grid !important;
@@ -388,5 +450,29 @@
     .main-experiencia__content {
 
         grid-template-columns: 1fr 1fr;
+    }
+
+    .service-about__grid {
+        grid-template-columns: 100%;
+    }
+
+    .service-steps__grid {
+        gap: 1rem;
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+
+    .service-form__container {
+        width: 90%;
+    }
+}
+
+
+
+@media (min-width: 992px) and (max-width: 1024px) {
+    .service-steps__grid {
+        gap: 2rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
     }
 }
