@@ -61,6 +61,7 @@
     color: #ffffff;
     padding: 10px 30px;
     text-transform: capitalize;
+    
 }
 
 .btn--filled--black:hover {
@@ -83,15 +84,20 @@
     border: 1px solid #fff;
     transition: 0.3s ease-in-out;
     text-decoration: none;
-    font-size: 18px;
     font-weight: bold;
     font-stretch: normal;
     font-style: normal;
     line-height: normal;
-    letter-spacing: 0.62px;
     text-align: center;
     color: #ffffff;
     padding: 10px 80px;
+    font-family: 'Oswald';
+    font-size: 20px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 3.9px;
 }
 
 .btn--filled--trans:hover {
@@ -191,7 +197,8 @@
 .main-contactform__info p,
 .main-contactform__ul li a {
     font-family: 'Helvetica';
-    font-size: 14px;
+    font-family: Helvetica;
+    font-size: 16px;
     font-weight: 300;
     font-stretch: normal;
     font-style: normal;
@@ -235,6 +242,17 @@
     letter-spacing: 0.52px;
     color: #8a9997;
 }
+.main-contactform__box form .form-group input::placeholder,
+.main-contactform__box form .form-group textarea::placeholder{
+    font-family: Helvetica;
+    font-size: 15px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.52px;
+    color: #8a9997;
+}
 
 .main-contactform__textarea {
     width: 100% !important;
@@ -244,8 +262,12 @@
     margin-bottom: 0;
     color: #fff;
     font-size: 13px;
-    font-family: 'Helvetica';
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
     letter-spacing: 0.45px;
+    font-weight: 300;
 }
 
 .main-contactform__textlink {
@@ -254,6 +276,11 @@
     font-family: 'Helvetica';
     letter-spacing: 0.45px;
     text-decoration: underline;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    font-weight: 300;
 }
 
 .main-contactorm__textlink:hover {
@@ -287,23 +314,35 @@
 
 .main-banner__title.main-banner__title--large p {
     font-size: 110px !important;
+    letter-spacing: 10.5px !important;
 }
 
 .main-banner__description p {
-    font-family: Helvetica;
-    font-size: 28px;
+    font-family: 'Helvetica';
+    font-size: 25px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
     line-height: normal;
-    letter-spacing: 4.29px;
+    letter-spacing: 3.9px;
     color: #ffffff;
     text-align: center;
+    font-weight: 300;
 }
 
 .main-banner__description p strong {
-    font-family: Oswald;
-    font-size: 25px;
+    font-family: 'Oswald';
+    font-size: 27px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 3.9px;
+    color: #ffffff;
+}
+.main-banner__description p strong.strong-thanks {
+    font-family: 'Oswald';
+    font-size: 22px !important;
     font-weight: 500;
     font-stretch: normal;
     font-style: normal;
@@ -313,10 +352,23 @@
 }
 
 /* ERROR*/
+.main-banner__title.main-banner__title--error{
+    font-family: Oswald;
+  font-size: 230px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
 .main-banner__description.main-banner__description--error {
     margin-bottom: -45px;
 }
 
+.main-banner .mask .main-banner__text .main-banner__title.main-banner__title--error p{
+    font-weight: bold;
+}
 .main-banner__description p strong.subtitle--error {
     font-size: 45px;
     letter-spacing: 6.5px;
@@ -367,6 +419,9 @@
     color: #d71f26;
     text-transform: uppercase;
     text-decoration: underline;
+}
+.main-blog__link:hover{
+    color:#000;
 }
 
 .main-blog__link.main-blog__link--black {
@@ -439,6 +494,12 @@
 input.input-search {
     color: #000 !important;
     font-family: 'Oswald';
+    font-size: 15px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.52px;
 }
 
 input.input-search:focus {
@@ -447,8 +508,13 @@ input.input-search:focus {
 
 input.input-search::placeholder {
     color: #000;
-    font-weight: 600;
+    font-family: 'Oswald';
     font-size: 15px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.52px;
 }
 
 .main-sidebar__grid {
@@ -630,7 +696,7 @@ input.input-search::placeholder {
 }
 
 .main-blog__infoauthor {
-    padding: 0 30px;
+    padding: 30px;
 }
 
 .main-blog__forms {

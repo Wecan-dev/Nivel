@@ -45,159 +45,70 @@
 	font-weight: 500;
 	font-style: normal;
 }
-
-
 @font-face {
-	font-family: 'Helvetica LT Std';
-	src: url('../fonts/HelveticaLTStd-BlkCond.woff2') format('woff2'),
-		url('../fonts/HelveticaLTStd-BlkCond.woff') format('woff');
-	font-weight: 900;
-	font-style: normal;
+    font-family: 'Helvetica';
+    src: url('../fonts/Helvetica-BoldOblique.woff2') format('woff2'),
+        url('Helvetica-BoldOblique.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
 }
 
 @font-face {
-	font-family: 'Helvetica LT Std';
-	src: url('../fonts/HelveticaLTStd-LightObl.woff2') format('woff2'),
-		url('../fonts/HelveticaLTStd-LightObl.woff') format('woff');
-	font-weight: 300;
-	font-style: italic;
+    font-family: 'Helvetica';
+    src: url('../fonts/Helvetica.woff2') format('woff2'),
+        url('Helvetica.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
-	font-family: 'Helvetica LT Std';
-	src: url('../fonts/HelveticaLTStd-BlkCondObl.woff2') format('woff2'),
-		url('../fonts/HelveticaLTStd-BlkCondObl.woff') format('woff');
-	font-weight: 900;
-	font-style: italic;
+    font-family: 'Helvetica';
+    src: url('../fonts/Helvetica-Oblique.woff2') format('woff2'),
+        url('Helvetica-Oblique.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
 }
 
 @font-face {
-	font-family: 'Helvetica LT Std';
-	src: url('../fonts/HelveticaLTStd-Bold.woff2') format('woff2'),
-		url('../fonts/HelveticaLTStd-Bold.woff') format('woff');
-	font-weight: bold;
-	font-style: normal;
+    font-family: 'Helvetica';
+    src: url('../fonts/Helvetica-Bold.woff2') format('woff2'),
+        url('Helvetica-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
 }
 
 @font-face {
-	font-family: 'Helvetica LT Std';
-	src: url('../fonts/HelveticaLTStd-BoldCond.woff2') format('woff2'),
-		url('../fonts/HelveticaLTStd-BoldCond.woff') format('woff');
-	font-weight: bold;
-	font-style: normal;
+    font-family: 'Helvetica';
+    src: url('../fonts/Helvetica-Light.woff2') format('woff2'),
+        url('Helvetica-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
 }
 
 @font-face {
-	font-family: 'Helvetica LT Std';
-	src: url('../fonts/HelveticaLTStd-Blk.woff2') format('woff2'),
-		url('../fonts/HelveticaLTStd-Blk.woff') format('woff');
-	font-weight: 900;
-	font-style: normal;
+    font-family: 'Helvetica';
+    src: url('../fonts/HelveticaRounded-Bold.woff2') format('woff2'),
+        url('HelveticaRounded-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
 }
 
 @font-face {
-	font-family: 'Helvetica LT Std';
-	src: url('../fonts/HelveticaLTStd-Roman.woff2') format('woff2'),
-		url('../fonts/HelveticaLTStd-Roman.woff') format('woff');
-	font-weight: 500;
-	font-style: normal;
+    font-family: 'Helvetica';
+    src: url('../fonts/Helvetica-Compressed.woff2') format('woff2'),
+        url('Helvetica-Compressed.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato-Regular.woff2') format('woff2'),
+        url('../fonts/Lato-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
-@font-face {
-	font-family: 'Helvetica LT Std';
-	src: url('../fonts/HelveticaLTStd-BoldObl.woff2') format('woff2'),
-		url('../fonts/HelveticaLTStd-BoldObl.woff') format('woff');
-	font-weight: bold;
-	font-style: italic;
-}
 
-@font-face {
-	font-family: 'Helvetica LT Std';
-	src: url('../fonts/HelveticaLTStd-Comp.woff2') format('woff2'),
-		url('../fonts/HelveticaLTStd-Comp.woff') format('woff');
-	font-weight: bold;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'Helvetica LT Std';
-	src: url('../fonts/HelveticaLTStd-Obl.woff2') format('woff2'),
-		url('../fonts/HelveticaLTStd-Obl.woff') format('woff');
-	font-weight: normal;
-	font-style: italic;
-}
-
-@font-face {
-	font-family: 'Helvetica LT Std';
-	src: url('../fonts/HelveticaLTStd-Light.woff2') format('woff2'),
-		url('../fonts/HelveticaLTStd-Light.woff') format('woff');
-	font-weight: 300;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'Helvetica LT Std';
-	src: url('../fonts/HelveticaLTStd-BlkObl.woff2') format('woff2'),
-		url('../fonts/HelveticaLTStd-BlkObl.woff') format('woff');
-	font-weight: 900;
-	font-style: italic;
-}
-
-@font-face {
-	font-family: 'Helvetica LT Std';
-	src: url('../fonts/HelveticaLTStd-Cond.woff2') format('woff2'),
-		url('../fonts/HelveticaLTStd-Cond.woff') format('woff');
-	font-weight: 500;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'Helvetica LT Std';
-	src: url('../fonts/HelveticaLTStd-BoldCondObl.woff2') format('woff2'),
-		url('../fonts/HelveticaLTStd-BoldCondObl.woff') format('woff');
-	font-weight: bold;
-	font-style: italic;
-}
-
-@font-face {
-	font-family: 'Helvetica LT Std';
-	src: url('../fonts/HelveticaLTStd-CondObl.woff2') format('woff2'),
-		url('../fonts/HelveticaLTStd-CondObl.woff') format('woff');
-	font-weight: 500;
-	font-style: italic;
-}
-
-@font-face {
-	font-family: 'Helvetica LT Std';
-	src: url('../fonts/HelveticaLTStd-LightCondObl.woff2') format('woff2'),
-		url('../fonts/HelveticaLTStd-LightCondObl.woff') format('woff');
-	font-weight: 300;
-	font-style: italic;
-}
-
-@font-face {
-	font-family: 'Helvetica LT Std';
-	src: url('../fonts/HelveticaLTStd-LightCond.woff2') format('woff2'),
-		url('../fonts/HelveticaLTStd-LightCond.woff') format('woff');
-	font-weight: 300;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'Helvetica LT Std';
-	src: url('../fonts/HelveticaLTStd-ExtraComp.woff2') format('woff2'),
-		url('../fonts/HelveticaLTStd-ExtraComp.woff') format('woff');
-	font-weight: bold;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'Helvetica LT Std';
-	src: url('../fonts/HelveticaLTStd-UltraComp.woff2') format('woff2'),
-		url('../fonts/HelveticaLTStd-UltraComp.woff') format('woff');
-	font-weight: bold;
-	font-style: normal;
-}
 
 
 ::-webkit-scrollbar {
@@ -227,7 +138,15 @@ section {
 }
 
 .main-general__description {
-	font-family: 'Helvetica LT Std';
+	font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0.55px;
+    font-family: 'Helvetica';
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: 0.55px;
 }
 
 button:focus {
@@ -357,6 +276,7 @@ button:focus {
 	flex-direction: column;
 	align-items: center;
 	position: absolute;
+	z-index: 9;
 }
 
 .main-banner__angle-down:hover {
@@ -497,7 +417,9 @@ a {
 	margin-bottom: 0rem;
 	letter-spacing: 10px;
 }
-
+.main-about__buttom a{
+	text-decoration: underline;
+}
 .main-about {
 	padding-top: 0;
 	position: relative;
@@ -568,9 +490,15 @@ a {
 
 .about-card__title {
 	color: black;
-	font-weight: 500;
-	font-size: 20px;
 	position: relative;
+	margin-bottom: 5px;
+	font-family: 'Oswald';
+	font-size: 20px;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: 0.83px;
 
 }
 
@@ -1111,7 +1039,7 @@ a {
 }
 
 .video-bg__text {
-	color: black;
+	color: #212121;
 	font-size: 21px;
 	text-align: right;
 	background-color: white;
@@ -1125,6 +1053,13 @@ a {
 	bottom: -60px;
 	right: 235px;
 	line-height: 37px;
+	font-family: 'Oswald';
+	font-size: 21px;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.81;
+	letter-spacing: 10px;
 }
 
 .main-video__bg--text {
@@ -1228,7 +1163,9 @@ a {
 	text-align: center;
 	line-height: 25px;
 	letter-spacing: 0.55px;
+
 }
+
 
 .main-proyectos__text {
 	display: flex;
@@ -1247,11 +1184,16 @@ a {
 .nav-link__tabs {
 	color: #8a9997;
 	transition: .3s ease-in-out;
-	font-weight: 400;
-	font-size: 20px;
 	text-transform: capitalize;
 	margin-right: 45px;
 	/* padding: 16px 5px; */
+	font-family: 'Oswald';
+	font-size: 15px;
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: 0.52px
 }
 
 .main-projects__img {
@@ -1317,8 +1259,8 @@ a {
 }
 
 .nav-pills .nav-link__tabs.active {
-	color: black;
-	border-bottom: 2px solid black;
+	color: #360714;
+	border-bottom: 2px solid #360714;
 	/* font-weight: 600; */
 }
 
@@ -1689,7 +1631,9 @@ strong {
 .btn--filled--proyectos {
 	color: #d71f26;
 	font-size: 20px;
-	font-weight: 600;
+	font-weight: 500;
+	text-decoration: underline;
+	font-family: 'Oswald';
 }
 
 .btn--filled--proyectos:hover {
@@ -1738,7 +1682,7 @@ strong {
 }
 
 .main-fecha__img {
-	padding-right: 25px;
+	padding-right: 10px;
 }
 
 .main-blog__fecha {
@@ -1787,14 +1731,20 @@ strong {
 
 .text-fecha {
 	margin-bottom: 0rem;
-	font-size: 15px;
-	color: #8a9997;
+	font-size: 14px;
+	color: #a4b3c1;
+	font-family: 'Oswald';
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: 0.48px;
 
 }
 
 .items-categoria {
 	font-size: 15px;
-	color: #8a9997;
+	color: #a4b3c1;
 }
 
 .container-contacto {
@@ -1829,7 +1779,8 @@ input[type="password"] {
 	padding: 12px 10px;
 	border: none;
 	margin: 0px 0;
-	font-family: 'Helvetica LT Std';
+	font-family: 'Helvetica';
+	font-weight: 300;
 
 	background-color: white;
 	color: #8a9997;
@@ -1849,7 +1800,23 @@ textarea {
 	background-color: white !important;
 	background-clip: inherit !important;
 	height: 113px !important;
+	font-family: 'Helvetica';
+	font-weight: 300;
 }
+input[type="text"]::placeholder,
+input[type="tel"]::placeholder,
+input[type="email"]::placeholder,
+input[type="number"]::placeholder,
+input[type="password"]::placeholder{
+	font-family: Helvetica;
+	font-size: 15px;
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: 0.52px;
+	color: #8a9997;
+} 
 
 
 .main-contacto {
@@ -1864,9 +1831,9 @@ textarea {
 
 .text-contacto {
 	color: white;
-	font-family: Helvetica;
+	font-family: 'Oswald';
 	font-weight: bold;
-	font-size: 22px;
+	font-size: 24px;
 }
 
 .text-contacto2 {
@@ -1929,6 +1896,7 @@ textarea {
 	margin-bottom: 0rem;
 	font-size: 14px;
 	font-family: Helvetica;
+	font-weight: 300;
 }
 
 .main-enlaces__nivel--text {
@@ -1944,18 +1912,23 @@ textarea {
 }
 
 .enlaces-title {
-	color: white;
-	font-weight: 600;
-	font-size: 20px;
 	font-family: Helvetica;
+	font-size: 20px;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: 0.56px;
+	color: #ffffff;
 }
 
 
 
 .link-enlaces {
-	color: #8a9997;
+	color: #fff;
 	font-size: 15px;
 	font-family: Helvetica;
+	font-weight: 300;
 
 }
 
@@ -1984,6 +1957,8 @@ textarea {
 .end-text {
 	margin-bottom: 0rem;
 	color: white;
+	font-family: 'Lato';
+	font-size: 15px;
 }
 
 .main-end__text {
@@ -2024,11 +1999,24 @@ textarea {
 
 .projects-title {
 	margin-bottom: 0rem;
-	font-size: 25px;
+	font-family: 'Oswald';
+	font-size: 28px;
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: 0.97px;
 }
 
 .projects-text {
 	font-size: 14px;
+	font-family: 'Oswald';
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: italic;
+	line-height: normal;
+	letter-spacing: 0.59px;
+	color: #360714;
 }
 
 .main-projects__text {
@@ -2074,8 +2062,22 @@ textarea {
 	object-fit: cover;
 }
 
+.details-video__text{
+	font-family: 'Helvetica';
+  font-size: 15px;
+  font-weight: 300 !important;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: 0.55px;
+  color: #000000;
+}
 .details-video__title {
 	margin-bottom: 0rem;
+	font-family: Oswald;
+	font-size: 15px;
+	font-weight: 600;
+	color: #360714;
 }
 
 .main-details__video--title {
@@ -2164,13 +2166,25 @@ textarea {
 
 .text-icono__projects {
 	margin-bottom: 0rem;
-	font-size: 15px;
+	font-family: 'Helvetica';
+	font-size: 14px;
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.69;
+	letter-spacing: 0.35px
 }
 
 .text-icono__projects2 {
 	margin-bottom: 0rem;
-	font-size: 15px;
+	font-size: 14px;
 	font-weight: 800;
+	font-family: 'Helvetica';
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.25;
+	letter-spacing: 0.55px;
 }
 
 .main-details__icono--content2 {
@@ -2221,7 +2235,12 @@ textarea {
 
 .details-planos__text {
 	font-size: 15px;
-	/* padding-top: 25px; */
+	font-family: 'Helvetica';
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.25;
+	letter-spacing: 0.55px;
 }
 
 .main-details__planos-text {
@@ -2242,6 +2261,7 @@ textarea {
 	flex-direction: column;
 	justify-content: center;
 }
+
 
 .main-details__projects--avance,
 .main-details__projects--zona {
@@ -2439,8 +2459,14 @@ textarea {
 }
 
 .main-nosotros__text {
-	font-family: 'Helvetica LT Std';
+	font-family: 'Helvetica';
 	margin-bottom: 1rem;
+	font-size: 16px;
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.25;
+	letter-spacing: 0.55px;
 
 }
 
@@ -2472,15 +2498,25 @@ textarea {
 }
 
 .main-nosotros__body h2 {
-	font-size: 18px;
 	text-transform: uppercase;
-	font-family: Oswald;
+	font-family: 'Oswald';
+	font-size: 15px;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: normal;
 	letter-spacing: 3px;
 }
 
 .main-nosotros__body p {
-	font-family: 'Helvetica LT Std';
+	font-family: 'Helvetica';
 	margin-bottom: 0;
+	font-size: 16px;
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.25;
+	letter-spacing: 0.55px;
 }
 
 .main-nosotros__carousel .slick-prev {
@@ -2504,7 +2540,8 @@ textarea {
 
 .main-experiencia__text {
 	/* padding-top: 40px; */
-	font-family: 'Helvetica LT Std';
+	font-family: 'Helvetica';
+	font-weight: 300;
 
 }
 
@@ -2528,7 +2565,12 @@ textarea {
 }
 
 .text-testimonio {
-	font-family: 'Helvetica LT Std';
+	font-family: 'Helvetica';
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.25;
+	letter-spacing: 0.55px;
 
 }
 
@@ -2542,13 +2584,23 @@ textarea {
 
 .descripcion-persona__nombre {
 	margin-bottom: 0rem;
+	font-family: 'Oswald';
 	font-size: 20px;
-	font-weight: 800;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: 0.69px;
+	color: #000000;
 }
 
 .descripcion-persona__profesion {
 	margin-bottom: 0rem;
 	font-size: 14px;
+	font-family: 'Oswald';
+  font-size: 17px;
+  font-weight: 300;
+  letter-spacing: 0.59px;
 }
 
 .main-descripcion__persona {
@@ -2574,15 +2626,21 @@ textarea {
 }
 
 .text-nosotros__mask {
-	font-size: 30px;
+	font-size: 36px;
+  	font-weight: 500;
 	color: white;
-	font-weight: 800;
+	font-family: 'Oswald';
+	letter-spacing: 1.24px;
 }
 
 .small-mask__nosotros {
 	text-align: center;
 	color: white;
 	margin-bottom: 0rem;
+	font-family: 'Oswald';
+	font-weight: 300;
+	letter-spacing: 0.59px;
+
 }
 
 .main-nosotros__grid--buttom {
@@ -2732,3 +2790,4 @@ textarea {
 	width: 1rem;
 	margin-right: .5rem;
 }
+
