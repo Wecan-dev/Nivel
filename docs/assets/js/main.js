@@ -352,6 +352,10 @@ $('.main-nosotros__carousel').slick({
   infinite: true,
   slidesToShow: 2,
   centerMode: true,
+  speed: 500,
+  // fade: true,
+  cssEase: 'linear',
+
   centerPadding: '60px',
   slidesToScroll: 1,
   arrows: true,
