@@ -865,7 +865,7 @@ a {
 .slick-prev:after {
 	content: '';
 	position: absolute;
-	width: 48px;
+	width: 35px;
 	height: 2px;
 	top: 50%;
 	-webkit-transform: translateY(-50%) scaleX(0);
@@ -880,7 +880,6 @@ a {
 
 
 .slick-prev:after {
-
 	left: 2px;
 	-webkit-transform-origin: left;
 	-ms-transform-origin: left;
@@ -934,16 +933,17 @@ a {
 
 .title-nivel2--line strong {
 	position: relative;
+	z-index: 1;
 }
 
 .title-nivel2--line-center {
 	position: relative;
+	z-index: 1;
 }
 
 .title-nivel2--line-center::before {
 	content: "";
 	background-image: url(../img/image_15.png);
-	width: 15rem;
 	height: 1.4rem;
 	position: absolute;
 	background-repeat: no-repeat;
@@ -951,19 +951,22 @@ a {
 	z-index: -1;
 	left: 50%;
 	transform: translateX(-50%);
+	width: 11rem;
+	background-size: contain;
 }
 
 
 .title-nivel2--line-initial strong::before {
 	content: "";
 	background-image: url(../img/image_15.png);
-	width: 15rem;
 	height: 1.4rem;
 	position: absolute;
 	background-repeat: no-repeat;
 	bottom: 0;
 	z-index: -1;
 	left: 0;
+	width: 11rem;
+	background-size: contain;
 }
 
 /* fin nuevo */
@@ -2050,7 +2053,7 @@ textarea {
 }
 
 .main-details__video {
-	padding-bottom: 0;
+	/* padding-bottom: 0; */
 }
 
 .main-details__video--content {
@@ -2124,6 +2127,10 @@ textarea {
 	margin-bottom: 0rem;
 }
 
+.main-details__projects {
+	background-color: #fbfbfb;
+}
+
 .main-details__projects--content {
 	display: grid;
 	grid-template-columns: 35% 65%;
@@ -2181,10 +2188,11 @@ textarea {
 	display: flex !important;
 }
 
-/* .main-details__projects--planos {
-	padding-top: 80px;
-	padding-bottom: 80px;
-} */
+.main-details__projects--planos {
+	/* padding-top: 80px; */
+	background-color: #fbfbfb;
+	/* padding-bottom: 80px; */
+}
 
 .main-details__projects--planos .slick-dots li button:before {
 	position: absolute;
@@ -2243,11 +2251,9 @@ textarea {
 	justify-content: center;
 }
 
-.main-details__projects--avance,
-.main-details__projects--zona {
-	padding-top: 0;
-	padding-bottom: 0;
-}
+
+
+
 
 .main-details__projects--avance .main-details__projects--content {
 	grid-template-columns: 45% 55%;
@@ -2259,6 +2265,10 @@ textarea {
 
 .main-details__projects--avance .main-details__projects--slick {
 	padding-left: 5rem;
+}
+
+.main-details__galeria {
+	background-color: #fbfbfb;
 }
 
 .main-details__galeria--title {
