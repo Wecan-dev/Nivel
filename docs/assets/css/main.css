@@ -2435,7 +2435,7 @@ textarea {
 
 .main-nosotros__item {
 	box-shadow: 0 2px 13px 0 rgba(0, 0, 0, 0.2);
-	background-color: #ffffff;
+	/* background-color: #ffffff; */
 	position: relative;
 	transition: all 500ms ease;
 	overflow: hidden;
@@ -2461,6 +2461,7 @@ textarea {
 .main-nosotros__line {
 	height: 7px;
 	width: 100%;
+	z-index: -1;
 	top: 0;
 	background-color: #d8252c;
 	position: absolute;
