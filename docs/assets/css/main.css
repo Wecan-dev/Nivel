@@ -2425,6 +2425,8 @@ textarea {
 
 .main-nosotros__carousel .slick-list {
 	padding-left: 0 !important;
+	height: 35rem;
+
 }
 
 .main-nosotros__title {
@@ -2435,8 +2437,20 @@ textarea {
 	box-shadow: 0 2px 13px 0 rgba(0, 0, 0, 0.2);
 	background-color: #ffffff;
 	position: relative;
+	transition: all 500ms ease;
+	overflow: hidden;
+
 	min-height: 30.5rem;
 }
+
+
+.main-nosotros__item:hover {
+	min-height: 32.5rem;
+	transition: all 500ms ease;
+	overflow: hidden;
+	transform: translateY(-15px);
+}
+
 
 .main-nosotros__text {
 	font-family: 'Helvetica LT Std';
@@ -2463,6 +2477,7 @@ textarea {
 .main-nosotros__carousel .slick-slide {
 	margin-right: 2rem;
 	margin-bottom: 1rem;
+	margin-top: 2rem;
 	margin-left: 2px;
 }
 
