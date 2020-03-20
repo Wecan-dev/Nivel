@@ -45,67 +45,69 @@
 	font-weight: 500;
 	font-style: normal;
 }
+
 @font-face {
-    font-family: 'Helvetica';
-    src: url('../fonts/Helvetica-BoldOblique.woff2') format('woff2'),
-        url('Helvetica-BoldOblique.woff') format('woff');
-    font-weight: bold;
-    font-style: italic;
+	font-family: 'Helvetica';
+	src: url('../fonts/Helvetica-BoldOblique.woff2') format('woff2'),
+		url('Helvetica-BoldOblique.woff') format('woff');
+	font-weight: bold;
+	font-style: italic;
 }
 
 @font-face {
-    font-family: 'Helvetica';
-    src: url('../fonts/Helvetica.woff2') format('woff2'),
-        url('Helvetica.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+	font-family: 'Helvetica';
+	src: url('../fonts/Helvetica.woff2') format('woff2'),
+		url('Helvetica.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
 }
 
 @font-face {
-    font-family: 'Helvetica';
-    src: url('../fonts/Helvetica-Oblique.woff2') format('woff2'),
-        url('Helvetica-Oblique.woff') format('woff');
-    font-weight: normal;
-    font-style: italic;
+	font-family: 'Helvetica';
+	src: url('../fonts/Helvetica-Oblique.woff2') format('woff2'),
+		url('Helvetica-Oblique.woff') format('woff');
+	font-weight: normal;
+	font-style: italic;
 }
 
 @font-face {
-    font-family: 'Helvetica';
-    src: url('../fonts/Helvetica-Bold.woff2') format('woff2'),
-        url('Helvetica-Bold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
+	font-family: 'Helvetica';
+	src: url('../fonts/Helvetica-Bold.woff2') format('woff2'),
+		url('Helvetica-Bold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
 }
 
 @font-face {
-    font-family: 'Helvetica';
-    src: url('../fonts/Helvetica-Light.woff2') format('woff2'),
-        url('Helvetica-Light.woff') format('woff');
-    font-weight: 300;
-    font-style: normal;
+	font-family: 'Helvetica';
+	src: url('../fonts/Helvetica-Light.woff2') format('woff2'),
+		url('Helvetica-Light.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
 }
 
 @font-face {
-    font-family: 'Helvetica';
-    src: url('../fonts/HelveticaRounded-Bold.woff2') format('woff2'),
-        url('HelveticaRounded-Bold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
+	font-family: 'Helvetica';
+	src: url('../fonts/HelveticaRounded-Bold.woff2') format('woff2'),
+		url('HelveticaRounded-Bold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
 }
 
 @font-face {
-    font-family: 'Helvetica';
-    src: url('../fonts/Helvetica-Compressed.woff2') format('woff2'),
-        url('Helvetica-Compressed.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+	font-family: 'Helvetica';
+	src: url('../fonts/Helvetica-Compressed.woff2') format('woff2'),
+		url('Helvetica-Compressed.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
 }
+
 @font-face {
-    font-family: 'Lato';
-    src: url('../fonts/Lato-Regular.woff2') format('woff2'),
-        url('../fonts/Lato-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+	font-family: 'Lato';
+	src: url('../fonts/Lato-Regular.woff2') format('woff2'),
+		url('../fonts/Lato-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
 }
 
 
@@ -139,14 +141,14 @@ section {
 
 .main-general__description {
 	font-size: 16px;
-    line-height: 25px;
-    letter-spacing: 0.55px;
-    font-family: 'Helvetica';
-    font-weight: 300;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.25;
-    letter-spacing: 0.55px;
+	line-height: 25px;
+	letter-spacing: 0.55px;
+	font-family: 'Helvetica';
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.25;
+	letter-spacing: 0.55px;
 }
 
 button:focus {
@@ -417,9 +419,11 @@ a {
 	margin-bottom: 0rem;
 	letter-spacing: 10px;
 }
-.main-about__buttom a{
+
+.main-about__buttom a {
 	text-decoration: underline;
 }
+
 .main-about {
 	padding-top: 0;
 	position: relative;
@@ -1806,11 +1810,12 @@ textarea {
 	font-family: 'Helvetica';
 	font-weight: 300;
 }
+
 input[type="text"]::placeholder,
 input[type="tel"]::placeholder,
 input[type="email"]::placeholder,
 input[type="number"]::placeholder,
-input[type="password"]::placeholder{
+input[type="password"]::placeholder {
 	font-family: Helvetica;
 	font-size: 15px;
 	font-weight: 300;
@@ -1819,7 +1824,7 @@ input[type="password"]::placeholder{
 	line-height: normal;
 	letter-spacing: 0.52px;
 	color: #8a9997;
-} 
+}
 
 
 .main-contacto {
@@ -2065,16 +2070,17 @@ input[type="password"]::placeholder{
 	object-fit: cover;
 }
 
-.details-video__text{
+.details-video__text {
 	font-family: 'Helvetica';
-  font-size: 15px;
-  font-weight: 300 !important;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.33;
-  letter-spacing: 0.55px;
-  color: #000000;
+	font-size: 15px;
+	font-weight: 300 !important;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.33;
+	letter-spacing: 0.55px;
+	color: #000000;
 }
+
 .details-video__title {
 	margin-bottom: 0rem;
 	font-family: Oswald;
@@ -2626,9 +2632,9 @@ input[type="password"]::placeholder{
 	margin-bottom: 0rem;
 	font-size: 14px;
 	font-family: 'Oswald';
-  font-size: 17px;
-  font-weight: 300;
-  letter-spacing: 0.59px;
+	font-size: 17px;
+	font-weight: 300;
+	letter-spacing: 0.59px;
 }
 
 .main-descripcion__persona {
@@ -2655,7 +2661,7 @@ input[type="password"]::placeholder{
 
 .text-nosotros__mask {
 	font-size: 36px;
-  	font-weight: 500;
+	font-weight: 500;
 	color: white;
 	font-family: 'Oswald';
 	letter-spacing: 1.24px;
@@ -2819,3 +2825,112 @@ input[type="password"]::placeholder{
 	margin-right: .5rem;
 }
 
+.invert-detail {
+	background-image: url('../img/image-paralax.png');
+	background-color: #fcfcfc;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.invert-detail__grid {
+	display: grid;
+	padding-right: 3rem;
+	padding-left: 3rem;
+	gap: 2rem;
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.invert-detail__grid .main-proyectos__text:nth-child(1) {
+	text-align: right;
+}
+
+.invert-steps {
+	padding-top: 0;
+}
+
+.invert-steps__title--small {
+	position: relative;
+	letter-spacing: 12.9px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	padding-top: 4rem;
+
+}
+
+.invert-steps__title--small::before {
+	content: "";
+	position: absolute;
+	background-image: url('../img/Invert/line@3.png');
+	width: 15rem;
+	background-size: contain;
+	height: 7px;
+	background-repeat: no-repeat;
+	bottom: -1.5rem;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.invert-steps__title {
+	font-size: 4rem;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 2rem;
+	margin-bottom: -9px;
+}
+
+.invert-steps__grid {
+	display: flex;
+	flex-direction: row-reverse;
+	/* grid-template-columns: 45% 1fr; */
+}
+
+.invert-steps__item:nth-child(odd) .invert-steps__grid {
+	flex-direction: row;
+
+}
+
+.invert-steps__item:nth-child(odd) {
+	background-color: #fcfcfc;
+}
+
+.invert-steps__item {
+
+	background: #fff;
+}
+
+
+
+.invert-steps__item:nth-child(odd) .invert-steps__text {
+	padding-right: 11rem;
+	padding-left: 0;
+}
+
+.invert-steps__width {
+	margin-left: 11rem;
+
+}
+
+.invert-steps__item:nth-child(odd) .invert-steps__width {
+	margin-left: 0;
+}
+
+
+.invert-steps__img img {
+	width: 100%;
+}
+
+.invert-steps__text {
+	padding-left: 11rem;
+	width: 42%;
+
+}
+
+.invert-steps__img {
+	width: 58%;
+}
+
+.invert-steps__text h2 {
+	font-weight: bold;
+	margin-bottom: 1rem;
+}
