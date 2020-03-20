@@ -292,6 +292,10 @@
         padding-bottom: 0;
     }
 
+    .invert-steps__item:nth-child(1) .invert-steps__title--small {
+        padding-top: 4rem;
+    }
+
     .main-nivel__title {
         padding: 0;
     }
@@ -567,5 +571,9 @@
     .invert-steps__text {
         padding-left: 2rem;
 
+    }
+
+    .invert-steps__item:nth-child(1) .invert-steps__title--small {
+        padding-top: 4rem;
     }
 }

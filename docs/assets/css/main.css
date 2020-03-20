@@ -2906,6 +2906,11 @@ input[type="password"]::placeholder {
 	padding-left: 0;
 }
 
+.invert-steps__item:nth-child(1) .invert-steps__title--small {
+	padding-top: 0;
+}
+
+
 .invert-steps__width {
 	margin-left: 11rem;
 
