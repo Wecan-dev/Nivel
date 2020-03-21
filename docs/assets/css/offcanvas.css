@@ -1,4 +1,48 @@
-@media (max-width:5000px) {
+@media (max-width:997px) {
+  .offcanvas-collapse {
+    height: 100% !important;
+    width: 100%;
+
+
+    position: fixed;
+    top: 0px !important;
+    /* Height of navbar */
+    bottom: 0;
+    left: 100%;
+
+    padding-right: 1rem;
+    padding-left: 1rem;
+    overflow-y: auto;
+    visibility: hidden;
+    background-color: #fff;
+    transition-timing-function: ease-in-out;
+    transition-duration: .3s;
+    transition-property: left, visibility;
+    padding-top: 25px;
+    z-index: -1;
+    background: #212121;
+  }
+
+  .main-brand {
+    width: 100%;
+    justify-content: space-between;
+
+  }
+
+  .offcanvas-collapse.open {
+
+    visibility: visible;
+    text-align: center;
+    left: 0 !important;
+    width: 100% !important;
+  }
+
+  .logo-collapse {
+    display: none;
+  }
+}
+
+@media (min-width: 997px) and (max-width:5000px) {
   .offcanvas-collapse {
     position: fixed;
     top: 0px !important;
@@ -24,9 +68,14 @@
 
     visibility: visible;
     text-align: center;
-    left: 993px;
+    left: 71%;
   }
+
+
 }
+
+
+
 
 .nav-scroller {
   position: relative;
@@ -130,7 +179,7 @@
   top: 6px;
   transition-duration: 0.275s;
   transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  
+
 }
 
 .hamburger--elastic .hamburger-inner::before {
@@ -157,25 +206,35 @@
   transform: translate3d(0, -20px, 0) rotate(-270deg);
   transition-delay: 0.075s;
 }
-@media (min-width: 992px){
+
+@media (min-width: 992px) {
   .navbar-expand-lg .navbar-toggler {
     display: block;
   }
+
   .navbar-expand-lg .navbar-nav {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
+    width: 100%;
+    padding-right: 3rem;
     -ms-flex-direction: row;
-    flex-direction: column; 
+    flex-direction: column;
+    height: 100%;
     text-align: left;
 
+
+
   }
-  .navbar-toggler{
+
+  .navbar-toggler {
     position: absolute;
     right: 0;
     top: 0;
     background: #6e7373;
     border-radius: 0;
   }
-  .p-2{
-    padding:39px 26px !important;
+
+  .p-2 {
+    padding: 39px 26px !important;
   }
+}

@@ -133,6 +133,7 @@ body {
 	padding: 0;
 	position: relative;
 	font-family: 'Oswald', sans-serif;
+	overflow-x: hidden !important;
 }
 
 section {
@@ -150,6 +151,8 @@ section {
 	line-height: 1.25;
 	letter-spacing: 0.55px;
 }
+
+
 
 button:focus {
 	outline: none;
@@ -243,7 +246,7 @@ button:focus {
 	font-weight: 600;
 	font-size: 16px;
 	text-transform: capitalize;
-	font-family: "Century Gothic", sans-serif;
+	/* font-family: "Century Gothic", sans-serif; */
 }
 
 .main-logo__collapse {
@@ -252,8 +255,8 @@ button:focus {
 
 .nav-item {
 	border-top: 1px solid #fff;
-	border-bottom: 1px solid #fff;
-	padding: 10px;
+	padding-bottom: 0px;
+	padding-top: 13px;
 }
 
 .nav-item:first-child {
@@ -263,6 +266,11 @@ button:focus {
 .nav-item:last-child {
 	border-bottom: 2px solid #fff;
 }
+
+.is-active {
+	background: transparent;
+}
+
 
 .main-banner {
 	position: relative;
