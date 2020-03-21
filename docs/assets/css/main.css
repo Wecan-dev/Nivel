@@ -364,7 +364,9 @@ a {
 
 	color: white;
 }
-
+.main-banner__title.main-banner__title--home{
+	width: 30%;
+}
 .main-banner .mask .main-banner__text .main-banner__title p {
 	font-size: 65px;
 	color: white;
@@ -1166,11 +1168,7 @@ a {
 
 .proyectos-text {
 	width: 41%;
-	font-size: 16px;
 	text-align: center;
-	line-height: 25px;
-	letter-spacing: 0.55px;
-
 }
 
 
@@ -1184,6 +1182,10 @@ a {
 	justify-content: flex-start;
 }
 
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+	background-color: transparent;
+	border-color: transparent;
+}
 .main-projects__tabs .tab-content {
 	margin-top: 2rem;
 }
@@ -1511,7 +1513,8 @@ strong {
 }
 
 .main-proyectos__content .slick-next,
-.main-proyectos__content .slick-prev {
+.main-proyectos__content .slick-prev,.slider .slick-next,
+.slider .slick-prev {
 	width: 60px !important;
 	height: 50px !important;
 	position: absolute;
@@ -1980,6 +1983,7 @@ input[type="password"]::placeholder {
 	position: fixed;
 	bottom: -10px;
 	right: 5px;
+	z-index: 9;
 }
 
 /*HOME*/
@@ -2720,7 +2724,8 @@ input[type="password"]::placeholder {
 
 .service-steps__item a {
 	color: #d71f26;
-	font-family: 'Helvetica LT Std';
+	font-family: 'Helvetica';
+	font-weight: 300;
 }
 
 .service-steps__bg {
@@ -2801,9 +2806,10 @@ input[type="password"]::placeholder {
 .service-form form label {
 	width: 100%;
 	color: #fff;
-	font-family: 'Helvetica LT Std';
-
-	margin-bottom: 1rem;
+	font-family: 'Helvetica';
+	font-weight: 300;
+	font-size: 15px;
+	margin-bottom: 2rem;
 }
 
 
@@ -2986,3 +2992,4 @@ input[type="password"]::placeholder {
 .invert-form__input .d-flex .form-group {
 	width: 49%;
 }
+

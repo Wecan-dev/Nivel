@@ -17,7 +17,7 @@
     .main-banner__title {
         width: 100%;
         display: flex;
-        justify-content: center;
+        /* justify-content: center; */
     }
 
     .main-banner .mask .main-banner__text {
@@ -360,11 +360,11 @@
     .main-banner__title {
         width: 100%;
         display: flex;
-        justify-content: center;
+        /* justify-content: center; */
     }
 
     .main-banner__palabra {
-        right: 25px;
+        right: -50px;
     }
 
     .main-banner .mask .main-banner__palabra p {
