@@ -807,7 +807,7 @@ a {
 .slick-prev:after {
 	content: '';
 	position: absolute;
-	width: 35px;
+	width: 30px;
 	height: 2px;
 	top: 50%;
 	-webkit-transform: translateY(-50%) scaleX(0);
@@ -1307,6 +1307,7 @@ a {
 	overflow: hidden;
 	display: flex;
 	justify-content: flex-end;
+	margin-right: 50px;
 }
 
 
@@ -1429,7 +1430,7 @@ a {
 
 .main-proyectos__card {
 	align-self: flex-end;
-	padding-left: 25px;
+	padding-left: 50px;
 }
 
 .main-card__proyectos--title {
@@ -1536,7 +1537,9 @@ strong {
 	z-index: 1;
 }
 
-
+.main-proyectos__content{
+	height: 100vh;
+}
 .main-proyectos__content .slick-next {
 	left: 100% !important;
 }

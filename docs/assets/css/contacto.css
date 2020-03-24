@@ -967,13 +967,19 @@ input.input-search::placeholder {
 }
 
 .slider-prueba .slick-prev{
-	right: 40%;
+	right: 90% !important;
 }
 
 .slider-prueba .slick-next{
-	left:  40%;
+	left:  95% !important;
 }
 
+.slider-prueba .slick-next:hover {
+    left: 96% !important;
+}
+.slider-prueba .slick-prev:hover {
+    right: 92% !important;
+}
 .slider-prueba .slick-prev, .slider-prueba .slick-next{
 	bottom: 0px;
 	background: red;
