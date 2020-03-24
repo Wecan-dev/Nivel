@@ -18,20 +18,11 @@ $(function () {
 // Menú fixed
 $(window).scroll(function () {
   if ($(document).scrollTop() > 70 && ($(window).width() >= 0)) {
-    $('.navbar-fixed-js').addClass('fixed');
-    $('.nav-link').addClass('fixed-color');
-    $('.nav-top__header').addClass('nav-top__header--detele');
-    $('.hamburger-inner').addClass('js-hamburger');
-    $("#iso").addClass('img-size').attr('src', 'assets/img/Logo_CM.png').removeClass('scroll-up');
-    $('.nombre-logo').addClass('nombre-logo--black');
+
+    $('.main-icono__footer').addClass('open');
 
   } else {
-    $('.navbar-fixed-js').removeClass('fixed');
-    $('.nav-link').removeClass('fixed-color');
-    $('.nav-top__header').removeClass('nav-top__header--detele');
-    $('.hamburger-inner').removeClass('js-hamburger');
-    $("#iso").removeClass('img-size').attr('src', 'assets/img/logo-color.png').removeClass('scroll-up');
-    $('.nombre-logo').removeClass('nombre-logo--black');
+    $('.main-icono__footer').removeClass('open');
 
   }
 });
