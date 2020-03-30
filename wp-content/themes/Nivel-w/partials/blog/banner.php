@@ -2,12 +2,12 @@
   <div class="main-banner__content">
     <?php $args = array( 'post_type' => 'banner');?>   
     <?php $loop = new WP_Query( $args ); ?>
-    <?php while ( $loop->have_posts() ) : $loop->the_post(); if( get_field('seleccionar_pagina') == 'Blog'): ?>
+    <?php while ( $loop->have_posts() ) : $loop->the_post(); if( get_field('seleccionar_pagina') == 'Blog'):?>
       <div class="main-banner__item">
         <div class="mask">
           <div class="main-banner__boxtext container">
             <div class="main-banner__palabra main-banner__palabra--contacto">
-            <p><?php the_field('texto') ?></p>
+              
             </div>
             <div class="main-banner__text main-banner__text--contact">
 
@@ -26,7 +26,7 @@
         <img src="<?php echo get_the_post_thumbnail_url(); ?>">
         </div>
       </div>
-    <?php endif; endwhile; ?>
+    <?php endif;  endwhile; ?>
   </div>
 
   <a class="main-banner__angle-down" href="#main-blog">

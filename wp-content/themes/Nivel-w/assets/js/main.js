@@ -1,4 +1,3 @@
-alert( $a );
 $(function () {
   'use strict'
 

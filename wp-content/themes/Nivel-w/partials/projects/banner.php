@@ -7,7 +7,8 @@
         <div class="mask">
           <div class="main-banner__boxtext container">
             <div class="main-banner__palabra main-banner__palabra--contacto">
-              <p><?php the_field('texto') ?></p>
+            <p>varie</p>
+							<p>dad</p>
             </div>
             <div class="main-banner__text">
 

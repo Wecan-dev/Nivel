@@ -7,7 +7,7 @@
         <div class="mask">
           <div class="main-banner__boxtext container">
             <div class="main-banner__palabra">
-              <p><?php the_field('texto') ?></p>
+              <p>CERCA</p>
             </div>
             <div class="main-banner__text">
 
