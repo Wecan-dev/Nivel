@@ -1,3 +1,4 @@
+alert( $a );
 $(function () {
   'use strict'
 
@@ -88,10 +89,6 @@ $('.main-contactform__btnbox1').append("<a href='#comments' class='btn_custom bt
 
 
 
-
-var textTitle = $('p#text-oculto').text();
-
-alert(textTitle);
 
 
 

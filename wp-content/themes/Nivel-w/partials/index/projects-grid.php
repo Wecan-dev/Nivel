@@ -75,7 +75,7 @@
     </div>
   </div>
   <div class="main-proyectos__grid--buttom">
-    <a class="btn--filled--proyectos" href="#">
+    <a class="btn--filled--proyectos" href="<?php echo bloginfo('url').'/proyectos';?>">
       VER TODOS
     </a>
   </div>
