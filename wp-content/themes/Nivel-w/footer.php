@@ -1,20 +1,26 @@
 <section class="main-enlaces" style="">
 		<div class="main-enlaces__content container">
 			<div class="main-enlaces__nivel">
-				<div class="main-nivel__logo">
-					<img class="img-enlaces__logo" src="<?php echo get_template_directory_uri();?>/assets/img/logo.png">
-				</div>
+        <a href="<?php echo bloginfo('url').'/';?>">
+          <div class="main-nivel__logo">
+            <img class="img-enlaces__logo" src="<?php echo get_template_directory_uri();?>/assets/img/logo.png">
+          </div>
+        </a>
 				<div class="main-enlaces__nivel--text">
 					<p class="enlaces-nivel__text">
-						Nulla vitae cursus quam, nec ultrices nibh. Quisque tristique lorem ac diam laoreet auctor.
-						Proin ac massa elit. </p>
+					Respaldo, conocimiento, profesionalismo y calidad en lo que hacemos para entregar siempre lo mejor en cada proyecto a nuestros clientes.</p>
 				</div>
 				<div class="main-enlaces__redes">
 					<div class="main-redes__fb">
-						<img class="img-redes" src="<?php echo get_template_directory_uri();?>/assets/img/fb.png">
+						<a href="" target="_blank">
+							<img class="img-redes" src="<?php echo get_template_directory_uri();?>/assets/img/fb.png">
+						</a>
 					</div>
 					<div class="main-redes__instagram">
-						<img class="img-redes" src="<?php echo get_template_directory_uri();?>/assets/img/instagram.png">
+						<a href="" target="_blank">
+							<img class="img-redes" src="<?php echo get_template_directory_uri();?>/assets/img/instagram.png">
+						
+						</a>
 					</div>
 				</div>
 			</div>
@@ -102,7 +108,7 @@
 					<li class="items-direccion">
 						<a class="link-enlaces" href="#">
 							Dirección
-							Cra. 42A #1-15, Torre 4 , Oficina 307 San Fernando Plaza, Medellín, CO
+							Cra 42A # 1-15, Torre 4, Oficina 307 San Fernando Plaza, Medellín, CO
 						</a>
 
 					</li>
@@ -115,8 +121,8 @@
 				</div>
 				<ul class="list-direccion">
 					<li class="items-direccion">
-						<a class="link-enlaces" href="#">
-							+57 431 02 00
+						<a class="link-enlaces" href="+574320200">
+							432 02 00
 						</a>
 
 					</li>
@@ -150,9 +156,43 @@
 			</a>
 		</div>
 	</footer>
+
+    <!-- Modal Video Solutions -->
+  <?php $args = array( 'post_type' => 'soluciones'); ?>   
+  <?php $loop = new WP_Query( $args ); ?>
+  <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
+
+    <div class="modal fade videoSolutions" id="videoSolutions-<?php the_id();?>" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+  
+          <div class="modal-body">
+        
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close" >
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <div class="main-video__img">
+          <div class="">
+            <div class="main-details__video--icono">
+                
+                </div>
+              </div>
+              <?php if(get_field('imagen')): ?>
+                <img class="img-video" src="<?php the_field('imagen') ?>">
+              <?php else: ?>
+                <video id="modal-video" controls class="img-video" src="<?php the_field('video') ?>"></video>
+              <?php endif; ?>
+            </div>
+          </div>
+        
+        </div>
+      </div>
+    </div>  
+  <?php endwhile; ?>
 	<script src="<?php echo get_template_directory_uri();?>/assets/js/jquery-3.4.1.min.js"></script>
 	<script type="text/javascript" src="<?php echo get_template_directory_uri();?>/assets/js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="<?php echo get_template_directory_uri();?>/assets/js/slick.js"></script>
+  <script type="text/javascript" src="<?php echo get_template_directory_uri();?>/assets/js/slick.js"></script>
+  <script type="text/javascript" src="<?php echo get_template_directory_uri();?>/assets/js/settings-slick.js"></script>
   <script type="text/javascript" src="<?php echo get_template_directory_uri();?>/assets/js/main.js"></script>
   <?php wp_footer(); ?>
 </body>

@@ -14,7 +14,7 @@
           <br>
           información de este proyecto
         </h2>
-        <form action="">
+        <!-- <form action="">
           <div class="form-group">
             <input class="form-control" id="formGroupExampleInput" placeholder="Nombre" type="text">
           </div>
@@ -46,7 +46,8 @@
               Enviar
             </button>
           </div>
-        </form>
+        </form> -->
+        <?php echo FrmFormsController::get_form_shortcode( array( 'id' => 3, 'title' => false, 'description' => false ) ); ?>
       </div>
     </div>
   </div>

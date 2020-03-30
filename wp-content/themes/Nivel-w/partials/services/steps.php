@@ -4,29 +4,29 @@
     <div class="service-steps__grid">
       <div class="service-steps__item">
         <div class="service-steps__title">
-          <img src="<?php echo get_template_directory_uri();?>/assets/img/Service/icon1.png" alt="">
-          <h2><strong>Primer</strong> paso</h2>
+          <img src="<?php the_field('icono1') ?>" alt="">
+          <h2><strong><?php the_field('titulo1') ?></strong> paso</h2>
         </div>
         <p class="main-general__description">
-          Elige el servicio al cliente que deseas ingresar
+        <?php the_field('descripcion1') ?>
         </p>
       </div>
       <div class="service-steps__item">
         <div class="service-steps__title">
-          <img src="<?php echo get_template_directory_uri();?>/assets/img/Service/icon2.png" alt="">
-          <h2><strong>Segundo</strong> paso</h2>
+          <img src="<?php the_field('icono2') ?>" alt="">
+          <h2><strong><?php the_field('titulo2') ?></strong> paso</h2>
         </div>
         <p class="main-general__description">
-          Ingresa el usuario y contraseña enviado a tu correo electrónico o asignado por la sala de ventas.
+        <?php the_field('descripcion2') ?>
         </p>
       </div>
       <div class="service-steps__item">
         <div class="service-steps__title">
-          <img src="<?php echo get_template_directory_uri();?>/assets/img/Service/icon3.png" alt="">
-          <h2><strong>Tercer</strong> paso</h2>
+          <img src="<?php the_field('icono3') ?>" alt="">
+          <h2><strong><?php the_field('titulo3') ?></strong> paso</h2>
         </div>
         <p class="main-general__description">
-          Si olvidaste tu contraseña por favor escríbenos al correo electrónico
+        <?php the_field('descripcion3') ?>
         </p>
         <a href="mailto:tramites@nivel.com.co">tramites@nivel.com.co</a>
       </div>

@@ -64,7 +64,7 @@
       </div>
       <div class="main-contactform__item">
         <div class="main-contactform__box container">
-          <form action="">
+          <!-- <form action="">
             <div class="form-group">
               <input class="form-control" id="formGroupExampleInput" placeholder="Nombre" type="text">
             </div>
@@ -97,7 +97,8 @@
                 Enviar
               </button>
             </div>
-          </form>
+          </form> -->
+          <?php echo FrmFormsController::get_form_shortcode( array( 'id' => 2, 'title' => false, 'description' => false ) ); ?>
         </div>
       </div>
     </div>

@@ -1,6 +1,8 @@
 @media (min-width: 0px) and (max-width: 767px) {
     /* HOME*/
-
+    .main-proyectos__card{
+        padding-left: 20px;
+    }
     .main-banner__palabra {
         right: 0;
         top: 385px;
@@ -80,6 +82,14 @@
 
     .proyectos-text {
         width: 100%;
+        padding: 20px;
+        text-align: left;
+    }
+    .main-proyectos__items{
+        padding-top: 125px;
+    }
+    .slider-prueba .slick-dots{
+        height: 100px;
     }
 
     .title-nivel2--line {
@@ -92,6 +102,7 @@
 
     .main-nivel__title {
         padding: 1.5rem;
+
     }
 
     .main-video__bg--color,
@@ -297,7 +308,8 @@
     }
 
     .main-nivel__title {
-        padding: 0;
+        padding: 0 0 0 20px;
+
     }
 
     .invert-detail__grid {
@@ -377,6 +389,7 @@
 
     .title-welcome {
         font-size: 30px;
+        text-align: center;
     }
 
     .proyectos-text {

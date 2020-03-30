@@ -12,8 +12,7 @@
   </div>
   <div class="main-proyectos__text">
     <p class="proyectos-text main-general__description">
-      Somos expertos en la estructuración, gerencia y ventas de proyectos inmobiliarios de vivienda, industria y
-      comercio para venta y arriendo. Nuestra prioridad es tu calidad de vida, seguridad y satisfacción.
+    Nos conectamos con lo que más te gusta para estructurar, gerencias y comercializar proyectos inmobiliarios, en lugares increíbles que te permitan hacer realidad los espacios que siempre has soñado. 
     </p>
   </div>
 

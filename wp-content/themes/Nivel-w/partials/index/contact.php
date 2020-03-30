@@ -23,6 +23,7 @@
           <a href="#" class="btn_custom btn--medium btn--filled--trans">ENVIAR</a>
         </div>
       </div>
+      <!-- <  ?php echo FrmFormsController::get_form_shortcode( array( 'id' => 1, 'title' => false, 'description' => false ) ); ?> -->
 
     </div>
   </div>

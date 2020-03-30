@@ -1,29 +1,32 @@
 <div class="main-banner" id="home">
   <div class="main-banner__content">
-    <div class="main-banner__item">
-      <div class="mask">
-        <div class="main-banner__boxtext">
-          <div class="main-banner__palabra main-banner__palabra--contacto">
-            <p>Confia</p>
-            <p>bilidad</p>
-          </div>
-          <div class="main-banner__text main-banner__text--contact">
+    <?php $args = array( 'post_type' => 'banner'); ?>   
+    <?php $loop = new WP_Query( $args ); ?>
+    <?php while ( $loop->have_posts() ) : $loop->the_post();if( get_field('seleccionar_pagina') == 'Contacto'): ?>
+      <div class="main-banner__item">
+        <div class="mask">
+          <div class="main-banner__boxtext">
+            <div class="main-banner__palabra main-banner__palabra--contacto">
+              <p><?php the_field('texto') ?></p>
+            </div>
+            <div class="main-banner__text main-banner__text--contact">
 
-            <div class="main-banner__title">
-              <p>
-                Contáctan<span class="letra-color">o</span>s
-              </p>
+              <div class="main-banner__title">
+                <p>
+                  <?php the_content(); ?>
+                </p>
+
+              </div>
+
 
             </div>
-
-
           </div>
         </div>
+        <div class="main-banner__img">
+          <img src="<?php echo get_the_post_thumbnail_url(); ?>">
+        </div>
       </div>
-      <div class="main-banner__img">
-        <img src="<?php echo get_template_directory_uri();?>/assets/img/Contact/image_8.png">
-      </div>
-    </div>
+    <?php endif; endwhile; ?>
   </div>
 
   <a class="main-banner__angle-down" href="#main-contactform">

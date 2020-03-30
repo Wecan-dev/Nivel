@@ -1,27 +1,29 @@
 <div class="main-banner" id="home">
   <div class="main-banner__content">
-    <div class="main-banner__item">
-      <div class="mask">
-        <div class="main-banner__boxtext container">
-          <div class="main-banner__palabra">
-            <p>CERCA</p>
-          </div>
-          <div class="main-banner__text">
-
-            <div class="main-banner__title main-banner__title--home">
-              <p>HACEMOS
-                TU H<span class="letra-color">O</span>GAR
-                REALIDAD</p>
+    <?php $args = array( 'post_type' => 'banner');?>   
+    <?php $loop = new WP_Query( $args ); ?>
+    <?php while ( $loop->have_posts() ) : $loop->the_post(); if( get_field('seleccionar_pagina') == 'Home'): ?>
+      <div class="main-banner__item">
+        <div class="mask">
+          <div class="main-banner__boxtext container">
+            <div class="main-banner__palabra">
+              <p><?php the_field('texto') ?></p>
             </div>
+            <div class="main-banner__text">
+
+              <div class="main-banner__title main-banner__title--home">
+                <p><?php the_content();?></p>
+              </div>
 
 
+            </div>
           </div>
         </div>
+        <div class="main-banner__img">
+          <img src="<?php echo get_the_post_thumbnail_url(); ?>">
+        </div>
       </div>
-      <div class="main-banner__img">
-        <img src="<?php echo get_template_directory_uri();?>/assets/img/image_21.png">
-      </div>
-    </div>
+    <?php endif; endwhile; ?>
   </div>
   <a class="main-banner__angle-down" href="#main-welcome">
     <p>bajar</p>

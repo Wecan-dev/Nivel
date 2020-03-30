@@ -110,8 +110,20 @@
     transition: 0.3s ease-in-out;
 }
 
-
-
+.videoSolutions .modal-dialog{
+    max-width: 790px !important;
+}
+.videoSolutions .modal-body{
+    padding: 0 !important;
+}
+.videoSolutions button.close{
+    cursor: pointer;
+    position: absolute !important;
+    right: 10px !important;
+    top: 10px !important;
+    z-index: 9999 !important;
+    font-size: 35px !important;
+}
 .main-banner__palabra--contacto {
     top: 120px;
     right: -150px;
@@ -238,6 +250,9 @@
     line-height: normal;
     font-weight: 300;
 }
+.main-contactform__textlink:hover{
+    color: #fff;
+}
 
 .main-contactorm__textlink:hover {
     text-decoration: none;
@@ -352,7 +367,7 @@
     grid-gap: 20px;
 }
 
-.main-blog__description {
+.main-blog__description,.main-blog__text p {
     font-family: 'Helvetica';
     font-size: 16px;
     font-weight: 300;
@@ -411,7 +426,7 @@
     margin-bottom: 10px;
 }
 
-.main-sidebar__link {
+.main-sidebar__link,.main-fav ul li, .main-fav ul li a {
     display: flex;
     justify-content: space-between;
     font-size: 15px;
@@ -423,7 +438,7 @@
     color: #000000;
 }
 
-.main-sidebar__link:hover {
+.main-sidebar__link:hover,.main-fav ul li a:hover {
     text-decoration: none;
     color: #000;
 }
@@ -599,7 +614,7 @@ input.input-search::placeholder {
     margin-bottom: 0;
 }
 
-.text-fecha.text-fecha--single {
+.text-date.text-date--single {
     font-family: 'Oswald';
     font-size: 16px;
     font-weight: 500;
@@ -655,10 +670,9 @@ input.input-search::placeholder {
     padding: 30px;
 }
 
-.main-blog__forms {
+.main-blog__forms,.comment-form-comment textarea {
     border: solid 1px #dfdfdf !important;
     width: 100% !important;
-
 }
 
 .form-group__grid {
@@ -1055,4 +1069,177 @@ input.input-search::placeholder {
 }
 .slider-prueba .slick-dots li:nth-child(4):before{
     display: none;
+}
+
+.frm_checkbox{
+    margin: 15px 0 !important;
+}
+.frm_checkbox label{
+    color: #fff !important;
+    margin-bottom: 0;
+    color: #fff;
+    font-size: 13px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.45px;
+    font-weight: 300;
+}
+
+.main-fav,
+.widget.widget_search,
+.widget.widget_recent_entries{
+    padding: 0px !important;
+}
+.main-fav ul{
+    list-style: none !important;
+    padding-left: 0 !important;
+}
+.widget-title,.screen-reader-text{
+    display: none!important;
+}
+.searchform{
+    position: relative !important;
+}
+#searchform div input[type="text"]{
+    color: #000 !important;
+    font-family: 'Oswald' !important;
+    font-size: 15px !important;
+    font-weight: 500 !important;
+    font-stretch: normal !important;
+    font-style: normal !important;
+    line-height: normal !important;
+    letter-spacing: 0.52px !important;
+}
+#searchform div input[type="text"]::placeholder{
+    color: #000 !important;
+    font-family: 'Oswald';
+    font-size: 15px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.52px;
+}
+#searchform div input[type="text"]:focus,
+#searchform div input[type="submit"]:focus{
+    outline: transparent!important;
+}
+
+#searchform div input[type="submit"]{
+    background-color: transparent !important;
+    border: 0 !important;
+    color: #000000 !important;
+    overflow: visible !important;
+    position: absolute !important;
+    float: right !important;
+    right: 10px !important;
+    bottom: 10px !important;
+}
+#searchform div input[type="submit"]{
+    background-image: url(http://localhost/Nivel/wp-content/themes/Nivel-w/assets/img/Blog/icon.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    width: 30px;
+}
+
+.widget.widget_recent_entries ul{
+    list-style: none !important;
+    padding-left: 0 !important;
+}
+
+.widget.widget_recent_entries ul li a, .widget.widget_recent_entries ul li span{
+    font-family: 'Oswald';
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    margin-bottom: 0;
+    line-height: 1rem;
+}
+.widget.widget_recent_entries ul li span{
+    font-size: 11px;
+    color: #a4b3c1;
+    letter-spacing: 0.38px;
+    order: -1 !important;
+}
+.widget.widget_recent_entries ul li{
+    display: flex;
+    flex-direction: column;
+}
+.widget.widget_recent_entries ul li a{
+    font-size: 15px;
+    letter-spacing: 0.52px;
+    color: #000;
+    transition: 0.3s ease-in-out;
+}
+.widget.widget_recent_entries ul li a:hover {
+    color: rgb(198, 164, 126);
+    transition: 0.3s ease-in-out;
+    text-decoration: none !important;
+}
+
+
+/* Comments*/
+.comment-form-comment label,
+.comment-form-author label,
+.comment-form-email label,
+.comment-form-url{
+    display: none !important;
+}
+#commentform{
+    display: flex !important;
+    flex-wrap: wrap !important;
+}
+.comment-notes,.comment-form-comment{
+    width: 100% !important;
+}
+.comment-form-author,.comment-form-email{
+    width: 43% !important;
+    margin-right: 10px;
+    border: solid 1px #dfdfdf !important;
+}
+.form-submit{
+    width: 10% !important;    
+}
+
+.form-submit input[type="submit"]{
+    background-image: url(http://localhost/Nivel/wp-content/themes/Nivel-w/assets/img/Blog/send.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    width: 30px;
+}
+.form-submit input[type="submit"]:hover{
+    background-image: url(http://localhost/Nivel/wp-content/themes/Nivel-w/assets/img/Blog/send-black.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    width: 30px;
+}
+.comment-reply-title{
+    display: none !important;
+}
+.comment-form-cookies-consent{
+    order: 5 !important;
+}
+
+.comment-author.vcard  span, h3#comments, .comment-awaiting-moderation{
+    display: none !important;
+}
+.comment-author img{
+    display: none !important;
+}
+.commentlist{
+    list-style: none !important;
+    padding-left: 0 !important;
+}
+.comment {
+    display: flex !important;
+}
+cite.fn{
+    color: #000;
+    font-size: 17px;
+    font-weight: 800;
+    font-style: normal;
+    text-transform: capitalize;
 }

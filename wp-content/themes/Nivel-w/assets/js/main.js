@@ -14,6 +14,11 @@ $(function () {
   })
 })
 
+// MOdal static
+// $('.main-video__items').click(function(){
+//   $('.videoSolutions').modal({backdrop: 'static', keyboard: false})
+// })
+
 
 // Menú fixed
 $(window).scroll(function () {
@@ -46,549 +51,47 @@ $(".hamburger").on("click", function () {
     }
   }
 });
-$('.main-video__content').slick({
-  infinite: true,
-  slidesToShow: 1,
-  slidesToScroll: 1,
-  responsive: [{
-      breakpoint: 1024,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        infinite: true,
-        dots: true
-      }
-    },
-    {
-      breakpoint: 600,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-      }
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        arrows: false,
-      }
-    }
-    // You can unslick at a given breakpoint now by adding:
-    // settings: "unslick"
-    // instead of a settings object
-  ]
-});
-$('.main-proyectos__content').slick({
-  infinite: true,
-  slidesToShow: 1,
-  slidesToScroll: 1,
-  responsive: [{
-      breakpoint: 1024,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        infinite: true,
-        dots: true
-      }
-    },
-    {
-      breakpoint: 600,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 2
-      }
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1
-      }
-    }
-    // You can unslick at a given breakpoint now by adding:
-    // settings: "unslick"
-    // instead of a settings object
-  ]
-});
-
-$('.main-details__slick--content').slick({
-  infinite: true,
-  slidesToShow: 2,
-  centerMode: true,
-  centerPadding: '60px',
-  slidesToScroll: 1,
-  arrows: true,
-  responsive: [{
-      breakpoint: 1024,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        centerPadding: '0',
-
-        infinite: true,
-        dots: true
-      }
-    },
-    {
-      breakpoint: 600,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 2,
-        centerPadding: '0px',
-
-        centerMode: false,
-
-      }
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        centerPadding: '0px',
-
-        centerMode: false,
-      }
-    }
-    // You can unslick at a given breakpoint now by adding:
-    // settings: "unslick"
-    // instead of a settings object
-  ]
-});
-$('.main-details__planos--content').slick({
-  infinite: true,
-  slidesToShow: 1,
-  slidesToScroll: 1,
-  arrows: false,
 
 
-  dots: true,
-  responsive: [{
-      breakpoint: 1024,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        infinite: true,
-        dots: true
-      }
-    },
-    {
-      breakpoint: 600,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 2,
-        dots: false,
-        arrows: false,
-
-      }
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        slidesToShow: 1,
-        dots: false,
-        slidesToScroll: 1
-      }
-    }
-    // You can unslick at a given breakpoint now by adding:
-    // settings: "unslick"
-    // instead of a settings object
-  ]
-});
-$('.main-details__galeria--content').slick({
-  infinite: true,
-  slidesToShow: 3,
-  slidesToScroll: 3,
-  dots: true,
-  responsive: [{
-      breakpoint: 1024,
-      settings: {
-        slidesToShow: 3,
-        slidesToScroll: 3,
-        infinite: true,
-        dots: true
-      }
-    },
-    {
-      breakpoint: 600,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 2
-      }
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1
-      }
-    }
-    // You can unslick at a given breakpoint now by adding:
-    // settings: "unslick"
-    // instead of a settings object
-  ]
-});
+/* Formularios*/
+document.getElementById('s').placeholder='Buscar';
+document.getElementById('searchsubmit').value='';
 
 
-$('.main-about-carousel').slick({
-  infinite: false,
-  slidesToShow: 4,
-  arrows: false,
-  slidesToScroll: 1,
-  responsive: [{
-      breakpoint: 1024,
-      settings: {
-        slidesToShow: 3,
-        slidesToScroll: 3,
-        infinite: true,
-        dots: true
-      }
-    },
-    {
-      breakpoint: 600,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 2
-      }
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1
-      }
-    }
-    // You can unslick at a given breakpoint now by adding:
-    // settings: "unslick"
-    // instead of a settings object
-  ]
-});
+document.getElementById('comment').placeholder='Comentario';
+document.getElementById('author').placeholder='Nombre';
+document.getElementById('email').placeholder='Correo';
+
+$('.form-submit > input[type=submit]').addClass('btn_custom btn--medium btn--filled--black');
+document.getElementById('submit').value='';
+$('.comment-form-cookies-consent label').text('Guardar mi nombre, email en este sitio para la próxima vez que comente.')
+$('.comment-form-cookies-consent label').addClass('custom-control-label main-blog__description mt-0');
+$('.comment-notes').text('Tu correo electrónico no será publicado*')
+$('.comment-notes').addClass('main-blog__description')
 
 
-$('.main-proyectos__grid--carousel').slick({
-  infinite: false,
-  slidesToShow: 4,
-  arrows: false,
-  slidesToScroll: 1,
-  responsive: [{
-      breakpoint: 1024,
-      settings: {
-        slidesToShow: 3,
-        slidesToScroll: 3,
-        infinite: true,
-        dots: true
-      }
-    },
-    {
-      breakpoint: 600,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 2
-      }
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1
-      }
-    }
-    // You can unslick at a given breakpoint now by adding:
-    // settings: "unslick"
-    // instead of a settings object
-  ]
-});
+$('.comment-reply-link').addClass('main-blog__link main-blog__link--black')
+$('.comment-meta > a').addClass('main-sidebar__griddate mt-3 mb-3')
+$('.comment-body > p').addClass('main-blog__description')
+$('cite.fn').addClass('')
 
 
+$(".comment-author img").attr("src","http://localhost/Nivel/wp-content/themes/Nivel-w/assets/img/Blog/image_7.png");
+ 
 
+$( ".comment" ).append("<div style='order:-1; margin-right:40px;' class='img-avatar'></div>" );
+$(".img-avatar").append("<img alt='' src='http://localhost/Nivel/wp-content/themes/Nivel-w/assets/img/Blog/image_7.png' srcset='http://0.gravatar.com/avatar/fc7ea081bbad6c64335cf8c8a01c0e12?s=64&amp;d=mm&amp;r=g 2x' class='avatar avatar-32 photo'>");
 
-$('.main-details__avance').slick({
-  infinite: false,
-  slidesToShow: 2,
-  arrows: false,
-  slidesToScroll: 1,
-  responsive: [{
-      breakpoint: 1024,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        infinite: true,
-        dots: true
-      }
-    },
-    {
-      breakpoint: 600,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-      }
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        slidesToShow: 1,
-        dots: true,
-        slidesToScroll: 1
-      }
-    }
-    // You can unslick at a given breakpoint now by adding:
-    // settings: "unslick"
-    // instead of a settings object
-  ]
-});
-
-
-
-$('.main-nosotros__carousel').slick({
-  infinite: true,
-  slidesToShow: 2,
-  centerMode: true,
-  speed: 500,
-  // fade: true,
-  cssEase: 'linear',
-
-  centerPadding: '60px',
-  slidesToScroll: 1,
-  arrows: true,
-  responsive: [{
-      breakpoint: 1024,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        centerPadding: '0',
-
-        infinite: true,
-        dots: true
-      }
-    },
-    {
-      breakpoint: 600,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 2,
-        centerPadding: '0px',
-
-        centerMode: false,
-
-      }
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        centerPadding: '0px',
-
-        centerMode: false,
-      }
-    }
-    // You can unslick at a given breakpoint now by adding:
-    // settings: "unslick"
-    // instead of a settings object
-  ]
-});
-
-
-
-$('.main-testimonios__content').slick({
-  infinite: false,
-  slidesToShow: 2,
-  arrows: false,
-  slidesToScroll: 1,
-  responsive: [{
-      breakpoint: 1024,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        infinite: false,
-        dots: false
-      }
-    },
-    {
-      breakpoint: 600,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-      }
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        slidesToShow: 1,
-        dots: false,
-        slidesToScroll: 1
-      }
-    }
-    // You can unslick at a given breakpoint now by adding:
-    // settings: "unslick"
-    // instead of a settings object
-  ]
-});
+$('.commentlist').append("<div class='main-contactform__btnbox main-contactform__btnbox1'></div>")
+$('.main-contactform__btnbox1').append("<a href='#comments' class='btn_custom btn--medium btn--filled--black'>Comenta aquí</a>")
 
 
 
 
 
+var textTitle = $('p#text-oculto').text();
+
+alert(textTitle);
 
 
-$('.slider-prueba').slick({
-  infinite: true,
-  slidesToShow: 1,
-  slidesToScroll: 1,
-  arrows: false,
-  dots:true,
-  responsive: [
-    {
-      breakpoint: 1024,
-      settings: {
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        infinite: true,
-        dots: true
-      }
-    },
-    {
-      breakpoint: 767,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 1
-      }
-    },
-    {
-      breakpoint: 600,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1
-      }
-    }
-  ]
-});
 
-$('.slider-prueba2').slick({
-  infinite: true,
-  slidesToShow: 1,
-  slidesToScroll: 1,
-  arrows: true,
-  responsive: [
-    {
-      breakpoint: 1024,
-      settings: {
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        infinite: true,
-        dots: true
-      }
-    },
-    {
-      breakpoint: 767,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 1
-      }
-    },
-    {
-      breakpoint: 600,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1
-      }
-    }
-  ]
-});
-
-$('.slider-prueba3').slick({
-  infinite: true,
-  slidesToShow: 1,
-  slidesToScroll: 1,
-  arrows: true,
-  responsive: [
-    {
-      breakpoint: 1024,
-      settings: {
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        infinite: true,
-        dots: true
-      }
-    },
-    {
-      breakpoint: 767,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 1
-      }
-    },
-    {
-      breakpoint: 600,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1
-      }
-    }
-  ]
-});
-
-$('.slider-prueba4').slick({
-  infinite: true,
-  slidesToShow: 1,
-  slidesToScroll: 1,
-  arrows: true,
-  responsive: [
-    {
-      breakpoint: 1024,
-      settings: {
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        infinite: true,
-        dots: true
-      }
-    },
-    {
-      breakpoint: 767,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 1
-      }
-    },
-    {
-      breakpoint: 600,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1
-      }
-    }
-  ]
-});
-
-$('.slider-prueba5').slick({
-  infinite: true,
-  slidesToShow: 1,
-  slidesToScroll: 1,
-  arrows: true,
-  responsive: [
-    {
-      breakpoint: 1024,
-      settings: {
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        infinite: true,
-        dots: true
-      }
-    },
-    {
-      breakpoint: 767,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 1
-      }
-    },
-    {
-      breakpoint: 600,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1
-      }
-    }
-  ]
-});
