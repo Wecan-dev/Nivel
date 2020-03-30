@@ -25,7 +25,9 @@
     .main-banner .mask .main-banner__text {
         width: 100%;
     }
-
+    .main-banner .mask .main-banner__text{
+        padding-left: 0px;
+    }
     .main-video {
         /* margin-bottom: 100px; */
     }
