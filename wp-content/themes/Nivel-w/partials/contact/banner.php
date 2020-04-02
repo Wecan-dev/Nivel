@@ -5,7 +5,7 @@
     <?php while ( $loop->have_posts() ) : $loop->the_post();if( get_field('seleccionar_pagina') == 'Contacto'): ?>
       <div class="main-banner__item">
         <div class="mask">
-          <div class="main-banner__boxtext">
+          <div class="main-banner__boxtext container">
             <div class="main-banner__palabra main-banner__palabra--contacto">
               <p>Confia</p>
 							<p>bilidad</p>

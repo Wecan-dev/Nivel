@@ -1,4 +1,4 @@
-<section class="main-details__ubicacion">
+<section class="main-details__ubicacion" id="main-details__ubicacion">
   <div class="main-details__ubicacion--content">
     <div class="main-details__ubicacion--img">
       <div class="mask">

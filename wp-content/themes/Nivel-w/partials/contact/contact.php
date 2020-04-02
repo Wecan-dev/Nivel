@@ -5,56 +5,80 @@
         <div class="main-contactform__boxtext">
           <div class="main-nivel__small main-nivel__small--start">
             <small class="nivel-small">
-              ACERCA DE
+            <?php the_field('acerca')?>
             </small>
           </div>
           <div class="main-nivel__title main-nivel__title--column ">
             <h1 class="title-nivel2--line-center title-nivel2--line">
-              <strong>¿tienes</strong>
+              <strong><?php the_field('titulo_bold')?></strong>
 
             </h1>
             <h1 class="title-nivel2--line">
-              <p>preguntas?</p>
+              <p><?php the_field('titulo_light')?></p>
             </h1>
           </div>
           <div class="main-contactform__info">
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-              industry's standard dummy text ever since the 1500s, when an unknown printer took.</p>
+            <p><?php the_field('descripcion')?></p>
             <ul class="main-contactform__ul">
+
+            <!-- Direccion-->
+              <?php if(get_field('direccion')): ?>
+                <li>
+                  <a href="" class="d-flex">
+                    <img src="<?php echo get_template_directory_uri();?>/assets/img/Contact/icon.png" alt="">
+                    <p><?php the_field('direccion')?></p>
+                  </a>
+                </li>
+              <?php else: ?>
+
+              <?php endif; ?>
+              
+
+              <!-- Telefono-->
+              <?php if(get_field('telefono')): ?>
+                <li>
+                  <a href="<?php echo '+'.the_field('telefono')?>" class="d-flex">
+                    <img src="<?php echo get_template_directory_uri();?>/assets/img/Contact/icon_2.png" alt="">
+                    <p><?php echo '+'. the_field('telefono')?></p>
+                  </a>
+
+                </li>
+              <?php else: ?>
+
+              <?php endif; ?>
+              
+              <!-- Correo-->
+              <?php if(get_field('correo')): ?>
+                <li>
+                  <a href="" class="d-flex">
+                    <img src="<?php echo get_template_directory_uri();?>/assets/img/Contact/icon_3.png" alt="">
+                    <p><?php the_field('correo')?></p>
+                  </a>
+
+                </li>
+              <?php else: ?>
+
+              <?php endif; ?>
+
+              
               <li>
-                <a href="" class="d-flex">
-                  <img src="<?php echo get_template_directory_uri();?>/assets/img/Contact/icon.png" alt="">
-                  <p>Cra 42A # 1-15, Torre 4, Oficina 307
-                    San Fernando Plaza, Medellín, CO</p>
+                <!-- facebook-->
+                <?php if(get_field('facebook')): ?>
+                  <a href="<?php the_field('facebook')?>">
+                    <img src="<?php echo get_template_directory_uri();?>/assets/img/Contact/fb_2.png" alt="">
+                  </a>
+                <?php else: ?>
 
-                </a>
+                <?php endif; ?>
 
-              </li>
-              <li>
-                <a href="" class="d-flex">
-                  <img src="<?php echo get_template_directory_uri();?>/assets/img/Contact/icon_2.png" alt="">
-                  <p>4606842</p>
-                </a>
+                <!-- instagram-->
+                <?php if(get_field('instagram')): ?>
+                  <a href="<?php the_field('instagram')?>">
+                    <img src="<?php echo get_template_directory_uri();?>/assets/img/Contact/instagram_2.png" alt="">
+                  </a>
+                <?php else: ?>
 
-              </li>
-
-              <li>
-                <a href="" class="d-flex">
-                  <img src="<?php echo get_template_directory_uri();?>/assets/img/Contact/icon_3.png" alt="">
-                  <p>8am–6pm, Lunes-Viernes</p>
-                </a>
-
-              </li>
-              <li>
-                <a href="">
-                  <img src="<?php echo get_template_directory_uri();?>/assets/img/Contact/fb_2.png" alt="">
-
-                </a>
-                <a href="">
-                  <img src="<?php echo get_template_directory_uri();?>/assets/img/Contact/instagram_2.png" alt="">
-
-                </a>
-
+                <?php endif; ?>
               </li>
             </ul>
           </div>

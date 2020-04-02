@@ -3,10 +3,10 @@
     <div class="service-about__title">
       <small class="nivel-small">
       <?php the_field('acerca') ?>
-     
+    
       </small>
       <h1 class="title-nivel2--line title-nivel2--line-initial">
-        <strong><?php the_field('titulo') ?> </strong> <br> SEGUIR
+        <strong><?php the_field('titulo_bold') ?> </strong> <br> <?php the_field('titulo_light') ?>
       </h1>
     </div>
 

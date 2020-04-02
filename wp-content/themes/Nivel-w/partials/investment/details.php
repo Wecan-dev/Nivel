@@ -2,29 +2,33 @@
   <div class="container">
     <div class="main-nivel__small">
       <small class="nivel-small">
-        ACERCA DE
+        <?php the_field('acerca')?>
       </small>
     </div>
     <div class="main-nivel__title ">
       <h1 class="title-nivel2--line-center title-nivel2--line">
-        <strong> INVIERTA DESDE </strong> EL EXTERIOR
+        <strong> <?php the_field('titulo_bold')?> </strong> <?php the_field('titulo_light')?>
       </h1>
     </div>
+    <?php if(get_field('descripcion_parte_derecha') == 1 && get_field('descripcion_parte_izquierda') == 1):?>
+      <div class="invert-detail__grid">
 
-    <div class="invert-detail__grid">
-
-      <div class="main-proyectos__text">
-        <p class=" main-general__description">
-          Somos expertos en la estructuración, gerencia y ventas de proyectos inmobiliarios de vivienda, industria y
-          comercio para venta y arriendo. Nuestra prioridad es tu calidad de vida, seguridad y satisfacción.
-        </p>
+        <div class="main-proyectos__text">
+          <p class=" main-general__description">
+          <?php the_field('descripcion_parte_izquierda')?>
+          </p>
+        </div>
+        <div class="main-proyectos__text">
+          <p class=" main-general__description">
+            <?php the_field('descripcion_parte_derecha')?>
+          </p>
+        </div>
       </div>
-      <div class="main-proyectos__text">
-        <p class=" main-general__description">
-          Somos expertos en la estructuración, gerencia y ventas de proyectos inmobiliarios de vivienda, industria y
-          comercio para venta y arriendo. Nuestra prioridad es tu calidad de vida, seguridad y satisfacción.
-        </p>
+     
+    <?php else:?>
+      <div class="text-inversion__center">
+        <p class="main-general__description"><?php the_field('descripcion_parte_izquierda')?></p>
       </div>
-    </div>
+    <?php endif;?>
   </div>
 </section>

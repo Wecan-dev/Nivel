@@ -3,13 +3,17 @@
   <!-- Banner-->
     <?php get_template_part('partials/about/banner'); ?>
   <!-- End Banner-->
+
+  
+  <?php if ( have_posts() ) : the_post(); ?>
+
   <!-- About-->
    <?php get_template_part('partials/about/about'); ?>
   <!-- End About-->
-
   <!-- Experience-->
    <?php get_template_part('partials/about/experience'); ?>
   <!-- End Experience-->
+  <?php endif;?>
 
    <!-- Testimonials-->
    <?php get_template_part('partials/about/testimonials'); ?>

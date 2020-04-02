@@ -154,6 +154,30 @@ section {
 	letter-spacing: 0.55px;
 }
 
+.main-general__description p,.main-details__video--text p{
+	font-size: 16px;
+	line-height: 25px;
+	letter-spacing: 0.55px;
+	font-family: 'Helvetica';
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.25;
+	letter-spacing: 0.55px;
+}
+
+.text-inversion__center{
+	width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-inversion__center p{
+	text-align: center;
+    width: 50%;
+}
+
 
 .invert-steps__text p{
 	font-size: 16px;
@@ -904,7 +928,7 @@ a {
 	font-weight: 300;
 	letter-spacing: 1px;
 	margin-bottom: 25px;
-
+	text-transform: uppercase;
 }
 
 .title-nivel2--line strong {
@@ -1148,6 +1172,7 @@ a {
 	color: #3b0006;
 	font-weight: 500;
 	letter-spacing: 0.48px;
+	text-transform: uppercase;
 }
 
 .main-nivel__small {
@@ -1251,6 +1276,7 @@ a {
 .main-projects__img {
 	position: relative;
 	overflow: hidden;
+	height: 400px;
 }
 
 
@@ -1300,6 +1326,8 @@ a {
 
 .img-projects {
 	width: 100%;
+	height: 100%;
+	object-fit: cover;
 }
 
 .main-projects__img:hover .mask,
@@ -1430,6 +1458,7 @@ a {
 	position: relative;
 	width: 68%;
 	overflow: hidden;
+	height: 400px;
 }
 
 
@@ -1442,8 +1471,8 @@ a {
 .img-proyectos {
 	width: 100%;
 	transition: all 500ms ease;
-	height: 400px;
-	object-fit: contain;
+	height: 100%;
+	object-fit: cover;
 	overflow: hidden;
 
 }
@@ -1491,6 +1520,7 @@ a {
 	width: 100%;
 	height: 70vh;
 	transition: all 500ms ease;
+	object-fit: cover;
 }
 
 .main-card__proyectos--text {
@@ -1846,7 +1876,7 @@ strong {
 	height: 65%;
 	display: grid;
 	grid-template-columns: 310px 1fr;
-	padding-top: 30px;
+	padding: 30px 0;
 	grid-gap: 40px;
 }
 
@@ -2159,7 +2189,9 @@ input[type="password"]::placeholder, textarea::placeholder {
 .main-video__details {
 	position: relative;
 }
-
+.main-video__details:hover{
+	cursor: pointer;
+}
 .main-details__video {
 	/* padding-top: 50px;
 	padding-bottom: 80px; */
@@ -2766,6 +2798,7 @@ input[type="password"]::placeholder, textarea::placeholder {
 	color: white;
 	font-family: 'Oswald';
 	letter-spacing: 1.24px;
+	text-transform: uppercase;
 }
 
 .small-mask__nosotros {
@@ -3090,3 +3123,12 @@ input[type="password"]::placeholder, textarea::placeholder {
 	width: 49%;
 }
 
+
+
+.main-details__slick--img{
+	height: 500px !important;
+}
+.main-details__slick--img img{
+	height: 100%;
+	object-fit: cover;
+}

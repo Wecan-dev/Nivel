@@ -15,8 +15,8 @@
           aria-controls="pills-contact" aria-selected="false">Entrega inmediata</a>
       </li>
       <li class="nav-item__tabs">
-        <a class="nav-link__tabs" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab"
-          aria-controls="pills-contact" aria-selected="false">Todos</a>
+        <a class="nav-link__tabs" id="pills-totals-tab" data-toggle="pill" href="#pills-totals" role="tab"
+          aria-controls="pills-totals" aria-selected="false">Todos</a>
       </li>
     </ul>
 
@@ -25,9 +25,15 @@
     <div class="tab-content" id="pills-tabContent">
       <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
         <div class="main-projects__content">
+    <?php $args = array( 'post_type' => 'Proyectos'); ?>   
+    <?php $loop = new WP_Query( $args ); ?>
+    <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
+      <?php if( get_field('proyectos') == 'Preventa'): ?>
           <div class="main-projects__card">
+         
+            
             <div class="main-projects__img">
-              <a href="detalle-proyecto.html">
+              <a href="<?php the_permalink(); ?>">
                 <span class="line"></span>
                 <span class="line line-bottom"></span>
                 <div class="main-proyecto__icono">
@@ -35,31 +41,37 @@
                 </div>
                 <div class="main-proyecto_text">
                   <p>Desde <br>
-                    150.000.000 millones de pesos</p>
+                    <?php the_field('precio') ?></p>
                 </div>
                 <div class="mask"></div>
-                <a href="detalle-proyecto.html">
-                  <img class="img-projects" src="<?php echo get_template_directory_uri();?>/assets/img/projects2.png">
+                <a href="<?php the_permalink(); ?>">
+                  <img class="img-projects" src="<?php echo get_the_post_thumbnail_url(); ?>">
+                </a>
                 </a>
             </div>
-            </a>
+       
+          
             <div class="main-projects__body">
               <div class="main-projects__logo">
-                <img class="projects-logo" src="<?php echo get_template_directory_uri();?>/assets/img/logo-projects.png">
+                <img class="projects-logo" src="<?php the_field('logo_de_ubicacion') ?>">
               </div>
               <div class="main-projects__text">
                 <p class="projects-title">
-                  Valverde
+                 <?php the_title(); ?>
                 </p>
                 <p class="projects-text">
-                  Villa Laura, La Ceja
+                <?php the_field('ubicacion') ?>
                 </p>
               </div>
             </div>
           </div>
-          <div class="main-projects__card">
+
+        <?php endif; endwhile; ?>
+
+
+          <!-- <div class="main-projects__card">
             <div class="main-projects__img">
-              <a href="detalle-proyecto.html">
+              <a href="<?php the_permalink(); ?>">
                 <span class="line"></span>
                 <span class="line line-bottom"></span>
                 <div class="main-proyecto__icono">
@@ -90,501 +102,69 @@
               </div>
             </div>
           </div>
-          <div class="main-projects__card">
-            <div class="main-projects__img">
-              <a href="detalle-proyecto.html">
-                <span class="line"></span>
-                <span class="line line-bottom"></span>
-                <div class="main-proyecto__icono">
-                  <img class="proyecto-icono" src="<?php echo get_template_directory_uri();?>/assets/img/icon@2x.png">
-                </div>
-                <div class="main-proyecto_text">
-                  <p>Desde <br>
-                    150.000.000 millones de pesos</p>
-                </div>
-                <div class="mask"></div>
-                <a href="detalle-proyecto.html">
-                  <img class="img-projects" src="<?php echo get_template_directory_uri();?>/assets/img/projects2.png">
-                </a>
-            </div>
-            </a>
-            <div class="main-projects__body">
-              <div class="main-projects__logo">
-                <img class="projects-logo" src="<?php echo get_template_directory_uri();?>/assets/img/logo-projects3.png">
-              </div>
-              <div class="main-projects__text">
-                <p class="projects-title">
-                  Maderos el Retiro
-                </p>
-                <p class="projects-text">
-                  Retiro, Antioquia
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="main-projects__card">
-            <div class="main-projects__img">
-              <a href="detalle-proyecto.html">
-                <span class="line"></span>
-                <span class="line line-bottom"></span>
-                <div class="main-proyecto__icono">
-                  <img class="proyecto-icono" src="<?php echo get_template_directory_uri();?>/assets/img/icon@2x.png">
-                </div>
-                <div class="main-proyecto_text">
-                  <p>Desde <br>
-                    150.000.000 millones de pesos</p>
-                </div>
-                <div class="mask"></div>
-                <a href="detalle-proyecto.html">
-                  <img class="img-projects" src="<?php echo get_template_directory_uri();?>/assets/img/projects3.png">
-                </a>
-            </div>
-            </a>
-            <div class="main-projects__body">
-              <div class="main-projects__logo">
-                <img class="projects-logo" src="<?php echo get_template_directory_uri();?>/assets/img/logo-projects4.png">
-              </div>
-              <div class="main-projects__text">
-                <p class="projects-title">
-                  El Prato
-                </p>
-                <p class="projects-text">
-                  Sabaneta, Antioquia
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="main-projects__card">
-            <div class="main-projects__img">
-              <a href="detalle-proyecto.html">
-                <span class="line"></span>
-                <span class="line line-bottom"></span>
-                <div class="main-proyecto__icono">
-                  <img class="proyecto-icono" src="<?php echo get_template_directory_uri();?>/assets/img/icon@2x.png">
-                </div>
-                <div class="main-proyecto_text">
-                  <p>Desde <br>
-                    150.000.000 millones de pesos</p>
-                </div>
-                <div class="mask"></div>
-                <a href="detalle-proyecto.html">
-                  <img class="img-projects" src="<?php echo get_template_directory_uri();?>/assets/img/projects4.png">
-                </a>
-            </div>
-            </a>
-            <div class="main-projects__body">
-              <div class="main-projects__logo">
-                <img class="projects-logo" src="<?php echo get_template_directory_uri();?>/assets/img/logo-projects5.png">
-              </div>
-              <div class="main-projects__text">
-                <p class="projects-title">
-                  El Capiro parque empresarial
-                </p>
-                <p class="projects-text">
-                  La Ceja, Antioquia
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="main-projects__card">
-            <div class="main-projects__img">
-              <a href="detalle-proyecto.html">
-                <span class="line"></span>
-                <span class="line line-bottom"></span>
-                <div class="main-proyecto__icono">
-                  <img class="proyecto-icono" src="<?php echo get_template_directory_uri();?>/assets/img/icon@2x.png">
-                </div>
-                <div class="main-proyecto_text">
-                  <p>Desde <br>
-                    150.000.000 millones de pesos</p>
-                </div>
-                <div class="mask"></div>
-                <a href="detalle-proyecto.html">
-                  <img class="img-projects" src="<?php echo get_template_directory_uri();?>/assets/img/projects5.png">
-                </a>
-            </div>
-            </a>
-            <div class="main-projects__body">
-              <div class="main-projects__logo">
-                <img class="projects-logo" src="<?php echo get_template_directory_uri();?>/assets/img/logo-projects6.png">
-              </div>
-              <div class="main-projects__text">
-                <p class="projects-title">
-                  Mosaico
-                </p>
-                <p class="projects-text">
-                  Sabaneta, Antioquia
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="main-projects__card">
-            <div class="main-projects__img">
-              <a href="detalle-proyecto.html">
-                <span class="line"></span>
-                <span class="line line-bottom"></span>
-                <div class="main-proyecto__icono">
-                  <img class="proyecto-icono" src="<?php echo get_template_directory_uri();?>/assets/img/icon@2x.png">
-                </div>
-                <div class="main-proyecto_text">
-                  <p>Desde <br>
-                    150.000.000 millones de pesos</p>
-                </div>
-                <div class="mask"></div>
-                <a href="detalle-proyecto.html">
-                  <img class="img-projects" src="<?php echo get_template_directory_uri();?>/assets/img/projects6.png">
-                </a>
-            </div>
-            </a>
-            <div class="main-projects__body">
-              <div class="main-projects__logo">
-                <img class="projects-logo" src="<?php echo get_template_directory_uri();?>/assets/img/logo-projects7.png">
-              </div>
-              <div class="main-projects__text">
-                <p class="projects-title">
-                  Livorno
-                </p>
-                <p class="projects-text">
-                  Sabaneta, Antioquia, sector Loma de San Jose
-                </p>
-              </div>
-            </div>
-          </div>
+          -->
         </div>
       </div>
       <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
         <div class="main-projects__content">
-          <div class="main-projects__card">
-            <div class="main-projects__img">
-              <a href="detalle-proyecto.html">
-                <span class="line"></span>
-                <span class="line line-bottom"></span>
-                <div class="main-proyecto__icono">
-                  <img class="proyecto-icono" src="<?php echo get_template_directory_uri();?>/assets/img/icon@2x.png">
-                </div>
-                <div class="main-proyecto_text">
-                  <p>Desde <br>
-                    150.000.000 millones de pesos</p>
-                </div>
-                <div class="mask"></div>
-                <a href="detalle-proyecto.html">
-                  <img class="img-projects" src="<?php echo get_template_directory_uri();?>/assets/img/projects2.png">
-                </a>
-            </div>
-            </a>
-            <div class="main-projects__body">
-              <div class="main-projects__logo">
-                <img class="projects-logo" src="<?php echo get_template_directory_uri();?>/assets/img/logo-projects.png">
-              </div>
-              <div class="main-projects__text">
-                <p class="projects-title">
-                  Valverde
-                </p>
-                <p class="projects-text">
-                  Villa Laura, La Ceja
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="main-projects__card">
-            <div class="main-projects__img">
-              <a href="detalle-proyecto.html">
-                <span class="line"></span>
-                <span class="line line-bottom"></span>
-                <div class="main-proyecto__icono">
-                  <img class="proyecto-icono" src="<?php echo get_template_directory_uri();?>/assets/img/icon@2x.png">
-                </div>
-                <div class="main-proyecto_text">
-                  <p>Desde <br>
-                    150.000.000 millones de pesos</p>
-                </div>
-                <div class="mask"></div>
-                <a href="detalle-proyecto.html">
-                  <img class="img-projects" src="<?php echo get_template_directory_uri();?>/assets/img/projects1.png">
-                </a>
-            </div>
-            </a>
-            <div class="main-projects__body">
-              <div class="main-projects__logo">
-                <img class="projects-logo" src="<?php echo get_template_directory_uri();?>/assets/img/logo-projects2.png">
-              </div>
-              <div class="main-projects__text">
-                <p class="projects-title">
-                  Almanza Llanogrande
-                </p>
-                <p class="projects-text">
-                  Llanogrande, Antioquia
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="main-projects__card">
-            <div class="main-projects__img">
-              <a href="detalle-proyecto.html">
-                <span class="line"></span>
-                <span class="line line-bottom"></span>
-                <div class="main-proyecto__icono">
-                  <img class="proyecto-icono" src="<?php echo get_template_directory_uri();?>/assets/img/icon@2x.png">
-                </div>
-                <div class="main-proyecto_text">
-                  <p>Desde <br>
-                    150.000.000 millones de pesos</p>
-                </div>
-                <div class="mask"></div>
-                <a href="detalle-proyecto.html">
-                  <img class="img-projects" src="<?php echo get_template_directory_uri();?>/assets/img/projects2.png">
-                </a>
-            </div>
-            </a>
-            <div class="main-projects__body">
-              <div class="main-projects__logo">
-                <img class="projects-logo" src="<?php echo get_template_directory_uri();?>/assets/img/logo-projects3.png">
-              </div>
-              <div class="main-projects__text">
-                <p class="projects-title">
-                  Maderos el Retiro
-                </p>
-                <p class="projects-text">
-                  Retiro, Antioquia
-                </p>
-              </div>
-            </div>
-          </div>
+ <?php $args = array( 'post_type' => 'Proyectos'); ?>   
+        <?php $loop = new WP_Query( $args ); ?>
+        <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
+<?php if( get_field('proyectos') == 'Construcción'): ?>
+        <div class="main-projects__card">
+         
+            
+         <div class="main-projects__img">
+           <a href="<?php the_permalink(); ?>">
+             <span class="line"></span>
+             <span class="line line-bottom"></span>
+             <div class="main-proyecto__icono">
+               <img class="proyecto-icono" src="<?php echo get_template_directory_uri();?>/assets/img/icon@2x.png">
+             </div>
+             <div class="main-proyecto_text">
+               <p>Desde <br>
+                 <?php the_field('precio') ?></p>
+             </div>
+             <div class="mask"></div>
+             <a href="<?php the_permalink(); ?>">
+               <img class="img-projects" src="<?php echo get_the_post_thumbnail_url(); ?>">
+             </a>
+             </a>
+         </div>
+    
+       
+         <div class="main-projects__body">
+           <div class="main-projects__logo">
+             <img class="projects-logo" src="<?php the_field('logo_de_ubicacion') ?>">
+           </div>
+           <div class="main-projects__text">
+             <p class="projects-title">
+              <?php the_title(); ?>
+             </p>
+             <p class="projects-text">
+             <?php the_field('ubicacion') ?>
+             </p>
+           </div>
+         </div>
+       </div>
 
-          <div class="main-projects__card">
-            <div class="main-projects__img">
-              <a href="detalle-proyecto.html">
-                <span class="line"></span>
-                <span class="line line-bottom"></span>
-                <div class="main-proyecto__icono">
-                  <img class="proyecto-icono" src="<?php echo get_template_directory_uri();?>/assets/img/icon@2x.png">
-                </div>
-                <div class="main-proyecto_text">
-                  <p>Desde <br>
-                    150.000.000 millones de pesos</p>
-                </div>
+        <?php endif; endwhile; ?>
 
-                <div class="mask"></div>
-                <a href="detalle-proyecto.html">
-                  <img class="img-projects" src="<?php echo get_template_directory_uri();?>/assets/img/projects3.png">
-                </a>
-              </a>
-            </div>
-            <div class="main-projects__body">
-              <div class="main-projects__logo">
-                <img class="projects-logo" src="<?php echo get_template_directory_uri();?>/assets/img/logo-projects4.png">
-              </div>
-              <div class="main-projects__text">
-                <p class="projects-title">
-                  El Prato
-                </p>
-                <p class="projects-text">
-                  Sabaneta, Antioquia
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="main-projects__card">
-            <div class="main-projects__img">
-              <a href="detalle-proyecto.html">
-                <span class="line"></span>
-                <span class="line line-bottom"></span>
-                <div class="main-proyecto__icono">
-                  <img class="proyecto-icono" src="<?php echo get_template_directory_uri();?>/assets/img/icon@2x.png">
-                </div>
-                <div class="main-proyecto_text">
-                  <p>Desde <br>
-                    150.000.000 millones de pesos</p>
-                </div>
-                <div class="mask"></div>
-                <a href="detalle-proyecto.html">
-                  <img class="img-projects" src="<?php echo get_template_directory_uri();?>/assets/img/projects4.png">
-                </a>
-            </div>
-            </a>
-            <div class="main-projects__body">
-              <div class="main-projects__logo">
-                <img class="projects-logo" src="<?php echo get_template_directory_uri();?>/assets/img/logo-projects5.png">
-              </div>
-              <div class="main-projects__text">
-                <p class="projects-title">
-                  El Capiro parque empresarial
-                </p>
-                <p class="projects-text">
-                  La Ceja, Antioquia
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="main-projects__card">
-            <div class="main-projects__img">
-              <a href="detalle-proyecto.html">
-                <span class="line"></span>
-                <span class="line line-bottom"></span>
-                <div class="main-proyecto__icono">
-                  <img class="proyecto-icono" src="<?php echo get_template_directory_uri();?>/assets/img/icon@2x.png">
-                </div>
-                <div class="main-proyecto_text">
-                  <p>Desde <br>
-                    150.000.000 millones de pesos</p>
-                </div>
-                <div class="mask"></div>
-                <a href="detalle-proyecto.html">
-                  <img class="img-projects" src="<?php echo get_template_directory_uri();?>/assets/img/projects5.png">
-                </a>
-            </div>
-            </a>
-            <div class="main-projects__body">
-              <div class="main-projects__logo">
-                <img class="projects-logo" src="<?php echo get_template_directory_uri();?>/assets/img/logo-projects6.png">
-              </div>
-              <div class="main-projects__text">
-                <p class="projects-title">
-                  Mosaico
-                </p>
-                <p class="projects-text">
-                  Sabaneta, Antioquia
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="main-projects__card">
-            <div class="main-projects__img">
-              <a href="detalle-proyecto.html">
-                <span class="line"></span>
-                <span class="line line-bottom"></span>
-                <div class="main-proyecto__icono">
-                  <img class="proyecto-icono" src="<?php echo get_template_directory_uri();?>/assets/img/icon@2x.png">
-                </div>
-                <div class="main-proyecto_text">
-                  <p>Desde <br>
-                    150.000.000 millones de pesos</p>
-                </div>
-                <div class="mask"></div>
-                <a href="detalle-proyecto.html">
-                  <img class="img-projects" src="<?php echo get_template_directory_uri();?>/assets/img/projects6.png">
-                </a>
-            </div>
-            </a>
-            <div class="main-projects__body">
-              <div class="main-projects__logo">
-                <img class="projects-logo" src="<?php echo get_template_directory_uri();?>/assets/img/logo-projects7.png">
-              </div>
-              <div class="main-projects__text">
-                <p class="projects-title">
-                  Livorno
-                </p>
-                <p class="projects-text">
-                  Sabaneta, Antioquia, sector Loma de San Jose
-                </p>
-              </div>
-            </div>
-          </div>
+
         </div>
       </div>
       <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
         <div class="main-projects__content">
-          <div class="main-projects__card">
-            <div class="main-projects__img">
-              <a href="detalle-proyecto.html">
-                <span class="line"></span>
-                <span class="line line-bottom"></span>
-                <div class="main-proyecto__icono">
-                  <img class="proyecto-icono" src="<?php echo get_template_directory_uri();?>/assets/img/icon@2x.png">
-                </div>
-                <div class="main-proyecto_text">
-                  <p>Desde <br>
-                    150.000.000 millones de pesos</p>
-                </div>
-                <div class="mask"></div>
-                <a href="detalle-proyecto.html">
-                  <img class="img-projects" src="<?php echo get_template_directory_uri();?>/assets/img/projects2.png">
-                </a>
-            </div>
-            </a>
-            <div class="main-projects__body">
-              <div class="main-projects__logo">
-                <img class="projects-logo" src="<?php echo get_template_directory_uri();?>/assets/img/logo-projects.png">
-              </div>
-              <div class="main-projects__text">
-                <p class="projects-title">
-                  Valverde
-                </p>
-                <p class="projects-text">
-                  Villa Laura, La Ceja
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="main-projects__card">
-            <div class="main-projects__img">
-              <a href="detalle-proyecto.html">
-                <span class="line"></span>
-                <span class="line line-bottom"></span>
-                <div class="main-proyecto__icono">
-                  <img class="proyecto-icono" src="<?php echo get_template_directory_uri();?>/assets/img/icon@2x.png">
-                </div>
-                <div class="main-proyecto_text">
-                  <p>Desde <br>
-                    150.000.000 millones de pesos</p>
-                </div>
-                <div class="mask"></div>
-                <a href="detalle-proyecto.html">
-                  <img class="img-projects" src="<?php echo get_template_directory_uri();?>/assets/img/projects1.png">
-                </a>
-            </div>
-            </a>
-            <div class="main-projects__body">
-              <div class="main-projects__logo">
-                <img class="projects-logo" src="<?php echo get_template_directory_uri();?>/assets/img/logo-projects2.png">
-              </div>
-              <div class="main-projects__text">
-                <p class="projects-title">
-                  Almanza Llanogrande
-                </p>
-                <p class="projects-text">
-                  Llanogrande, Antioquia
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="main-projects__card">
-            <div class="main-projects__img">
-              <a href="detalle-proyecto.html">
-                <span class="line"></span>
-                <span class="line line-bottom"></span>
-                <div class="main-proyecto__icono">
-                  <img class="proyecto-icono" src="<?php echo get_template_directory_uri();?>/assets/img/icon@2x.png">
-                </div>
-                <div class="main-proyecto_text">
-                  <p>Desde <br>
-                    150.000.000 millones de pesos</p>
-                </div>
-                <div class="mask"></div>
-                <a href="detalle-proyecto.html">
-                  <img class="img-projects" src="<?php echo get_template_directory_uri();?>/assets/img/projects2.png">
-                </a>
-            </div>
-            </a>
-            <div class="main-projects__body">
-              <div class="main-projects__logo">
-                <img class="projects-logo" src="<?php echo get_template_directory_uri();?>/assets/img/logo-projects3.png">
-              </div>
-              <div class="main-projects__text">
-                <p class="projects-title">
-                  Maderos el Retiro
-                </p>
-                <p class="projects-text">
-                  Retiro, Antioquia
-                </p>
-              </div>
-            </div>
-          </div>
 
+        <?php $args = array( 'post_type' => 'Proyectos'); ?>   
+        <?php $loop = new WP_Query( $args ); ?>
+        <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
+        <?php if( get_field('proyectos') == 'Entrega Inmediata'): ?>
           <div class="main-projects__card">
+         
+            
             <div class="main-projects__img">
-              <a href="detalle-proyecto.html">
+              <a href="<?php the_permalink(); ?>">
                 <span class="line"></span>
                 <span class="line line-bottom"></span>
                 <div class="main-proyecto__icono">
@@ -592,354 +172,80 @@
                 </div>
                 <div class="main-proyecto_text">
                   <p>Desde <br>
-                    150.000.000 millones de pesos</p>
+                    <?php the_field('precio') ?></p>
                 </div>
                 <div class="mask"></div>
-                <a href="detalle-proyecto.html">
-                  <img class="img-projects" src="<?php echo get_template_directory_uri();?>/assets/img/projects3.png">
+                <a href="<?php the_permalink(); ?>">
+                  <img class="img-projects" src="<?php echo get_the_post_thumbnail_url(); ?>">
+                </a>
                 </a>
             </div>
-            </a>
+       
+          
             <div class="main-projects__body">
               <div class="main-projects__logo">
-                <img class="projects-logo" src="<?php echo get_template_directory_uri();?>/assets/img/logo-projects4.png">
+                <img class="projects-logo" src="<?php the_field('logo_de_ubicacion') ?>">
               </div>
               <div class="main-projects__text">
                 <p class="projects-title">
-                  El Prato
+                 <?php the_title(); ?>
                 </p>
                 <p class="projects-text">
-                  Sabaneta, Antioquia
+                <?php the_field('ubicacion') ?>
                 </p>
               </div>
             </div>
           </div>
-          <div class="main-projects__card">
-            <div class="main-projects__img">
-              <a href="detalle-proyecto.html">
-                <span class="line"></span>
-                <span class="line line-bottom"></span>
-                <div class="main-proyecto__icono">
-                  <img class="proyecto-icono" src="<?php echo get_template_directory_uri();?>/assets/img/icon@2x.png">
-                </div>
-                <div class="main-proyecto_text">
-                  <p>Desde <br>
-                    150.000.000 millones de pesos</p>
-                </div>
-                <div class="mask"></div>
-                <a href="detalle-proyecto.html">
-                  <img class="img-projects" src="<?php echo get_template_directory_uri();?>/assets/img/projects4.png">
-                </a>
-            </div>
-            </a>
-            <div class="main-projects__body">
-              <div class="main-projects__logo">
-                <img class="projects-logo" src="<?php echo get_template_directory_uri();?>/assets/img/logo-projects5.png">
-              </div>
-              <div class="main-projects__text">
-                <p class="projects-title">
-                  El Capiro parque empresarial
-                </p>
-                <p class="projects-text">
-                  La Ceja, Antioquia
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="main-projects__card">
-            <div class="main-projects__img">
-              <a href="detalle-proyecto.html">
-                <span class="line"></span>
-                <span class="line line-bottom"></span>
-                <div class="main-proyecto__icono">
-                  <img class="proyecto-icono" src="<?php echo get_template_directory_uri();?>/assets/img/icon@2x.png">
-                </div>
-                <div class="main-proyecto_text">
-                  <p>Desde <br>
-                    150.000.000 millones de pesos</p>
-                </div>
-                <div class="mask"></div>
-                <a href="detalle-proyecto.html">
-                  <img class="img-projects" src="<?php echo get_template_directory_uri();?>/assets/img/projects5.png">
-                </a>
-            </div>
-            </a>
-            <div class="main-projects__body">
-              <div class="main-projects__logo">
-                <img class="projects-logo" src="<?php echo get_template_directory_uri();?>/assets/img/logo-projects6.png">
-              </div>
-              <div class="main-projects__text">
-                <p class="projects-title">
-                  Mosaico
-                </p>
-                <p class="projects-text">
-                  Sabaneta, Antioquia
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="main-projects__card">
-            <div class="main-projects__img">
-              <a href="detalle-proyecto.html">
-                <span class="line"></span>
-                <span class="line line-bottom"></span>
-                <div class="main-proyecto__icono">
-                  <img class="proyecto-icono" src="<?php echo get_template_directory_uri();?>/assets/img/icon@2x.png">
-                </div>
-                <div class="main-proyecto_text">
-                  <p>Desde <br>
-                    150.000.000 millones de pesos</p>
-                </div>
-                <div class="mask"></div>
-                <a href="detalle-proyecto.html">
-                  <img class="img-projects" src="<?php echo get_template_directory_uri();?>/assets/img/projects6.png">
-                </a>
-            </div>
-            </a>
-            <div class="main-projects__body">
-              <div class="main-projects__logo">
-                <img class="projects-logo" src="<?php echo get_template_directory_uri();?>/assets/img/logo-projects7.png">
-              </div>
-              <div class="main-projects__text">
-                <p class="projects-title">
-                  Livorno
-                </p>
-                <p class="projects-text">
-                  Sabaneta, Antioquia, sector Loma de San Jose
-                </p>
-              </div>
-            </div>
-          </div>
+        <?php endif; endwhile; ?>
+
+
+        
         </div>
       </div>
-      <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+      <div class="tab-pane fade" id="pills-totals" role="tabpanel" aria-labelledby="pills-totals-tab">
         <div class="main-projects__content">
-          <div class="main-projects__card">
-            <div class="main-projects__img">
-              <a href="detalle-proyecto.html">
-                <span class="line"></span>
-                <span class="line line-bottom"></span>
-                <div class="main-proyecto__icono">
-                  <img class="proyecto-icono" src="<?php echo get_template_directory_uri();?>/assets/img/icon@2x.png">
-                </div>
-                <div class="main-proyecto_text">
-                  <p>Desde <br>
-                    150.000.000 millones de pesos</p>
-                </div>
-                <div class="mask"></div>
-                <a href="detalle-proyecto.html">
-                  <img class="img-projects" src="<?php echo get_template_directory_uri();?>/assets/img/projects2.png">
-                </a>
-            </div>
-            </a>
-            <div class="main-projects__body">
-              <div class="main-projects__logo">
-                <img class="projects-logo" src="<?php echo get_template_directory_uri();?>/assets/img/logo-projects.png">
-              </div>
-              <div class="main-projects__text">
-                <p class="projects-title">
-                  Valverde
-                </p>
-                <p class="projects-text">
-                  Villa Laura, La Ceja
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="main-projects__card">
-            <div class="main-projects__img">
-              <a href="detalle-proyecto.html">
-                <span class="line"></span>
-                <span class="line line-bottom"></span>
-                <div class="main-proyecto__icono">
-                  <img class="proyecto-icono" src="<?php echo get_template_directory_uri();?>/assets/img/icon@2x.png">
-                </div>
-                <div class="main-proyecto_text">
-                  <p>Desde <br>
-                    150.000.000 millones de pesos</p>
-                </div>
-                <div class="mask"></div>
-                <a href="detalle-proyecto.html">
-                  <img class="img-projects" src="<?php echo get_template_directory_uri();?>/assets/img/projects1.png">
-                </a>
-            </div>
-            </a>
-            <div class="main-projects__body">
-              <div class="main-projects__logo">
-                <img class="projects-logo" src="<?php echo get_template_directory_uri();?>/assets/img/logo-projects2.png">
-              </div>
-              <div class="main-projects__text">
-                <p class="projects-title">
-                  Almanza Llanogrande
-                </p>
-                <p class="projects-text">
-                  Llanogrande, Antioquia
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="main-projects__card">
-            <div class="main-projects__img">
-              <a href="detalle-proyecto.html">
-                <span class="line"></span>
-                <span class="line line-bottom"></span>
-                <div class="main-proyecto__icono">
-                  <img class="proyecto-icono" src="<?php echo get_template_directory_uri();?>/assets/img/icon@2x.png">
-                </div>
-                <div class="main-proyecto_text">
-                  <p>Desde <br>
-                    150.000.000 millones de pesos</p>
-                </div>
-                <div class="mask"></div>
-                <a href="detalle-proyecto.html">
-                  <img class="img-projects" src="<?php echo get_template_directory_uri();?>/assets/img/projects2.png">
-                </a>
-            </div>
-            </a>
-            <div class="main-projects__body">
-              <div class="main-projects__logo">
-                <img class="projects-logo" src="<?php echo get_template_directory_uri();?>/assets/img/logo-projects3.png">
-              </div>
-              <div class="main-projects__text">
-                <p class="projects-title">
-                  Maderos el Retiro
-                </p>
-                <p class="projects-text">
-                  Retiro, Antioquia
-                </p>
-              </div>
-            </div>
-          </div>
 
-          <div class="main-projects__card">
-            <div class="main-projects__img">
-              <a href="detalle-proyecto.html">
-                <span class="line"></span>
-                <span class="line line-bottom"></span>
-                <div class="main-proyecto__icono">
-                  <img class="proyecto-icono" src="<?php echo get_template_directory_uri();?>/assets/img/icon@2x.png">
-                </div>
-                <div class="main-proyecto_text">
-                  <p>Desde <br>
-                    150.000.000 millones de pesos</p>
-                </div>
-                <div class="mask"></div>
-                <a href="detalle-proyecto.html">
-                  <img class="img-projects" src="<?php echo get_template_directory_uri();?>/assets/img/projects3.png">
-                </a>
-            </div>
-            </a>
-            <div class="main-projects__body">
-              <div class="main-projects__logo">
-                <img class="projects-logo" src="<?php echo get_template_directory_uri();?>/assets/img/logo-projects4.png">
-              </div>
-              <div class="main-projects__text">
-                <p class="projects-title">
-                  El Prato
-                </p>
-                <p class="projects-text">
-                  Sabaneta, Antioquia
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="main-projects__card">
-            <div class="main-projects__img">
-              <a href="detalle-proyecto.html">
-                <span class="line"></span>
-                <span class="line line-bottom"></span>
-                <div class="main-proyecto__icono">
-                  <img class="proyecto-icono" src="<?php echo get_template_directory_uri();?>/assets/img/icon@2x.png">
-                </div>
-                <div class="main-proyecto_text">
-                  <p>Desde <br>
-                    150.000.000 millones de pesos</p>
-                </div>
-                <div class="mask"></div>
-                <a href="detalle-proyecto.html">
-                  <img class="img-projects" src="<?php echo get_template_directory_uri();?>/assets/img/projects4.png">
-                </a>
-            </div>
-            </a>
-            <div class="main-projects__body">
-              <div class="main-projects__logo">
-                <img class="projects-logo" src="<?php echo get_template_directory_uri();?>/assets/img/logo-projects5.png">
-              </div>
-              <div class="main-projects__text">
-                <p class="projects-title">
-                  El Capiro parque empresarial
-                </p>
-                <p class="projects-text">
-                  La Ceja, Antioquia
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="main-projects__card">
-            <div class="main-projects__img">
-              <a href="detalle-proyecto.html">
-                <span class="line"></span>
-                <span class="line line-bottom"></span>
-                <div class="main-proyecto__icono">
-                  <img class="proyecto-icono" src="<?php echo get_template_directory_uri();?>/assets/img/icon@2x.png">
-                </div>
-                <div class="main-proyecto_text">
-                  <p>Desde <br>
-                    150.000.000 millones de pesos</p>
-                </div>
-                <div class="mask"></div>
-                <div class="mask"></div>
-                <a href="detalle-proyecto.html">
-                  <img class="img-projects" src="<?php echo get_template_directory_uri();?>/assets/img/projects5.png">
-                </a>
-              </a>
-            </div>
-            <div class="main-projects__body">
-              <div class="main-projects__logo">
-                <img class="projects-logo" src="<?php echo get_template_directory_uri();?>/assets/img/logo-projects6.png">
-              </div>
-              <div class="main-projects__text">
-                <p class="projects-title">
-                  Mosaico
-                </p>
-                <p class="projects-text">
-                  Sabaneta, Antioquia
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="main-projects__card">
-            <div class="main-projects__img">
-              <a href="detalle-proyecto.html">
-                <span class="line"></span>
-                <span class="line line-bottom"></span>
-                <div class="main-proyecto__icono">
-                  <img class="proyecto-icono" src="<?php echo get_template_directory_uri();?>/assets/img/icon@2x.png">
-                </div>
-                <div class="main-proyecto_text">
-                  <p>Desde <br>
-                    150.000.000 millones de pesos</p>
-                </div>
-                <div class="mask"></div>
-                <a href="detalle-proyecto.html">
-                  <img class="img-projects" src="<?php echo get_template_directory_uri();?>/assets/img/projects6.png">
-                </a>
-            </div>
-            </a>
-            <div class="main-projects__body">
-              <div class="main-projects__logo">
-                <img class="projects-logo" src="<?php echo get_template_directory_uri();?>/assets/img/logo-projects7.png">
-              </div>
-              <div class="main-projects__text">
-                <p class="projects-title">
-                  Livorno
-                </p>
-                <p class="projects-text">
-                  Sabaneta, Antioquia, sector Loma de San Jose
-                </p>
-              </div>
-            </div>
-          </div>
+         <?php $args = array( 'post_type' => 'Proyectos'); ?>   
+        <?php $loop = new WP_Query( $args ); ?>
+        <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
+
+        <div class="main-projects__card">
+         
+            
+         <div class="main-projects__img">
+           <a href="<?php the_permalink(); ?>">
+             <span class="line"></span>
+             <span class="line line-bottom"></span>
+             <div class="main-proyecto__icono">
+               <img class="proyecto-icono" src="<?php echo get_template_directory_uri();?>/assets/img/icon@2x.png">
+             </div>
+             <div class="main-proyecto_text">
+               <p>Desde <br>
+                 <?php the_field('precio') ?></p>
+             </div>
+             <div class="mask"></div>
+             <a href="<?php the_permalink(); ?>">
+               <img class="img-projects" src="<?php echo get_the_post_thumbnail_url(); ?>">
+             </a>
+             </a>
+         </div>
+    
+       
+         <div class="main-projects__body">
+           <div class="main-projects__logo">
+             <img class="projects-logo" src="<?php the_field('logo_de_ubicacion') ?>">
+           </div>
+           <div class="main-projects__text">
+             <p class="projects-title">
+              <?php the_title(); ?>
+             </p>
+             <p class="projects-text">
+             <?php the_field('ubicacion') ?>
+             </p>
+           </div>
+         </div>
+        </div>
+        <?php endwhile; ?>
         </div>
       </div>
     </div>

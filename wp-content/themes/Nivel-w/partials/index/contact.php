@@ -8,8 +8,8 @@
         una asesoría completa
       </p>
     </div>
-    <div class="formulario">
-      <form action="">
+    <div class="formulario-deleted">
+      <!-- <form action="">
         <div class="barra-formulario">
           <div> <input class="nombre" type="text" placeholder="Nombre completo"></div>
 
@@ -22,8 +22,8 @@
         <div class="contenedor-boton">
           <a href="#" class="btn_custom btn--medium btn--filled--trans">ENVIAR</a>
         </div>
-      </div>
-      <!-- <  ?php echo FrmFormsController::get_form_shortcode( array( 'id' => 1, 'title' => false, 'description' => false ) ); ?> -->
+      </div> -->
+      <?php echo FrmFormsController::get_form_shortcode( array( 'id' => 1, 'title' => false, 'description' => false ) ); ?>
 
     </div>
   </div>

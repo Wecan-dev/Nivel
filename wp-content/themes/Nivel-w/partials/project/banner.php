@@ -10,8 +10,8 @@
           <div class="main-banner__text">
 
             <div class="main-banner__title">
-              <p>PROYECTO <br>
-                VALV<span class="letra-color">E</span>RDE
+              <p>PROY<span class="letra-color">E</span>CTO <br>
+                <?php the_title(); ?>
               </p>
 
             </div>
@@ -21,7 +21,7 @@
         </div>
       </div>
       <div class="main-banner__img2">
-        <img src="<?php echo get_template_directory_uri();?>/assets/img/banner-detalle.png">
+        <img src="<?php echo get_the_post_thumbnail_url(); ?>">
       </div>
     </div>
   </div>

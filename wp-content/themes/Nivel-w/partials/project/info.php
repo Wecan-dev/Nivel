@@ -1,15 +1,23 @@
 <section class="main-details__video container">
   <div class="main-details__video--content">
-    <div class="main-video__details">
-      <div class="mask-video">
-        <div class="main-details__video--icono">
-          <img class="video-icono" src="<?php echo get_template_directory_uri();?>/assets/img/play.png">
+      
+      <div class="main-video__details" data-toggle="modal" data-target="#videoProject-<?php the_id();?>">
+          <div class="mask-video">
+            <div class="main-details__video--icono">
+              <img class="video-icono" src="<?php echo get_template_directory_uri();?>/assets/img/play.png">
 
-        </div>
+            </div>
+          </div>
+          <?php if(get_field('carga_de_video')):?>
+            <video class="img-video__details" src="<?php the_field('carga_de_video')?>">
+            </video>
+          <?php else:?>
+            <img class="img-video__details" src="<?php echo get_template_directory_uri();?>/assets/img/imagen-detalle5.png">
+          <?php endif; ?>
+      
       </div>
-      <img class="img-video__details" src="<?php echo get_template_directory_uri();?>/assets/img/imagen-detalle5.png">
-
-    </div>
+    
+      
     <div class="main-details__video--card">
       <div class="details-video__img">
 
@@ -18,18 +26,17 @@
       <div class="details-video__body">
         <div class="main-details__video--title">
           <p class="details-video__title">
-            Juntos creamos una nueva historia
+            <?php the_field('titulo_pequeno')?>
           </p>
         </div>
         <div class="main-details__video--text">
           <p class="details-video__text">
-
-            Un proyecto VIS en La Ceja, Antioquia, con una ubicación privilegiada, ambiente campestre en un sector de
-            alta valorización y fácil acceso. Paga la cuota inicial hasta en 36 cuotas. Aplican subsidios.
+            <?php the_content() ?>
+            
           </p>
         </div>
         <div class="main-details__video--buttom">
-          <a class="btn_custom btn--medium btn--filled2" href="">
+          <a class="btn_custom btn--medium btn--filled2" href="#main-details__ubicacion">
             QUIERO MÁS INFO
           </a>
         </div>

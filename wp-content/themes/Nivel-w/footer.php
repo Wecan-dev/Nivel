@@ -189,6 +189,42 @@
       </div>
     </div>  
   <?php endwhile; ?>
+
+
+
+   <!-- Modal Video Solutions -->
+   <?php $args = array( 'post_type' => 'proyectos'); ?>   
+  <?php $loop = new WP_Query( $args ); ?>
+  <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
+
+    <div class="modal fade videoSolutions" id="videoProject-<?php the_id();?>" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+  
+          <div class="modal-body">
+        
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close" >
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <div class="main-video__img">
+          <div class="">
+            <div class="main-details__video--icono">
+                
+                </div>
+              </div>
+            <?php if(get_field('carga_de_video')):?>
+				<video id="modal-video" controls class="img-video" src="<?php the_field('carga_de_video')?>">
+				</video>
+			<?php else:?>
+				<img class="img-video"  src="<?php echo get_template_directory_uri();?>/assets/img/imagen-detalle5.png">
+			<?php endif; ?>
+            </div>
+          </div>
+        
+        </div>
+      </div>
+    </div>  
+  <?php endwhile; ?>
 	<script src="<?php echo get_template_directory_uri();?>/assets/js/jquery-3.4.1.min.js"></script>
 	<script type="text/javascript" src="<?php echo get_template_directory_uri();?>/assets/js/bootstrap.min.js"></script>
   <script type="text/javascript" src="<?php echo get_template_directory_uri();?>/assets/js/slick.js"></script>

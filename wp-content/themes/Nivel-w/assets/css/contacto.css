@@ -110,6 +110,11 @@
     transition: 0.3s ease-in-out;
 }
 
+.close:not(:disabled):not(.disabled){
+    background-color: #fff;
+    padding: 0px 10px;
+}
+
 .videoSolutions .modal-dialog{
     max-width: 790px !important;
 }
@@ -1242,4 +1247,11 @@ cite.fn{
     font-weight: 800;
     font-style: normal;
     text-transform: capitalize;
+}
+#form_contact-form .frm_fields_container > *{
+    grid-column: span 1/ span 1 !important;
+}
+#form_contact-form .frm_combo_inputs_container,#form_contact-form .frm_grid_container, #form_contact-form .frm_form_fields .frm_section_heading,#form_contact-form .frm_form_fields .frm_fields_container{
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr) !important;
 }

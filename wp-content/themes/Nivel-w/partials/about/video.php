@@ -7,7 +7,7 @@
             Nueva presentación
           </p>
           <p class="text-nosotros__mask">
-            SHOWREEL 2018
+            <?php the_field('titulo_video');?>
           </p>
           <div class="main-nosotros__icono--img">
             <img class="icono-video__nosotros" src="<?php echo get_template_directory_uri();?>/assets/img/play.png">
@@ -16,6 +16,7 @@
         </div>
       </div>
     </div>
-    <img class="nosotros-video__img" src="<?php echo get_template_directory_uri();?>/assets/img/imagen-about.png">
+    <video class="nosotros-video__img" src="<?php the_field('video');?>">
+    </video>
   </div>
 </section>
