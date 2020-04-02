@@ -56,7 +56,7 @@
             </a>
 
             <li class="nav-item">
-              <a class="nav-link nav-link__mobile active" href="<?php echo bloginfo('url').'/proyectos';?>">Proyectos</a>
+              <a class="nav-link nav-link__mobile active" href="<?php echo bloginfo('url').'/proyecto';?>">Proyectos</a>
             </li>
             <li class="nav-item">
               <a class="nav-link nav-link__mobile" href="<?php echo bloginfo('url').'/blog';?>">Mapa de inmueble</a>

@@ -32,7 +32,7 @@
 				</div>
 				<ul class="list-menu">
 					<li class="items-menu">
-						<a class="link-enlaces" href="<?php echo bloginfo('url').'/proyectos';?>">
+						<a class="link-enlaces" href="<?php echo bloginfo('url').'/proyecto';?>">
 							Proyectos
 						</a>
 					</li>

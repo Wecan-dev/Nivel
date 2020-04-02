@@ -2342,9 +2342,9 @@ input[type="password"]::placeholder, textarea::placeholder {
 }
 
 .main-details__projects--planos {
-	/* padding-top: 80px; */
+	padding-top: 80px;
 	background-color: #fbfbfb;
-	/* padding-bottom: 80px; */
+	padding-bottom: 80px;
 }
 
 .main-details__projects--planos .slick-dots li button:before {
@@ -2396,6 +2396,13 @@ input[type="password"]::placeholder, textarea::placeholder {
 
 .main-details__planos--img {
 	padding-right: 60px;
+	height: 400px;
+	
+}
+.main-details__planos--img img{
+	height: 100%;
+	width: 100%;
+	object-fit: contain;
 }
 
 .main-details__projects--zona .main-details__descripcion {

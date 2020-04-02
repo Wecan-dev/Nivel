@@ -212,9 +212,189 @@
             endforeach;
           endif; ?>
 
+        <?php // descripcion_zonas ( value )
+          $descripcion_zonas_array = get_field( 'descripcion_zonas' );
+          if ( $descripcion_zonas_array ):
+            foreach ( $descripcion_zonas_array as $descripcion_zonas_item ):?>
+              <?php if( $descripcion_zonas_item == 'Amplio lobby de ingreso'): ?>
+                <div class="main-details__icono">
+                  <div class="main-details__icono--img">
+                    <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/icono-detalle6.png">
+                  </div>
+                  <div class="main-details__icono--text">
+                    <p class="text-icono__projects">
+                    Amplio lobby de ingreso
+                    </p>
+                  </div>
+                </div>
+                <?php else:?>
+
+                <?php
+            endif;
+            endforeach;
+          endif; ?>
+
+
+
+        <?php // descripcion_zonas ( value )
+          $descripcion_zonas_array = get_field( 'descripcion_zonas' );
+          if ( $descripcion_zonas_array ):
+            foreach ( $descripcion_zonas_array as $descripcion_zonas_item ):?>
+              <?php if( $descripcion_zonas_item == 'Solarium con Zona BBQ'): ?>
+                <div class="main-details__icono">
+                  <div class="main-details__icono--img">
+                    <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/icono-detalle6.png">
+                  </div>
+                  <div class="main-details__icono--text">
+                    <p class="text-icono__projects">
+                    Solarium con Zona BBQ
+                    </p>
+                  </div>
+                </div>
+                <?php else:?>
+
+                <?php
+            endif;
+            endforeach;
+          endif; ?>
+
+        <?php // descripcion_zonas ( value )
+          $descripcion_zonas_array = get_field( 'descripcion_zonas' );
+          if ( $descripcion_zonas_array ):
+            foreach ( $descripcion_zonas_array as $descripcion_zonas_item ):?>
+              <?php if( $descripcion_zonas_item == 'Living room con chimenea'): ?>
+                <div class="main-details__icono">
+                  <div class="main-details__icono--img">
+                    <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/icono-detalle6.png">
+                  </div>
+                  <div class="main-details__icono--text">
+                    <p class="text-icono__projects">
+                    Living room con chimenea
+                    </p>
+                  </div>
+                </div>
+                <?php else:?>
+
+                <?php
+            endif;
+            endforeach;
+          endif; ?>
+
+        <?php // descripcion_zonas ( value )
+          $descripcion_zonas_array = get_field( 'descripcion_zonas' );
+          if ( $descripcion_zonas_array ):
+            foreach ( $descripcion_zonas_array as $descripcion_zonas_item ):?>
+              <?php if( $descripcion_zonas_item == 'Juegos infantiles'): ?>
+                <div class="main-details__icono">
+                  <div class="main-details__icono--img">
+                    <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/icono-detalle6.png">
+                  </div>
+                  <div class="main-details__icono--text">
+                    <p class="text-icono__projects">
+                    Juegos infantiles
+                    </p>
+                  </div>
+                </div>
+                <?php else:?>
+
+                <?php
+            endif;
+            endforeach;
+          endif; ?>
+
+        <?php // descripcion_zonas ( value )
+          $descripcion_zonas_array = get_field( 'descripcion_zonas' );
+          if ( $descripcion_zonas_array ):
+            foreach ( $descripcion_zonas_array as $descripcion_zonas_item ):?>
+              <?php if( $descripcion_zonas_item == 'Gimnasio completamente dotado'): ?>
+                <div class="main-details__icono">
+                  <div class="main-details__icono--img">
+                    <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/icono-detalle6.png">
+                  </div>
+                  <div class="main-details__icono--text">
+                    <p class="text-icono__projects">
+                    Gimnasio completamente dotado
+                    </p>
+                  </div>
+                </div>
+                <?php else:?>
+
+                <?php
+            endif;
+            endforeach;
+          endif; ?>
+
+        <?php // descripcion_zonas ( value )
+          $descripcion_zonas_array = get_field( 'descripcion_zonas' );
+          if ( $descripcion_zonas_array ):
+            foreach ( $descripcion_zonas_array as $descripcion_zonas_item ):?>
+              <?php if( $descripcion_zonas_item == 'Jacuzzi con hidromasajes'): ?>
+                <div class="main-details__icono">
+                  <div class="main-details__icono--img">
+                    <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/icono-detalle6.png">
+                  </div>
+                  <div class="main-details__icono--text">
+                    <p class="text-icono__projects">
+                    Jacuzzi con hidromasajes
+                    </p>
+                  </div>
+                </div>
+                <?php else:?>
+
+                <?php
+            endif;
+            endforeach;
+          endif; ?>
+
+        <?php // descripcion_zonas ( value )
+          $descripcion_zonas_array = get_field( 'descripcion_zonas' );
+          if ( $descripcion_zonas_array ):
+            foreach ( $descripcion_zonas_array as $descripcion_zonas_item ):?>
+              <?php if( $descripcion_zonas_item == 'Parqueadero de bicicletas'): ?>
+                <div class="main-details__icono">
+                  <div class="main-details__icono--img">
+                    <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/icono-detalle6.png">
+                  </div>
+                  <div class="main-details__icono--text">
+                    <p class="text-icono__projects">
+                    Parqueadero de bicicletas
+                    </p>
+                  </div>
+                </div>
+                <?php else:?>
+
+                <?php
+            endif;
+            endforeach;
+          endif; ?>
+
+        <?php // descripcion_zonas ( value )
+          $descripcion_zonas_array = get_field( 'descripcion_zonas' );
+          if ( $descripcion_zonas_array ):
+            foreach ( $descripcion_zonas_array as $descripcion_zonas_item ):?>
+              <?php if( $descripcion_zonas_item == 'Salón social'): ?>
+                <div class="main-details__icono">
+                  <div class="main-details__icono--img">
+                    <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/icono-detalle6.png">
+                  </div>
+                  <div class="main-details__icono--text">
+                    <p class="text-icono__projects">
+                    Salón social
+                    </p>
+                  </div>
+                </div>
+                <?php else:?>
+
+                <?php
+            endif;
+            endforeach;
+          endif; ?>
+
+
+
           <?php if(get_field('cargar_pdf')): ?>
             <div class="main-details__video--buttom">
-              <a class="btn_custom btn--medium btn--filled2" href="<?php the_field('cargar_pdf') ?>">
+              <a class="btn_custom btn--medium btn--filled2" target="_blank" href="<?php the_field('cargar_pdf') ?>">
                 VER PRESENTACIÓN
               </a>
             </div>
