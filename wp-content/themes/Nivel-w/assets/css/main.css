@@ -2321,6 +2321,17 @@ input[type="password"]::placeholder, textarea::placeholder {
 	letter-spacing: 0.35px
 }
 
+.main-details__icono--text p{
+	margin-bottom: 0rem;
+	font-family: 'Helvetica';
+	font-size: 14px;
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.69;
+	letter-spacing: 0.35px
+}
+
 .text-icono__projects2 {
 	margin-bottom: 0rem;
 	font-size: 14px;

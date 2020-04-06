@@ -11,7 +11,7 @@
             </div>
             <div class="main-details__planos-text">
               <h1 class="title-nivel2--line  title-nivel2--line-initial">
-                <strong> <?php the_field('titulo_del_plano') ?></strong>
+                <strong> PLANOS</strong>
               </h1>
               <p class="details-planos__text">
                 <?php the_field('descripcion_del_plano'); ?>

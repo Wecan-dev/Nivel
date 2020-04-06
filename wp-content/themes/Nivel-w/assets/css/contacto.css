@@ -1255,3 +1255,7 @@ cite.fn{
     display: grid !important;
     grid-template-columns: repeat(2, 1fr) !important;
 }
+
+.frm_message p {
+    color: #fff !important;
+}
