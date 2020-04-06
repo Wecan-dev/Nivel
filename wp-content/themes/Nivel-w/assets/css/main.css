@@ -465,8 +465,8 @@ a {
 }
 
 .main-welcome {
-	padding-bottom: 50px;
-	padding-top: 50px;
+	padding-bottom: 70px;
+	padding-top: 70px;
 	background-image: url(../img/image_22.png);
 }
 
@@ -498,6 +498,7 @@ a {
 	margin-bottom: 25px;
 	text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 	letter-spacing: 1px;
+	font-size: 3rem;
 }
 
 .palabra-nivel {
@@ -520,6 +521,14 @@ a {
 .slick-slide:nth-child(2n+1) .main-about-card__body {
 	top: 0;
 	bottom: initial;
+}
+
+.slick-slide:nth-child(2n+1) .main-about__img .main-about__icono{
+	margin-top: 8rem;
+}
+
+.slick-slide:nth-child(even) .main-about__img .main-about__icono{
+	margin-top: -7rem;
 }
 
 .main-about-card__body {
@@ -726,15 +735,15 @@ a {
 
 .icono-mask {
 	margin-bottom: 1rem;
-	width: 3rem;
-	height: 3rem;
+	/*width: 3rem;
+	height: 3rem;*/
 	object-fit: contain;
 }
 
 .main-about__icono {
-	margin-top: 4rem;
+	/*margin-top: 4rem;
 	width: 3rem;
-	height: 3rem;
+	height: 3rem;*/
 	object-fit: contain;
 }
 
@@ -929,6 +938,7 @@ a {
 	letter-spacing: 1px;
 	margin-bottom: 25px;
 	text-transform: uppercase;
+	font-size: 3rem;
 }
 
 .title-nivel2--line strong {
@@ -983,13 +993,14 @@ a {
 
 .img-video {
 	width: 100%;
-	max-height: 450px;
+	max-height: 550px;
 
 }
 
 .main-video__img {
 	display: flex;
 	justify-content: center;
+	width: 85%;
 }
 
 .main-video__items {
@@ -1014,19 +1025,19 @@ a {
 
 
 .main-video__content .slick-next {
-	left: 100% !important;
+	left: 95% !important;
 }
 
 .main-video__content .slick-next:hover {
-	left: 99% !important;
+	left: 97% !important;
 }
 
 .main-video__content .slick-prev {
-	right: 95% !important;
+	right: 90% !important;
 }
 
 .main-video__content .slick-prev:hover {
-	right: 94% !important;
+	right: 92% !important;
 }
 
 
@@ -1757,6 +1768,7 @@ strong {
 .main-blog__img {
 	overflow: hidden;
 	transition: all 500ms ease;
+	height: 350px;
 }
 
 .main-blog__img:hover .img-blog {
@@ -1768,7 +1780,7 @@ strong {
 
 .img-blog {
 	transition: all 500ms ease;
-
+	height: 100%;
 	width: 100%;
 }
 
@@ -1815,7 +1827,7 @@ strong {
 .text-blog {
 	margin-bottom: 0rem !important;
 	color: #000 !important;
-	font-size: 19px !important;
+	font-size: 21px !important;
 	font-style: italic !important;
 	transition: all 500ms ease !important;
 	font-weight: 600 !important;

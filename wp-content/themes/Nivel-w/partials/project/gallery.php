@@ -1,5 +1,5 @@
-<section class="main-details__galeria ">
-  <?php if(get_field('agregar_galeria') == 1): ?>
+<?php if(get_field('agregar_galeria') == 1): ?>
+  <section class="main-details__galeria ">
     <div class="container">
       <div class="main-details__galeria--title">
         <h1 class="title-nivel2--line title-nivel2--line-initial">
@@ -60,7 +60,8 @@
         <?php endif ?>
       </div>
     </div>
-  <?php else: ?>
+  
+  </section>
+<?php else: ?>
 
-  <?php endif ?>
-</section>
+<?php endif ?>

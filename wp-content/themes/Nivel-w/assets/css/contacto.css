@@ -1024,7 +1024,7 @@ input.input-search::placeholder {
     font-stretch: normal;
     font-style: normal;
     line-height: normal;
-    margin-right: 25px;
+    margin-right: 50px;
 }
 .slider-prueba .slick-dots{
     border-bottom: 2px solid rgba(0, 0, 0, .1);
@@ -1061,16 +1061,16 @@ input.input-search::placeholder {
 }
 .slider-prueba .slick-dots li:nth-child(1):before{
     bottom: -15px;
-    right: -25px;
+    right: -35px;
 }
 
 .slider-prueba .slick-dots li:nth-child(2):before{
     bottom: -15px;
-    right: -20px;
+    right: -33px;
 }
 .slider-prueba .slick-dots li:nth-child(3):before{
     bottom: -15px;
-    right: -45px;
+    right: -60px;
 }
 .slider-prueba .slick-dots li:nth-child(4):before{
     display: none;

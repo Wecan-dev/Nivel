@@ -1,5 +1,6 @@
-<section class="main-details__projects--avance">
-  <?php if(get_field('agregar_avances') == 1): ?>
+<?php if(get_field('agregar_avances') == 1): ?>
+  <section class="main-details__projects--avance">
+ 
     <div class="main-details__projects--content">
       <div class="main-details__descripcion">
         <div class="main-details__projects--title">
@@ -78,7 +79,8 @@
         </div>
       </div>
     </div>
-  <?php else: ?>
-          
-  <?php endif ?>
+  
 </section>
+<?php else: ?>
+          
+<?php endif ?>

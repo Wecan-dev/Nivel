@@ -6,7 +6,7 @@
   </div>
   <div class="main-nivel__title ">
     <h1 class="title-nivel2--line">
-      <strong> NUESTROS</strong> BLOG
+      <strong> NUESTRO</strong> BLOG
     </h1>
   </div>
   <div class="main-blog__content">

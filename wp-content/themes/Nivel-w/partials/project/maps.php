@@ -1,5 +1,5 @@
-<section class="main-details__projects--planos ">
-  <?php if(get_field('planos') == 1): ?>
+<?php if(get_field('planos') == 1): ?>
+  <section class="main-details__projects--planos ">
     <div class="container">
       <div class="main-details__planos--content">
         <?php if(get_field('imagen_del_plano')): ?>
@@ -30,7 +30,7 @@
             </div>
             <div class="main-details__planos-text">
               <h1 class="title-nivel2--line  title-nivel2--line-initial">
-                <strong> <?php the_field('titulo_del_plano') ?></strong>
+                <strong> PLANOS</strong>
               </h1>
               <p class="details-planos__text">
                 <?php the_field('descripcion_del_plano'); ?>
@@ -50,7 +50,7 @@
             </div>
             <div class="main-details__planos-text">
               <h1 class="title-nivel2--line  title-nivel2--line-initial">
-                <strong> <?php the_field('titulo_del_plano') ?></strong>
+                <strong> PLANOS</strong>
               </h1>
               <p class="details-planos__text">
                 <?php the_field('descripcion_del_plano'); ?>
@@ -70,7 +70,7 @@
             </div>
             <div class="main-details__planos-text">
               <h1 class="title-nivel2--line  title-nivel2--line-initial">
-                <strong> <?php the_field('titulo_del_plano') ?></strong>
+               <strong> PLANOS</strong>
               </h1>
               <p class="details-planos__text">
                 <?php the_field('descripcion_del_plano'); ?>
@@ -82,7 +82,7 @@
         <?php endif; ?>
       </div>
     </div>
-  <?php else: ?>
+  </section>
+<?php else: ?>
       
-  <?php endif; ?>
-</section>
+<?php endif; ?>
