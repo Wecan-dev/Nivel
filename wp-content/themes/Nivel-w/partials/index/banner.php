@@ -6,8 +6,9 @@
       <div class="main-banner__item">
         <div class="mask">
           <div class="main-banner__boxtext container">
-            <div class="main-banner__palabra">
-              <p>CERCA</p>
+            <div class="main-banner__palabra main-banner__palabra--contacto">
+              <p>cerca</p>
+              <p>nía</p>
             </div>
             <div class="main-banner__text">
 
