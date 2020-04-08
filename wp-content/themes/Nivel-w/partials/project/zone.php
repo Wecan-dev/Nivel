@@ -1308,6 +1308,56 @@
           <?php else: ?>
           
           <?php endif ?>
+
+          <?php if(get_field('imagen_zona_4')): ?>
+            <div class="main-details__slick--items">
+              <div class="main-details__slick--img">
+                <img class="details-slick__img" src="<?php the_field('imagen_zona_4');?>">
+              </div>
+            </div>
+          <?php else: ?>
+          
+          <?php endif ?>
+
+          <?php if(get_field('imagen_zona_5')): ?>
+            <div class="main-details__slick--items">
+              <div class="main-details__slick--img">
+                <img class="details-slick__img" src="<?php the_field('imagen_zona_5');?>">
+              </div>
+            </div>
+          <?php else: ?>
+          
+          <?php endif ?>
+
+          <?php if(get_field('imagen_zona_6')): ?>
+            <div class="main-details__slick--items">
+              <div class="main-details__slick--img">
+                <img class="details-slick__img" src="<?php the_field('imagen_zona_6');?>">
+              </div>
+            </div>
+          <?php else: ?>
+          
+          <?php endif ?>
+
+          <?php if(get_field('imagen_zona_7')): ?>
+            <div class="main-details__slick--items">
+              <div class="main-details__slick--img">
+                <img class="details-slick__img" src="<?php the_field('imagen_zona_7');?>">
+              </div>
+            </div>
+          <?php else: ?>
+          
+          <?php endif ?>
+
+          <?php if(get_field('imagen_zona_8')): ?>
+            <div class="main-details__slick--items">
+              <div class="main-details__slick--img">
+                <img class="details-slick__img" src="<?php the_field('imagen_zona_8');?>">
+              </div>
+            </div>
+          <?php else: ?>
+          
+          <?php endif ?>
         </div>
       </div>
     </div>

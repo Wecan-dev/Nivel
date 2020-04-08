@@ -21,7 +21,7 @@
     <div class="main-details__video--card">
       <div class="details-video__img">
 
-        <img class="details-video__logo" src="<?php echo get_template_directory_uri();?>/assets/img/logo-projects.png">
+        <img class="details-video__logo" src="<?php the_field('logo_de_ubicacion') ?>">
       </div>
       <div class="details-video__body">
         <div class="main-details__video--title">

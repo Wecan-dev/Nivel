@@ -58,6 +58,36 @@
         <?php else: ?>
 
         <?php endif ?>
+
+        <?php if(get_field('imagen_galeria_6')): ?>
+          <div class="main-details__galeria--items">
+            <div class="main-details__galeria--img">
+              <img class="details-galeria__img" src="<?php the_field('imagen_galeria_6');?>">
+            </div>
+          </div>
+        <?php else: ?>
+
+        <?php endif ?>
+
+        <?php if(get_field('imagen_galeria_7')): ?>
+          <div class="main-details__galeria--items">
+            <div class="main-details__galeria--img">
+              <img class="details-galeria__img" src="<?php the_field('imagen_galeria_7');?>">
+            </div>
+          </div>
+        <?php else: ?>
+
+        <?php endif ?>
+
+        <?php if(get_field('imagen_galeria_8')): ?>
+          <div class="main-details__galeria--items">
+            <div class="main-details__galeria--img">
+              <img class="details-galeria__img" src="<?php the_field('imagen_galeria_8');?>">
+            </div>
+          </div>
+        <?php else: ?>
+
+        <?php endif ?>
       </div>
     </div>
   

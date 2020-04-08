@@ -2458,7 +2458,8 @@ input[type="password"]::placeholder, textarea::placeholder {
 }
 
 .main-details__planos--items {
-	display: flex !important;
+	display: grid !important;
+	grid-template-columns: 1fr 1fr;
 }
 
 .main-details__projects--planos {
