@@ -1,4 +1,4 @@
-<section class="main-details__projects--zona ">
+<section class="main-details__projects--zona mt-4 ">
   <?php if(get_field('zonas_comunes') == 1): ?>
     <div class="main-details__projects--content">
       <div class="main-details__descripcion">

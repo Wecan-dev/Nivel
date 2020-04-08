@@ -133,7 +133,7 @@
     font-size: 35px !important;
 }
 .main-banner__palabra--contacto {
-    top: 120px;
+    top: 160px;
     right: -150px;
 }
 
@@ -153,7 +153,7 @@
 .main-contactform__content {
     display: grid;
     grid-template-columns: 30% 70%;
-    grid-gap: 30px;
+    grid-gap: 10px;
 }
 
 .main-contactform__ul {
@@ -174,7 +174,7 @@
 .main-contactform__ul li a {
     font-family: 'Helvetica';
     font-family: Helvetica;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 300;
     font-stretch: normal;
     font-style: normal;
@@ -198,7 +198,7 @@
 
 .main-contactform__box {
     background-color: #212121;
-    padding: 60px 70px;
+    padding: 20px 60px 40px 60px;
 }
 
 .main-contactform__box h2 {

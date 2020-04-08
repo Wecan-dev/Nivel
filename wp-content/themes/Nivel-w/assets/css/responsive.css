@@ -7,6 +7,10 @@
         right: 0;
         top: 385px;
     }
+    .main-brand {
+    margin-left: 0px;
+    }
+
 
     .main-banner .mask .main-banner__palabra p {
         font-size: 75px;
