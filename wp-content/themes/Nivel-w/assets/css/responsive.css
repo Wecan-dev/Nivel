@@ -1,5 +1,8 @@
 @media (min-width: 0px) and (max-width: 767px) {
     /* HOME*/
+    html{
+        margin-top: 0px !important;
+    }
     .main-proyectos__card{
         padding-left: 20px;
     }
@@ -92,7 +95,7 @@
         text-align: left;
     }
     .main-proyectos__items{
-        padding-top: 125px;
+        padding-top: 170px;
     }
     .slider-prueba .slick-dots{
         height: 100px;
@@ -132,16 +135,16 @@
 
     .main-proyectos__content .slick-next,
     .main-proyectos__content .slick-prev {
-        bottom: 0px !important;
+        top: 130px !important;
     }
 
     .main-proyectos__content .slick-next {
-        left: 55% !important;
+        left: 25% !important;
 
     }
 
     .main-proyectos__content .slick-prev {
-        right: 35% !important;
+        right: 62% !important;
     }
 
     .main-proyectos__content .slick-next:hover {
@@ -368,6 +371,32 @@
         padding: 2rem;
         justify-content: center;
     }
+    #form_contact-form .frm_combo_inputs_container, #form_contact-form .frm_grid_container, #form_contact-form .frm_form_fields .frm_section_heading, #form_contact-form .frm_form_fields .frm_fields_container{
+            display: grid !important;
+    grid-template-columns: 1fr!important;
+    }
+    .container-contacto{
+        padding: 20px;
+        grid-gap: 0px;
+    }
+    .slider-prueba .slick-dots li,.slider-prueba .slick-dots li.slick-active:after{
+        font-size: 14px;
+    }
+    .slider-prueba .slick-dots li{
+        width: 110px;
+        margin-right: 30px;
+    }
+    .slider-prueba .slick-dots li:before{
+        display: none;
+    }
+    .slider-prueba .slick-dots:after{
+        width: 100%;
+    left: 0px;
+    bottom: -10px;
+    }
+    .main-proyectos__img{
+        display: none;
+    }
 }
 
 
@@ -375,12 +404,18 @@
 @media (min-width: 768px) and (max-width: 991px) {
     /* HOME*/
 
+    .main-banner .mask .main-banner__text .main-banner__title p, .main-banner .mask .main-banner__text .main-banner__title h1, .main-banner .mask .main-banner__text .main-banner__title h2, .main-banner .mask .main-banner__text .main-banner__title h3, .main-banner .mask .main-banner__text .main-banner__title h4, .main-banner .mask .main-banner__text .main-banner__title h5, .main-banner .mask .main-banner__text .main-banner__title h6{
+        font-size: 55px;
+    }
+
     .main-banner__title {
         width: 100%;
         display: flex;
         /* justify-content: center; */
     }
-
+    .main-brand{
+        margin-left: 0;
+    }
     .main-banner__palabra {
         right: -50px;
     }
@@ -416,7 +451,10 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-
+    .main-about__counter{
+        right: 0;
+        font-size: 35px;
+    }
     textarea {
         width: 100% !important;
     }
@@ -572,11 +610,27 @@
 
 
 
-@media (min-width: 992px) and (max-width: 1024px) {
+@media (min-width: 992px) and (max-width: 1199px) {
+    .main-banner .mask .main-banner__text .main-banner__title p, .main-banner .mask .main-banner__text .main-banner__title h1, .main-banner .mask .main-banner__text .main-banner__title h2, .main-banner .mask .main-banner__text .main-banner__title h3, .main-banner .mask .main-banner__text .main-banner__title h4, .main-banner .mask .main-banner__text .main-banner__title h5, .main-banner .mask .main-banner__text .main-banner__title h6{
+        font-size: 55px;
+    }
+    .main-banner .mask .main-banner__palabra p{
+        font-size: 170px;
+    }
     .service-steps__grid {
         gap: 2rem;
         padding-left: 3rem;
         padding-right: 3rem;
+    }
+    .main-proyectos__img--hidden{
+        width: 100%;
+    }
+    .video-bg__text{
+        right: 190px;
+    }
+    .main-about__counter{
+        right: 0;
+        font-size: 35px;
     }
 
     .invert-detail {
@@ -594,5 +648,77 @@
 
     .invert-steps__item:nth-child(1) .invert-steps__title--small {
         padding-top: 4rem;
+    }
+}
+
+
+@media (min-width: 1440px) and (max-height: 900px) {
+    .navbar-brand{
+        width: 115px;
+    }
+    .nav-item{
+        padding-top: 35px;
+    }
+    .offcanvas-collapse{
+        height: 80%;
+    }
+    .main-banner .mask .main-banner__palabra p{
+        font-size: 300px;
+    }
+    .main-banner__title.main-banner__title--home{
+        width: 45%;
+    }
+    .main-banner .mask .main-banner__text .main-banner__title p, .main-banner .mask .main-banner__text .main-banner__title h1, .main-banner .mask .main-banner__text .main-banner__title h2, .main-banner .mask .main-banner__text .main-banner__title h3, .main-banner .mask .main-banner__text .main-banner__title h4, .main-banner .mask .main-banner__text .main-banner__title h5, .main-banner .mask .main-banner__text .main-banner__title h6{
+            font-size: 90px;
+    }
+    .main-banner__palabra--contacto{
+        top: 220px;
+         right: -215px;
+    }
+    .main-brand{
+        margin-left: -50px;
+    }
+    .main-banner .mask .main-banner__text{
+        padding-left: 0px;
+    }
+    .title-nivel{
+        font-size: 4.2rem;
+    }
+    .title-welcome{
+            font-size: 45px;
+    }
+    .title-nivel2--line{
+        font-size: 4.2rem;
+    }
+    .container-prueba{
+        height: 80vh;
+    }
+    .video-bg__text{
+        right: 300px;
+    }
+   
+    .main-banner__palabra--contacto p:nth-child(2){
+            top: 195px;
+            right: 75px;
+    }
+    .video-bg__text{
+        padding-left: 50px;
+    }
+    .main-banner__title.main-banner__title--full p {
+        font-size: 105px !important;
+    }
+    .main-banner__palabra.main-banner__palabra--contacto.main-banner__palabra--full {
+        top: 240px !important;
+        right: -160px !important;
+    }
+    .main-banner__palabra.main-banner__palabra--contacto.main-banner__palabra--full p{
+        font-size: 300px !important;
+    }
+    .main-banner__palabra--contacto.main-banner__palabra--full p:nth-child(2){
+        font-size: 110px !important;
+            right: 10px !important;
+    }
+    .main-general__description p, .main-details__video--text p{
+            font-size: 18px;
     }
 }

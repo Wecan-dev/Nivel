@@ -1,114 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
 @font-face {
-	font-family: 'Oswald';
-	src: url('../fonts/Oswald-Regular.woff2') format('woff2'),
-		url('../fonts/Oswald-Regular.woff') format('woff');
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'Oswald';
+    src: url('../fonts/Oswald-Demi-BoldItalic.woff2') format('woff2'),
+        url('../fonts/Oswald-Demi-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
 }
 
 @font-face {
-	font-family: 'Oswald';
-	src: url('../fonts/Oswald-Bold.woff2') format('woff2'),
-		url('../fonts/Oswald-Bold.woff') format('woff');
-	font-weight: bold;
-	font-style: normal;
+    font-family: 'Oswald';
+    src: url('../fonts/Oswald-Bold.woff2') format('woff2'),
+        url('../fonts/Oswald-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
 }
 
 @font-face {
-	font-family: 'Oswald';
-	src: url('../fonts/Oswald-SemiBold.woff2') format('woff2'),
-		url('../fonts/Oswald-SemiBold.woff') format('woff');
-	font-weight: 600;
-	font-style: normal;
+    font-family: 'Oswald';
+    src: url('../fonts/Oswald-HeavyItalic.woff2') format('woff2'),
+        url('../fonts/Oswald-HeavyItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
 }
 
 @font-face {
-	font-family: 'Oswald';
-	src: url('../fonts/Oswald-ExtraLight.woff2') format('woff2'),
-		url('../fonts/Oswald-ExtraLight.woff') format('woff');
-	font-weight: 200;
-	font-style: normal;
+    font-family: 'Oswald';
+    src: url('../fonts/Oswald-Light.woff2') format('woff2'),
+        url('../fonts/Oswald-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
 }
 
 @font-face {
-	font-family: 'Oswald';
-	src: url('../fonts/Oswald-Light.woff2') format('woff2'),
-		url('../fonts/Oswald-Light.woff') format('woff');
-	font-weight: 300;
-	font-style: normal;
+    font-family: 'Oswald';
+    src: url('../fonts/Oswald-Extra-LightItalic.woff2') format('woff2'),
+        url('../fonts/Oswald-Extra-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
 }
 
 @font-face {
-	font-family: 'Oswald';
-	src: url('../fonts/Oswald-Medium.woff2') format('woff2'),
-		url('../fonts/Oswald-Medium.woff') format('woff');
-	font-weight: 500;
-	font-style: normal;
+    font-family: 'Oswald';
+    src: url('../fonts/Oswald-Heavy.woff2') format('woff2'),
+        url('../fonts/Oswald-Heavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
 }
 
 @font-face {
-	font-family: 'Helvetica';
-	src: url('../fonts/Helvetica-BoldOblique.woff2') format('woff2'),
-		url('Helvetica-BoldOblique.woff') format('woff');
-	font-weight: bold;
-	font-style: italic;
+    font-family: 'Oswald';
+    src: url('../fonts/Oswald-BoldItalic.woff2') format('woff2'),
+        url('../fonts/Oswald-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
 }
 
 @font-face {
-	font-family: 'Helvetica';
-	src: url('../fonts/Helvetica.woff2') format('woff2'),
-		url('Helvetica.woff') format('woff');
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'Oswald';
+    src: url('../fonts/Oswald-LightItalic.woff2') format('woff2'),
+        url('../fonts/Oswald-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
 }
 
 @font-face {
-	font-family: 'Helvetica';
-	src: url('../fonts/Helvetica-Oblique.woff2') format('woff2'),
-		url('Helvetica-Oblique.woff') format('woff');
-	font-weight: normal;
-	font-style: italic;
+    font-family: 'Oswald';
+    src: url('../fonts/Oswald-Bold.woff2') format('woff2'),
+        url('../fonts/Oswald-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Oswald';
+    src: url('../fonts/Oswald-Medium.woff2') format('woff2'),
+        url('../fonts/Oswald-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+
+@font-face {
+    font-family: 'Oswald';
+    src: url('../fonts/Oswald-DemiBold.woff2') format('woff2'),
+        url('../fonts/Oswald-DemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
 }
 
 @font-face {
-	font-family: 'Helvetica';
-	src: url('../fonts/Helvetica-Bold.woff2') format('woff2'),
-		url('Helvetica-Bold.woff') format('woff');
-	font-weight: bold;
-	font-style: normal;
+    font-family: 'Oswald';
+    src: url('../fonts/Oswald-ExtraLight.woff2') format('woff2'),
+        url('../fonts/Oswald-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
 }
 
 @font-face {
-	font-family: 'Helvetica';
-	src: url('../fonts/Helvetica-Light.woff2') format('woff2'),
-		url('Helvetica-Light.woff') format('woff');
-	font-weight: 300;
-	font-style: normal;
+    font-family: 'Oswald';
+    src: url('../fonts/Oswald-Regular.woff2') format('woff2'),
+        url('../fonts/Oswald-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+@font-face {
+    font-family: 'Helvetica 65';
+    src: url('../fonts/HelveticaNeue-Medium.woff2') format('woff2'),
+        url('../fonts/HelveticaNeue-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
 }
 
 @font-face {
-	font-family: 'Helvetica';
-	src: url('../fonts/HelveticaRounded-Bold.woff2') format('woff2'),
-		url('HelveticaRounded-Bold.woff') format('woff');
-	font-weight: bold;
-	font-style: normal;
+    font-family: 'Helvetica 45';
+    src: url('../fonts/HelveticaNeue-LightItalic.woff2') format('woff2'),
+        url('../fonts/HelveticaNeue-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
 }
 
 @font-face {
-	font-family: 'Helvetica';
-	src: url('../fonts/Helvetica-Compressed.woff2') format('woff2'),
-		url('Helvetica-Compressed.woff') format('woff');
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'Helvetica 35';
+    src: url('../fonts/HelveticaNeue-ThinItalic.woff2') format('woff2'),
+        url('../fonts/HelveticaNeue-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
 }
 
 @font-face {
-	font-family: 'Lato';
-	src: url('../fonts/Lato-Regular.woff2') format('woff2'),
-		url('../fonts/Lato-Regular.woff') format('woff');
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'Helvetica 25';
+    src: url('../fonts/HelveticaNeue-UltraLightItal.woff2') format('woff2'),
+        url('../fonts/HelveticaNeue-UltraLightItal.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
 }
+
+@font-face {
+    font-family: 'Helvetica 35';
+    src: url('../fonts/HelveticaNeue-Thin.woff2') format('woff2'),
+        url('../fonts/HelveticaNeue-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica 55 Roman';
+    src: url('../fonts/HelveticaNeue-Italic.woff2') format('woff2'),
+        url('../fonts/HelveticaNeue-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Helvetica 55 Roman';
+    src: url('../fonts/HelveticaNeue-Roman.woff2') format('woff2'),
+        url('../fonts/HelveticaNeue-Roman.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica 25';
+    src: url('../fonts/HelveticaNeue-UltraLight.woff2') format('woff2'),
+        url('../fonts/HelveticaNeue-UltraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica 45';
+    src: url('../fonts/HelveticaNeue-Light.woff2') format('woff2'),
+        url('../fonts/HelveticaNeue-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato-Regular.woff2') format('woff2'),
+        url('../fonts/Lato-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 
 
@@ -143,10 +219,10 @@ section {
 }
 
 .main-general__description {
-	font-size: 16px;
+	font-size: 17px;
 	line-height: 25px;
 	letter-spacing: 0.55px;
-	font-family: 'Helvetica';
+	font-family: 'Helvetica 45';
 	font-weight: 300;
 	font-stretch: normal;
 	font-style: normal;
@@ -158,7 +234,7 @@ section {
 	font-size: 16px;
 	line-height: 25px;
 	letter-spacing: 0.55px;
-	font-family: 'Helvetica';
+	font-family: 'Helvetica 45';
 	font-weight: 300;
 	font-stretch: normal;
 	font-style: normal;
@@ -253,11 +329,15 @@ button:focus {
 .btn--filled2 {
 	background-color: #d71f26;
 	color: white;
-	padding: 10px 35px;
+	padding: 10px 35px !important;
 	border: 1px solid #d71f26;
 	font-size: 18px;
-	font-family: Helvetica;
-	text-transform: normal !important;
+	font-family: 'Oswald';
+    font-weight: 800 !important;
+    text-transform: none !important;
+}
+.btn--filled2.fonts{
+	font-family: 'Helvetica 45' !important;
 }
 
 .btn--filled2:hover {
@@ -289,12 +369,15 @@ button:focus {
 
 .main-logo__collapse {
 	margin-bottom: 30px;
+	display: flex;
+	width: 100%;
+	justify-content: center;
 }
 
 .nav-item {
 	border-top: 1px solid #fff;
 	padding-bottom: 0px;
-	padding-top: 13px;
+	padding-top: 25px;
 }
 
 .nav-item:first-child {
@@ -316,7 +399,7 @@ button:focus {
 }
 
 .main-banner__angle-down {
-	bottom: 5%;
+	bottom: 7%;
 	transition: 0.3s ease-in-out;
 	width: 100%;
 	display: flex;
@@ -344,9 +427,7 @@ button:focus {
 	text-transform: uppercase;
 }
 
-.main-banner .main-banner__item {
-	position: relative;
-}
+
 
 .main-banner .mask {
 	position: absolute;
@@ -368,7 +449,8 @@ button:focus {
 
 .main-banner .mask .main-banner__text {
 	width: 100%;
-	padding-left: 50px;
+	padding-left: 35px;
+    padding-top: 50px;
 }
 
 .main-banner .main-banner__img {
@@ -419,13 +501,16 @@ a {
 .main-banner .mask .main-banner__text .main-banner__title h4,
 .main-banner .mask .main-banner__text .main-banner__title h5,
 .main-banner .mask .main-banner__text .main-banner__title h6 {
-	font-size: 75px;
-	color: white;
-	font-weight: 500;
-	text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-	line-height: 1.17;
-	letter-spacing: 2px;
 	text-transform: uppercase;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    font-family: Oswald;
+    font-size: 75px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.17;
+    letter-spacing: 0.68px;
+    color: #ffffff;
 }
 
 .main-banner__title p strong,
@@ -437,18 +522,18 @@ a {
 .main-banner__title h6 strong,
 .letra-color{
 	color: #d71f26 !important;
-	font-weight: 500;
+	font-weight: 600;
 }
 
 .main-banner .mask .main-banner__palabra p {
 
 	color: #9b9b9b00;
-	font-size: 190px;
+	font-size: 230px;
 	font-weight: bold;
 	letter-spacing: 20px;
 	-webkit-text-stroke: 0.7px #9b9b9b;
 	text-transform: uppercase;
-
+	letter-spacing: 15px;
 
 }
 
@@ -456,15 +541,24 @@ a {
 	position: absolute;
 	top: 70px;
 	right: -130px;
+
 }
 
 
 
 .main-brand {
 	display: flex;
-	margin-left: -40px;
+	margin-left: -25px;
+	
 }
-
+.navbar-brand{
+	margin-top: 5px;
+	width: 95px;
+}
+.navbar-brand img{
+	width: 100%;
+	height: 100%;
+}
 .main-welcome {
 	padding-bottom: 70px;
 	padding-top: 70px;
@@ -478,10 +572,11 @@ a {
 
 .title-welcome {
 	font-size: 40px;
-	font-weight: 500;
+	font-weight: 600;
 	margin-bottom: 0rem;
 	letter-spacing: 10px;
 	text-transform: uppercase;
+	text-align: center;
 }
 
 .main-about__buttom a {
@@ -495,15 +590,22 @@ a {
 
 .title-nivel {
 	color: white;
-	font-weight: 800;
 	margin-bottom: 25px;
 	text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-	letter-spacing: 1px;
-	font-size: 3rem;
+	font-size: 3.2rem;
+
+	font-family: Oswald;
+	  font-weight: bold;
+	  font-stretch: normal;
+	  font-style: normal;
+	  line-height: normal;
+	  letter-spacing: 1.79px;
+	  color: #ffffff;
 }
 
 .palabra-nivel {
 	font-weight: 300;
+	letter-spacing: 2.07px;
 }
 
 .main-about__title {
@@ -571,7 +673,7 @@ a {
 	margin-bottom: 5px;
 	font-family: 'Oswald';
 	font-size: 20px;
-	font-weight: 500;
+	font-weight: 600;
 	font-stretch: normal;
 	font-style: normal;
 	line-height: normal;
@@ -592,7 +694,7 @@ a {
 .main-about__bg {
 	overflow: hidden;
 	background: #222222;
-	padding: 190px;
+	padding: 195px;
 	position: absolute;
 	width: 100%;
 	z-index: -1;
@@ -617,8 +719,8 @@ a {
 
 .main-about__bg--icono {
 	position: absolute;
-	top: 91px;
-	left: 84px;
+	top: 100px;
+    left: 80px;
 }
 
 .img-icono__bg {
@@ -658,8 +760,14 @@ a {
 	font-size: 20px;
 	transition: all 500ms ease;
 	text-transform: uppercase;
-
+	font-weight: 600;
 }
+
+.about-title__icono:hover,.about-title__icono:focus{
+	color:#fff;
+	outline: none !important;
+}
+
 .main-about__icono--text p{
 	color: white;
     font-size: 16px;
@@ -930,16 +1038,17 @@ a {
 }
 
 .main-about-card__title{
-	width: 70%;
+	width: 50%;
 }
 
 .title-nivel2--line {
 	color: black;
-	font-weight: 300;
+	font-weight: 200;
 	letter-spacing: 1px;
 	margin-bottom: 25px;
 	text-transform: uppercase;
-	font-size: 3rem;
+	font-size: 3.2rem;
+
 }
 
 .title-nivel2--line strong {
@@ -994,7 +1103,7 @@ a {
 
 .img-video {
 	width: 100%;
-	max-height: 550px;
+	max-height: 530px;
 
 }
 
@@ -1029,19 +1138,19 @@ a {
 
 
 .main-video__content .slick-next {
-	left: 95% !important;
+	left: 94% !important;
 }
 
 .main-video__content .slick-next:hover {
-	left: 97% !important;
+	left: 96% !important;
 }
 
 .main-video__content .slick-prev {
-	right: 90% !important;
+	right: 89% !important;
 }
 
 .main-video__content .slick-prev:hover {
-	right: 92% !important;
+	right: 91% !important;
 }
 
 
@@ -1105,7 +1214,7 @@ a {
 	display: inline-block;
 	background: transparent !important;
 	top: initial;
-	bottom: 100px !important;
+	bottom: 70px !important;
 	cursor: pointer;
 	transition: all 500ms ease;
 	transform: translateX(-50%);
@@ -1121,11 +1230,11 @@ a {
 }
 
 .main-banner__content .slick-prev {
-	right: 80% !important;
+	right: 81% !important;
 }
 
 .main-banner__content .slick-prev:hover {
-	right: 82% !important;
+	right: 83% !important;
 }
 
 .main-banner__content  .slick-next:before {
@@ -1225,11 +1334,11 @@ a {
 	letter-spacing: 10px;
 	position: absolute;
 	bottom: -60px;
-	right: 235px;
+	right: 255px;
 	line-height: 37px;
 	font-family: 'Oswald';
 	font-size: 21px;
-	font-weight: 500;
+	font-weight: 600;
 	font-stretch: normal;
 	font-style: normal;
 	line-height: 1.81;
@@ -1267,9 +1376,9 @@ a {
 }
 
 .nivel-small {
-	font-size: 100%;
+	font-size: 80%;
 	color: #3b0006;
-	font-weight: 500;
+	font-weight: 600;
 	letter-spacing: 0.48px;
 	text-transform: uppercase;
 }
@@ -1471,7 +1580,7 @@ a {
 	overflow: hidden;
 	display: flex;
 	justify-content: flex-end;
-	margin-right: 50px;
+	margin-right: 80px;
 }
 
 
@@ -1584,7 +1693,7 @@ a {
 }
 
 .title-card__proyectos {
-    font-family: Helvetica;
+    font-family: 'Helvetica 65';
     margin-bottom: 0rem;
     font-size: 30px;
     font-weight: bold;
@@ -1598,14 +1707,14 @@ a {
 }
 
 .text-card__proyectos {
-	font-size: 16px;
-	font-family: Helvetica;
+	font-size: 17px;
+	font-family: 'Helvetica 45';
 
 }
 
 .main-proyectos__card {
 	align-self: flex-end;
-	padding-left: 50px;
+	padding-left: 70px;
 }
 
 .main-card__proyectos--title {
@@ -1706,7 +1815,7 @@ strong {
 	display: inline-block;
 	background: transparent !important;
 	top: initial;
-	bottom: 230px !important;
+	bottom: 200px !important;
 	cursor: pointer;
 	transition: all 500ms ease;
 	transform: translateX(-50%);
@@ -1828,7 +1937,7 @@ strong {
 .btn--filled--proyectos {
 	color: #d71f26;
 	font-size: 20px;
-	font-weight: 500;
+	font-weight: 600;
 	text-decoration: underline;
 	font-family: 'Oswald';
 }
@@ -1836,7 +1945,7 @@ strong {
 .btn--filled--about{
 	font-family: 'Oswald';
 	font-size: 15px;
-	font-weight: 500;
+	font-weight: 600;
 	font-stretch: normal;
 	font-style: normal;
 	line-height: normal;
@@ -1925,8 +2034,9 @@ strong {
 	font-size: 21px !important;
 	font-style: italic !important;
 	transition: all 500ms ease !important;
-	font-weight: 600 !important;
+	/*font-weight: 600 !important;*/
 	font-family: 'Oswald' !important;
+	letter-spacing: 0.69px;
 }
 
 .items-categoria{
@@ -1935,7 +2045,7 @@ strong {
     font-size: 14px;
     color: #a4b3c1;
     font-family: 'Oswald';
-    font-weight: 500;
+    font-weight: 600;
     font-stretch: normal;
     font-style: normal;
     line-height: normal;
@@ -1966,11 +2076,15 @@ strong {
 	font-size: 14px;
 	color: #a4b3c1 !important;
 	font-family: 'Oswald';
-	font-weight: 500;
+	font-weight: 600;
 	font-stretch: normal;
 	font-style: normal;
 	line-height: normal;
 	letter-spacing: 0.48px;
+}
+
+.img-fecha{
+	margin-top: -10px;
 }
 
 .items-categoria {
@@ -1983,7 +2097,7 @@ strong {
 	height: 65%;
 	display: grid;
 	grid-template-columns: 300px 1fr;
-	padding: 30px 0;
+	padding: 0px 60px 20px 60px;
 	grid-gap: 40px;
 }
 
@@ -2053,26 +2167,26 @@ input[type="password"]::placeholder, textarea::placeholder {
 
 .main-contacto {
 	background-color: #d71f26;
-	padding: 20px 0;
+	padding: 0px 0;
 }
 
 .main-contacto__text {
-
 	align-self: center;
+	margin-top: 40px;
 }
 
 .text-contacto {
 	color: white;
 	font-family: 'Oswald';
-	/*font-weight: bold;*/
-	font-size: 25px;
+	font-weight: 600;
+	font-size: 23px;
 	line-height: 0;
 	letter-spacing: 1px;
 }
 
 .text-contacto2 {
 	color: white;
-	font-size: 22px;
+	font-size: 25px;
 	font-weight: 200;
 }
 
@@ -2110,8 +2224,8 @@ input[type="password"]::placeholder, textarea::placeholder {
 .main-instagram__content {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
-	grid-gap: 5px;
-    padding: 20px 20px 20px 0;
+	grid-gap: 10px;
+    padding: 20px 35px 20px 0;
 }
 
 .img-instagram {
@@ -2129,12 +2243,13 @@ input[type="password"]::placeholder, textarea::placeholder {
 	color: white;
 	margin-bottom: 0rem;
 	font-size: 14px;
-	font-family: Helvetica;
+	font-family: 'Helvetica 45';
 	font-weight: 300;
 }
 
 .main-enlaces__nivel--text {
 	padding-top: 35px;
+	width: 80%;
 }
 
 .main-enlaces__redes {
@@ -2148,7 +2263,7 @@ input[type="password"]::placeholder, textarea::placeholder {
 .enlaces-title {
 	font-family: Lato;
     font-size: 20px;
-    font-weight: bold;
+    /*font-weight: bold;*/
     font-stretch: normal;
     font-style: normal;
     line-height: normal;
@@ -2162,7 +2277,7 @@ input[type="password"]::placeholder, textarea::placeholder {
 .link-enlaces {
 	color: #fff;
 	font-size: 15px;
-	font-family: Helvetica;
+	font-family: 'Helvetica 45';
 	font-weight: 300;
 
 }
@@ -2179,9 +2294,9 @@ input[type="password"]::placeholder, textarea::placeholder {
 .list-title {
 	color: white;
 	font-size: 16px;
-	font-weight: 600;
+	  font-weight: bold;
 	margin-bottom: 0rem;
-	font-family: Helvetica;
+	font-family: 'Helvetica 65';
 }
 
 .list-direccion {
@@ -2291,7 +2406,7 @@ input[type="password"]::placeholder, textarea::placeholder {
 
 .main-details__video--content {
 	display: grid;
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: 55% 45%;
 	grid-gap: 65px;
 }
 
@@ -2308,9 +2423,12 @@ input[type="password"]::placeholder, textarea::placeholder {
 
 .img-video__details {
 	width: 100%;
-	height: 350px;
+	height: 280px;
 	object-fit: cover;
+
 }
+
+
 
 .details-video__text {
 	font-family: 'Helvetica';
@@ -2326,7 +2444,7 @@ input[type="password"]::placeholder, textarea::placeholder {
 .details-video__title {
 	margin-bottom: 0rem;
 	font-family: Oswald;
-	font-size: 15px;
+	font-size: 20px;
 	font-weight: 600;
 	color: #360714;
 }
@@ -2366,6 +2484,23 @@ input[type="password"]::placeholder, textarea::placeholder {
 
 }
 
+.details-video__img{
+	position: relative;
+}
+
+.details-video__img:after{
+	    position: absolute;
+    content: '';
+    width: 85%;
+    height: 1px;
+    background-color: #dcd7d7;
+    bottom: -15px;
+    left: 0;
+}
+.details-video__body{
+	padding-right: 70px;
+}
+
 .details-video__etiqueta {
 	color: white;
 	margin-bottom: 0rem;
@@ -2400,6 +2535,55 @@ input[type="password"]::placeholder, textarea::placeholder {
 	margin-right: 3rem;
 } */
 
+.quare-text{
+	width: 100%;
+	height: 110px;
+	bottom: 0;
+	background-color:#212121;
+	padding: 10px 25px;
+	position: absolute;
+}
+
+.quare-text p{
+	margin-bottom: 0;
+}
+.text-ubications-projects {
+  width: 176.6px;
+  height: 20px;
+  font-family: Oswald;
+  font-size: 15px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.52px;
+  color: #ffffff;
+}
+.text-price-projects{
+  width: 299.2px;
+  height: 36px;
+  font-family: Oswald;
+  font-size: 27px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.93px;
+  color: #ffffff;
+}
+
+.text-impuesto-projects {
+  width: 186.9px;
+  height: 20px;
+  font-family: Oswald;
+  font-size: 15px;
+  font-weight: 200;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.52px;
+  color: #ffffff;
+}
 .details-slick__img {
 	width: 100%;
 }
@@ -2410,7 +2594,8 @@ input[type="password"]::placeholder, textarea::placeholder {
 
 .main-details__icono {
 	display: flex;
-	padding-top: 15px;
+	padding-top: 10px;
+	margin-right: 10px;
 }
 
 .main-details__icono--text {
@@ -2443,10 +2628,9 @@ input[type="password"]::placeholder, textarea::placeholder {
 
 .text-icono__projects2 {
 	margin-bottom: 0rem;
-	font-size: 14px;
 	font-weight: 800;
-	font-family: 'Helvetica';
-	font-weight: bold;
+	font-family: 'Helvetica 65';
+	font-weight: bold !important;
 	font-stretch: normal;
 	font-style: normal;
 	line-height: 1.25;
@@ -2456,7 +2640,20 @@ input[type="password"]::placeholder, textarea::placeholder {
 .main-details__icono--content2 {
 	padding-top: 50px;
 }
+.main-details__icono--content.lines{
+	position: relative;
+}
 
+.main-details__icono--content:after{
+	    position: absolute;
+    content: '';
+    width: 85%;
+    height: 1px;
+    background-color: #dcd7d7;
+    bottom: -30px;
+    left: 0;
+
+}
 .main-details__planos--items {
 	display: grid !important;
 	grid-template-columns: 1fr 1fr;

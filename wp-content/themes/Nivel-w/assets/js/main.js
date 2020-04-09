@@ -3,6 +3,7 @@ $(function () {
 
   $('[data-toggle="offcanvas"]').on('click', function () {
     $('.offcanvas-collapse').toggleClass('open')
+    $('.p-2').toggleClass('p-10')
   })
 })
 

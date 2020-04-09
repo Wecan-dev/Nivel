@@ -3,7 +3,7 @@
     <?php $args = array( 'post_type' => 'banner');?>   
     <?php $loop = new WP_Query( $args ); ?>
     <?php while ( $loop->have_posts() ) : $loop->the_post(); if( get_field('seleccionar_pagina') == 'Home'): ?>
-      <div class="main-banner__item">
+      <div class="main-banner__item" >
         <div class="mask">
           <div class="main-banner__boxtext container">
             <div class="main-banner__palabra main-banner__palabra--contacto">
@@ -13,7 +13,7 @@
             <div class="main-banner__text">
 
               <div class="main-banner__title main-banner__title--home">
-                <p><?php the_content();?></p>
+                
               </div>
 
 

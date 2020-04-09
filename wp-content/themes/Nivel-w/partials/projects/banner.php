@@ -3,13 +3,13 @@
     <div class="main-banner__item">
       <div class="mask">
         <div class="main-banner__boxtext container">
-          <div class="main-banner__palabra main-banner__palabra--contacto">
+          <div class="main-banner__palabra main-banner__palabra--contacto main-banner__palabra--full">
             <p>varie</p>
             <p>dad</p>
           </div>
           <div class="main-banner__text">
 
-            <div class="main-banner__title">
+            <div class="main-banner__title main-banner__title--full">
               <p>NUESTROS<br>
                 PR<span class="letra-color">O</span>YECTOS
               </p>

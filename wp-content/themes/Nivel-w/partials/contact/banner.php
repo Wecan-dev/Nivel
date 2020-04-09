@@ -6,13 +6,13 @@
       <div class="main-banner__item">
         <div class="mask">
           <div class="main-banner__boxtext container">
-            <div class="main-banner__palabra main-banner__palabra--contacto">
+            <div class="main-banner__palabra main-banner__palabra--contacto main-banner__palabra--full">
               <p>Confia</p>
 							<p>bilidad</p>
             </div>
             <div class="main-banner__text main-banner__text--contact">
 
-              <div class="main-banner__title">
+              <div class="main-banner__title main-banner__title--full">
                 <p>
                   <?php the_content(); ?>
                 </p>

@@ -61,7 +61,7 @@
     padding-top: 25px;
     z-index: -1;
     background: #212121;
-    height: 85%;
+    height: 95%;
   }
 
   .offcanvas-collapse.open {
@@ -236,5 +236,8 @@
 
   .p-2 {
     padding: 39px 26px !important;
+  }
+  .p-2.p-10{
+    padding: 10px !important
   }
 }

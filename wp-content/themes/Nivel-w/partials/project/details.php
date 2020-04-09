@@ -8,7 +8,7 @@
           </h1>
 
         </div>
-        <div class="main-details__icono--content">
+        <div class="main-details__icono--content lines">
 
           <?php if(get_field('cantidad_de_apartamento')):?>
             <div class="main-details__icono">

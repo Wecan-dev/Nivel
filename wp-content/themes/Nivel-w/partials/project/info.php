@@ -14,6 +14,13 @@
           <?php else:?>
             <img class="img-video__details" src="<?php echo get_template_directory_uri();?>/assets/img/imagen-detalle5.png">
           <?php endif; ?>
+          <div class="quare-text">
+            <p class="text-ubications-projects"><?php the_field('ubicacion') ?></p>
+            <p  class="text-price-projects">DESDE:  
+              <span><?php the_field('precio') ?></span>
+            </p>
+            <p class="text-impuesto-projects ">Valor impuestos incluido*</p>
+          </div>
       
       </div>
     
