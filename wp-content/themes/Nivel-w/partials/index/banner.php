@@ -13,7 +13,9 @@
             <div class="main-banner__text">
 
               <div class="main-banner__title main-banner__title--home">
-                
+                <p>
+                  <?php the_content(); ?>
+                </p>
               </div>
 
 

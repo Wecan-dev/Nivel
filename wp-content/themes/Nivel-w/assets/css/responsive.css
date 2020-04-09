@@ -13,7 +13,9 @@
     .main-brand {
     margin-left: 0px;
     }
-
+    .main-details__icono--content.lines {
+    position: initial;
+}
 
     .main-banner .mask .main-banner__palabra p {
         font-size: 75px;
@@ -404,6 +406,13 @@
 @media (min-width: 768px) and (max-width: 991px) {
     /* HOME*/
 
+    .container-contacto{
+        grid-template-columns: 1fr;
+        grid-gap: 0px;
+    }
+    .main-blog__content{
+        grid-gap: 15px;
+    }
     .main-banner .mask .main-banner__text .main-banner__title p, .main-banner .mask .main-banner__text .main-banner__title h1, .main-banner .mask .main-banner__text .main-banner__title h2, .main-banner .mask .main-banner__text .main-banner__title h3, .main-banner .mask .main-banner__text .main-banner__title h4, .main-banner .mask .main-banner__text .main-banner__title h5, .main-banner .mask .main-banner__text .main-banner__title h6{
         font-size: 55px;
     }
@@ -605,6 +614,9 @@
     .invert-form__info .mask {
         padding-left: 2rem;
         padding-bottom: 4rem;
+    }
+    .slider-prueba .slick-dots li{
+        margin-right: 20px;
     }
 }
 

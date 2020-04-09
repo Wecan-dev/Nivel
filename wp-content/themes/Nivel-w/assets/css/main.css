@@ -438,6 +438,10 @@ button:focus {
 	background: rgba(0, 0, 0, 0.76);
 }
 
+.main-banner__item{
+	position: relative;
+}
+
 .main-banner .mask .main-banner__boxtext {
 	display: flex;
 	justify-content: center;
@@ -492,6 +496,9 @@ a {
 }
 .main-banner__title.main-banner__title--home{
 	width: 40%;
+}
+.main-banner__title{
+	width: 65%;
 }
 
 .main-banner .mask .main-banner__text .main-banner__title p,
@@ -2397,7 +2404,7 @@ input[type="password"]::placeholder, textarea::placeholder {
 
 .main-banner__img2 {
 	width: 100%;
-	height: 65vh;
+	height: 75vh;
 }
 
 .main-details__video {
