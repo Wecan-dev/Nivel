@@ -37,8 +37,8 @@
     width: 100% !important;
   }
 
-  .logo-collapse {
-    display: none;
+  .main-logo__collapse{
+    margin-bottom: 20px;
   }
 }
 

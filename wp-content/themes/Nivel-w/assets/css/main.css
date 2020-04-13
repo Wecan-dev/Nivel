@@ -259,7 +259,7 @@ section {
 	font-size: 16px;
 	line-height: 25px;
 	letter-spacing: 0.55px;
-	font-family: 'Helvetica';
+	font-family: 'Helvetica 45';
 	font-weight: 300;
 	font-stretch: normal;
 	font-style: normal;
@@ -2214,6 +2214,7 @@ input[type="password"]::placeholder, textarea::placeholder {
 
 .main-enlaces {
 	background-image: url(../img/image.png);
+	margin-top: -10px;
 }
 
 .main-enlaces__content {
@@ -2549,6 +2550,9 @@ input[type="password"]::placeholder, textarea::placeholder {
 	background-color:#212121;
 	padding: 10px 25px;
 	position: absolute;
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .quare-text p{
@@ -2557,7 +2561,7 @@ input[type="password"]::placeholder, textarea::placeholder {
 .text-ubications-projects {
   width: 176.6px;
   height: 20px;
-  font-family: Oswald;
+  font-family: 'Oswald';
   font-size: 15px;
   font-weight: 300;
   font-stretch: normal;
@@ -2567,9 +2571,7 @@ input[type="password"]::placeholder, textarea::placeholder {
   color: #ffffff;
 }
 .text-price-projects{
-  width: 299.2px;
-  height: 36px;
-  font-family: Oswald;
+  font-family: 'Oswald';
   font-size: 27px;
   font-weight: bold;
   font-stretch: normal;
@@ -2582,7 +2584,7 @@ input[type="password"]::placeholder, textarea::placeholder {
 .text-impuesto-projects {
   width: 186.9px;
   height: 20px;
-  font-family: Oswald;
+  font-family: 'Oswald';
   font-size: 15px;
   font-weight: 200;
   font-stretch: normal;
@@ -2956,7 +2958,7 @@ input[type="password"]::placeholder, textarea::placeholder {
 
 
 .main-nosotros__text {
-	font-family: 'Helvetica';
+	font-family: 'Helvetica 45';
 	margin-bottom: 1rem;
 	font-size: 16px;
 	font-weight: 300;
@@ -3008,7 +3010,7 @@ input[type="password"]::placeholder, textarea::placeholder {
 }
 
 .main-nosotros__body p {
-	font-family: 'Helvetica';
+	font-family: 'Helvetica 45';
 	margin-bottom: 0;
 	font-size: 16px;
 	font-weight: 300;
@@ -3268,7 +3270,7 @@ input[type="password"]::placeholder, textarea::placeholder {
 .service-form form label {
 	width: 100%;
 	color: #fff;
-	font-family: 'Helvetica';
+	font-family: 'Helvetica 45';
 	font-weight: 300;
 	font-size: 15px;
 	margin-bottom: 2rem;

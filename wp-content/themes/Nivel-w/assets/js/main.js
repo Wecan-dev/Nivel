@@ -39,16 +39,20 @@ $(".hamburger").on("click", function () {
     $(this).addClass("is-active")
     $('.navbar-fixed-js').addClass('fixed');
     $('.hamburger-inner').addClass('js-hamburger');
-    $('.nav-link').addClass('fixed-color');
-    $('body').css('overflow', 'hidden ');
+    $('.navbar-brand').addClass('d-none');
+    $('.main-brand button').addClass('openMenu');
+    if ($(window).width() >= 768) {
+      $('.navbar-brand').removeClass('d-none');
+    }
+    
   } else {
     $(this).removeClass("is-active")
-    $('body').css('overflow', 'scroll');
-    if ($(document).scrollTop() <= 70 && ($(window).width() >= 0)) {
+    $('.navbar-brand').removeClass('d-none');
+    if ($(window).width() <= 767) {
       $('.navbar-fixed-js').removeClass('fixed');
       $('.hamburger-inner').removeClass('js-hamburger');
-      $('.nav-link').removeClass('fixed-color');
-
+      $('.main-brand button').removeClass('openMenu');
+      $('.navbar-brand').removeClass('d-none');
     }
   }
 });

@@ -1,6 +1,6 @@
 <div class="main-banner" id="home">
   <div class="main-banner__content">
-    <div class="main-banner__item" style="position: inherit;">
+    <div class="main-banner__item" style="position: inherit !important;">
       <div class="mask">
         <div class="main-banner__boxtext container">
           <div class="main-banner__palabra main-banner__palabra--contacto">

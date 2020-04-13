@@ -172,8 +172,7 @@
 
 .main-contactform__info p,
 .main-contactform__ul li a {
-    font-family: 'Helvetica';
-    font-family: Helvetica;
+    font-family: 'Helvetica 45';
     font-size: 18px;
     font-weight: 300;
     font-stretch: normal;
@@ -209,7 +208,7 @@
 
 .main-contactform__box form .form-group input,
 .main-contactform__box form .form-group textarea {
-    font-family: Helvetica;
+    font-family: 'Helvetica 45' ;
     font-size: 15px;
     font-weight: 300;
     font-stretch: normal;
@@ -220,7 +219,7 @@
 }
 .main-contactform__box form .form-group input::placeholder,
 .main-contactform__box form .form-group textarea::placeholder{
-    font-family: Helvetica;
+    font-family: 'Helvetica 45' ;
     font-size: 15px;
     font-weight: 300;
     font-stretch: normal;
@@ -341,6 +340,10 @@
   letter-spacing: normal;
   color: #ffffff;
 }
+
+.main-banner__title.main-banner__title--error p{
+    text-align: center !important;
+}
 .main-banner__description.main-banner__description--error {
     margin-bottom: -45px;
 }
@@ -376,7 +379,7 @@
 }
 
 .main-blog__description,.main-blog__text p {
-    font-family: 'Helvetica';
+    font-family: 'Helvetica 45';
     font-size: 16px;
     font-weight: 300;
     font-stretch: normal;
@@ -711,7 +714,7 @@ input.input-search::placeholder {
     }
 
     .main-contactform__box {
-        padding: 20px;
+        padding: 20px !important;
     }
 
     .main-contactform .container {
@@ -821,9 +824,16 @@ input.input-search::placeholder {
     .main-blog__categoria--tags p {
         margin-bottom: 5px;
     }
+    .main-banner__title.main-banner__title--error{
+        justify-content: center!important;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+
+    .main-banner__title.main-banner__title--error{
+        justify-content: center!important;
+    }
     .main-contactform {
         padding: 50px 0;
     }
@@ -903,6 +913,26 @@ input.input-search::placeholder {
 
     .main-blog__card {
         margin: 0;
+    }
+
+    .main-groupfeatured__sidebar{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .main-sidebar__category:nth-child(1) {
+        padding: 0;
+        width: 100%;
+    }
+    .main-sidebar__category:nth-child(2) {
+        width: 48%;
+        margin-right: 4%;
+    }
+    .main-sidebar__category:nth-child(3) {
+        width: 48%;
+    }
+
+    .main-sidebar__category:nth-child(4) {
+        width: 100%;
     }
 
     /*SINGLE*/
