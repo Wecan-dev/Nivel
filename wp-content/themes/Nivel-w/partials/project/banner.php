@@ -9,7 +9,7 @@
           </div>
           <div class="main-banner__text">
 
-            <div class="main-banner__title">
+            <div class="main-banner__title main-banner__title--projects">
               <p>PROY<span class="letra-color">E</span>CTO <br>
                 <?php the_title(); ?>
               </p>

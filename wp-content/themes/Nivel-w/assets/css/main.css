@@ -2354,8 +2354,12 @@ input[type="password"]::placeholder, textarea::placeholder {
 	width: 100%;
 }
 
-
-
+.main-banner__title.main-banner__title--projects {
+    width: 55%;
+}
+.main-banner__img2 img{
+	width: 100%;
+}
 
 .main-projects__body {
 	display: flex;
