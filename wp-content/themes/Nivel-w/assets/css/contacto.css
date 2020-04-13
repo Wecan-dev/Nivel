@@ -510,12 +510,14 @@ input.input-search::placeholder {
     text-decoration: none;
 }
 
-.main-sidebar__gridimg {
+.main-sidebar__gridimg,
+.wp-post-image {
     position: relative;
     transition: 0.3s ease-in-out;
 }
 
-.main-sidebar__grid:hover .main-sidebar__gridimg:before {
+.main-sidebar__grid:hover .main-sidebar__gridimg:before,
+.widget.recent-posts-widget-with-thumbnails ul li:hover .wp-post-image:before  {
     content: '';
     position: absolute;
     top: 0;
@@ -526,6 +528,13 @@ input.input-search::placeholder {
     transition: 0.3s ease-in-out;
 }
 
+.widget.recent-posts-widget-with-thumbnails{
+    padding: 0px !important;
+}
+
+.widget.recent-posts-widget-with-thumbnails ul li{
+    margin-bottom: 5px !important;
+}
 .main-sidebar__gridimg {
     width: 100%;
     height: 60px;
@@ -538,7 +547,9 @@ input.input-search::placeholder {
 }
 
 .main-sidebar__griddate,
-.main-sidebar__gridtitle {
+.main-sidebar__gridtitle,
+.rpwwt-post-date,
+.rpwwt-post-title {
     font-family: 'Oswald';
     font-weight: 500;
     font-stretch: normal;
@@ -548,20 +559,23 @@ input.input-search::placeholder {
     line-height: 1rem;
 }
 
-.main-sidebar__griddate {
+.main-sidebar__griddate,
+.rpwwt-post-date {
     font-size: 11px;
     color: #a4b3c1;
     letter-spacing: 0.38px;
 }
 
-.main-sidebar__gridtitle {
+.main-sidebar__gridtitle,
+.rpwwt-post-title {
     font-size: 15px;
     letter-spacing: 0.52px;
     color: #000;
     transition: 0.3s ease-in-out;
 }
 
-.main-sidebar__gridtitle:hover {
+.main-sidebar__gridtitle:hover,
+.rpwwt-post-title:hover {
     color: rgb(198, 164, 126);
     transition: 0.3s ease-in-out;
 }
@@ -658,6 +672,9 @@ input.input-search::placeholder {
     justify-content: space-between;
 }
 
+.main-blog__infotext--top strong{
+    text-transform: capitalize;
+}
 .main-blog__infotext--top.main-blog__infotext--column {
     flex-direction: column;
 }
@@ -700,6 +717,22 @@ input.input-search::placeholder {
     
 }
 
+.main-blog__card--small{
+    max-height: 570px;
+}
+.not-post{
+    font-family: 'Oswald';
+    font-size: 30px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.52px;
+    text-transform: uppercase;
+}
+.not-post.font-dife{
+    font-size: 35px;
+}
 @media (min-width: 0px) and (max-width: 767px) {
     .main-contactform__content {
         grid-template-columns: 100%;

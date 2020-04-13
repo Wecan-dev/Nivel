@@ -90,5 +90,3 @@ $(".img-avatar").append("<img alt='' src='http://localhost/Nivel/wp-content/them
 $('.commentlist').append("<div class='main-contactform__btnbox main-contactform__btnbox1'></div>")
 $('.main-contactform__btnbox1').append("<a href='#comments' class='btn_custom btn--medium btn--filled--black'>Comenta aquí</a>")
 
-
-

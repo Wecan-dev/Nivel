@@ -1,5 +1,6 @@
 <?php get_header();?>
   <!-- Banner-->
+  <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
   <?php get_template_part('partials/single/banner'); ?>
   <!-- End Banner-->
 
@@ -20,6 +21,9 @@
 		</div>
 	</section>
   <!-- End Blog Single-->
+  <?php endwhile; else: ?>
+    <p class="not-post"><?php _e('No existe ningun post.'); ?></p>
+  <?php endif; ?>
   
   <!-- Contact-->
   <?php get_template_part('partials/index/contact'); ?>
