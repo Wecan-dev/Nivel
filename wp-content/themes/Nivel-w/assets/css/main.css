@@ -607,7 +607,7 @@ a {
 	color: white;
 	margin-bottom: 25px;
 	text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-	font-size: 3.2rem;
+	font-size: 3rem;
 
 	font-family: Oswald;
 	  font-weight: bold;
@@ -1057,7 +1057,7 @@ a {
 }
 
 h1 strong {
-    font-weight: 500 !important;
+    font-weight: 700 !important;
 }
 
 .title-nivel2--line {
@@ -1066,7 +1066,7 @@ h1 strong {
 	letter-spacing: 1px;
 	margin-bottom: 25px;
 	text-transform: uppercase;
-	font-size: 3.2rem;
+	font-size: 3rem;
 
 }
 
@@ -1118,18 +1118,20 @@ h1 strong {
 .main-video {
 	/* padding-top: 200px; */
 	position: relative;
+	background-color: #fbfbfb;
+	z-index: -3;
 }
 
 .img-video {
 	width: 100%;
-	max-height: 530px;
+	max-height: 490px;
 
 }
 
 .main-video__img {
 	display: flex;
 	justify-content: center;
-	width: 85%;
+	width: 83%;
 }
 .main-video__img.video-full{
 	width: 100% !important;
