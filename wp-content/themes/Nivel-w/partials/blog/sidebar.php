@@ -48,15 +48,6 @@
       <?php if(is_active_sidebar('populares')){
         dynamic_sidebar('populares');
       } ?>
-        <!-- <a href="detalle-blog.html" class="main-sidebar__grid">
-          <div class="main-sidebar__gridimg">
-            <img src="<?php echo get_template_directory_uri();?>/assets/img/image_7.png" alt="">
-          </div>
-          <div class="main-sidebar__gridbox">
-            <p class="main-sidebar__griddate">Julio 19 del 2020</p>
-            <p class="main-sidebar__gridtitle">2020, Las tendencias más importantes en diseño</p>
-          </div>
-        </a> -->
       </li>
       <!-- <li>
         <a href="detalle-blog.html" class="main-sidebar__grid">

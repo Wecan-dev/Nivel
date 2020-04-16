@@ -4,7 +4,7 @@
     <?php $args = array( 'post_type' => 'Proyectos'); ?>   
     <?php $loop = new WP_Query( $args ); ?>
     <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
-      <div class="main-proyectos__grid--img">
+      <a href="<?php the_permalink();?>" class="main-proyectos__grid--img">
         <div class="proyectos-mask">
           <div class="main-proyecto__icono">
             <img class="proyecto-icono" src="<?php echo get_template_directory_uri();?>/assets/img/icon@2x.png">
@@ -21,7 +21,7 @@
           </div>
         </div>
         <img class="img-proyectos__grid" src="<?php echo get_the_post_thumbnail_url(); ?>">
-      </div>  
+      </a>  
       <?php endwhile; ?>
     <!-- <div class="main-proyectos__grid--img">
       <div class="proyectos-mask">

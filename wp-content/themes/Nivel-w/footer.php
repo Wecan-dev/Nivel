@@ -171,14 +171,14 @@
           <button type="button" class="close" data-dismiss="modal" aria-label="Close" >
             <span aria-hidden="true">&times;</span>
           </button>
-          <div class="main-video__img">
+          <div class="main-video__img video-full">
           <div class="">
             <div class="main-details__video--icono">
                 
                 </div>
               </div>
               <?php if(get_field('imagen')): ?>
-                <img class="img-video" src="<?php the_field('imagen') ?>">
+                <img class="img-video " src="<?php the_field('imagen') ?>">
               <?php else: ?>
                 <video id="modal-video" controls class="img-video" src="<?php the_field('video') ?>"></video>
               <?php endif; ?>
@@ -206,7 +206,7 @@
           <button type="button" class="close" data-dismiss="modal" aria-label="Close" >
             <span aria-hidden="true">&times;</span>
           </button>
-          <div class="main-video__img">
+          <div class="main-video__img video-full">
           <div class="">
             <div class="main-details__video--icono">
                 

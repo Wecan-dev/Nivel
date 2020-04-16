@@ -156,7 +156,7 @@
               <?php if( $descripcion_zonas_item == 'Vías internas pavimentadas'): ?>
                 <div class="main-details__icono">
                   <div class="main-details__icono--img">
-                    <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/icono-detalle6.png">
+                    <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/Icons/iconos1-05.png">
                   </div>
                   <div class="main-details__icono--text">
                     <p class="text-icono__projects">
@@ -179,7 +179,7 @@
               <?php if( $descripcion_zonas_item == 'Portería'): ?>
                 <div class="main-details__icono">
                   <div class="main-details__icono--img">
-                    <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/icono-detalle6.png">
+                    <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/Icons/iconos1-06.png">
                   </div>
                   <div class="main-details__icono--text">
                     <p class="text-icono__projects">
@@ -201,7 +201,7 @@
               <?php if( $descripcion_zonas_item == 'Vigilancia 24 horas'): ?>
                 <div class="main-details__icono">
                   <div class="main-details__icono--img">
-                    <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/icono-detalle6.png">
+                    <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img//Icons/iconos1-07.png">
                   </div>
                   <div class="main-details__icono--text">
                     <p class="text-icono__projects">
@@ -224,7 +224,7 @@
               <?php if( $descripcion_zonas_item == 'Entorno campestre'): ?>
                 <div class="main-details__icono">
                   <div class="main-details__icono--img">
-                  <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/icono-detalle3.png">
+                  <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/Icons/iconos1-08.png">
                   </div>
                   <div class="main-details__icono--text">
                     <p class="text-icono__projects">
@@ -246,7 +246,7 @@
               <?php if( $descripcion_zonas_item == 'Amplio lobby de ingreso'): ?>
                 <div class="main-details__icono">
                   <div class="main-details__icono--img">
-                    <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/icono-detalle6.png">
+                    <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/Icons/iconos1-09.png">
                   </div>
                   <div class="main-details__icono--text">
                     <p class="text-icono__projects">
@@ -270,7 +270,7 @@
               <?php if( $descripcion_zonas_item == 'Solarium con Zona BBQ'): ?>
                 <div class="main-details__icono">
                   <div class="main-details__icono--img">
-                    <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/icono-detalle6.png">
+                    <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/Icons/iconos1-10.png">
                   </div>
                   <div class="main-details__icono--text">
                     <p class="text-icono__projects">
@@ -292,7 +292,7 @@
               <?php if( $descripcion_zonas_item == 'Living room con chimenea'): ?>
                 <div class="main-details__icono">
                   <div class="main-details__icono--img">
-                    <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/icono-detalle6.png">
+                    <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/Icons/iconos1-11.png">
                   </div>
                   <div class="main-details__icono--text">
                     <p class="text-icono__projects">
@@ -314,7 +314,7 @@
               <?php if( $descripcion_zonas_item == 'Juegos infantiles'): ?>
                 <div class="main-details__icono">
                   <div class="main-details__icono--img">
-                    <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/icono-detalle6.png">
+                    <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/Icons/iconos1-12.png">
                   </div>
                   <div class="main-details__icono--text">
                     <p class="text-icono__projects">
@@ -336,7 +336,7 @@
               <?php if( $descripcion_zonas_item == 'Gimnasio completamente dotado'): ?>
                 <div class="main-details__icono">
                   <div class="main-details__icono--img">
-                    <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/icono-detalle6.png">
+                    <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/Icons/iconos1-13.png">
                   </div>
                   <div class="main-details__icono--text">
                     <p class="text-icono__projects">
@@ -358,7 +358,7 @@
               <?php if( $descripcion_zonas_item == 'Jacuzzi con hidromasajes'): ?>
                 <div class="main-details__icono">
                   <div class="main-details__icono--img">
-                    <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/icono-detalle6.png">
+                    <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/Icons/iconos1-14.png">
                   </div>
                   <div class="main-details__icono--text">
                     <p class="text-icono__projects">
@@ -380,7 +380,7 @@
               <?php if( $descripcion_zonas_item == 'Parqueadero de bicicletas'): ?>
                 <div class="main-details__icono">
                   <div class="main-details__icono--img">
-                    <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/icono-detalle6.png">
+                    <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/Icons/iconos1-15.png">
                   </div>
                   <div class="main-details__icono--text">
                     <p class="text-icono__projects">
@@ -425,7 +425,7 @@
               <?php if( $descripcion_zonas_item == 'Zona húmeda Piscina niños y adultos'): ?>
                 <div class="main-details__icono">
                   <div class="main-details__icono--img">
-                    <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/icono-detalle6.png">
+                    <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/Icons/iconos1-21.png">
                   </div>
                   <div class="main-details__icono--text">
                     <p class="text-icono__projects">
@@ -447,7 +447,7 @@
               <?php if( $descripcion_zonas_item == 'Espacio para Gimnasio'): ?>
                 <div class="main-details__icono">
                   <div class="main-details__icono--img">
-                    <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/icono-detalle6.png">
+                    <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/Icons/iconos1-13.png">
                   </div>
                   <div class="main-details__icono--text">
                     <p class="text-icono__projects">
@@ -491,7 +491,7 @@
               <?php if( $descripcion_zonas_item == 'Gimnasio'): ?>
                 <div class="main-details__icono">
                   <div class="main-details__icono--img">
-                    <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/icono-detalle6.png">
+                    <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/Icons/iconos1-13.png">
                   </div>
                   <div class="main-details__icono--text">
                     <p class="text-icono__projects">
@@ -532,10 +532,10 @@
           $descripcion_zonas_array = get_field( 'descripcion_zonas' );
           if ( $descripcion_zonas_array ):
             foreach ( $descripcion_zonas_array as $descripcion_zonas_item ):?>
-              <?php if( $descripcion_zonas_item == 'Salón de juegos con billar y mesa de cartas'): ?>
+              <?php if( $descripcion_zonas_item == 'Cancha recreativa '): ?>
                 <div class="main-details__icono">
                   <div class="main-details__icono--img">
-                    <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/icono-detalle6.png">
+                    <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/Icons/iconos1-29.png">
                   </div>
                   <div class="main-details__icono--text">
                     <p class="text-icono__projects">
@@ -557,7 +557,7 @@
               <?php if( $descripcion_zonas_item == 'Salón de juegos con billar y mesa de cartas'): ?>
                 <div class="main-details__icono">
                   <div class="main-details__icono--img">
-                    <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/icono-detalle6.png">
+                    <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/Icons/iconos1-30.png">
                   </div>
                   <div class="main-details__icono--text">
                     <p class="text-icono__projects">
@@ -579,7 +579,7 @@
               <?php if( $descripcion_zonas_item == 'Zona húmeda con turco'): ?>
                 <div class="main-details__icono">
                   <div class="main-details__icono--img">
-                    <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/icono-detalle6.png">
+                    <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/Icons/iconos1-21.png">
                   </div>
                   <div class="main-details__icono--text">
                     <p class="text-icono__projects">
@@ -601,7 +601,7 @@
               <?php if( $descripcion_zonas_item == 'Terraza Solarium con asoleadoras, calentadores y Bbq'): ?>
                 <div class="main-details__icono">
                   <div class="main-details__icono--img">
-                    <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/icono-detalle6.png">
+                    <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/Icons/iconos1-31.png">
                   </div>
                   <div class="main-details__icono--text">
                     <p class="text-icono__projects">
@@ -646,7 +646,7 @@
               <?php if( $descripcion_zonas_item == 'Circuito deportivo'): ?>
                 <div class="main-details__icono">
                   <div class="main-details__icono--img">
-                    <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/icono-detalle6.png">
+                    <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/Icons/iconos1-22.png">
                   </div>
                   <div class="main-details__icono--text">
                     <p class="text-icono__projects">
@@ -668,7 +668,7 @@
               <?php if( $descripcion_zonas_item == 'Gimnasio al aire libre'): ?>
                 <div class="main-details__icono">
                   <div class="main-details__icono--img">
-                    <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/icono-detalle6.png">
+                    <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/Icons/iconos1-23.png">
                   </div>
                   <div class="main-details__icono--text">
                     <p class="text-icono__projects">
@@ -712,7 +712,7 @@
               <?php if( $descripcion_zonas_item == 'Teatro al aire libre'): ?>
                 <div class="main-details__icono">
                   <div class="main-details__icono--img">
-                    <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/icono-detalle6.png">
+                    <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/Icons/iconos1-25.png">
                   </div>
                   <div class="main-details__icono--text">
                     <p class="text-icono__projects">
@@ -734,7 +734,7 @@
               <?php if( $descripcion_zonas_item == 'Senderos ecológicos'): ?>
                 <div class="main-details__icono">
                   <div class="main-details__icono--img">
-                    <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/icono-detalle6.png">
+                    <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/icono-detalle3.png">
                   </div>
                   <div class="main-details__icono--text">
                     <p class="text-icono__projects">
@@ -758,7 +758,7 @@
               <?php if( $descripcion_zonas_item == 'Mirador'): ?>
                 <div class="main-details__icono">
                   <div class="main-details__icono--img">
-                    <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/icono-detalle6.png">
+                    <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/Icons/iconos1-26.png">
                   </div>
                   <div class="main-details__icono--text">
                     <p class="text-icono__projects">
@@ -780,7 +780,7 @@
               <?php if( $descripcion_zonas_item == 'Circuito de ciclomontañismo'): ?>
                 <div class="main-details__icono">
                   <div class="main-details__icono--img">
-                    <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/icono-detalle6.png">
+                    <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/Icons/iconos1-27.png">
                   </div>
                   <div class="main-details__icono--text">
                     <p class="text-icono__projects">
@@ -802,7 +802,7 @@
               <?php if( $descripcion_zonas_item == 'Oratorio'): ?>
                 <div class="main-details__icono">
                   <div class="main-details__icono--img">
-                    <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/icono-detalle6.png">
+                    <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/Icons/iconos1-28.png">
                   </div>
                   <div class="main-details__icono--text">
                     <p class="text-icono__projects">
@@ -870,7 +870,7 @@
               <?php if( $descripcion_zonas_item == 'Amplio espacio para bodegaje'): ?>
                 <div class="main-details__icono">
                   <div class="main-details__icono--img">
-                    <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/icono-detalle6.png">
+                    <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/Icons/iconos1-16.png">
                   </div>
                   <div class="main-details__icono--text">
                     <p class="text-icono__projects">
@@ -892,7 +892,7 @@
               <?php if( $descripcion_zonas_item == 'Posibilidad de mezzanine'): ?>
                 <div class="main-details__icono">
                   <div class="main-details__icono--img">
-                    <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/icono-detalle6.png">
+                    <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/Icons/iconos1-17.png">
                   </div>
                   <div class="main-details__icono--text">
                     <p class="text-icono__projects">
@@ -958,7 +958,7 @@
               <?php if( $descripcion_zonas_item == 'Redes eléctricas y telecomunicaciones subterráneas'): ?>
                 <div class="main-details__icono">
                   <div class="main-details__icono--img">
-                    <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/icono-detalle6.png">
+                    <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/Icons/iconos1-18.png">
                   </div>
                   <div class="main-details__icono--text">
                     <p class="text-icono__projects">
@@ -980,7 +980,7 @@
               <?php if( $descripcion_zonas_item == 'Acueducto y alcantarillado'): ?>
                 <div class="main-details__icono">
                   <div class="main-details__icono--img">
-                    <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/icono-detalle6.png">
+                    <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/Icons/iconos1-19.png">
                   </div>
                   <div class="main-details__icono--text">
                     <p class="text-icono__projects">
@@ -1002,7 +1002,7 @@
               <?php if( $descripcion_zonas_item == 'Red de gas'): ?>
                 <div class="main-details__icono">
                   <div class="main-details__icono--img">
-                    <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/icono-detalle6.png">
+                    <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/Icons/iconos1-20.png">
                   </div>
                   <div class="main-details__icono--text">
                     <p class="text-icono__projects">
@@ -1024,7 +1024,7 @@
               <?php if( $descripcion_zonas_item == 'Todos los lotes se entregan con una zona plana para facilitar el desarrollo de vivienda'): ?>
                 <div class="main-details__icono">
                   <div class="main-details__icono--img">
-                    <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/icono-detalle6.png">
+                    <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/icono-detalle8.png">
                   </div>
                   <div class="main-details__icono--text">
                     <p class="text-icono__projects">
@@ -1046,7 +1046,7 @@
               <?php if( $descripcion_zonas_item == 'Salón social con terraza'): ?>
                 <div class="main-details__icono">
                   <div class="main-details__icono--img">
-                    <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/icono-detalle9.png">
+                    <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/Icons/iconos1-31.png">
                   </div>
                   <div class="main-details__icono--text">
                     <p class="text-icono__projects">
@@ -1068,7 +1068,7 @@
               <?php if( $descripcion_zonas_item == 'Terraza panorámica'): ?>
                 <div class="main-details__icono">
                   <div class="main-details__icono--img">
-                    <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/icono-detalle6.png">
+                    <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/Icons/iconos1-31.png">
                   </div>
                   <div class="main-details__icono--text">
                     <p class="text-icono__projects">
@@ -1090,7 +1090,7 @@
               <?php if( $descripcion_zonas_item == 'Sky work panorámico'): ?>
                 <div class="main-details__icono">
                   <div class="main-details__icono--img">
-                    <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/icono-detalle6.png">
+                    <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/Icons/iconos1-32.png">
                   </div>
                   <div class="main-details__icono--text">
                     <p class="text-icono__projects">
@@ -1113,7 +1113,7 @@
               <?php if( $descripcion_zonas_item == 'Oficina adminsitración'): ?>
                 <div class="main-details__icono">
                   <div class="main-details__icono--img">
-                    <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/icono-detalle6.png">
+                    <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/Icons/iconos1-33.png">
                   </div>
                   <div class="main-details__icono--text">
                     <p class="text-icono__projects">
@@ -1135,7 +1135,7 @@
               <?php if( $descripcion_zonas_item == 'Lobby doble altura'): ?>
                 <div class="main-details__icono">
                   <div class="main-details__icono--img">
-                    <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/icono-detalle6.png">
+                    <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/Icons/iconos1-34.png">
                   </div>
                   <div class="main-details__icono--text">
                     <p class="text-icono__projects">
@@ -1157,7 +1157,7 @@
               <?php if( $descripcion_zonas_item == 'Salón de cardio'): ?>
                 <div class="main-details__icono">
                   <div class="main-details__icono--img">
-                    <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/icono-detalle6.png">
+                    <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/Icons/iconos1-23.png">
                   </div>
                   <div class="main-details__icono--text">
                     <p class="text-icono__projects">
@@ -1179,7 +1179,7 @@
               <?php if( $descripcion_zonas_item == 'Salón de entrenamiento'): ?>
                 <div class="main-details__icono">
                   <div class="main-details__icono--img">
-                    <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/icono-detalle6.png">
+                    <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/Icons/iconos1-30.png">
                   </div>
                   <div class="main-details__icono--text">
                     <p class="text-icono__projects">
@@ -1223,7 +1223,7 @@
               <?php if( $descripcion_zonas_item == 'Jacuzzi'): ?>
                 <div class="main-details__icono">
                   <div class="main-details__icono--img">
-                    <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/icono-detalle6.png">
+                    <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/Icons/iconos1-14.png">
                   </div>
                   <div class="main-details__icono--text">
                     <p class="text-icono__projects">
@@ -1245,11 +1245,34 @@
               <?php if( $descripcion_zonas_item == 'Glamping'): ?>
                 <div class="main-details__icono">
                   <div class="main-details__icono--img">
-                    <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/icono-detalle6.png">
+                    <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/Icons/iconos1-39.png">
                   </div>
                   <div class="main-details__icono--text">
                     <p class="text-icono__projects">
                      Glamping 
+                    </p>
+                  </div>
+                </div>
+                <?php else:?>
+
+                <?php
+            endif;
+            endforeach;
+          endif; ?>
+
+
+          <?php // descripcion_zonas ( value )
+          $descripcion_zonas_array = get_field( 'descripcion_zonas' );
+          if ( $descripcion_zonas_array ):
+            foreach ( $descripcion_zonas_array as $descripcion_zonas_item ):?>
+              <?php if( $descripcion_zonas_item == 'Salón de juegos infantiles'): ?>
+                <div class="main-details__icono">
+                  <div class="main-details__icono--img">
+                    <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/Icons/iconos1-40.png">
+                  </div>
+                  <div class="main-details__icono--text">
+                    <p class="text-icono__projects">
+                     Salón de juegos infantiles 
                     </p>
                   </div>
                 </div>
