@@ -78,13 +78,21 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Oswald';
+    src: url('../fonts/Oswald-SemiBold.woff2') format('woff2'),
+        url('../fonts/Oswald-SemiBold.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
 
 
 @font-face {
     font-family: 'Oswald';
     src: url('../fonts/Oswald-DemiBold.woff2') format('woff2'),
         url('../fonts/Oswald-DemiBold.woff') format('woff');
-    font-weight: 600;
+    font-weight: 500;
     font-style: normal;
 }
 
@@ -215,7 +223,7 @@ body {
 }
 
 section {
-	padding: 50px 0;
+	padding: 100px 0;
 }
 
 .main-general__description {
@@ -279,7 +287,7 @@ button:focus {
 	font-size: 16px;
 	line-height: 1.5em;
 	letter-spacing: 0;
-	font-weight: 600;
+	font-weight: 500;
 	outline: 0;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
@@ -361,7 +369,7 @@ button:focus {
 .nav-link {
 	color: #fff;
 	transition: .3s ease-in-out;
-	font-weight: 600;
+	font-weight: 500;
 	font-size: 16px;
 	text-transform: capitalize;
 	/* font-family: "Century Gothic", sans-serif; */
@@ -510,9 +518,9 @@ a {
 .main-banner .mask .main-banner__text .main-banner__title h6 {
 	text-transform: uppercase;
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-    font-family: Oswald;
-    font-size: 75px;
-    font-weight: 600;
+    font-family: 'Oswald';
+    font-size: 70px;
+    font-weight: 500;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.17;
@@ -529,7 +537,7 @@ a {
 .main-banner__title h6 strong,
 .letra-color{
 	color: #d71f26 !important;
-	font-weight: 600;
+	font-weight: 500;
 }
 
 .main-banner .mask .main-banner__palabra p {
@@ -579,7 +587,7 @@ a {
 
 .title-welcome {
 	font-size: 40px;
-	font-weight: 600;
+	font-weight: 500;
 	margin-bottom: 0rem;
 	letter-spacing: 10px;
 	text-transform: uppercase;
@@ -680,7 +688,7 @@ a {
 	margin-bottom: 5px;
 	font-family: 'Oswald';
 	font-size: 20px;
-	font-weight: 600;
+	font-weight: 500;
 	font-stretch: normal;
 	font-style: normal;
 	line-height: normal;
@@ -767,7 +775,7 @@ a {
 	font-size: 20px;
 	transition: all 500ms ease;
 	text-transform: uppercase;
-	font-weight: 600;
+	font-weight: 500;
 }
 
 .about-title__icono:hover,.about-title__icono:focus{
@@ -1048,9 +1056,13 @@ a {
 	width: 50%;
 }
 
+h1 strong {
+    font-weight: 500 !important;
+}
+
 .title-nivel2--line {
 	color: black;
-	font-weight: 200;
+	font-weight: 300;
 	letter-spacing: 1px;
 	margin-bottom: 25px;
 	text-transform: uppercase;
@@ -1348,7 +1360,7 @@ a {
 	line-height: 37px;
 	font-family: 'Oswald';
 	font-size: 21px;
-	font-weight: 600;
+	font-weight: 500;
 	font-stretch: normal;
 	font-style: normal;
 	line-height: 1.81;
@@ -1388,7 +1400,7 @@ a {
 .nivel-small {
 	font-size: 80%;
 	color: #3b0006;
-	font-weight: 600;
+	font-weight: 500;
 	letter-spacing: 0.48px;
 	text-transform: uppercase;
 }
@@ -1518,7 +1530,7 @@ a {
 
 .main-proyecto_text p {
 	color: #fff;
-	font-weight: 600;
+	font-weight: 500;
 	text-align: center;
 	font-size: 2rem;
 	letter-spacing: 0.83;
@@ -1957,7 +1969,7 @@ strong {
 .btn--filled--proyectos {
 	color: #d71f26;
 	font-size: 20px;
-	font-weight: 600;
+	font-weight: 500;
 	text-decoration: underline;
 	font-family: 'Oswald';
 }
@@ -1965,7 +1977,7 @@ strong {
 .btn--filled--about{
 	font-family: 'Oswald';
 	font-size: 15px;
-	font-weight: 600;
+	font-weight: 500;
 	font-stretch: normal;
 	font-style: normal;
 	line-height: normal;
@@ -2065,7 +2077,7 @@ strong {
     font-size: 14px;
     color: #a4b3c1;
     font-family: 'Oswald';
-    font-weight: 600;
+    font-weight: 500;
     font-stretch: normal;
     font-style: normal;
     line-height: normal;
@@ -2096,7 +2108,7 @@ strong {
 	font-size: 14px;
 	color: #a4b3c1 !important;
 	font-family: 'Oswald';
-	font-weight: 600;
+	font-weight: 500;
 	font-stretch: normal;
 	font-style: normal;
 	line-height: normal;
@@ -2198,7 +2210,7 @@ input[type="password"]::placeholder, textarea::placeholder {
 .text-contacto {
 	color: white;
 	font-family: 'Oswald';
-	font-weight: 600;
+	font-weight: 500;
 	font-size: 23px;
 	line-height: 0;
 	letter-spacing: 1px;
@@ -2221,7 +2233,7 @@ input[type="password"]::placeholder, textarea::placeholder {
 }
 
 .main-blog {
-	/* padding-top: 0; */
+	padding-top: 0px;
 	padding-bottom: 80px;
 }
 
@@ -2470,7 +2482,7 @@ input[type="password"]::placeholder, textarea::placeholder {
 	margin-bottom: 0rem;
 	font-family: Oswald;
 	font-size: 20px;
-	font-weight: 600;
+	font-weight: 500;
 	color: #360714;
 }
 

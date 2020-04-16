@@ -723,7 +723,7 @@ input.input-search::placeholder {
 .not-post{
     font-family: 'Oswald';
     font-size: 30px;
-    font-weight: 600;
+    font-weight: 500;
     font-stretch: normal;
     font-style: normal;
     line-height: normal;
@@ -1110,7 +1110,7 @@ input.input-search::placeholder {
     color: #360714;
     border-bottom: 2px solid #360714;
     padding-bottom: 10px;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 18px;
 }
 .slider-prueba .slick-dots li:nth-child(1):after{
