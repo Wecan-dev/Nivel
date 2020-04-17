@@ -1,5 +1,8 @@
 @media (min-width: 0px) and (max-width: 767px) {
     /* HOME*/
+    .main-banner__title.main-banner__title--home{
+        width: 75%;
+    }
     html{
         margin-top: 0px !important;
     }
@@ -85,7 +88,16 @@
         letter-spacing: 5px;
         font-weight: 700;
     }
-
+    .main-about__title{
+        padding: 10px;
+    }
+    .main-about__content{
+        padding: 10px;
+    }
+    .title-nivel{
+        font-size: 40px;
+        letter-spacing: 0;
+    }
     .main-blog__content {
         display: grid;
         grid-template-columns: 1fr;

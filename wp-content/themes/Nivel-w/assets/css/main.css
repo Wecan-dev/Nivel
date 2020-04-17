@@ -29,14 +29,14 @@
 	font-weight: normal;
 	font-style: italic;
 }
-
 @font-face {
-	font-family: 'Helvetica';
-	src: url('../fonts/Helvetica-Bold.woff2') format('woff2'),
-		url('../fonts/Helvetica-Bold.woff') format('woff');
-	font-weight: bold;
-	font-style: normal;
+    font-family: 'Helvetica';
+    src: url('../fonts/Helvetica-Bold.woff2') format('woff2'),
+        url('../fonts/Helvetica-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
 }
+
 
 @font-face {
 	font-family: 'Oswald';
@@ -206,6 +206,16 @@ button:focus {
 	transition: color .2s ease-in-out, background-color .2s ease-in-out, border-color .2s ease-in-out;
 	padding: 13px 50px;
 	cursor: pointer;
+	font-family: Helvetica;
+	font-size: 18px;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: 0.62px;
+	text-align: center;
+	color: #ffffff;
+
 
 }
 

@@ -14,9 +14,16 @@
     -o-transition: color .2s ease-in-out, background-color .2s ease-in-out, border-color .2s ease-in-out;
     transition: color .2s ease-in-out, background-color .2s ease-in-out, border-color .2s ease-in-out;
     padding: 10px 50px;
-    cursor: pointer;
+    font-family: Helvetica;
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.62px;
     text-align: center;
-    font-family: 'Oswald';
+    color: #ffffff;
+
 }
 
 .btn--filled--red {
