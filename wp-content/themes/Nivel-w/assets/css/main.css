@@ -810,7 +810,7 @@ a {
     font-size: 16px;
     font-weight: 300;
     width: 50%;
-    font-family: 'Helvetica 45';
+    font-family: 'Roboto';
     font-stretch: normal;
     font-style: normal;
     line-height: 1.31;
@@ -2332,6 +2332,9 @@ input[type="password"]::placeholder, textarea::placeholder {
 	padding-top: 0px;
 	padding-bottom: 110px;
 }
+.main-blog.main-blog--view{
+	padding-top: 100px;
+}
 
 .main-enlaces {
 	background-image: url(../img/image.png);
@@ -3118,7 +3121,7 @@ input[type="password"]::placeholder, textarea::placeholder {
 
 
 .main-nosotros__text {
-	font-family: 'Helvetica 45';
+	font-family: 'Roboto';
 	margin-bottom: 1rem;
 	font-size: 16px;
 	font-weight: 300;
@@ -3170,7 +3173,7 @@ input[type="password"]::placeholder, textarea::placeholder {
 }
 
 .main-nosotros__body p {
-	font-family: 'Helvetica 45';
+	font-family: 'Roboto';
 	margin-bottom: 0;
 	font-size: 16px;
 	font-weight: 300;
@@ -3430,7 +3433,7 @@ input[type="password"]::placeholder, textarea::placeholder {
 .service-form form label {
 	width: 100%;
 	color: #fff;
-	font-family: 'Helvetica 45';
+	font-family: 'Roboto';
 	font-weight: 300;
 	font-size: 15px;
 	margin-bottom: 2rem;

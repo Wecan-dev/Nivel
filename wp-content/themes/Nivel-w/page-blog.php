@@ -4,7 +4,7 @@
   <!-- End Banner-->
 
   <!-- Blog-->
-  <section id="main-blog" class="main-blog">
+  <section id="main-blog" class="main-blog main-blog--view">
 		<div class="container">
 			<div class="main-blog__bloggrid">
 

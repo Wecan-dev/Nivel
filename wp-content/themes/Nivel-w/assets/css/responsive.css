@@ -825,7 +825,7 @@
     }
     
     .main-banner .mask .main-banner__palabra p{
-        font-size: 245px;
+        font-size: 200px;
         letter-spacing: 13px;
     }
     .main-banner__title.main-banner__title--home{
@@ -852,7 +852,7 @@
 
     .main-banner .mask .main-banner__text{
         padding-top: 0px;
-        margin-top: -70px;
+        /* margin-top: -70px; */
     }
     .main-brand{
         margin-left: -50px;
@@ -900,7 +900,7 @@
     .main-banner__palabra--contacto p:nth-child(2){
         top: 190px;
         right: 40px;
-        font-size: 105px !important;
+        font-size: 80px !important;
     }
     .main-video__bg--text{
         bottom: -75px;

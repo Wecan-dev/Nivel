@@ -6,9 +6,10 @@
       <div class="main-banner__item">
         <div class="mask">
           <div class="main-banner__boxtext container">
-            <div class="main-banner__palabra main-banner__palabra--contacto">
-              
-            </div>
+          <div class="main-banner__palabra main-banner__palabra--contacto">
+            <p>innova</p>
+            <p>ción</p>
+          </div>
             <div class="main-banner__text main-banner__text--contact">
 
               <div class="main-banner__title">

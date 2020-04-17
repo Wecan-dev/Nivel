@@ -179,7 +179,7 @@
 
 .main-contactform__info p,
 .main-contactform__ul li a {
-    font-family: 'Helvetica 45';
+    font-family: 'Roboto';
     font-size: 18px;
     font-weight: 300;
     font-stretch: normal;
@@ -386,7 +386,7 @@
 }
 
 .main-blog__description,.main-blog__text p {
-    font-family: 'Helvetica 45';
+    font-family: 'Roboto';
     font-size: 16px;
     font-weight: 300;
     font-stretch: normal;
