@@ -39,7 +39,7 @@
             </label>
           </div>
           <div class="main-contactform__btnbox">
-            <button class="btn_custom btn--medium btn--filled--red mr-3">
+            <button class="btn_custom btn--medium btn--filled--red mr-3" style="padding: 12px 20px;">
               Ingresar
             </button>
             <button class="btn_custom btn--transp">
