@@ -39,7 +39,7 @@
                 <li>
                   <a href="<?php echo '+'.the_field('telefono')?>" class="d-flex">
                     <img src="<?php echo get_template_directory_uri();?>/assets/img/Contact/icon_2.png" alt="">
-                    <p><?php echo '+'. the_field('telefono')?></p>
+                    <p><?php the_field('telefono')?></p>
                   </a>
 
                 </li>
