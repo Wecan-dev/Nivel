@@ -3318,6 +3318,9 @@ input[type="password"]::placeholder, textarea::placeholder {
 	display: grid;
 	grid-template-columns: 28% 1fr;
 }
+.service-about{
+	padding: 50px;
+}
 
 .service-steps {
 	padding-bottom: 0;
