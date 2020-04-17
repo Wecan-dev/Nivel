@@ -1797,6 +1797,32 @@ h1 strong {
 
 }
 
+.main-proyectos  {
+    padding-bottom: 70px;
+    padding-top: 70px;
+	background-image: url(../img/bg.png);
+	background-repeat: no-repeat;
+	background-position: bottom right;
+	position: relative;
+	background-position: 76% 100%;
+    position: relative;
+}
+
+.mask-images-text{
+	opacity: 0.45;
+    -webkit-text-stroke: 0.5px #b1acac;
+    font-family: Oswald;
+    font-size: 100px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1px;
+    color: rgba(255, 255, 255, 0);
+    position: absolute;
+    right: -2px;
+    bottom: -70px;
+}
 .img-proyectos__grid {
 	width: 100%;
 	height: 70vh;
@@ -2344,8 +2370,8 @@ input[type="password"]::placeholder, textarea::placeholder {
 }
 
 .enlaces-nivel__text {
-	font-family: Helvetica;
-	font-size: 13px;
+	font-family: 'Roboto';
+	font-size: 14px;
 	font-weight: 300;
 	font-stretch: normal;
 	font-style: normal;
@@ -2369,7 +2395,7 @@ input[type="password"]::placeholder, textarea::placeholder {
 }
 
 .enlaces-title {
-	font-family: Helvetica;
+	font-family: 'Roboto';
   font-size: 20px;
   font-weight: bold;
   font-stretch: normal;
@@ -2381,9 +2407,11 @@ input[type="password"]::placeholder, textarea::placeholder {
 }
 
 
-
+.list-direccion{
+	margin-bottom: -10px;
+}
 .link-enlaces {
-	font-family: Helvetica;
+	font-family: 'Roboto';
 	font-size: 14px;
 	font-weight: 300;
 	font-stretch: normal;
@@ -2441,7 +2469,7 @@ input[type="password"]::placeholder, textarea::placeholder {
 	background: black;
 	display: flex;
 	justify-content: center;
-	padding: 20px 0;
+	padding: 20px 0 0 0;
 }
 
 .main-icono__footer {

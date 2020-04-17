@@ -1,4 +1,5 @@
 <section class="main-proyectos__grid">
+
   <div class="main-proyectos__grid--content main-proyectos__grid--carousel">
 
     <?php $args = array( 'post_type' => 'Proyectos'); ?>   

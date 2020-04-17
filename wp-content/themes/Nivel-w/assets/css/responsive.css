@@ -1004,5 +1004,32 @@
         transition: all 500ms ease;
         width: 70%;
     }
-    
+    .img-proyectos__grid{
+        height: 60vh;
+    }
+
+    .btn--filled--proyectos{
+        font-size: 20px;
+    }
+    .main-blog__content{
+        padding: 45px 25px 0 25px;
+    }
+    .main-blog__img {
+        height: 350px;
+    }
+    .main-blog__body {
+        padding: 30px 30px 25px 30px;
+    }
+    .main-icono__footer.open {
+        bottom: 0px;
+    }
+    .container-contacto{
+        padding: 5px 70px 35px 70px;
+    }
+
+    #form_contact-form .frm_combo_inputs_container, #form_contact-form .frm_grid_container, #form_contact-form .frm_form_fields .frm_section_heading, #form_contact-form .frm_form_fields .frm_fields_container{
+        display: grid !important;
+        grid-template-columns: 35% 55% !important;
+        grid-gap: 30px;
+    }
 }

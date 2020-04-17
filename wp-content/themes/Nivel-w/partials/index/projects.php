@@ -216,5 +216,8 @@
       </div>
     </div>
   </div>
+  <div class="mask-images-text">
+    <p>PROYECTO</p>
+  </div>
 </section>
 
