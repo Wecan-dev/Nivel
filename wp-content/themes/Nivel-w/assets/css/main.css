@@ -1,197 +1,107 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
 @font-face {
-    font-family: 'Oswald';
-    src: url('../fonts/Oswald-Demi-BoldItalic.woff2') format('woff2'),
-        url('../fonts/Oswald-Demi-BoldItalic.woff') format('woff');
-    font-weight: bold;
-    font-style: italic;
+	font-family: 'Oswald';
+	src: url('../fonts/Oswald-Bold.woff2') format('woff2'),
+		url('../fonts/Oswald-Bold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
 }
 
 @font-face {
-    font-family: 'Oswald';
-    src: url('../fonts/Oswald-Bold.woff2') format('woff2'),
-        url('../fonts/Oswald-Bold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
+	font-family: 'Helvetica';
+	src: url('../fonts/Helvetica-BoldOblique.woff2') format('woff2'),
+		url('../fonts/Helvetica-BoldOblique.woff') format('woff');
+	font-weight: bold;
+	font-style: italic;
 }
 
 @font-face {
-    font-family: 'Oswald';
-    src: url('../fonts/Oswald-HeavyItalic.woff2') format('woff2'),
-        url('../fonts/Oswald-HeavyItalic.woff') format('woff');
-    font-weight: 900;
-    font-style: italic;
+	font-family: 'Helvetica';
+	src: url('../fonts/Helvetica.woff2') format('woff2'),
+		url('../fonts/Helvetica.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
 }
 
 @font-face {
-    font-family: 'Oswald';
-    src: url('../fonts/Oswald-Light.woff2') format('woff2'),
-        url('../fonts/Oswald-Light.woff') format('woff');
-    font-weight: 300;
-    font-style: normal;
+	font-family: 'Helvetica';
+	src: url('../fonts/Helvetica-Oblique.woff2') format('woff2'),
+		url('../fonts/Helvetica-Oblique.woff') format('woff');
+	font-weight: normal;
+	font-style: italic;
 }
 
 @font-face {
-    font-family: 'Oswald';
-    src: url('../fonts/Oswald-Extra-LightItalic.woff2') format('woff2'),
-        url('../fonts/Oswald-Extra-LightItalic.woff') format('woff');
-    font-weight: 300;
-    font-style: italic;
+	font-family: 'Helvetica';
+	src: url('../fonts/Helvetica-Bold.woff2') format('woff2'),
+		url('../fonts/Helvetica-Bold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
 }
 
 @font-face {
-    font-family: 'Oswald';
-    src: url('../fonts/Oswald-Heavy.woff2') format('woff2'),
-        url('../fonts/Oswald-Heavy.woff') format('woff');
-    font-weight: 900;
-    font-style: normal;
+	font-family: 'Oswald';
+	src: url('../fonts/Oswald-ExtraLight.woff2') format('woff2'),
+		url('../fonts/Oswald-ExtraLight.woff') format('woff');
+	font-weight: 200;
+	font-style: normal;
 }
 
 @font-face {
-    font-family: 'Oswald';
-    src: url('../fonts/Oswald-BoldItalic.woff2') format('woff2'),
-        url('../fonts/Oswald-BoldItalic.woff') format('woff');
-    font-weight: bold;
-    font-style: italic;
+	font-family: 'Oswald';
+	src: url('../fonts/Oswald-Light.woff2') format('woff2'),
+		url('../fonts/Oswald-Light.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
 }
 
 @font-face {
-    font-family: 'Oswald';
-    src: url('../fonts/Oswald-LightItalic.woff2') format('woff2'),
-        url('../fonts/Oswald-LightItalic.woff') format('woff');
-    font-weight: 300;
-    font-style: italic;
+	font-family: 'Oswald';
+	src: url('../fonts/Oswald-Regular.woff2') format('woff2'),
+		url('../fonts/Oswald-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
 }
 
 @font-face {
-    font-family: 'Oswald';
-    src: url('../fonts/Oswald-Bold.woff2') format('woff2'),
-        url('../fonts/Oswald-Bold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Oswald';
-    src: url('../fonts/Oswald-Medium.woff2') format('woff2'),
-        url('../fonts/Oswald-Medium.woff') format('woff');
-    font-weight: 500;
-    font-style: normal;
+	font-family: 'Helvetica';
+	src: url('../fonts/Helvetica-Light.woff2') format('woff2'),
+		url('../fonts/Helvetica-Light.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
 }
 
 @font-face {
-    font-family: 'Oswald';
-    src: url('../fonts/Oswald-SemiBold.woff2') format('woff2'),
-        url('../fonts/Oswald-SemiBold.woff') format('woff');
-    font-weight: 500;
-    font-style: normal;
-}
-
-
-
-@font-face {
-    font-family: 'Oswald';
-    src: url('../fonts/Oswald-DemiBold.woff2') format('woff2'),
-        url('../fonts/Oswald-DemiBold.woff') format('woff');
-    font-weight: 500;
-    font-style: normal;
+	font-family: 'Oswald';
+	src: url('../fonts/Oswald-SemiBold.woff2') format('woff2'),
+		url('../fonts/Oswald-SemiBold.woff') format('woff');
+	font-weight: 600;
+	font-style: normal;
 }
 
 @font-face {
-    font-family: 'Oswald';
-    src: url('../fonts/Oswald-ExtraLight.woff2') format('woff2'),
-        url('../fonts/Oswald-ExtraLight.woff') format('woff');
-    font-weight: 200;
-    font-style: normal;
+	font-family: 'Oswald';
+	src: url('../fonts/Oswald-Medium.woff2') format('woff2'),
+		url('../fonts/Oswald-Medium.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
 }
 
 @font-face {
-    font-family: 'Oswald';
-    src: url('../fonts/Oswald-Regular.woff2') format('woff2'),
-        url('../fonts/Oswald-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-
-
-@font-face {
-    font-family: 'Helvetica 65';
-    src: url('../fonts/HelveticaNeue-Medium.woff2') format('woff2'),
-        url('../fonts/HelveticaNeue-Medium.woff') format('woff');
-    font-weight: 500;
-    font-style: normal;
+	font-family: 'Helvetica';
+	src: url('../fonts/HelveticaRounded-Bold.woff2') format('woff2'),
+		url('../fonts/HelveticaRounded-Bold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
 }
 
 @font-face {
-    font-family: 'Helvetica 45';
-    src: url('../fonts/HelveticaNeue-LightItalic.woff2') format('woff2'),
-        url('../fonts/HelveticaNeue-LightItalic.woff') format('woff');
-    font-weight: 300;
-    font-style: italic;
+	font-family: 'Helvetica';
+	src: url('../fonts/Helvetica-Compressed.woff2') format('woff2'),
+		url('../fonts/Helvetica-Compressed.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
 }
 
-@font-face {
-    font-family: 'Helvetica 35';
-    src: url('../fonts/HelveticaNeue-ThinItalic.woff2') format('woff2'),
-        url('../fonts/HelveticaNeue-ThinItalic.woff') format('woff');
-    font-weight: 100;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Helvetica 25';
-    src: url('../fonts/HelveticaNeue-UltraLightItal.woff2') format('woff2'),
-        url('../fonts/HelveticaNeue-UltraLightItal.woff') format('woff');
-    font-weight: 200;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Helvetica 35';
-    src: url('../fonts/HelveticaNeue-Thin.woff2') format('woff2'),
-        url('../fonts/HelveticaNeue-Thin.woff') format('woff');
-    font-weight: 100;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Helvetica 55 Roman';
-    src: url('../fonts/HelveticaNeue-Italic.woff2') format('woff2'),
-        url('../fonts/HelveticaNeue-Italic.woff') format('woff');
-    font-weight: normal;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Helvetica 55 Roman';
-    src: url('../fonts/HelveticaNeue-Roman.woff2') format('woff2'),
-        url('../fonts/HelveticaNeue-Roman.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Helvetica 25';
-    src: url('../fonts/HelveticaNeue-UltraLight.woff2') format('woff2'),
-        url('../fonts/HelveticaNeue-UltraLight.woff') format('woff');
-    font-weight: 200;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Helvetica 45';
-    src: url('../fonts/HelveticaNeue-Light.woff2') format('woff2'),
-        url('../fonts/HelveticaNeue-Light.woff') format('woff');
-    font-weight: 300;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Lato';
-    src: url('../fonts/Lato-Regular.woff2') format('woff2'),
-        url('../fonts/Lato-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
 
 
 
@@ -199,7 +109,7 @@
 a:hover{
 	text-decoration: none;
 }
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
 	width: 8px;
 	height: 8px;
 	background-color: #fff !important;
@@ -208,7 +118,7 @@ a:hover{
 ::-webkit-scrollbar-thumb {
 	border-radius: 5px;
 	background: #9E9E9E;
-}
+} */
 
 html {
 	scroll-behavior: smooth;
@@ -227,15 +137,14 @@ section {
 }
 
 .main-general__description {
-	font-size: 17px;
-	line-height: 25px;
-	letter-spacing: 0.55px;
-	font-family: 'Helvetica 45';
-	font-weight: 300;
-	font-stretch: normal;
-	font-style: normal;
-	line-height: 1.25;
-	letter-spacing: 0.55px;
+	font-family: Helvetica;
+  font-size: 16px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: 0.55px;
+  color: #000000;
 }
 
 .main-general__description p,.main-details__video--text p{
@@ -493,7 +402,7 @@ a {
 	position: absolute;
 	text-align: right;
 	width: 100%;
-	padding: 25px 20px;
+	padding: 22px 20px;
 	margin-right: 50px;
 	border-bottom: 3px solid #9b9b9b30;
 }
@@ -503,7 +412,7 @@ a {
 	color: white;
 }
 .main-banner__title.main-banner__title--home{
-	width: 40%;
+	width: 48%;
 }
 .main-banner__title{
 	width: 65%;
@@ -519,7 +428,7 @@ a {
 	text-transform: uppercase;
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
     font-family: 'Oswald';
-    font-size: 70px;
+    font-size: 67px;
     font-weight: 500;
     font-stretch: normal;
     font-style: normal;
@@ -598,6 +507,10 @@ a {
 	text-decoration: underline;
 }
 
+.main-about__content{
+	padding: 0 20px 0 50px;
+}
+
 .main-about {
 	padding-top: 0;
 	position: relative;
@@ -625,7 +538,7 @@ a {
 
 .main-about__title {
 	/* padding-bottom: 30px; */
-	padding-top: 100px;
+	padding: 100px 0 0 50px;
 }
 
 .main-about__card {
@@ -685,9 +598,9 @@ a {
 .about-card__title {
 	color: black;
 	position: relative;
-	margin-bottom: 5px;
+	margin-bottom: 10px;
 	font-family: 'Oswald';
-	font-size: 20px;
+	font-size: 18px;
 	font-weight: 500;
 	font-stretch: normal;
 	font-style: normal;
@@ -700,16 +613,16 @@ a {
 .about-card__title::before {
 	position: absolute;
 	content: '';
-	width: 38px;
+	width: 35px;
 	border: 1px solid red;
-	left: -50px;
+	left: -45px;
 	bottom: 14px;
 }
 
 .main-about__bg {
 	overflow: hidden;
 	background: #222222;
-	padding: 195px;
+	padding: 186px;
 	position: absolute;
 	width: 100%;
 	z-index: -1;
@@ -734,12 +647,12 @@ a {
 
 .main-about__bg--icono {
 	position: absolute;
-	top: 100px;
-    left: 80px;
+    top: 102px;
+    left: 113px;
 }
 
 .img-icono__bg {
-	width: 96%;
+	width: 94%;
 }
 
 .main-about__bg--icono2 {
@@ -787,9 +700,14 @@ a {
 	color: white;
     font-size: 16px;
     font-weight: 300;
-    letter-spacing: 0.55px;
     width: 50%;
-}
+    font-family: 'Helvetica 45';
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.31;
+    letter-spacing: 0.55px;
+    text-align: center;
+
 }
 
 .about-title__icono:hover {
@@ -1040,7 +958,7 @@ a {
 	opacity: 0.68;
 	-webkit-text-stroke: 0.5px #979797;
 	font-family: Oswald;
-	font-size: 48px;
+	font-size: 43px;
 	font-weight: bold;
 	font-stretch: normal;
 	font-style: normal;
@@ -1048,8 +966,8 @@ a {
 	letter-spacing: 2px;
 	color: rgba(0, 0, 0, 0.01);
 	position: absolute;
-	top: 0;
-	right: 12px;
+	top: 15px;
+	right: 5px;
 }
 
 .main-about-card__title{
@@ -1061,13 +979,15 @@ h1 strong {
 }
 
 .title-nivel2--line {
-	color: black;
-	font-weight: 300;
-	letter-spacing: 1px;
-	margin-bottom: 25px;
-	text-transform: uppercase;
-	font-size: 3rem;
-
+	margin-bottom: 15px;
+    font-family: 'Oswald';
+    font-size: 3rem;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1.79px;
+    color: #000000;
 }
 
 .title-nivel2--line strong {
@@ -1083,14 +1003,14 @@ h1 strong {
 .title-nivel2--line-center::before {
 	content: "";
 	background-image: url(../img/image_15.png);
-	height: 1.4rem;
+	height: 1.5rem;
 	position: absolute;
 	background-repeat: no-repeat;
 	bottom: 0;
 	z-index: -1;
 	left: 50%;
 	transform: translateX(-50%);
-	width: 11rem;
+	width: 14rem;
 	background-size: contain;
 }
 
@@ -1116,7 +1036,7 @@ h1 strong {
 }
 
 .main-video {
-	/* padding-top: 200px; */
+	padding-top: 50px !important;
 	position: relative;
 	background-color: #fbfbfb;
 	z-index: -3;
@@ -1124,7 +1044,7 @@ h1 strong {
 
 .img-video {
 	width: 100%;
-	max-height: 490px;
+	max-height: 500px;
 
 }
 
@@ -1150,7 +1070,7 @@ h1 strong {
 	display: inline-block;
 	background: transparent !important;
 	top: initial;
-	bottom: 230px !important;
+	bottom: 245px !important;
 	cursor: pointer;
 	transition: all 500ms ease;
 	transform: translateX(-50%);
@@ -1162,7 +1082,7 @@ h1 strong {
 
 
 .main-video__content .slick-next {
-	left: 94% !important;
+	left: 93.5% !important;
 }
 
 .main-video__content .slick-next:hover {
@@ -1170,7 +1090,7 @@ h1 strong {
 }
 
 .main-video__content .slick-prev {
-	right: 89% !important;
+	right: 88% !important;
 }
 
 .main-video__content .slick-prev:hover {
@@ -1185,8 +1105,8 @@ h1 strong {
 	position: absolute;
 	top: 17px;
 	right: 5px;
-	border-top: 2px solid #222222;
-	border-right: 2px solid #222222;
+	border-top: 2px solid #444444;
+	border-right: 2px solid #444444;
 }
 
 .main-video__content .slick-prev:before {
@@ -1197,8 +1117,8 @@ h1 strong {
 	top: 17px;
 	left: 5px !important;
 
-	border-bottom: 2px solid #222222;
-	border-left: 2px solid #222222;
+	border-bottom: 2px solid #444444;
+	border-left: 2px solid #444444;
 	right: 6px;
 
 }
@@ -1347,39 +1267,38 @@ h1 strong {
 
 .video-bg__text {
 	color: #212121;
-	font-size: 21px;
-	text-align: right;
-	background-color: white;
-	margin-bottom: 0rem;
-	padding: 15px 0;
-	padding-left: 80px;
-	padding-right: 20px;
-
-	letter-spacing: 10px;
-	position: absolute;
-	bottom: -60px;
-	right: 255px;
-	line-height: 37px;
-	font-family: 'Oswald';
-	font-size: 21px;
-	font-weight: 500;
-	font-stretch: normal;
-	font-style: normal;
-	line-height: 1.81;
-	letter-spacing: 10px;
-	text-transform: uppercase;
+    font-size: 21px;
+    text-align: right;
+    background-color: white;
+    margin-bottom: 0rem;
+    padding: 15px 0;
+    padding-left: 50px;
+    padding-right: 20px;
+    letter-spacing: 10px;
+    position: absolute;
+    bottom: -60px;
+    right: 265px;
+    line-height: 37px;
+    font-family: 'Oswald';
+    font-size: 20px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.81;
+    letter-spacing: 10px;
+    text-transform: uppercase;
 }
 
 .main-video__bg--text {
 	border: 2px solid white;
-	width: 36%;
-	padding: 95px 0px;
-	padding-left: 40px;
-	padding-right: 90px;
-	position: absolute;
-	bottom: -115px;
-	z-index: -1;
-	right: 135px;
+    width: 32%;
+    padding: 85px 0px;
+    padding-left: 40px;
+    padding-right: 90px;
+    position: absolute;
+    bottom: -100px;
+    z-index: -1;
+    right: 182px;
 }
 
 .main-video__text--content {
@@ -1395,22 +1314,25 @@ h1 strong {
 	bottom: 0;
 	background: rgba(0, 0, 0, 0.76);
 	display: flex;
-
-	padding: 30px;
+	padding: 50px 45px;
 }
 
 .nivel-small {
-	font-size: 80%;
-	color: #3b0006;
-	font-weight: 500;
-	letter-spacing: 0.48px;
 	text-transform: uppercase;
+    font-family: Oswald;
+    font-size: 12px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.48px;
+    color: #3b0006;
 }
 
 .main-nivel__small {
 	display: flex;
 	justify-content: center;
-	padding-bottom: 15px;
+	padding-bottom: 5px;
 }
 
 .main-nivel__small.main-nivel__small--start {
@@ -1422,7 +1344,7 @@ h1 strong {
 }
 
 .main-proyectos {
-	padding-top: 150px;
+	padding-top: 120px;
 	/* padding-bottom: 0px; */
 }
 
@@ -1467,7 +1389,7 @@ h1 strong {
 */
 
 .proyectos-text {
-	width: 41%;
+	width: 40%;
 	text-align: center;
 }
 
@@ -1597,14 +1519,14 @@ h1 strong {
 .main-proyectos__items {
 	display: grid !important;
 	grid-template-columns: 535px 1fr;
-	padding-top: 100px;
+	padding-top: 145px;
 }
 
 .main-proyectos__img {
 	overflow: hidden;
 	display: flex;
 	justify-content: flex-end;
-	margin-right: 80px;
+	margin-right: 130px;
 }
 
 
@@ -1688,9 +1610,9 @@ h1 strong {
 
 .main-proyectos__img--hidden {
 	position: relative;
-	width: 68%;
+	width: 80%;
 	overflow: hidden;
-	height: 400px;
+	height: 405px;
 }
 
 
@@ -1717,7 +1639,7 @@ h1 strong {
 }
 
 .title-card__proyectos {
-    font-family: 'Helvetica 65';
+    font-family: 'Helvetica';
     margin-bottom: 0rem;
     font-size: 30px;
     font-weight: bold;
@@ -1730,21 +1652,23 @@ h1 strong {
 
 }
 
-.text-card__proyectos {
-	font-size: 17px;
-	font-family: 'Helvetica 45';
-
-}
-
 .main-proyectos__card {
 	align-self: flex-end;
-	padding-left: 70px;
+	padding-left: 95px;
 }
 
 .main-card__proyectos--title {
 	padding: 30px 0;
 }
 
+.main-card__proyectos--img{
+	width: 95px;
+	height: 95px;
+}
+.main-card__proyectos--img img {
+	width:100%;
+	height: 100%;
+}
 /* .main-proyectos__grid--content {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -1763,7 +1687,7 @@ h1 strong {
 }
 
 .main-card__proyectos--text {
-	width: 63%;
+	width: 70%;
 }
 
 strong {
@@ -1785,7 +1709,7 @@ strong {
 	color: white;
 	transform: rotate(270deg);
 	left: -100%;
-	bottom: 85px;
+	bottom: 75px;
 	transition: all 500ms ease;
 	position: absolute;
 	opacity: 0;
@@ -1797,8 +1721,19 @@ strong {
 
 	position: absolute;
 	right: -100%;
-	bottom: 25px;
+	bottom: 0px;
 	color: #fff;
+}
+
+.main-proyecto__category p{
+	font-family: Oswald;
+    font-size: 20px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1px;
+    color: #ffffff;
 }
 
 .main-proyectos__grid--img:hover .img-proyectos__grid {
@@ -1820,10 +1755,18 @@ strong {
 
 .main-proyectos__grid--img:hover .main-proyecto__rotate {
 	opacity: 1;
-	left: -25px;
+	left: -35px;
 	transition: all 500ms ease;
 }
-
+.main-proyecto__rotate p{
+	font-size: 20px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1px;
+    color: #ffffff;
+}
 
 .proyectos-mask:hover {
 	background-color: #0000007d;
@@ -1839,7 +1782,7 @@ strong {
 	display: inline-block;
 	background: transparent !important;
 	top: initial;
-	bottom: 200px !important;
+	bottom: 180px !important;
 	cursor: pointer;
 	transition: all 500ms ease;
 	transform: translateX(-50%);
@@ -1969,16 +1912,20 @@ strong {
 }
 
 .btn--filled--proyectos {
+	font-family: Oswald;
+    font-size: 18px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.17px;
 	color: #d71f26;
-	font-size: 20px;
-	font-weight: 500;
 	text-decoration: underline;
-	font-family: 'Oswald';
 }
 
 .btn--filled--about{
 	font-family: 'Oswald';
-	font-size: 15px;
+	font-size: 14px;
 	font-weight: 500;
 	font-stretch: normal;
 	font-style: normal;
@@ -1994,19 +1941,21 @@ strong {
 .main-proyectos__grid--buttom {
 	display: flex;
 	justify-content: center;
-	padding-top: 50px;
+	padding-top: 35px;
 }
 
 .main-blog__content {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	/* padding-top: 50px; */
+	grid-gap: 10px;
+	padding: 35px 25px 0 25px;
 }
 
 .main-blog__img {
 	overflow: hidden;
 	transition: all 500ms ease;
-	height: 350px;
+	height: 330px;
 }
 
 .main-blog__img:hover .img-blog {
@@ -2102,7 +2051,7 @@ strong {
 }
 
 .main-blog__body {
-	padding: 30px;
+	padding: 25px 30px 20px 30px;
 }
 
 .text-date {
@@ -2131,7 +2080,7 @@ strong {
 	height: 65%;
 	display: grid;
 	grid-template-columns: 300px 1fr;
-	padding: 0px 60px 20px 60px;
+	padding: 0px 70px 30px 70px;
 	grid-gap: 40px;
 }
 
@@ -2155,12 +2104,12 @@ input[type="number"],
 input[type="password"] {
 	width: 100%;
 	border-radius: 0px;
-	padding: 12px 10px;
+	padding: 8px 10px;
 	border: none;
 	margin: 0px 0;
 	font-family: 'Helvetica';
 	font-weight: 300;
-
+	margin-bottom: -10px;
 	background-color: white;
 	color: #8a9997;
 }
@@ -2181,6 +2130,7 @@ textarea {
 	height: 113px !important;
 	font-family: 'Helvetica';
 	font-weight: 300;
+	height: 95px !important;
 }
 
 input[type="text"]::placeholder,
@@ -2236,12 +2186,13 @@ input[type="password"]::placeholder, textarea::placeholder {
 
 .main-blog {
 	padding-top: 0px;
-	padding-bottom: 80px;
+	padding-bottom: 110px;
 }
 
 .main-enlaces {
 	background-image: url(../img/image.png);
 	margin-top: -10px;
+	padding: 50px 50px 30px 50px;
 }
 
 .main-enlaces__content {
@@ -2260,7 +2211,7 @@ input[type="password"]::placeholder, textarea::placeholder {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-gap: 10px;
-    padding: 20px 35px 20px 0;
+    padding: 10px 35px 20px 0;
 }
 
 .img-instagram {
@@ -2270,16 +2221,20 @@ input[type="password"]::placeholder, textarea::placeholder {
 .list-menu {
 	padding-left: 0px;
 	list-style-type: none;
-	line-height: 38px;
+	line-height: 35px;
 
 }
 
 .enlaces-nivel__text {
-	color: white;
-	margin-bottom: 0rem;
-	font-size: 14px;
-	font-family: 'Helvetica 45';
+	font-family: Helvetica;
+	font-size: 13px;
 	font-weight: 300;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: 0.45px;
+	color: #ffffff;
+  
 }
 
 .main-enlaces__nivel--text {
@@ -2296,24 +2251,29 @@ input[type="password"]::placeholder, textarea::placeholder {
 }
 
 .enlaces-title {
-	font-family: Lato;
-    font-size: 20px;
-    /*font-weight: bold;*/
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    color: #ffffff;
-    letter-spacing: 0.56px;
+	font-family: Helvetica;
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  color: white;
+  margin-bottom: 0px;
 }
 
 
 
 .link-enlaces {
-	color: #fff;
-	font-size: 15px;
-	font-family: 'Helvetica 45';
+	font-family: Helvetica;
+	font-size: 14px;
 	font-weight: 300;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: 0.39px;
+	color: #ffffff;
+  
 
 }
 
@@ -2327,23 +2287,36 @@ input[type="password"]::placeholder, textarea::placeholder {
 }
 
 .list-title {
-	color: white;
-	font-size: 16px;
+	
 	  font-weight: bold;
-	margin-bottom: 0rem;
-	font-family: 'Helvetica 65';
+	  font-size: 14px;
+	  font-stretch: normal;
+	  font-style: normal;
+	  line-height: normal;
+	  letter-spacing: 0.39px;
+	  color: #ffffff;
+	  font-family: Helvetica;
+	  margin-bottom: 0;
 }
 
+
+.list-direccion__title{
+	padding: 25px 20px 0 0px;
+}
 .list-direccion {
 	padding-left: 0px;
 	list-style-type: none;
 }
 
 .end-text {
-	margin-bottom: 0rem;
-	color: white;
-	font-family: 'Lato';
+	font-family: Helvetica;
 	font-size: 15px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
 }
 
 .main-end__text {
@@ -2443,6 +2416,16 @@ input[type="password"]::placeholder, textarea::placeholder {
 	/* padding-bottom: 0; */
 }
 
+
+.main-details__video--icono{
+	width: 80px;
+    height: 80px;
+}
+
+.main-details__video--icono img{
+	width: 100%;
+	height: 100%;
+}
 .main-details__video--content {
 	display: grid;
 	grid-template-columns: 55% 45%;

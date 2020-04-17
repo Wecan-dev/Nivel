@@ -5,7 +5,7 @@
     </small>
   </div>
   <div class="main-nivel__title ">
-    <h1 class="title-nivel2--line-initial title-nivel2--line">
+    <h1 class="title-nivel2--line-center title-nivel2--line">
       <strong> NUESTRO</strong> BLOG
     </h1>
   </div>

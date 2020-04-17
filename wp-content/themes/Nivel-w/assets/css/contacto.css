@@ -92,7 +92,7 @@
     color: #ffffff;
     padding: 10px 80px;
     font-family: 'Oswald';
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
     font-stretch: normal;
     font-style: normal;
@@ -101,7 +101,7 @@
 }
 
 .btn--filled--trans.padd{
-    padding: 10px 100px ;
+    padding: 7px 100px ;
 }
 .btn--filled--trans:hover {
     text-decoration: none;
@@ -1043,7 +1043,7 @@ input.input-search::placeholder {
 
 
 .slider-prueba .slick-dots{
-	top: 0;
+	top: 10px;
 }
 
 .slider-prueba .slick-dots li{
@@ -1052,11 +1052,11 @@ input.input-search::placeholder {
 }
 
 .slider-prueba .slick-prev{
-	right: 90% !important;
+	right: 89% !important;
 }
 
 .slider-prueba .slick-next{
-	left:  95% !important;
+	left:  94% !important;
 }
 
 .slider-prueba .slick-next:hover {
@@ -1079,18 +1079,17 @@ input.input-search::placeholder {
 }
 
 .slider-prueba .slick-dots li{
-    color: #8a9997;
-    transition: .3s ease-in-out;
-    text-transform: capitalize;
-    margin-right: 10spx;
-    /* padding: 16px 5px; */
-    font-family: 'Oswald';
-    font-size: 18px;
     font-weight: 300;
     font-stretch: normal;
     font-style: normal;
     line-height: normal;
-    margin-right: 50px;
+    letter-spacing: 0.69px;
+    text-align: center;
+    color: #8a9997;
+    margin-right: 15px;
+    font-family: 'Oswald';
+    font-size: 20px;
+    margin-right: 15px;
 }
 .slider-prueba .slick-dots{
     /*border-bottom: 2px solid rgba(0, 0, 0, .1);*/
@@ -1100,18 +1099,24 @@ input.input-search::placeholder {
 .slider-prueba .slick-dots:after{
     position: absolute;
     content: '';
-    width: 80%;
+    width: 82%;
     height: 2px;
     background-color: rgba(0, 0, 0, .1);
     left: 100px;
     bottom: 2px;
 }
 .slider-prueba .slick-dots li.slick-active:after{
-    color: #360714;
     border-bottom: 2px solid #360714;
-    padding-bottom: 10px;
-    font-weight: 500;
+    padding-bottom: 7px;
+    font-family: 'Oswald';
     font-size: 18px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.30px;
+    text-align: center;
+    color: #360714;;
 }
 .slider-prueba .slick-dots li:nth-child(1):after{
 	content: 'Preventa';
@@ -1129,7 +1134,7 @@ input.input-search::placeholder {
 .slider-prueba .slick-dots li:before{
     content: '';
     position: absolute;
-    width: 40px;
+    width: 35px;
     height: 1px;
     background-color: red;
     bottom: -15px;
@@ -1137,16 +1142,16 @@ input.input-search::placeholder {
 }
 .slider-prueba .slick-dots li:nth-child(1):before{
     bottom: -15px;
-    right: -35px;
+    right: -20px;
 }
 
 .slider-prueba .slick-dots li:nth-child(2):before{
     bottom: -15px;
-    right: -33px;
+    right: -15px;
 }
 .slider-prueba .slick-dots li:nth-child(3):before{
     bottom: -15px;
-    right: -60px;
+    right: -45px;
 }
 .slider-prueba .slick-dots li:nth-child(4):before{
     display: none;
@@ -1329,7 +1334,8 @@ cite.fn{
 }
 #form_contact-form .frm_combo_inputs_container,#form_contact-form .frm_grid_container, #form_contact-form .frm_form_fields .frm_section_heading,#form_contact-form .frm_form_fields .frm_fields_container{
     display: grid !important;
-    grid-template-columns: repeat(2, 1fr) !important;
+    grid-template-columns: 35% 65% !important;
+    grid-gap: 30px;
 }
 
 .frm_message p {
