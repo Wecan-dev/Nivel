@@ -1334,7 +1334,7 @@ cite.fn{
 }
 #form_contact-form .frm_combo_inputs_container,#form_contact-form .frm_grid_container, #form_contact-form .frm_form_fields .frm_section_heading,#form_contact-form .frm_form_fields .frm_fields_container{
     display: grid !important;
-    grid-template-columns: 35% 65% !important;
+    grid-template-columns: 35% 50% !important;
     grid-gap: 30px;
 }
 
