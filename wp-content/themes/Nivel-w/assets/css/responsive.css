@@ -754,27 +754,105 @@
 
 
 @media (min-width: 1440px) and (max-height: 900px) {
-    .navbar-brand{
-        width: 115px;
+    .navbar{
+        padding: 20px;
     }
-    .nav-item{
-        padding-top: 35px;
+    .main-logo__collapse{
+        margin-bottom: 40px;
+    }
+    .navbar-expand-lg .navbar-nav{
+        margin-left: -10px;
+        padding-right: 3rem;
     }
     .offcanvas-collapse{
-        height: 80%;
+        padding-top: 55px;
     }
+    .offcanvas-collapse.open{
+        left: 76%;
+    }
+    .offcanvas-collapse{
+        width: 26%;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link{
+        padding-left: 3px;
+        padding-right: 0px;
+        padding-bottom: 3px;
+        font-size: 15px;
+    }
+
+    .main-banner__angle-down{
+        bottom: 10.8%;  
+    }
+    .p-2 {
+        padding: 34px 30px 33px 30px !important;
+      }
+      .p-2.p-10{
+        padding: 10px !important;
+        top: 15px;
+        right: 5px;
+      }
+    .hamburger-inner.inner-small{
+        width: 20px;
+    }
+    .navbar-brand{
+        width: 100px;
+        margin-top: 10px;
+        margin-left: -5px;
+        
+    }
+    .nav-item{
+        padding-top: 30px;
+    }
+    .offcanvas-collapse{
+        height: 88%;
+    }
+
+
+    .main-about__content {
+        padding: 0 0px 0 20px;
+    }
+    .main-about__title{
+        padding-left: 20px;
+    }
+
+    .main-about__bg--icono {
+        top: 115px;
+        left: 120px;
+    }
+    .btn--filled--about {
+        font-size: 15px;
+    }
+    
     .main-banner .mask .main-banner__palabra p{
-        font-size: 300px;
+        font-size: 245px;
+        letter-spacing: 13px;
     }
     .main-banner__title.main-banner__title--home{
         width: 45%;
     }
     .main-banner .mask .main-banner__text .main-banner__title p, .main-banner .mask .main-banner__text .main-banner__title h1, .main-banner .mask .main-banner__text .main-banner__title h2, .main-banner .mask .main-banner__text .main-banner__title h3, .main-banner .mask .main-banner__text .main-banner__title h4, .main-banner .mask .main-banner__text .main-banner__title h5, .main-banner .mask .main-banner__text .main-banner__title h6{
-            font-size: 90px;
+            font-size: 75px;
+    }
+
+    .main-banner__content .slick-next, .main-banner__content .slick-prev{
+        bottom: 142px !important;
+    }
+    .main-banner__content .slick-prev{
+        right:82% !important;
+    }
+
+    .main-banner__content .slick-prev:hover {
+        right: 87%;
     }
     .main-banner__palabra--contacto{
-        top: 220px;
-         right: -215px;
+        top: 175px;
+        right: -198px;
+    }
+
+    .main-banner .mask .main-banner__text{
+        padding-top: 0px;
+        margin-top: -70px;
     }
     .main-brand{
         margin-left: -50px;
@@ -783,27 +861,57 @@
         padding-left: 0px;
     }
     .title-nivel{
-        font-size: 4.2rem;
+        font-size: 3.2rem;
     }
     .title-welcome{
             font-size: 45px;
     }
     .title-nivel2--line{
-        font-size: 4.2rem;
+        font-size: 3.2rem;
     }
     .container-prueba{
         height: 80vh;
     }
-    .video-bg__text{
-        right: 300px;
+    .main-video{
+        padding-top: 90px !important;
+    }
+    .main-video__img {
+
+        width: 87%;
+    }
+    .img-video {
+    
+        max-height: 535px;
+    }
+
+    .main-video__content .slick-prev{
+        right: 90% !important;
+    }
+
+    .main-video__content .slick-next {
+        left: 95.5% !important;
+    }
+    
+
+    .main-video__content .slick-next, .main-video__content .slick-prev{
+        bottom: 235px !important;
     }
    
     .main-banner__palabra--contacto p:nth-child(2){
-            top: 195px;
-            right: 75px;
+        top: 190px;
+        right: 40px;
+        font-size: 105px !important;
     }
+    .main-video__bg--text{
+        bottom: -75px;
+        right: 188px;
+    }
+
+   
     .video-bg__text{
-        padding-left: 50px;
+        padding-left: 72px;
+        right: 280px;
+        bottom: -50px;
     }
     .main-banner__title.main-banner__title--full p {
         font-size: 105px !important;
@@ -822,4 +930,79 @@
     .main-general__description p, .main-details__video--text p{
             font-size: 18px;
     }
+
+    .main-proyectos__card {
+    
+        padding-left: 70px;
+    }
+
+    .slider-prueba .slick-dots:after{
+        width: 100%;
+        left: 70px;
+    }
+
+    .main-proyectos__img{
+        margin-right: 100px;
+    }
+
+    .main-proyectos__img--hidden{
+        height: 430px;
+    }
+
+    .slider-prueba .slick-prev {
+        right: 91% !important;
+    }
+
+    .slider-prueba .slick-next {
+        left: 96.5% !important;
+    }
+
+    .slider-prueba .slick-prev:hover {
+        right: 91% !important;
+    }
+
+    .slider-prueba .slick-next:hover {
+        left: 97.5% !important;
+    }
+    .slider-prueba .slick-dots li{
+        margin-right: 25px;
+    }
+    .slider-prueba .slick-dots {
+        top: 20px;
+    }
+    .slider-prueba .slick-dots li:nth-child(1){
+        margin-left: 80px;
+    }
+    .slider-prueba .slick-dots li:nth-child(2){
+        margin-right: 55px;
+    }
+    .slider-prueba .slick-dots li:nth-child(3){
+        margin-right: 55px;
+    }
+
+    .slider-prueba .slick-dots li.slick-active:after{
+        font-size: 19px;
+    }
+    .slider-prueba .slick-dots li:nth-child(1):before {
+        bottom: -18px;
+        right: -30px;
+    }
+    .slider-prueba .slick-dots li:nth-child(2):before {
+        bottom: -18px;
+        right: -36px;
+    }
+    .slider-prueba .slick-dots li:nth-child(3):before {
+        bottom: -18px;
+        right: -76px;
+    }
+    .main-proyecto__rotate{
+        bottom: 125px;
+    }
+    .main-proyectos__grid--img:hover .main-proyecto__rotate {
+        opacity: 1;
+        left: -80px;
+        transition: all 500ms ease;
+        width: 70%;
+    }
+    
 }

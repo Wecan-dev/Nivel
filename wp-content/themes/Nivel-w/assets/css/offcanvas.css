@@ -241,3 +241,6 @@
     padding: 10px !important
   }
 }
+.hamburger-inner.inner-small,.hamburger-inner.inner-small::before, .hamburger-inner.inner-small::after{
+  width: 20px;
+}

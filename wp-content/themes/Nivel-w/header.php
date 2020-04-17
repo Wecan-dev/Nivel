@@ -54,12 +54,14 @@
             <a href="<?php echo bloginfo('url').'/';?>" class="main-logo__collapse">
               <img class="logo-collapse" src="<?php echo get_template_directory_uri();?>/assets/img/logo_4.png">
             </a>
-
+            <li class="nav-item">
+              <a class="nav-link nav-link__mobile active" href="<?php echo bloginfo('url').'/';?>">Inicio</a>
+            </li>
             <li class="nav-item">
               <a class="nav-link nav-link__mobile active" href="<?php echo bloginfo('url').'/proyecto';?>">Proyectos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link nav-link__mobile" href="<?php echo bloginfo('url').'/blog';?>">Mapa de inmueble</a>
+              <a class="nav-link nav-link__mobile" href="<?php echo bloginfo('url').'/blog';?>">Blog</a>
             </li>
             <li class="nav-item">
               <a class="nav-link nav-link__mobile" href="<?php echo bloginfo('url').'/nosotros';?>">La empresa</a>
@@ -73,7 +75,7 @@
                 exterior</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link " href="<?php echo bloginfo('url').'/contacto';?>">Contáctanos</a>
+              <a class="nav-link " href="<?php echo bloginfo('url').'/contacto';?>">contacto</a>
             </li>
             <li class="mt-4 pb-4">
               <a href="" class="mr-2">
