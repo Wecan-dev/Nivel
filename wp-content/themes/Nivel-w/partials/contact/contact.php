@@ -4,18 +4,15 @@
       <div class="main-contactform__item">
         <div class="main-contactform__boxtext">
           <div class="main-nivel__small main-nivel__small--start">
-            <small class="nivel-small">
+            <small class="nivel-small nivel-small--contact">
             <?php the_field('acerca')?>
             </small>
           </div>
           <div class="main-nivel__title main-nivel__title--column ">
-            <h1 class="title-nivel2--line-center title-nivel2--line">
-              <strong><?php the_field('titulo_bold')?></strong>
-
+            <h1 class="title-nivel2--line title-nivel2--line-initial title-nivel2--line-initial--contact">
+              <strong> <?php the_field('titulo_bold'); ?></strong> <?php the_field('titulo_light'); ?>
             </h1>
-            <h1 class="title-nivel2--line">
-              <p><?php the_field('titulo_light')?></p>
-            </h1>
+          
           </div>
           <div class="main-contactform__info">
             <p><?php the_field('descripcion')?></p>

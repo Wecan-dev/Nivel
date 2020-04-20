@@ -18,7 +18,7 @@
           <br>
           información de este proyecto
         </h2>
-        <?php echo FrmFormsController::get_form_shortcode( array( 'id' => 3, 'title' => false, 'description' => false ) ); ?>
+        <?php echo FrmFormsController::get_form_shortcode( array( 'id' => 4, 'title' => false, 'description' => false ) ); ?>
         <!--
         <form action="">
           <div class="form-group">

@@ -3,7 +3,7 @@
     <div class="main-banner__item" style="position: inherit !important;">
       <div class="mask">
         <div class="main-banner__boxtext container">
-          <div class="main-banner__palabra main-banner__palabra--contacto">
+          <div class="main-banner__palabra main-banner__palabra--contacto main-banner__palabra--projects">
             <p>cerca</p>
             <p>nía</p>
           </div>

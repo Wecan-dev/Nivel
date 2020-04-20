@@ -3,7 +3,7 @@
     <div class="main-details__projects--content">
       <div class="main-details__descripcion">
         <div class="main-details__projects--title">
-          <h1 class="title-nivel2--line title-nivel2--line-initial ">
+          <h1 class="title-nivel2--line title-nivel2--line-initial title-nivel2--line-initial--projects">
             <strong> DETALLES</strong> <br> DEL PROYECTO
           </h1>
 

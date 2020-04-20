@@ -107,7 +107,6 @@
 				<ul class="list-direccion">
 					<li class="items-direccion">
 						<a class="link-enlaces" href="#">
-							Dirección
 							Cra 42A # 1-15, Torre 4, Oficina 307 San Fernando Plaza, Medellín, CO
 						</a>
 

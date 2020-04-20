@@ -12,7 +12,7 @@
           <strong>Quiero recibir
           </strong>
           <br>
-          información de este proyecto
+          mas información
         </h2>
         <!-- <form action="">
           <div class="form-group">

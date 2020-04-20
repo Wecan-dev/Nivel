@@ -2,7 +2,7 @@
   <section class="main-details__galeria ">
     <div class="container">
       <div class="main-details__galeria--title">
-        <h1 class="title-nivel2--line title-nivel2--line-initial">
+        <h1 class="title-nivel2--line title-nivel2--line-initial title-nivel2--line-initial--gallery">
           <strong> GALERÍA</strong>
         </h1>
 

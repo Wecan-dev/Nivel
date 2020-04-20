@@ -4,15 +4,15 @@
       <div class="main-details__descripcion">
         <div class="main-details__projects--title">
           <?php  if(get_field( 'titulo_de_zonas' ) == 'Zonas comunes'): ?>
-            <h1 class="title-nivel2--line title-nivel2--line-initial ">
-              <strong>ZONAS</strong> COMUNES
+            <h1 class="title-nivel2--line title-nivel2--line-initial title-nivel2--line-initial--zone">
+              <strong>ZONAS</strong><br> COMUNES
             </h1>
           <?php else: ?>
 
           <?php endif; ?>
 
           <?php  if(get_field( 'titulo_de_zonas' ) == 'Zonas para divertirse'): ?>
-            <h1 class="title-nivel2--line title-nivel2--line-initial ">
+            <h1 class="title-nivel2--line title-nivel2--line-initial title-nivel2--line-initial--zone  ">
               <strong>ZONAS</strong> para divertirse
             </h1>
           <?php else: ?>
@@ -20,7 +20,7 @@
           <?php endif; ?>
 
           <?php  if(get_field( 'titulo_de_zonas' ) == 'Espacios para disfrutar'): ?>
-            <h1 class="title-nivel2--line title-nivel2--line-initial ">
+            <h1 class="title-nivel2--line title-nivel2--line-initial title-nivel2--line-initial--zone  ">
               <strong>Espacios</strong> para disfrutar
             </h1>
           <?php else: ?>
@@ -28,7 +28,7 @@
           <?php endif; ?>
 
           <?php  if(get_field( 'titulo_de_zonas' ) == 'Características'): ?>
-            <h1 class="title-nivel2--line title-nivel2--line-initial ">
+            <h1 class="title-nivel2--line title-nivel2--line-initial title-nivel2--line-initial--zone  ">
               <strong>Características</strong>
             </h1>
           <?php else: ?>

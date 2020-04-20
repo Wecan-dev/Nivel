@@ -6,7 +6,7 @@
       <div class="main-banner__item">
         <div class="mask">
           <div class="main-banner__boxtext container">
-            <div class="main-banner__palabra main-banner__palabra--contacto main-banner__palabra--full">
+            <div class="main-banner__palabra main-banner__palabra--contacto main-banner__palabra--contact">
               <p>Confia</p>
 							<p>bilidad</p>
             </div>

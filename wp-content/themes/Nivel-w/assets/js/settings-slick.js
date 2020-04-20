@@ -223,6 +223,7 @@ $('.main-details__galeria--content').slick({
   slidesToShow: 3,
   slidesToScroll: 3,
   dots: true,
+  arrows:true,
   responsive: [{
       breakpoint: 1024,
       settings: {

@@ -40,7 +40,7 @@
     letter-spacing: 0.62px;
     text-align: center;
     color: #ffffff;
-    padding: 10px;
+    padding: 12px 50px;
 }
 
 .btn--filled--red:hover {
@@ -107,7 +107,11 @@
     line-height: normal;
     letter-spacing: 3.9px;
 }
-
+.btn--filled--trans.btn-size{
+    text-transform: uppercase;
+    font-size: 30px;
+    padding:10px 40px;
+}
 .btn--filled--trans.padd{
     padding: 7px 100px ;
 }
@@ -158,12 +162,18 @@
     top: 160px;
 }
 
+.main-contactform{
+    padding: 120px 0 140px 0;
+}
+
 .main-contactform__content {
     display: grid;
     grid-template-columns: 30% 70%;
     grid-gap: 10px;
 }
-
+.main-contactform__item:nth-child(2){
+    padding: 0 20px 0 40px;
+}
 .main-contactform__ul {
     padding-left: 0;
     list-style: none;
@@ -181,7 +191,7 @@
 .main-contactform__info p,
 .main-contactform__ul li a {
     font-family: 'Roboto';
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 300;
     font-stretch: normal;
     font-style: normal;
@@ -205,13 +215,14 @@
 
 .main-contactform__box {
     background-color: #212121;
-    padding: 20px 60px 40px 60px;
+    padding: 45px 60px 60px 62px;
 }
 
 .main-contactform__box h2 {
     color: #fff;
     font-weight: 200;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
+    font-size: 23px;
 }
 
 .main-contactform__box form .form-group input,
@@ -264,6 +275,7 @@
     font-style: normal;
     line-height: normal;
     font-weight: 300;
+    margin-top: -20px;
 }
 .main-contactform__textlink:hover{
     color: #fff;
@@ -297,23 +309,43 @@
     flex-direction: column;
     align-items: center;
 }
-
+.main-banner__title.main-banner__title--large{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 0px;
+}
 .main-banner__title.main-banner__title--large p {
-    font-size: 110px !important;
-    letter-spacing: 10.5px !important;
+    font-size: 130px !important;
+    letter-spacing: 15px !important;
+    line-height: 1.5 !important;
+    text-shadow: none !important;
+}
+
+.text-two-error {
+    line-height: 3 !important;
+    font-size: 20px !important;
+}
+.main-banner__description.main-banner__error p:nth-child(1){
+    margin-bottom: 0px !important;
+    font-size: 30px;
 }
 
 .main-banner__description p {
-    font-family: 'Helvetica';
-    font-size: 25px;
-    font-weight: normal;
+    font-family: 'Roboto';
+    font-size: 34px;
+    font-weight: 400;
     font-stretch: normal;
     font-style: normal;
     line-height: normal;
     letter-spacing: 3.9px;
     color: #ffffff;
     text-align: center;
-    font-weight: 300;
+    
+}
+
+.main-banner__description p:nth-child(1){
+    margin-bottom: 2rem !important;
 }
 
 .main-banner__description p strong {
@@ -328,7 +360,7 @@
 }
 .main-banner__description p strong.strong-thanks {
     font-family: 'Oswald';
-    font-size: 22px !important;
+    font-size: 30px !important;
     font-weight: 500;
     font-stretch: normal;
     font-style: normal;
@@ -353,21 +385,21 @@
     text-align: center !important;
 }
 .main-banner__description.main-banner__description--error {
-    margin-bottom: -45px;
+    margin-bottom: -75px;
 }
 
-.main-banner .mask .main-banner__text .main-banner__title.main-banner__title--error p{
-    font-weight: bold;
+.main-banner .mask .main-banner__text .main-banner__title.main-banner__title--error p {
+    font-weight: 800;
+    font-size: 190px !important;
+}
+.main-banner .mask .main-banner__text .main-banner__title.main-banner__title--error p span{
+    font-weight: 800;
 }
 .main-banner__description p strong.subtitle--error {
-    font-size: 45px;
+    font-size: 50px;
     letter-spacing: 6.5px;
 }
 
-.main-banner__title.main-banner__title--error p {
-    font-weight: 700;
-    font-size: 180px !important;
-}
 
 /*BLOG*/
 .main-blog__content.main-blog__content--blog {
@@ -1166,7 +1198,7 @@ input.input-search::placeholder {
 }
 
 .frm_checkbox{
-    margin: 15px 0 !important;
+    margin: 5px 0 30px 0 !important
 }
 .frm_checkbox label{
     color: #fff !important;
@@ -1350,3 +1382,8 @@ cite.fn{
     color: #fff !important;
 }
 
+
+
+.frm_submit button{
+    text-transform: uppercase !important;
+}

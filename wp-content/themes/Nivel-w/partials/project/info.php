@@ -1,4 +1,4 @@
-<section class="main-details__video container">
+<section class="main-details__video main-details__video-pd container">
   <div class="main-details__video--content">
       
       <div class="main-video__details" data-toggle="modal" data-target="#videoProject-<?php the_id();?>">

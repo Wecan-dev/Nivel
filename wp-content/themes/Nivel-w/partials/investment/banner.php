@@ -6,11 +6,11 @@
       <div class="main-banner__item">
         <div class="mask">
           <div class="main-banner__boxtext container">
-            <div class="main-banner__palabra main-banner__palabra--contacto">
+            <div class="main-banner__palabra main-banner__palabra--contacto main-banner__palabra--inversion">
               <p>APER</p>
               <p>TURA</p>
             </div>
-            <div class="main-banner__text">
+            <div class="main-banner__text main-banner__text--bottom">
 
               <div class="main-banner__title">
                 <?php the_content(); ?>

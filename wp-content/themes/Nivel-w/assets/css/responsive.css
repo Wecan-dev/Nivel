@@ -785,7 +785,7 @@
         bottom: 10.8%;  
     }
     .p-2 {
-        padding: 34px 30px 33px 30px !important;
+        padding: 34px 27px 33px 30px !important;
       }
       .p-2.p-10{
         padding: 10px !important;
@@ -825,8 +825,8 @@
     }
     
     .main-banner .mask .main-banner__palabra p{
-        font-size: 200px;
-        letter-spacing: 13px;
+        font-size: 245px;
+        letter-spacing: 12px;
     }
     .main-banner__title.main-banner__title--home{
         width: 45%;
@@ -847,12 +847,16 @@
     }
     .main-banner__palabra--contacto{
         top: 175px;
-        right: -198px;
+        right: -195px;
     }
 
     .main-banner .mask .main-banner__text{
         padding-top: 0px;
         /* margin-top: -70px; */
+    }
+
+    .main-banner .mask .main-banner__text.main-banner__text--pad{
+        padding-top:100px ;
     }
     .main-brand{
         margin-left: -50px;
@@ -867,21 +871,21 @@
             font-size: 45px;
     }
     .title-nivel2--line{
-        font-size: 3.2rem;
+        font-size: 3.3rem;
     }
     .container-prueba{
         height: 80vh;
     }
     .main-video{
-        padding-top: 90px !important;
+        padding-top: 80px !important;
     }
     .main-video__img {
 
-        width: 87%;
+        width: 88%;
     }
     .img-video {
     
-        max-height: 535px;
+        max-height: 550px;
     }
 
     .main-video__content .slick-prev{
@@ -894,48 +898,57 @@
     
 
     .main-video__content .slick-next, .main-video__content .slick-prev{
-        bottom: 235px !important;
+        bottom: 285px !important;
     }
    
     .main-banner__palabra--contacto p:nth-child(2){
         top: 190px;
-        right: 40px;
-        font-size: 80px !important;
-    }
-    .main-video__bg--text{
-        bottom: -75px;
-        right: 188px;
+        right: 30px;
+        font-size: 100px !important;
     }
 
-   
+    .main-video__bg--color{
+        height: 25rem;
+    }
+    
+    .main-video__bg--text{
+        bottom: -105px;
+        right: 185px;
+    }
     .video-bg__text{
         padding-left: 72px;
         right: 280px;
-        bottom: -50px;
+        bottom: -40px;
     }
     .main-banner__title.main-banner__title--full p {
-        font-size: 75px !important;
+        font-size: 80px !important;
     }
     .main-banner__palabra.main-banner__palabra--contacto.main-banner__palabra--full {
-        top: 240px !important;
-        right: -160px !important;
+        top: 180px !important;
+        right: -155px !important;
     }
     .main-banner__palabra.main-banner__palabra--contacto.main-banner__palabra--full p{
-        font-size: 230px !important;
+        font-size: 250px !important;
     }
     .main-banner__palabra--contacto.main-banner__palabra--full p:nth-child(2){
         font-size: 110px !important;
             right: 10px !important;
     }
     .main-general__description p, .main-details__video--text p{
-            font-size: 18px;
+            font-size: 16px;
     }
 
+    .main-proyectos  {
+        padding-top: 105px;
+    }
     .main-proyectos__card {
     
         padding-left: 70px;
     }
 
+    .main-proyectos__content .slick-next, .main-proyectos__content .slick-prev, .slider .slick-next, .slider .slick-prev{
+        bottom: 195px !important;
+    }
     .slider-prueba .slick-dots:after{
         width: 100%;
         left: 70px;
@@ -1012,7 +1025,7 @@
         font-size: 20px;
     }
     .main-blog__content{
-        padding: 45px 25px 0 25px;
+        padding: 35px 0px 0 0px;
     }
     .main-blog__img {
         height: 350px;
@@ -1021,7 +1034,7 @@
         padding: 30px 30px 25px 30px;
     }
     .main-icono__footer.open {
-        bottom: 0px;
+        bottom: 25px;
     }
     .container-contacto{
         padding: 5px 70px 35px 70px;
@@ -1031,5 +1044,140 @@
         display: grid !important;
         grid-template-columns: 35% 55% !important;
         grid-gap: 30px;
+    }
+
+
+    .main-enlaces {
+        padding: 90px 50px 35px 50px;
+    }
+    .main-banner .mask .main-banner__text .main-banner__title.main-banner__title--error p {
+        font-weight: 800;
+        font-size: 220px !important;
+    }
+    .text-two-error {
+        line-height: 3 !important;
+        font-size: 35px !important;
+    }
+    .main-banner__description.main-banner__error p:nth-child(1) {
+        margin-bottom: 0px !important;
+        font-size: 30px;
+    }
+    .main-banner__description.main-banner__description--error {
+        margin-bottom: -75px;
+    }
+    .main-banner__img.main-banner__img--thanks {
+        height: 95vh;
+    }
+    .btn--filled--trans.btn-size {
+        text-transform: uppercase;
+        font-size: 30px;
+        padding: 10px 40px;
+    }
+
+    .main-banner__description p:nth-child(1) {
+        margin-bottom: 3rem !important;
+    }
+    .main-banner__description p{
+        font-size: 34px;
+    }
+    .main-banner__title.main-banner__title--large p {
+        font-size: 155px !important;
+        letter-spacing: 15px !important;
+        line-height: 1.5 !important;
+        text-shadow: none !important;
+    }
+    .main-banner__title.main-banner__title--large{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding-top: 160px;
+    }
+
+
+    .main-banner__palabra.main-banner__palabra--projects{
+        top: 145px;
+        right: -160px;
+    }
+
+    .main-banner__palabra.main-banner__palabra--projects p{
+        font-size: 192px !important;
+    }
+    .main-banner__palabra.main-banner__palabra--projects p:nth-child(2) {
+        top: 160px;
+        right: 20px;
+        font-size: 100px !important;
+    }
+    .main-banner__palabra.main-banner__palabra--inversion{
+        top: 185px;
+        right: -168px;
+    }
+    .main-banner__palabra.main-banner__palabra--inversion p {
+        font-size: 245px;
+        letter-spacing: 13px;
+    }
+
+    .main-banner__palabra.main-banner__palabra--inversion p:nth-child(2) {
+        top: 180px;
+        right: -5px;
+        font-size: 100px !important;
+        letter-spacing: 20px !important;
+    }
+
+    .main-banner__palabra.main-banner__palabra--contact{
+        top: 180px;
+        right: -170px;
+    }
+
+    .main-banner__palabra.main-banner__palabra--contact p:nth-child(2) {
+        top: 185px;
+        right: 15px;
+        font-size: 100px !important;
+        letter-spacing: 20px !important;
+    }
+    .main-contactform__boxtext {
+        padding: 0 5px;
+    }
+    .main-contactform {
+        padding: 120px 0 140px 0;
+    }
+    .main-nivel__small {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 5px;
+    }
+    .title-nivel2--line-initial.title-nivel2--line-initial--contact strong::before {
+        left: -5px;
+        bottom: 3px;
+    }
+    .main-contactform__box {
+        background-color: #212121;
+        padding: 45px 60px 60px 62px;
+    }
+    input[type="text"], input[type="tel"], input[type="email"], input[type="number"], input[type="password"]{
+        margin: -3px 0;
+    }
+    #field_9jv0r12 {
+        height: 85px !important;
+    }
+    .main-direccion {
+        padding-left: 35px;
+    }
+    .main-enlaces__nivel {
+        padding-top: 30px;
+    }
+    .enlaces-nivel__text, .list-title{
+        font-size:13px;
+    }
+    .list-direccion__title {
+        padding: 20px 0px 0 0px;
+    }
+    .invert-form__info h2 {
+        font-size: 25px;
+        font-weight: 300;
+    }
+
+    .invert-form__info .mask {
+        padding-left: 10rem;
+        
     }
 }

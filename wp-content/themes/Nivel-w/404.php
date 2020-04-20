@@ -6,7 +6,7 @@
 			<div class="main-banner__item">
 				<div class="mask">
 					<div class="main-banner__boxtext">
-						<div class="main-banner__text main-banner__text--center">
+						<div class="main-banner__text main-banner__text--center  main-banner__text--pad">
 							<div class="main-banner__description main-banner__description--error">
 								<p><strong class="subtitle--error">Lo sentimos</strong></p>
 							</div>
@@ -15,19 +15,19 @@
 									4<span class="letra-color">0</span>4
 								</p>
 							</div>
-							<div class="main-banner__description">
+							<div class="main-banner__description main-banner__error">
 								<p>No pudimos encontrar la página que buscas</p>
-								<p><strong>Te llevamos de regreso</strong></p>
+								<p class="text-two-error"><strong>Te llevamos de regreso</strong></p>
 							</div>
-							<div class="">
-								<button class="btn_custom btn--medium btn--filled--trans">
+							<div class="content-btn-404">
+								<button class="btn_custom btn--medium btn--filled--trans btn-size">
 									volver al home
 								</button>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="main-banner__img">
+				<div class="main-banner__img main-banner__img--thanks">
 					<img src="<?php echo get_template_directory_uri();?>/assets/img/Thanks/image_6.png">
 				</div>
 			</div>
