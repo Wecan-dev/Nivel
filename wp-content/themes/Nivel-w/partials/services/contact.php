@@ -19,17 +19,10 @@
         <form action="">
           <div class="form-group">
             <label>
-              Correo Electrónico
+              Numero de identificación
               <input class="form-control" id="formGroupExampleInput" placeholder="Correo Electrónico" type="text">
             </label>
           </div>
-          <div class="form-group">
-            <label>
-              Contraseña
-              <input class="form-control" id="formGroupExampleInput" placeholder="Contraseña" type="password">
-            </label>
-          </div>
-
           <div class="form-help">
             <label class="custom-control-label" for="customControlInline">
               <img src="<?php echo get_template_directory_uri();?>/assets/img/Service/icon@3x.png" alt="">
@@ -39,17 +32,15 @@
             </label>
           </div>
           <div class="main-contactform__btnbox">
-            <button class="btn_custom btn--medium btn--filled--red mr-3" style="padding: 12px 20px;">
+            <button class="btn_custom btn--medium btn--filled--red mr-3 text-trans">
               Ingresar
             </button>
-            <button class="btn_custom btn--transp">
-              Recordar clave
-            </button>
+          
           </div>
         </form>
 
       </div>
-      <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+      <div class="tab-pane fade two-form--services" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
         <form action="">
           <div class="form-group">
             <label>
@@ -73,10 +64,10 @@
             </label>
           </div>
           <div class="main-contactform__btnbox">
-            <button class="btn_custom btn--medium btn--filled--red mr-3">
+            <button class="btn_custom btn--medium btn--filled--red mr-3 text-trans">
               Ingresar
             </button>
-            <button class="btn_custom btn--transp">
+            <button class="btn_custom btn--transp text-trans">
               Recordar clave
             </button>
           </div>
@@ -106,7 +97,7 @@
             </label>
           </div>
           <div class="main-contactform__btnbox">
-            <button class="btn_custom btn--medium btn--filled--red mr-3">
+            <button class="btn_custom btn--medium btn--filled--red mr-3 text-trans">
               Ingresar
             </button>
             <button class="btn_custom btn--transp">

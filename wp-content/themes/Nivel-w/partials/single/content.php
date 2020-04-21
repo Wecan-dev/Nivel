@@ -116,7 +116,7 @@
           <a href="<?php echo get_author_posts_url(get_the_author_meta('ID')); ?>">Más artículos de este autor</a>
         
         </div>
-        <p class="main-blog__description">
+        <p class="main-blog__description main-blog__description--author">
           <?php echo substr( get_the_author_meta('user_description') , 0 , 300 ); ?>
         </p>
       </div>

@@ -785,7 +785,7 @@
         bottom: 10.8%;  
     }
     .p-2 {
-        padding: 34px 27px 33px 30px !important;
+        padding: 35px 30px 33px 30px !important;
       }
       .p-2.p-10{
         padding: 10px !important;
@@ -805,7 +805,7 @@
         padding-top: 30px;
     }
     .offcanvas-collapse{
-        height: 88%;
+        height: 80%;
     }
 
 
@@ -813,12 +813,17 @@
         padding: 0 0px 0 20px;
     }
     .main-about__title{
-        padding-left: 20px;
+        padding-left: 17px;
+    }
+
+    .main-about__counter{
+        top: 12px;
+        right: 3px;
     }
 
     .main-about__bg--icono {
-        top: 115px;
-        left: 120px;
+        top: 110px;
+        left: 117px;
     }
     .btn--filled--about {
         font-size: 15px;
@@ -1018,7 +1023,7 @@
         width: 70%;
     }
     .img-proyectos__grid{
-        height: 60vh;
+        height: 59vh;
     }
 
     .btn--filled--proyectos{
@@ -1156,11 +1161,22 @@
     input[type="text"], input[type="tel"], input[type="email"], input[type="number"], input[type="password"]{
         margin: -3px 0;
     }
+
+    .frm_checkbox {
+        margin: 5px 0 30px 0 !important;
+    }
+
+    .main-contactform__textlink {
+        margin-top: -20px;
+    }
     #field_9jv0r12 {
         height: 85px !important;
     }
     .main-direccion {
         padding-left: 35px;
+    }
+    .main-contactform__maps {
+        height: 405px;
     }
     .main-enlaces__nivel {
         padding-top: 30px;
@@ -1179,5 +1195,222 @@
     .invert-form__info .mask {
         padding-left: 10rem;
         
+    }
+    .service-form {
+        display: flex;
+        justify-content: center;
+        padding: 110px 10px;
+    }
+    .service-form form {
+        padding: 40px 20px 30px 25px;
+    }
+    .main-blog__bloggrid{
+        grid-template-columns: 66% 34%;
+        grid-gap: 25px;
+    }
+    .main-groupfeatured__sidebar{
+            padding: 0px 25px 0 5px;
+    }
+   
+    .main-sidebar__ul section{
+        padding-top: 10px !important;
+    }
+    .main-sidebar__ul li {
+        margin-bottom: 20px;
+    }
+    .main-sidebar__link, .main-fav ul li, .main-fav ul li a{
+        font-size: 15px;
+    }
+    .main-sidebar__category{
+        padding: 15px 12px 15px 25px;
+         margin-bottom: 50px;
+    }
+
+    .widget.widget_search input{
+        padding: 15px 25px;
+    }
+
+    .main-blog__content.main-blog__content--blog .main-blog__body{
+        padding: 20px 20px 35px 30px;
+    }
+    .items-categoria{
+        font-size: 14px;
+    }
+    .main-blog__content.main-blog__content--blog {
+        grid-template-columns: 100% !important;
+        grid-gap: 60px;
+        padding-top: 0;
+    }
+
+    .main-title__blog{
+        grid-template-columns: 135px 1fr;
+    }
+
+    .main-blog__description, .main-blog__text p{
+            margin-top: 15px;
+            margin-bottom: 25px;
+    }
+    .main-blog__card--medium {
+        max-height: 610px;
+    }
+    .main-sidebar__category:nth-child(1) {
+        padding: 5px 0;
+    }
+    .main-blog.main-blog--view{
+        padding-top: 110px;
+    }
+    .main-banner__title--single p{
+        font-size: 64px !important;
+    }
+    .service-about {
+        padding: 80px 0px 45px 20px;
+    }
+    .service-steps__grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 6rem;
+        padding-left: 4.5rem;
+        padding-right: 5rem;
+        padding-bottom: 3rem;
+    }
+    .service-steps__title h2 {
+        font-size: 1.3rem;
+        font-weight: 300;
+        text-transform: uppercase;
+    }
+
+    .main-nosotros__content{
+        grid-template-columns: 33% 67%;
+    }
+    .main-nosotros__content--text {
+        padding-right: 7rem;
+        padding-left: 5px;
+    }
+    .main-nosotros__content--experence{
+        padding:25px 0 25px 65px;
+    }
+    .main-testimonios {
+        padding-top: 75px;
+        padding-bottom: 145px;
+    }
+    .nosotros-video__img {
+        height: 530px;
+    }
+    .main-banner__palabra.main-banner__palabra--about {
+        top: 175px;
+        right: -165px;
+    }
+    .main-banner__palabra--about p:nth-child(2) {
+        right: 10px !important;
+        letter-spacing: 20px !important;
+    }
+    .main-banner__palabra.main-banner__palabra--services {
+        top: 175px;
+        right: -215px;
+    }
+
+    .main-banner__palabra.main-banner__palabra--blog{
+        top: 175px;
+        right: -175px;
+    }
+    .main-banner__palabra--blog p:nth-child(2){
+        right: 10px !important;
+        letter-spacing: 20px !important;
+    }
+    #frm_form_2_container input{
+        margin: -6px 0;
+    }
+    .main-contactform__item:nth-child(2) {
+        padding: 0 20px 0 40px;
+    }
+
+    .main-contactform__content {
+        display: grid;
+        grid-template-columns: 30% 70%;
+        grid-gap: 10px;
+    }
+    .main-groupfeatured__sidebar {
+        padding: 0 35px 0 0px;
+    }
+    .main-about-card__body{
+        height: 8.5rem;
+    }
+    .img-icono__bg {
+        width: 99%;
+    }
+    .main-details__video--icono img {
+        margin-top: -30px;
+    }
+    .main-details__video--icono--home img{
+        margin-top: 0;
+    }
+    .mask-images-text{
+        bottom: -85px;
+    }
+    .main-proyectos__grid--img:hover .main-proyecto__category{
+        right: 25px;
+    }
+
+    .main-banner__palabra--project{
+        top: 180px;
+        right: -150px !important;
+    }
+
+    .main-banner__palabra.main-banner__palabra--project  p:nth-child(2){
+        right: -10px !important;
+        letter-spacing: 20px!important;
+    }
+    .main-projects {
+        padding-top: 60px;
+    }
+
+    .main-banner__img2 {
+        width: 100%;
+        height: 53vh;
+    }
+    .main-details__video--content{
+        grid-gap: 60px;
+    }
+    .main-video__details{
+        margin: 0 5px;
+    }
+    .quare-text p {
+        margin-bottom: -5px;
+    }
+    .quare-text{
+        height: 90px;
+    }
+    .title-nivel2--line-initial.title-nivel2--line-initial--projects strong::before {
+        left: -10px;
+        width: 14rem;
+    }
+    .main-contactform__box h2 {
+
+        font-size: 23px;
+        letter-spacing: 1px;
+    }
+    #frm_form_4_container input{
+        margin-bottom: -10px !important;
+    }
+    #frm_form_4_container .frm_checkbox{
+        margin: 5px 0 20px 0 !important;
+    }
+
+    #frm_form_4_container .frm_checkbox .main-contactform__textlink {
+        margin-top: -10px;
+    }
+
+    .main-experiencia__text {
+        padding-top: 25px;
+    }
+    .main-testimonios__content{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .two-form--services form{
+        padding: 0px 20px 0px 25px;
+    }
+    .text-trans{
+        padding: 15px 40px !important;
     }
 }

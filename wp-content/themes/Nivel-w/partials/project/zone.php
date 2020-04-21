@@ -1284,20 +1284,6 @@
           endif; ?>
 
         
-
-
-
-
-
-          <?php if(get_field('cargar_pdf')): ?>
-            <div class="main-details__video--buttom">
-              <a class="btn_custom btn--medium btn--filled2" target="_blank" href="<?php the_field('cargar_pdf') ?>">
-                VER PRESENTACIÓN
-              </a>
-            </div>
-          <?php else: ?>
-
-          <?php endif ?>
         </div>
       </div>
       <div class="main-details__projects--slick">

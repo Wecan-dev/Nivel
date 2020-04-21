@@ -5,7 +5,7 @@
   <!-- End Banner-->
 
   <!-- Blog Single-->
-  <section id="main-blog" class="main-blog">
+  <section id="main-blog" class="main-blog main-blog--view">
 		<div class="container">
 			<div class="main-blog__bloggrid">
 				

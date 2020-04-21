@@ -1,28 +1,52 @@
 <section class="main-details__video main-details__video-pd container">
   <div class="main-details__video--content">
-      
-      <div class="main-video__details" data-toggle="modal" data-target="#videoProject-<?php the_id();?>">
-          <div class="mask-video">
-            <div class="main-details__video--icono">
-              <img class="video-icono" src="<?php echo get_template_directory_uri();?>/assets/img/play.png">
 
+
+      <?php if(get_field('carga_de_video')):?>
+        <div class="main-video__details" data-toggle="modal" data-target="#videoProject-<?php the_id();?>">
+            
+              <div class="mask-video">
+                <div class="main-details__video--icono">
+                  <img class="video-icono" src="<?php echo get_template_directory_uri();?>/assets/img/play.png">
+
+                </div>
+              </div>
+              <video class="img-video__details" src="<?php the_field('carga_de_video')?>">
+              </video>
+
+        
+            <div class="quare-text">
+              <p class="text-ubications-projects"><?php the_field('ubicacion') ?></p>
+              <p  class="text-price-projects">DESDE:  
+                <span><?php the_field('precio') ?></span>
+              </p>
+              <p class="text-impuesto-projects ">Valor impuestos incluido*</p>
             </div>
-          </div>
-          <?php if(get_field('carga_de_video')):?>
-            <video class="img-video__details" src="<?php the_field('carga_de_video')?>">
-            </video>
-          <?php else:?>
-            <img class="img-video__details" src="<?php echo get_template_directory_uri();?>/assets/img/imagen-detalle5.png">
-          <?php endif; ?>
-          <div class="quare-text">
-            <p class="text-ubications-projects"><?php the_field('ubicacion') ?></p>
-            <p  class="text-price-projects">DESDE:  
-              <span><?php the_field('precio') ?></span>
-            </p>
-            <p class="text-impuesto-projects ">Valor impuestos incluido*</p>
-          </div>
-      
-      </div>
+        
+        </div>
+      <?php else:?>
+        <div class="main-video__details">
+        
+
+              <div class="mask-video">
+                <!--<div class="main-details__video--icono">
+                  <img class="video-icono" src="<?php echo get_template_directory_uri();?>/assets/img/play.png">
+
+                </div>-->
+              </div>
+              <img class="img-video__details" src="<?php echo get_template_directory_uri();?>/assets/img/imagen-detalle5.png">
+            
+            <div class="quare-text">
+              <p class="text-ubications-projects"><?php the_field('ubicacion') ?></p>
+              <p  class="text-price-projects">DESDE:  
+                <span><?php the_field('precio') ?></span>
+              </p>
+              <p class="text-impuesto-projects ">Valor impuestos incluido*</p>
+            </div>
+        
+        </div>
+
+      <?php endif; ?>
     
       
     <div class="main-details__video--card">

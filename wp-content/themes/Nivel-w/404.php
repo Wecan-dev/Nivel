@@ -20,7 +20,7 @@
 								<p class="text-two-error"><strong>Te llevamos de regreso</strong></p>
 							</div>
 							<div class="content-btn-404">
-								<button class="btn_custom btn--medium btn--filled--trans btn-size">
+								<button class="btn_custom btn--medium btn--filled--trans btn-size" style="letter-spacing: 1.9px;">
 									volver al home
 								</button>
 							</div>

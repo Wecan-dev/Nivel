@@ -2,7 +2,7 @@
   <?php $args = array( 'post_type' => 'post', 'posts_per_page' => 6); ?>   
   <?php $loop = new WP_Query( $args ); ?>
   <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
-    <div class="main-blog__card main-blog__card--small">
+    <div class="main-blog__card main-blog__card--medium">
       <a href="<?php the_permalink();?>">
 
         <div class="main-blog__img">
@@ -47,7 +47,7 @@
               <?php the_title(); ?>
             </a>
             <p class="main-blog__description">
-            <?php echo excerpt(30); ?>
+            <?php echo excerpt(43); ?>
             </p>
             <a href="<?php the_permalink();?>" class="main-blog__link">leer más</a>
           </div>

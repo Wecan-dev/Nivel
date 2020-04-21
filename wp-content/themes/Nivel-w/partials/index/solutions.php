@@ -14,7 +14,7 @@
       <div class="main-video__items" data-toggle="modal" data-target="#videoSolutions-<?php the_id();?>" >
         <div class="main-video__img">
           <div class="mask-video2">
-            <div class="main-details__video--icono">
+            <div class="main-details__video--icono main-details__video--icono--home">
               <img class="video-icono" src="<?php echo get_template_directory_uri();?>/assets/img/play.png">
             <!-- < ?php if(get_field('imagen')): ?>
               < ?php else: ?>

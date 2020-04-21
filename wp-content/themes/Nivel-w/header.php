@@ -70,11 +70,11 @@
               <a class="nav-link nav-link__mobile" href="<?php echo bloginfo('url').'/servicios';?>">Servicio al cliente</a>
             </li>
 
-            <li class="nav-item">
+            <!--<li class="nav-item">
               <a class="nav-link nav-link__mobile" href="<?php echo bloginfo('url').'/inversion';?>">invierte desde el
                 exterior</a>
-            </li>
-            <li class="nav-item">
+            </li>-->
+            <li class="nav-item nav-item--last">
               <a class="nav-link " href="<?php echo bloginfo('url').'/contacto';?>">contacto</a>
             </li>
             <li class="mt-4 pb-4">

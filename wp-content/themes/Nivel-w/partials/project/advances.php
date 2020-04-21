@@ -14,11 +14,11 @@
             <?php the_field('descripcion_de_avances')?>
           </p>
         </div>
-        <div class="main-details__video--buttom">
+        <!--<div class="main-details__video--buttom">
           <a class="btn_custom btn--medium btn--filled2" href="">
             VER AHORA
           </a>
-        </div>
+        </div>-->
 
       </div>
       

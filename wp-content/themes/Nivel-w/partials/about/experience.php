@@ -7,7 +7,7 @@
       <div class="mask"></div>
       <img class="img-experiencia" src="<?php the_field('image2');?>">
     </div>
-    <div class="main-nosotros__content--text">
+    <div class="main-nosotros__content--experence">
       <div class="main-nosotros__small">
         <small class="nivel-small">
         <?php the_field('acerca2');?>
