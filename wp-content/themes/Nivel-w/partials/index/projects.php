@@ -23,7 +23,11 @@
           <?php $args = array( 'post_type' => 'Proyectos'); ?>   
           <?php $loop = new WP_Query( $args ); ?>
           <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
-          <?php if( get_field('proyectos') == 'Preventa'): ?>
+      
+            <?php // proyectos ( value )
+$proyectos_array = get_field( 'proyectos' );
+if ( $proyectos_array ):
+	foreach ( $proyectos_array as $proyectos_item ): if($proyectos_item == 'Preventa'): ?>
             <div class="main-proyectos__items">
               <div class="main-proyectos__card">
                 <div class="main-card__proyectos--img">
@@ -56,7 +60,9 @@
                 </div>
               </div>
             </div>
-          <?php endif; endwhile; ?>
+         <?php endif;
+	endforeach;
+endif;  endwhile; ?>
           <!-- <div class="main-proyectos__items">
             <div class="main-proyectos__card">
               <div class="main-card__proyectos--img">
@@ -98,7 +104,12 @@
           <?php $args = array( 'post_type' => 'Proyectos'); ?>   
           <?php $loop = new WP_Query( $args ); ?>
           <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
-          <?php if( get_field('proyectos') == 'Construcción'): ?>
+      
+
+            <?php // proyectos ( value )
+$proyectos_array = get_field( 'proyectos' );
+if ( $proyectos_array ):
+	foreach ( $proyectos_array as $proyectos_item ): if($proyectos_item == 'Construcción'): ?>
             <div class="main-proyectos__items">
               <div class="main-proyectos__card">
                 <div class="main-card__proyectos--img">
@@ -131,14 +142,21 @@
                 </div>
               </div>
             </div>
-          <?php endif; endwhile; ?>
+         <?php endif;
+	endforeach;
+endif;  endwhile; ?>
         </div>
   
         <div class="slider-prueba2">
         <?php $args = array( 'post_type' => 'Proyectos'); ?>   
           <?php $loop = new WP_Query( $args ); ?>
           <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
-          <?php if( get_field('proyectos') == 'Entrega inmediata'): ?>
+         
+            
+            <?php // proyectos ( value )
+$proyectos_array = get_field( 'proyectos' );
+if ( $proyectos_array ):
+	foreach ( $proyectos_array as $proyectos_item ): if($proyectos_item == 'Entrega inmediata'): ?>
             <div class="main-proyectos__items">
               <div class="main-proyectos__card">
                 <div class="main-card__proyectos--img">
@@ -171,7 +189,9 @@
                 </div>
               </div>
             </div>
-          <?php endif; endwhile; ?>
+         <?php endif;
+	endforeach;
+endif;  endwhile; ?>
         </div>
   
         <div class="slider-prueba2">

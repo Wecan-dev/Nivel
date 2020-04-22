@@ -28,7 +28,10 @@
     <?php $args = array( 'post_type' => 'Proyectos'); ?>   
     <?php $loop = new WP_Query( $args ); ?>
     <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
-      <?php if( get_field('proyectos') == 'Preventa'): ?>
+    <?php // proyectos ( value )
+$proyectos_array = get_field( 'proyectos' );
+if ( $proyectos_array ):
+	foreach ( $proyectos_array as $proyectos_item ): if($proyectos_item == 'Preventa'): ?>
           <div class="main-projects__card">
          
             
@@ -66,7 +69,10 @@
             </div>
           </div>
 
-        <?php endif; endwhile; ?>
+      <?php
+endif;
+	endforeach;
+endif;  endwhile; ?>
 
 
           <!-- <div class="main-projects__card">
@@ -110,56 +116,11 @@
  <?php $args = array( 'post_type' => 'Proyectos'); ?>   
         <?php $loop = new WP_Query( $args ); ?>
         <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
-<?php if( get_field('proyectos') == 'Construcción'): ?>
-        <div class="main-projects__card">
-         
-            
-         <div class="main-projects__img">
-           <a href="<?php the_permalink(); ?>">
-             <span class="line"></span>
-             <span class="line line-bottom"></span>
-             <div class="main-proyecto__icono">
-               <img class="proyecto-icono" src="<?php echo get_template_directory_uri();?>/assets/img/icon@2x.png">
-             </div>
-             <div class="main-proyecto_text">
-               <p>Desde <br>
-                 <?php the_field('precio') ?></p>
-             </div>
-             <div class="mask"></div>
-             <a href="<?php the_permalink(); ?>">
-               <img class="img-projects" src="<?php echo get_the_post_thumbnail_url(); ?>">
-             </a>
-             </a>
-         </div>
-    
-       
-         <div class="main-projects__body">
-           <div class="main-projects__logo">
-             <img class="projects-logo" src="<?php the_field('logo_de_ubicacion') ?>">
-           </div>
-           <div class="main-projects__text">
-             <p class="projects-title">
-              <?php the_title(); ?>
-             </p>
-             <p class="projects-text">
-             <?php the_field('ubicacion') ?>
-             </p>
-           </div>
-         </div>
-       </div>
 
-        <?php endif; endwhile; ?>
-
-
-        </div>
-      </div>
-      <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
-        <div class="main-projects__content">
-
-        <?php $args = array( 'post_type' => 'Proyectos'); ?>   
-        <?php $loop = new WP_Query( $args ); ?>
-        <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
-        <?php if( get_field('proyectos') == 'Entrega Inmediata'): ?>
+  <?php // proyectos ( value )
+$proyectos_array = get_field( 'proyectos' );
+if ( $proyectos_array ):
+	foreach ( $proyectos_array as $proyectos_item ): if($proyectos_item == 'Construcción'): ?>
           <div class="main-projects__card">
          
             
@@ -196,7 +157,67 @@
               </div>
             </div>
           </div>
-        <?php endif; endwhile; ?>
+
+      <?php
+endif;
+	endforeach;
+endif;  endwhile; ?>
+
+
+        </div>
+      </div>
+      <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+        <div class="main-projects__content">
+
+        <?php $args = array( 'post_type' => 'Proyectos'); ?>   
+        <?php $loop = new WP_Query( $args ); ?>
+        <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
+        
+          <?php // proyectos ( value )
+$proyectos_array = get_field( 'proyectos' );
+if ( $proyectos_array ):
+	foreach ( $proyectos_array as $proyectos_item ): if($proyectos_item == 'Entrega inmediata'): ?>
+          <div class="main-projects__card">
+         
+            
+            <div class="main-projects__img">
+              <a href="<?php the_permalink(); ?>">
+                <span class="line"></span>
+                <span class="line line-bottom"></span>
+                <div class="main-proyecto__icono">
+                  <img class="proyecto-icono" src="<?php echo get_template_directory_uri();?>/assets/img/icon@2x.png">
+                </div>
+                <div class="main-proyecto_text">
+                  <p>Desde <br>
+                    <?php the_field('precio') ?></p>
+                </div>
+                <div class="mask"></div>
+                <a href="<?php the_permalink(); ?>">
+                  <img class="img-projects" src="<?php echo get_the_post_thumbnail_url(); ?>">
+                </a>
+                </a>
+            </div>
+       
+          
+            <div class="main-projects__body">
+              <div class="main-projects__logo">
+                <img class="projects-logo" src="<?php the_field('logo_de_ubicacion') ?>">
+              </div>
+              <div class="main-projects__text">
+                <p class="projects-title">
+                 <?php the_title(); ?>
+                </p>
+                <p class="projects-text">
+                <?php the_field('ubicacion') ?>
+                </p>
+              </div>
+            </div>
+          </div>
+
+      <?php
+endif;
+	endforeach;
+endif;  endwhile; ?>
 
 
         
