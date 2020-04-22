@@ -452,7 +452,10 @@
         padding: 0 20px;
     }
     .main-details__projects {
-        padding: 50px 0;
+        padding: 80px 10px;
+    }
+    .main-details__projects--avance{
+        padding: 70px 10px;
     }
     .main-details__icono--content.lines {     
         width: 100%;
@@ -471,8 +474,10 @@
         height: 250px;
     }
     .main-details__projects--planos {
-        padding-top: 95px;
-        padding-bottom: 10px;
+        padding: 95px 10px 10px 10px;   
+    }
+    .main-details__projects--zona{
+        padding: 20px 10px 0 10px;
     }
     .main-details__galeria {
         padding-top: 50px;
@@ -2029,5 +2034,9 @@
     }
     .main-details__projects{
         padding-top: 50px;
+    }
+    .main-banner__img2 {
+        width: 100%;
+        height: 55vh;
     }
 }

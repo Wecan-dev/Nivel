@@ -12,12 +12,12 @@
 				</div>
 				<div class="main-enlaces__redes">
 					<div class="main-redes__fb">
-						<a href="" target="_blank">
+						<a href="https://www.facebook.com/nivelpropiedadraiz" target="_blank">
 							<img class="img-redes" src="<?php echo get_template_directory_uri();?>/assets/img/fb.png">
 						</a>
 					</div>
 					<div class="main-redes__instagram">
-						<a href="" target="_blank">
+						<a href="https://www.instagram.com/nivelpropiedadraiz/" target="_blank">
 							<img class="img-redes" src="<?php echo get_template_directory_uri();?>/assets/img/instagram.png">
 						
 						</a>

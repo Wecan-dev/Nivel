@@ -2610,6 +2610,8 @@ input[type="password"]::placeholder, textarea::placeholder {
 }
 .main-banner__img2 img{
 	width: 100%;
+	height: 100%;
+	object-fit: cover;
 }
 
 .main-projects{
@@ -2664,7 +2666,7 @@ input[type="password"]::placeholder, textarea::placeholder {
 
 .main-banner__img2 {
 	width: 100%;
-	height: 55vh;
+	height: 65vh;
 }
 
 
@@ -3021,9 +3023,11 @@ iframe{
 	flex-direction: column;
 	justify-content: start;
 }
+.main-details__projects--avance{
+	padding-top: 90px;
+	padding-bottom: 90px;
+}
 
-
-.main-details__projects--avance,
 .main-details__projects--zona {
 	padding-top: 90px;
 	padding-bottom: 50px;
