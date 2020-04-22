@@ -224,18 +224,25 @@ $('.main-details__galeria--content').slick({
   slidesToScroll: 3,
   dots: true,
   arrows:true,
+  autoPlay: true,
+  autoplaySpeed:3000,
   responsive: [{
       breakpoint: 1024,
       settings: {
-        slidesToShow: 3,
-        slidesToScroll: 3,
+        slidesToShow: 2,
+        slidesToScroll: 2,
         infinite: true,
-        dots: true
+        dots: true,
+        autoPlay: true,
+        autoplaySpeed:3000,
+        arrows:false
       }
     },
     {
       breakpoint: 600,
       settings: {
+        autoPlay: true,
+        autoplaySpeed:3000,
         slidesToShow: 2,
         slidesToScroll: 2
       }
@@ -243,8 +250,11 @@ $('.main-details__galeria--content').slick({
     {
       breakpoint: 480,
       settings: {
+        autoPlay: true,
+        autoplaySpeed:3000,
         slidesToShow: 1,
-        slidesToScroll: 1
+        slidesToScroll: 3,
+        arrows:false,
       }
     }
     // You can unslick at a given breakpoint now by adding:
@@ -264,16 +274,16 @@ $('.main-about-carousel').slick({
       breakpoint: 1024,
       settings: {
         slidesToShow: 3,
-        slidesToScroll: 3,
+        slidesToScroll: 1,
         infinite: true,
         dots: true
       }
     },
     {
-      breakpoint: 600,
+      breakpoint: 768,
       settings: {
         slidesToShow: 2,
-        slidesToScroll: 2,
+        slidesToScroll: 1,
         autoPlay:true,
         autoplaySpeed:3000
       }
@@ -287,9 +297,6 @@ $('.main-about-carousel').slick({
         autoplaySpeed:3000
       }
     }
-    // You can unslick at a given breakpoint now by adding:
-    // settings: "unslick"
-    // instead of a settings object
   ]
 });
 

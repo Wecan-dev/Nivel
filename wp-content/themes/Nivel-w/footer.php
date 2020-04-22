@@ -106,8 +106,8 @@
 				</div>
 				<ul class="list-direccion">
 					<li class="items-direccion">
-						<a class="link-enlaces" href="#">
-							Cra 42A # 1-15, Torre 4, Oficina 307 San Fernando Plaza, Medellín, CO
+						<a class="link-enlaces" href="https://www.google.co.ve/maps/place/35+Palms+Business+Tower/@6.2168813,-75.5668583,17z/data=!3m1!4b1!4m5!3m4!1s0x8e4429cd631ce80b:0x5dfce9d9dbd52db5!8m2!3d6.216876!4d-75.5646642">
+							Calle 18 No. 35 59, Av. Las Palmas
 						</a>
 
 					</li>

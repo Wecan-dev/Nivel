@@ -20,7 +20,7 @@
           </div>
         </div>
       </div>
-      <div class="main-banner__img">
+      <div class="main-banner__img main-banner__img--project">
         <img src="<?php echo get_template_directory_uri();?>/assets/img/projects7.png">
       </div>
     </div>

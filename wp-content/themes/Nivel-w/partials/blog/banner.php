@@ -23,7 +23,7 @@
             </div>
           </div>
         </div>
-        <div class="main-banner__img">
+        <div class="main-banner__img main-banner__img--project">
         <img src="<?php echo get_the_post_thumbnail_url(); ?>">
         </div>
       </div>

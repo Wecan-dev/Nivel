@@ -801,6 +801,10 @@ input.input-search::placeholder {
 .not-post.font-dife{
     font-size: 35px;
 }
+.img-avatar{
+    order: -1;
+    margin-right: 30px;
+}
 @media (min-width: 0px) and (max-width: 767px) {
     .main-contactform__content {
         grid-template-columns: 100%;
@@ -815,7 +819,7 @@ input.input-search::placeholder {
     }
 
     .main-contactform__box {
-        padding: 20px !important;
+        padding: 15px 20px 35px 20px !important
     }
 
     .main-contactform .container {
@@ -827,12 +831,26 @@ input.input-search::placeholder {
     }
 
     .main-banner__palabra--contacto {
-        top: 150px !important;
-    }
-
-    .main-banner__palabra--contacto {
         top: 125px !important;
         right: -18px !important;
+        display: none;
+    }
+    .main-banner__content .slick-next {
+        left: 30% !important;
+    }
+
+    .main-banner__content .slick-next:hover {
+        left: 32% !important;
+    }
+    .main-banner__content .slick-prev {
+        right: 65% !important;
+    }
+
+    .main-banner__content .slick-next, .main-banner__content .slick-prev{
+        bottom: 110px !important;
+    }
+    .main-banner__content .slick-prev:hover {
+        right: 67% !important;
     }
 
     .main-banner .mask .main-banner__palabra p {
@@ -895,6 +913,7 @@ input.input-search::placeholder {
     /*BLOG*/
     .main-blog__bloggrid {
         grid-template-columns: 100% !important;
+        grid-gap: 50px;
     }
 
     .main-blog__card {
@@ -928,10 +947,17 @@ input.input-search::placeholder {
     .main-banner__title.main-banner__title--error{
         justify-content: center!important;
     }
+    .main-banner__description p strong.strong-thanks {
+        font-size: 20px !important;
+    }
+    .main-banner__title.main-banner__title--large p {
+        letter-spacing: 5px !important;
+    }
+
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-
+    
     .main-banner__title.main-banner__title--error{
         justify-content: center!important;
     }
@@ -944,7 +970,7 @@ input.input-search::placeholder {
     }
 
     .main-contactform__content {
-        grid-template-columns: 40% 60%;
+        grid-template-columns: 50% 50%;
     }
 
     .main-contactform__maps {
@@ -1001,7 +1027,12 @@ input.input-search::placeholder {
 
     .main-banner__description.main-banner__description--error {
         margin-bottom: 0;
+        padding-top: 70px;
     }
+    .btn--filled--trans.btn-size {
+        font-size: 20px;
+    }
+    
 
     .main-banner__text--center {
         padding: 10px;
@@ -1040,10 +1071,20 @@ input.input-search::placeholder {
     .form-group__grid {
         grid-gap: 25px;
     }
+    .main-banner__description p:nth-child(1) {
+        margin-bottom: 0;
+    }
 }
 
 
 @media (min-width: 992px) and (max-width: 1199px) {
+    .main-banner__description.main-banner__description--error {
+        margin-bottom: 0;
+        padding-top: 70px;
+    }
+    .btn--filled--trans.btn-size {
+        font-size: 20px;
+    }
     .main-banner .mask .main-banner__palabra p {
         font-size: 120px;
     }
@@ -1103,7 +1144,13 @@ input.input-search::placeholder {
     }
     .main-banner__palabra--contacto p:nth-child(2) {
         right: 20px;
-        top: 130px;
+        top: 145px;
+    }
+    .main-about__title {
+        padding: 65px 0 0 50px;
+    }
+    .title-welcome {
+        font-size: 35px;
     }
 }
 

@@ -92,7 +92,7 @@
     </div>
 
     <?php if(get_field('cargar_pdf')): ?>
-      <div class="main-details__video--buttom">
+      <div class="main-details__video--buttom main-details__video--presentation">
         <a class="btn_custom btn--medium btn--filled2" target="_blank" href="<?php the_field('cargar_pdf') ?>">
           VER PRESENTACIÓN
         </a>

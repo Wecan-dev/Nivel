@@ -10,7 +10,7 @@
           </div>
           <div class="main-nivel__title main-nivel__title--column ">
             <h1 class="title-nivel2--line title-nivel2--line-initial title-nivel2--line-initial--contact">
-              <strong> <?php the_field('titulo_bold'); ?></strong> <?php the_field('titulo_light'); ?>
+              <strong> <?php the_field('titulo_bold'); ?></strong><br> <?php the_field('titulo_light'); ?>
             </h1>
           
           </div>

@@ -11,7 +11,7 @@
 
                 </div>
               </div>
-              <video class="img-video__details" src="<?php the_field('carga_de_video')?>">
+              <video class="img-video__details" src="<?php the_field('video')?>">
               </video>
 
         
@@ -29,12 +29,9 @@
         
 
               <div class="mask-video">
-                <!--<div class="main-details__video--icono">
-                  <img class="video-icono" src="<?php echo get_template_directory_uri();?>/assets/img/play.png">
-
-                </div>-->
+      
               </div>
-              <img class="img-video__details" src="<?php echo get_template_directory_uri();?>/assets/img/imagen-detalle5.png">
+              <img class="img-video__details" src="<?php the_field('image')?>">
             
             <div class="quare-text">
               <p class="text-ubications-projects"><?php the_field('ubicacion') ?></p>
