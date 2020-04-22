@@ -138,7 +138,7 @@
         <?php $args = array( 'post_type' => 'Proyectos'); ?>   
           <?php $loop = new WP_Query( $args ); ?>
           <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
-          <?php if( get_field('proyectos') == 'Construcción'): ?>
+          <?php if( get_field('proyectos') == 'Entrega inmediata'): ?>
             <div class="main-proyectos__items">
               <div class="main-proyectos__card">
                 <div class="main-card__proyectos--img">
