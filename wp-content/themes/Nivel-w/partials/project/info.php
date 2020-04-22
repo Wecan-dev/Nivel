@@ -31,7 +31,7 @@
               <div class="mask-video">
       
               </div>
-              <img class="img-video__details" src="<?php the_field('image')?>">
+              <img class="img-video__details" src="<?php the_field('imagen')?>">
             
             <div class="quare-text">
               <p class="text-ubications-projects"><?php the_field('ubicacion') ?></p>

@@ -11,7 +11,7 @@
 
             <div class="main-banner__title main-banner__title--single">
               <p>
-                <?php the_title();?>
+                BL<strong>o</strong>G
               </p>
 
             </div>
@@ -20,7 +20,7 @@
           </div>
         </div>
       </div>
-      <div class="main-banner__img">
+      <div class="main-banner__img main-banner__img--project">
         <img src="<?php echo get_template_directory_uri();?>/assets/img/Contact/image_8.png">
       </div>
     </div>

@@ -23,11 +23,15 @@
           <div class="main-about-card__body">
             <span class="main-about__counter"><?php if($counterNumber < 10 ): echo '0'.$counterNumber; else:echo $counterNumber; endif;  ?> </span>
             <div class="main-about-card__title">
-              <p class="about-card__title">
-                <?php the_title() ?>
-              </p>
+              <a href="<?php echo bloginfo('url').'/proyecto';?>">
+                <p class="about-card__title">
+                  <?php the_title() ?>
+                </p>
+              
+              </a>
+              
               <div class="main-about__buttom">
-                <a class="btn--filled--about" href="#">
+                <a class="btn--filled--about" href="href="<?php echo bloginfo('url').'/proyecto';?>"">
                   LEER MÁS
                 </a>
               </div>
@@ -41,7 +45,7 @@
               </div>
               <div class="main-about__icono--title">
                 <img class="icono-mask" src="<?php the_field('icono')?>">
-                <a href="#" class="about-title__icono">
+                <a href="<?php echo bloginfo('url').'/proyecto';?>" class="about-title__icono">
                   <?php the_title(); ?>
                 </a>
                 <div class="main-about__icono--text">

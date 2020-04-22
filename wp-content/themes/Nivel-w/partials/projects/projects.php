@@ -3,7 +3,7 @@
 
     <ul class="nav nav-pills " id="pills-tab" role="tablist">
       <li class="nav-item__tabs">
-        <a class="nav-link__tabs active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab"
+        <a class="nav-link__tabs " id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab"
           aria-controls="pills-home" aria-selected="true">Preventa</a>
       </li>
       <li class="nav-item__tabs">
@@ -14,8 +14,8 @@
         <a class="nav-link__tabs" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab"
           aria-controls="pills-contact" aria-selected="false">Entrega inmediata</a>
       </li>
-      <li class="nav-item__tabs">
-        <a class="nav-link__tabs" id="pills-totals-tab" data-toggle="pill" href="#pills-totals" role="tab"
+      <li class="nav-item__tabs ">
+        <a class="nav-link__tabs active" id="pills-totals-tab" data-toggle="pill" href="#pills-totals" role="tab"
           aria-controls="pills-totals" aria-selected="false">Todos</a>
       </li>
     </ul>
@@ -23,7 +23,7 @@
 
 
     <div class="tab-content" id="pills-tabContent">
-      <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+      <div class="tab-pane fade " id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
         <div class="main-projects__content">
     <?php $args = array( 'post_type' => 'Proyectos'); ?>   
     <?php $loop = new WP_Query( $args ); ?>
@@ -202,7 +202,7 @@
         
         </div>
       </div>
-      <div class="tab-pane fade" id="pills-totals" role="tabpanel" aria-labelledby="pills-totals-tab">
+      <div class="tab-pane fade show active" id="pills-totals" role="tabpanel" aria-labelledby="pills-totals-tab">
         <div class="main-projects__content">
 
          <?php $args = array( 'post_type' => 'Proyectos'); ?>   
