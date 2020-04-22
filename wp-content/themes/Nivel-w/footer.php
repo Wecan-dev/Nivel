@@ -52,12 +52,12 @@
 						</a>
 
 					</li>
-					<li class="items-menu">
+					<!-- <li class="items-menu">
 						<a class="link-enlaces" href="<?php echo bloginfo('url').'/inversion';?>">
 							Invierta desde el exterior
 						</a>
 
-					</li>
+					</li> -->
 					<li class="items-menu">
 						<a class="link-enlaces" href="<?php echo bloginfo('url').'/contacto';?>">
 							Contacto
