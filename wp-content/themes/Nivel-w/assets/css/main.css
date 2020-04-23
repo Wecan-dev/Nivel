@@ -2444,9 +2444,9 @@ input[type="password"]::placeholder, textarea::placeholder {
 }
 
 .main-instagram__content {
-	display: grid;
+	/* display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
-	grid-gap: 10px;
+	grid-gap: 10px; */
     padding: 10px 40px 20px 0;
 }
 

@@ -73,7 +73,10 @@
 					</p>
 				</div>
 				<div class="main-instagram__content">
-					<div class="main-instagram__img">
+				<!-- SnapWidget -->
+					<script src="https://snapwidget.com/js/snapwidget.js"></script>
+					<iframe src="https://snapwidget.com/embed/817837" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden;  width:100%; "></iframe>
+					<!-- <div class="main-instagram__img">
 						<img class="img-instagram" src="<?php echo get_template_directory_uri();?>/assets/img/image_2.png">
 					</div>
 					<div class="main-instagram__img">
@@ -90,7 +93,7 @@
 					</div>
 					<div class="main-instagram__img">
 						<img class="img-instagram" src="<?php echo get_template_directory_uri();?>/assets/img/image_4.png">
-					</div>
+					</div> -->
 				</div>
 			</div>
 			<div class="main-direccion">
@@ -228,6 +231,7 @@
 	<script type="text/javascript" src="<?php echo get_template_directory_uri();?>/assets/js/bootstrap.min.js"></script>
   <script type="text/javascript" src="<?php echo get_template_directory_uri();?>/assets/js/slick.js"></script>
   <script type="text/javascript" src="<?php echo get_template_directory_uri();?>/assets/js/settings-slick.js"></script>
+
   <script type="text/javascript" src="<?php echo get_template_directory_uri();?>/assets/js/main.js"></script>
   <?php wp_footer(); ?>
 </body>
