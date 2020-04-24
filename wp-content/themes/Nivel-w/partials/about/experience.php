@@ -5,7 +5,7 @@
       <span class="line"></span>
       <p class="main-experiencia__title">Nivel <br> Equipo</p>
       <div class="mask"></div>
-      <img class="img-experiencia" src="<?php the_field('image2');?>">
+      <img class="img-experiencia" src="<?php the_field('imagen2');?>">
     </div>
     <div class="main-nosotros__content--experence">
       <div class="main-nosotros__small">

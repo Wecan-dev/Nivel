@@ -31,7 +31,7 @@
               </a>
               
               <div class="main-about__buttom">
-                <a class="btn--filled--about" href="href="<?php echo bloginfo('url').'/proyecto';?>"">
+                <a class="btn--filled--about" href="<?php echo bloginfo('url').'/proyecto';?>">
                   LEER MÁS
                 </a>
               </div>

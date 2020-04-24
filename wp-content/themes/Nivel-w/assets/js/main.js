@@ -58,6 +58,17 @@ $(".hamburger").on("click", function () {
   }
 });
 
+// Menú fixed
+$(window).scroll(function () {
+  if ($(document).scrollTop() > 70 && ($(window).width() <= 767)) {
+    $('.navbar').addClass('fixed-nav');
+
+  } else {
+    $('.navbar').removeClass('fixed-nav');
+
+  }
+});
+
 
 /* Formularios*/
 document.getElementById('s').placeholder='Buscar';

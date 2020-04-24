@@ -83,7 +83,12 @@
     }
 
     .main-banner .mask .main-banner__text .main-banner__title p {
-        font-size: 45px;
+        font-size: 45px !important;
+    }
+    .btn--filled--trans.btn-size {
+        text-transform: uppercase;
+        font-size: 20px;
+        padding: 10px 40px;
     }
     .text-inversion__center p{
         width: 100%;
@@ -202,7 +207,7 @@
         padding: 0 25px;
     }
     .main-proyectos__items{
-        padding-top: 170px;
+        padding-top: 215px;
     }
     .slider-prueba .slick-dots{
         height: 100px;
@@ -1487,10 +1492,10 @@
 
         width: 88%;
     }
-    .img-video {
+    /* .img-video {
     
         max-height: 550px;
-    }
+    } */
 
     .main-video__content .slick-prev{
         right: 90% !important;
@@ -1517,8 +1522,9 @@
     }
     
     .main-video__bg--text{
-        bottom: -105px;
+        bottom: -70px;
         right: 185px;
+        padding: 85px 0px;
     }
     .video-bg__text{
         padding-left: 72px;

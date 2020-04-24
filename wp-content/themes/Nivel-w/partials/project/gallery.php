@@ -7,6 +7,15 @@
         </h1>
 
       </div>
+      <?php if(get_field('link_vista_360')): ?>
+        <div class="link-360">
+          <a href="<?php the_field('link_vista_360');?>">
+            <p>Ver imágenes 360</p>
+          </a>
+        </div>
+      <?php else: ?>
+
+      <?php endif ?>
       <div class="main-details__galeria--content">
 
         <?php if(get_field('imagen_galeria')): ?>

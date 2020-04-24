@@ -16,7 +16,7 @@
   <?php endif;?>
 
    <!-- Testimonials-->
-   <?php get_template_part('partials/about/testimonials'); ?>
+   <!-- < ?php get_template_part('partials/about/testimonials'); ?> -->
   <!-- End Testimonials-->
 
   <!-- Video-->

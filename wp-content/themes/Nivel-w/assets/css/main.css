@@ -468,6 +468,10 @@ a {
 	margin-right: 50px;
 	border-bottom: 3px solid #9b9b9b30;
 }
+.navbar.fixed-nav{
+	background-color: #212121;
+	position: fixed;
+}
 
 .navbar a {
 
@@ -2196,6 +2200,7 @@ strong {
 	transition: all 500ms ease;
 	height: 100%;
 	width: 100%;
+	object-fit: cover;
 }
 
 .main-blog__card {
@@ -2657,8 +2662,15 @@ input[type="password"]::placeholder, textarea::placeholder {
 
 .main-projects__logo {
 	padding-right: 10px;
+	width: 130px;
 }
 
+.main-card__proyectos--img{
+	width: 130px;
+}
+.main-card__proyectos--img img{
+	width: 100%;
+}
 /*PROYECTOS*/
 
 
@@ -2671,7 +2683,7 @@ input[type="password"]::placeholder, textarea::placeholder {
 
 
 .main-details__video-pd{
-	padding: 55px 0 165px 0;
+	padding: 55px 0 120px 0;
 }
 
 
@@ -3028,6 +3040,9 @@ iframe{
 	padding-bottom: 90px;
 }
 
+.main-details__projects--avance .main-details__descripcion{
+	justify-content: center;
+}
 .main-details__projects--zona {
 	padding-top: 90px;
 	padding-bottom: 50px;
@@ -3339,10 +3354,13 @@ iframe{
 
 .main-nosotros__img img {
 	width: 100%;
+	height: 100%;
+	object-fit: cover;
 }
 
 .main-nosotros__img {
 	padding: 0 1rem;
+	height: 17rem;
 }
 
 .main-nosotros__carousel .slick-slide {
@@ -3886,4 +3904,26 @@ iframe{
 	transition: all 500ms ease;
     overflow: hidden;
     transform: translateY(-15px);
+}
+.link-360{
+	width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 5px 0 15px 0;
+}
+.link-360 a{
+	font-size: 20px;
+    font-weight: 400;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: 0;
+    color: #000000;
+    transition: 0.3s ease-in-out;
+    font-family: 'Oswald';
+}
+.link-360 a:hover{
+	text-decoration: none;
+	color: #d71f26;
+	transition: 0.3s ease-in-out;
 }

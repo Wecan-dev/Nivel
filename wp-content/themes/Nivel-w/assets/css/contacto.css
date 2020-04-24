@@ -257,7 +257,7 @@
     font-style: normal;
     line-height: normal;
     font-weight: 300;
-    margin-top: -13px;
+    margin-top: -10px;
 }
 .main-contactform__textlink:hover{
     color: #fff;
@@ -372,7 +372,7 @@
 
 .main-banner .mask .main-banner__text .main-banner__title.main-banner__title--error p {
     font-weight: 800;
-    font-size: 190px !important;
+    font-size: 190px;
 }
 .main-banner .mask .main-banner__text .main-banner__title.main-banner__title--error p span{
     font-weight: 800;
@@ -862,11 +862,11 @@ input.input-search::placeholder {
     }
 
     .main-banner__description p {
-        font-size: 20px;
+        font-size: 20px !important;
     }
 
     .main-banner__description p strong {
-        font-size: 20px;
+        font-size: 20px !important;
     }
 
     /*ERROR*/
