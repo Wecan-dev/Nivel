@@ -617,7 +617,7 @@
     }
     .main-proyectos__content {
         height: auto !important;
-        min-height: 50vh;
+        min-height: 0vh;
     }
     .main-general__description{
         font-size: 15px;

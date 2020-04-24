@@ -37,6 +37,8 @@ $('.main-video__content').slick({
   infinite: true,
   slidesToShow: 1,
   slidesToScroll: 1,
+  autoPlay:true,
+  autoplaySpeed: 1500,
   responsive: [{
       breakpoint: 1024,
       settings: {
@@ -50,7 +52,7 @@ $('.main-video__content').slick({
       breakpoint: 600,
       settings: {
         slidesToShow: 1,
-        slidesToScroll: 1,
+        slidesToScroll: 1
       }
     },
     {
@@ -58,7 +60,7 @@ $('.main-video__content').slick({
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1,
-        arrows: false,
+        arrows: false
       }
     }
     // You can unslick at a given breakpoint now by adding:

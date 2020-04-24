@@ -37,7 +37,9 @@
           </div>
         
           
-            <video  class="img-video" src="<?php the_field('video') ?>"></video>   
+            <video controls  class="img-video" src="<?php the_field('video') ?>">
+            <source src="<?php the_field('video') ?>" type="video/mp4">
+          </video>   
           
         </div>
       </div>
