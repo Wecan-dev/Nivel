@@ -1217,16 +1217,21 @@ h1 strong {
 
 .main-video {
 	padding-top: 50px !important;
-	position: relative;
-	background-color: #fbfbfb;
+	/* position: relative; */
+	/* background-color: #fbfbfb; */
 	z-index: -3;
+}
+.main-video-relative{
+	position: relative !important;
 }
 
 .img-video {
 	width: 100%;
-	max-height: 500px;
-
+	height: 500px;
+	position: relative;
+	object-fit: cover;
 }
+
 
 .main-video__img {
 	display: flex;
@@ -1495,6 +1500,7 @@ h1 strong {
 	background: rgba(0, 0, 0, 0.5);
 	display: flex;
 	padding: 50px 45px;
+	z-index: 1;
 }
 
 .nivel-small {

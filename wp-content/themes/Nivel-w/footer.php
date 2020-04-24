@@ -174,11 +174,11 @@
             <span aria-hidden="true">&times;</span>
           </button>
           <div class="main-video__img video-full">
-          <div class="">
+          <!-- <div class="">
             <div class="main-details__video--icono">
                 
                 </div>
-              </div>
+              </div> -->
               <?php if(get_field('imagen')): ?>
                 <img class="img-video " src="<?php the_field('imagen') ?>">
               <?php else: ?>
@@ -209,13 +209,13 @@
             <span aria-hidden="true">&times;</span>
           </button>
           <div class="main-video__img video-full">
-          <div class="">
+          <!-- <div class="">
             <div class="main-details__video--icono">
                 
                 </div>
-              </div>
+              </div> -->
             <?php if(get_field('carga_de_video')):?>
-				<video id="modal-video" controls class="img-video" src="<?php the_field('carga_de_video')?>">
+				<video id="modal-video" controls autoplay class="img-video" src="<?php the_field('carga_de_video')?>">
 				</video>
 			<?php else:?>
 				<img class="img-video"  src="<?php echo get_template_directory_uri();?>/assets/img/imagen-detalle5.png">

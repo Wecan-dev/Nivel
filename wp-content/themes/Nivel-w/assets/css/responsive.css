@@ -615,10 +615,10 @@
         bottom: -50px;
         font-size: 65px;
     }
-    .main-proyectos__content {
+    /* .main-proyectos__content {
         height: auto !important;
         min-height: 0vh;
-    }
+    } */
     .main-general__description{
         font-size: 15px;
     }
@@ -2044,5 +2044,8 @@
     .main-banner__img2 {
         width: 100%;
         height: 55vh;
+    }
+    .slick-next:after, .slick-prev:after {
+        top: 53%;
     }
 }
