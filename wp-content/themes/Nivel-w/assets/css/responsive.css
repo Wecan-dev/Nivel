@@ -2,6 +2,10 @@
     /* HOME*/
     .main-video__img{
         width: 99%;
+        height: 200px;
+    }
+    .img-video {
+        height: 200px;
     }
     #form_contact-form .frm_combo_inputs_container, #form_contact-form .frm_grid_container, #form_contact-form .frm_form_fields .frm_section_heading, #form_contact-form .frm_form_fields .frm_fields_container{
         grid-gap: 0px !important;
@@ -222,8 +226,6 @@
         width: 100% !important;
     }
 
-  
-
     .main-video__bg--color,
     .main-video__bg--text {
         display: none;
@@ -282,7 +284,7 @@
 
     .main-video__content .slick-next,
     .main-video__content .slick-prev {
-        bottom: 160px !important;
+        bottom: 215px !important;
     }
 
     .main-video__content .slick-next {
@@ -294,11 +296,16 @@
     }
 
     .main-video__content .slick-next:hover {
-        left: 60% !important;
+        left: 22% !important;
+    }.slider-prueba {
+        height: 0;
     }
 
+    .slick-next:after, .slick-prev:after{
+        top:52% !important;
+    }
     .main-video__content .slick-prev:hover {
-        right: 40% !important;
+        right: 68% !important;
     }
 
     .main-details__projects--content {
@@ -308,6 +315,9 @@
 
     .main-details__video--content {
         grid-template-columns: 100%;
+    }
+    .slider-prueba {
+        height: 0;
     }
 
     .main-details__descripcion {

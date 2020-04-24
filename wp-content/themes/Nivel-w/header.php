@@ -11,7 +11,7 @@
 	<meta name="keywords" content=" ">
 	<!-- meta character set -->
 	<meta content="width=device-width, initial-scale=1.0" name="viewport">
-	<meta content='#0e3d6a' name='theme-color'>
+	<meta content='#212121' name='theme-color'>
 	<meta content='website' property='og:type'>
 	<meta content='Nivel' property='og:title'>
 	<meta content=''>
