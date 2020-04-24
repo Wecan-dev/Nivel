@@ -58,7 +58,7 @@
 </section>
 
 
-
+<!-- 
 <section class="main-video">
   <div class="main-nivel__title">
     <h1 class="title-nivel2--line-initial title-nivel2--line">
@@ -70,22 +70,22 @@
       <div class="main-video__img">
         <div class="mask-video2">
           <div class="main-details__video--icono">
-            <img class="video-icono" src="<?php echo get_template_directory_uri();?>/assets/img/play.png">
+            <img class="video-icono" src="< ?php echo get_template_directory_uri();?>/assets/img/play.png">
 
           </div>
         </div>
-        <img class="img-video" src="<?php echo get_template_directory_uri();?>/assets/img/image_14.png">
+        <img class="img-video" src="< ?php echo get_template_directory_uri();?>/assets/img/image_14.png">
       </div>
     </div>
     <div class="main-video__items">
       <div class="main-video__img">
         <div class="mask-video2">
           <div class="main-details__video--icono">
-            <img class="video-icono" src="<?php echo get_template_directory_uri();?>/assets/img/play.png">
+            <img class="video-icono" src="< ?php echo get_template_directory_uri();?>/assets/img/play.png">
 
           </div>
         </div>
-        <img class="img-video" src="<?php echo get_template_directory_uri();?>/assets/img/image_14.png">
+        <img class="img-video" src="< ?php echo get_template_directory_uri();?>/assets/img/image_14.png">
       </div>
     </div>
   
@@ -97,4 +97,4 @@
       CONOCIMIENTO <br> EXPERTO
     </p>
   </div>
-</section>
+</section> -->

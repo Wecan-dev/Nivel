@@ -207,7 +207,7 @@
         padding: 0 25px;
     }
     .main-proyectos__items{
-        padding-top: 215px;
+        padding-top: 200px !important;
     }
     .slider-prueba .slick-dots{
         height: 100px;
