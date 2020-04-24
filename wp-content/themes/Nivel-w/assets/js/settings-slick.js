@@ -476,7 +476,7 @@ $('.slider-prueba').slick({
   slidesToShow: 1,
   slidesToScroll: 1,
   arrows: false,
-  dots:false,
+  dots:true,
   responsive: [
     {
       breakpoint: 1024,
