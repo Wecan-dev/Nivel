@@ -1,4 +1,8 @@
 @media (min-width: 0px) and (max-width: 767px) {
+    .service-form__container {
+       
+        height: 100vh !important;
+    }
     /* HOME*/
     .main-video__img{
         width: 99%;

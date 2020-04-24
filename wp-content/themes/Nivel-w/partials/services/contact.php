@@ -1,6 +1,8 @@
 <section class="service-form">
   <div class="service-form__container">
-    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+    <iframe src="https://www.sico.com.co/Controles/CRM/Postventa/Externos/sicoPostventa.html
+?esquemaColor=colorRojo&amp;intIdEmpresa=2138" width="100%" height="000" frameborder="0"></iframe>
+    <!-- <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
       <li class="nav-item">
         <a class=" active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab"
           aria-controls="pills-home" aria-selected="true">Solicitudes Posventas</a>
@@ -106,6 +108,6 @@
           </div>
         </form>
       </div>
-    </div>
+    </div> -->
   </div>
 </section>

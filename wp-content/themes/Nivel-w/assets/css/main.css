@@ -3622,6 +3622,7 @@ iframe{
 .service-form__container {
 	background: #212121;
 	width: 62%;
+	height: 65vh !important;
 }
 
 .service-form .nav-item {
