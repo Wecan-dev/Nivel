@@ -267,19 +267,23 @@
 
     .main-proyectos__content .slick-next {
         left: 25% !important;
+        z-index: 999999999999999999;
 
     }
 
     .main-proyectos__content .slick-prev {
         right: 62% !important;
+        z-index: 999999999999999999;
     }
 
     .main-proyectos__content .slick-next:hover {
         left: 27% !important;
+        z-index: 999999999999999999;
     }
 
     .main-proyectos__content .slick-prev:hover {
         right: 64% !important;
+        z-index: 999999999999999999;
     }
 
     .main-video__content .slick-next,
