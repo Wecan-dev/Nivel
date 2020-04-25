@@ -13,14 +13,14 @@
         top:8rem;
     }
     .__content .slick-prev{
-        left: -15rem !important;
+        left: 3rem !important;
     }
     .__content .slick-next{
         left: 3rem !important;
     }
 
     .__content .slick-prev:hover{
-        left: -15.1rem !important;
+        left: 3rem !important;
     }
     .__content .slick-next:hover{
         left: 3.1rem !important;
