@@ -17,7 +17,7 @@
 	<meta content=''>
   <meta content='' property='og:url'>
   
-	<title>Nivel</title>
+	<title><?php wp_title('|', true, 'right'); ?></title>
 	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri();?>/assets/css/bootstrap.min.css">
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/assets/css/offcanvas.css">
 	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri();?>/assets/css/slick.css">

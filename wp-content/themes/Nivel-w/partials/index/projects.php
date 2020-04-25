@@ -1,5 +1,5 @@
 <!-- Projects Slider-->
-<section class="main-proyectos ">
+<section class=" ">
   <div class="main-nivel__small">
     <small class="nivel-small">
       ACERCA DE
@@ -10,14 +10,14 @@
       <strong> NUESTROS</strong> PROYECTOS
     </h1>
   </div>
-  <div class="main-proyectos__text">
+  <div class="__text">
     <p class="proyectos-text main-general__description">
       Nos conectamos con lo que más te gusta para estructurar, gerencias y comercializar proyectos inmobiliarios, en lugares increíbles que te permitan hacer realidad los espacios que siempre has soñado. 
     </p>
   </div>
 
   <div class="container">
-    <div class=" main-proyectos__content container-prueba">
+    <div class=" __content container-prueba">
       <div class="slider-prueba ">
         <div class="slider-prueba2">
           <?php $args = array( 'post_type' => 'Proyectos'); ?>   
@@ -28,12 +28,12 @@
 $proyectos_array = get_field( 'proyectos' );
 if ( $proyectos_array ):
 	foreach ( $proyectos_array as $proyectos_item ): if($proyectos_item == 'Preventa'): ?>
-            <div class="main-proyectos__items">
-              <div class="main-proyectos__card">
+            <div class="__items">
+              <div class="__card">
                 <div class="main-card__proyectos--img">
                   <img class="img-card__proyectos" src="<?php the_field('logo_de_ubicacion') ?>" alt="">
                 </div>
-                <div class="main-proyectos__body">
+                <div class="__body">
                   <div class="main-card__proyectos--title">
                     <p class="title-card__proyectos">
                       <?php the_title(); ?>
@@ -51,8 +51,8 @@ if ( $proyectos_array ):
                   </div>
                 </div>
               </div>
-              <div class="main-proyectos__img">
-                <div class="main-proyectos__img--hidden">
+              <div class="__img">
+                <div class="__img--hidden">
                   <span class="line"></span>
                   <span class="line line-bottom"></span>
     
@@ -63,12 +63,12 @@ if ( $proyectos_array ):
          <?php endif;
 	endforeach;
 endif;  endwhile; ?>
-          <!-- <div class="main-proyectos__items">
-            <div class="main-proyectos__card">
+          <!-- <div class="__items">
+            <div class="__card">
               <div class="main-card__proyectos--img">
                 <img class="img-card__proyectos" src="<?php echo get_template_directory_uri();?>/assets/img/logo_2.png" alt="">
               </div>
-              <div class="main-proyectos__body">
+              <div class="__body">
                 <div class="main-card__proyectos--title">
                   <p class="title-card__proyectos">
                     Maderos de Retiro
@@ -88,8 +88,8 @@ endif;  endwhile; ?>
                 </div>
               </div>
             </div>
-            <div class="main-proyectos__img">
-              <div class="main-proyectos__img--hidden">
+            <div class="__img">
+              <div class="__img--hidden">
                 <span class="line"></span>
                 <span class="line line-bottom"></span>
   
@@ -110,12 +110,12 @@ endif;  endwhile; ?>
 $proyectos_array = get_field( 'proyectos' );
 if ( $proyectos_array ):
 	foreach ( $proyectos_array as $proyectos_item ): if($proyectos_item == 'Construcción'): ?>
-            <div class="main-proyectos__items">
-              <div class="main-proyectos__card">
+            <div class="__items">
+              <div class="__card">
                 <div class="main-card__proyectos--img">
                   <img class="img-card__proyectos" src="<?php the_field('logo_de_ubicacion') ?>" alt="">
                 </div>
-                <div class="main-proyectos__body">
+                <div class="__body">
                   <div class="main-card__proyectos--title">
                     <p class="title-card__proyectos">
                       <?php the_title(); ?>
@@ -133,8 +133,8 @@ if ( $proyectos_array ):
                   </div>
                 </div>
               </div>
-              <div class="main-proyectos__img">
-                <div class="main-proyectos__img--hidden">
+              <div class="__img">
+                <div class="__img--hidden">
                   <span class="line"></span>
                   <span class="line line-bottom"></span>
     
@@ -157,12 +157,12 @@ endif;  endwhile; ?>
 $proyectos_array = get_field( 'proyectos' );
 if ( $proyectos_array ):
 	foreach ( $proyectos_array as $proyectos_item ): if($proyectos_item == 'Entrega inmediata'): ?>
-            <div class="main-proyectos__items">
-              <div class="main-proyectos__card">
+            <div class="__items">
+              <div class="__card">
                 <div class="main-card__proyectos--img">
                   <img class="img-card__proyectos" src="<?php the_field('logo_de_ubicacion') ?>" alt="">
                 </div>
-                <div class="main-proyectos__body">
+                <div class="__body">
                   <div class="main-card__proyectos--title">
                     <p class="title-card__proyectos">
                       <?php the_title(); ?>
@@ -180,8 +180,8 @@ if ( $proyectos_array ):
                   </div>
                 </div>
               </div>
-              <div class="main-proyectos__img">
-                <div class="main-proyectos__img--hidden">
+              <div class="__img">
+                <div class="__img--hidden">
                   <span class="line"></span>
                   <span class="line line-bottom"></span>
     
@@ -198,12 +198,12 @@ endif;  endwhile; ?>
         <?php $args = array( 'post_type' => 'Proyectos'); ?>   
           <?php $loop = new WP_Query( $args ); ?>
           <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
-            <div class="main-proyectos__items">
-              <div class="main-proyectos__card">
+            <div class="__items">
+              <div class="__card">
                 <div class="main-card__proyectos--img">
                   <img class="img-card__proyectos" src="<?php the_field('logo_de_ubicacion') ?>" alt="">
                 </div>
-                <div class="main-proyectos__body">
+                <div class="__body">
                   <div class="main-card__proyectos--title">
                     <p class="title-card__proyectos">
                       <?php the_title(); ?>
@@ -221,8 +221,8 @@ endif;  endwhile; ?>
                   </div>
                 </div>
               </div>
-              <div class="main-proyectos__img">
-                <div class="main-proyectos__img--hidden">
+              <div class="__img">
+                <div class="__img--hidden">
                   <span class="line"></span>
                   <span class="line line-bottom"></span>
     
