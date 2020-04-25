@@ -7,8 +7,11 @@
         display: grid !important;
         grid-template-columns: 1fr !important;
         padding-top: 205px;
+
+
     }
     .__card {
+        padding-left: 15px;
         padding-left: 15px;
     }
     .__content .slick-next,
