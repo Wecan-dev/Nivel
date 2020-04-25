@@ -1704,7 +1704,9 @@
     .container-contacto{
         padding: 5px 70px 35px 70px;
     }
-
+    #form_formulario-inversion2 .main-contactform__textlink{
+        margin-top: -13px;
+    }
     #form_contact-form .frm_combo_inputs_container, #form_contact-form .frm_grid_container, #form_contact-form .frm_form_fields .frm_section_heading, #form_contact-form .frm_form_fields .frm_fields_container{
         display: grid !important;
         grid-template-columns: 35% 55% !important;
@@ -2100,6 +2102,6 @@
         height: 55vh;
     }
     .slick-next:after, .slick-prev:after {
-        top: 53%;
+        top: 50%;
     }
 }

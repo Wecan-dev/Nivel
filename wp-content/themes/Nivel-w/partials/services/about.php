@@ -6,15 +6,15 @@
     
       </small>
       <h1 class="title-nivel2--line title-nivel2--line-initial">
-        <strong><?php the_field('titulo_bold') ?> </strong> <br> <?php the_field('titulo_light') ?>
+        <strong><?php the_field('titulo_bold') ?> </strong><?php the_field('titulo_light') ?>
       </h1>
     </div>
 
     <div class="service-about__description">
-      <p class="main-general__description">
-      <?php the_field('descripcion') ?>
+      <!-- <p class="main-general__description">
+      < ?php the_field('descripcion') ?>
         
-      </p>
+      </p> -->
     </div>
 
   </div>

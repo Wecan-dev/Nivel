@@ -736,6 +736,7 @@ input.input-search::placeholder {
 
 .main-blog__infoauthor {
     padding: 30px;
+    display: none;
 }
 
 .main-blog__forms,.comment-form-comment textarea {
@@ -1382,16 +1383,19 @@ input.input-search::placeholder {
 }
 
 .form-submit input[type="submit"]{
-    background-image: url(http://localhost/Nivel/wp-content/themes/Nivel-w/assets/img/Blog/send.png);
+    background-image: url(../img/Blog/send.png);
     background-repeat: no-repeat;
     background-position:center;
     width: 30px;
 }
 .form-submit input[type="submit"]:hover{
-    background-image: url(http://localhost/Nivel/wp-content/themes/Nivel-w/assets/img/Blog/send-black.png);
+    background-image: url(../img/Blog/send-black.png);
     background-repeat: no-repeat;
     background-position:center;
     width: 30px;
+}
+p.form-submit{
+    margin-bottom: 0px !important;
 }
 .comment-reply-title{
     display: none !important;
