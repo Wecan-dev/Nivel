@@ -1,4 +1,7 @@
 @media (min-width: 0px) and (max-width: 767px) {
+    .container-prueba{
+        height: 60vh;
+    }
     .__items{
         width: 100%;
         display: grid !important;
