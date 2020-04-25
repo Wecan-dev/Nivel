@@ -3,7 +3,7 @@
         width: 100%;
         display: grid !important;
         grid-template-columns: 1fr !important;
-        padding-top: 190px;
+        padding-top: 205px;
     }
     .__card {
         padding-left: 15px;
@@ -16,14 +16,14 @@
         left: -15rem !important;
     }
     .__content .slick-next{
-        left: 4rem !important;
+        left: 6rem !important;
     }
 
     .__content .slick-prev:hover{
         left: -15.1rem !important;
     }
     .__content .slick-next:hover{
-        left: 4.1rem !important;
+        left: 6.1rem !important;
     }
     
     .__img {
