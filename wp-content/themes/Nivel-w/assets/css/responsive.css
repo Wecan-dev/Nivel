@@ -1,4 +1,34 @@
 @media (min-width: 0px) and (max-width: 767px) {
+    .__items{
+        width: 100%;
+        display: grid !important;
+        grid-template-columns: 1fr !important;
+        padding-top: 190px;
+    }
+    .__card {
+        padding-left: 15px;
+    }
+    .__content .slick-next,
+    .__content .slick-prev{
+        top:8rem;
+    }
+    .__content .slick-prev{
+        left: -15rem !important;
+    }
+    .__content .slick-next{
+        left: 4rem !important;
+    }
+
+    .__content .slick-prev:hover{
+        left: -15.1rem !important;
+    }
+    .__content .slick-next:hover{
+        left: 4.1rem !important;
+    }
+    
+    .__img {
+        display: none;
+    }
     .service-form__container {
        
         height: 100vh !important;
