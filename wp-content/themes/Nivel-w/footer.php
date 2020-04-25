@@ -38,7 +38,7 @@
 					</li>
 					<li class="items-menu">
 						<a class="link-enlaces" href="<?php echo bloginfo('url').'/blog';?>">
-							Mapa de inmuebles
+							Blog
 						</a>
 					</li>
 					<li class="items-menu">
