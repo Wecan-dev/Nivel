@@ -13,17 +13,17 @@
         top:8rem;
     }
     .__content .slick-prev{
-        left: 4rem !important;
+        left: 5rem !important;
     }
     .__content .slick-next{
-        left: 3rem !important;
+        left: 2rem !important;
     }
 
     .__content .slick-prev:hover{
-        left: 4.1rem !important;
+        left: 5.1rem !important;
     }
     .__content .slick-next:hover{
-        left: 3.1rem !important;
+        left: 2.1rem !important;
     }
     
     .__img {
