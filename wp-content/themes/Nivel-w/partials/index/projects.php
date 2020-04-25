@@ -1,5 +1,5 @@
 <!-- Projects Slider-->
-<section class=" ">
+<section class=" __proyectos ">
   <div class="main-nivel__small">
     <small class="nivel-small">
       ACERCA DE

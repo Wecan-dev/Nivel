@@ -1713,7 +1713,7 @@ h1 strong {
 	padding-top: 145px;
 }
 
-.main-proyectos__img {
+.__img {
 	overflow: hidden;
 	display: flex;
 	justify-content: flex-end;
@@ -1767,26 +1767,26 @@ h1 strong {
 	transition: all .5s ease;
 }
 
-.main-projects__img:hover .line:before,
+.__img:hover .line:before,
 .main-experiencia__img:hover .line:before,
-.main-proyectos__img:hover .line:before,
-.main-proyectos__img:hover .line:before,
-.main-projects__card:hover .line:before {
+.__img:hover .line:before,
+.__img:hover .line:before,
+.__card:hover .line:before {
 	width: 100%;
 }
 
-.main-projects__img:hover .line:after,
+.__img:hover .line:after,
 .main-experiencia__img:hover .line:after,
-.main-proyectos__img:hover .line:after,
-.main-proyectos__img:hover .line:after,
-.main-projects__card:hover .line:after  {
+.__img:hover .line:after,
+.__img:hover .line:after,
+.__card:hover .line:after  {
 	height: 100%;
 }
 
-.main-projects__img .line-bottom,
-.main-proyectos__img .line-bottom,
+.__img .line-bottom,
+.__img .line-bottom,
 .main-experiencia__img .line-bottom, 
-.main-projects__card:hover .line-bottom {
+.__card:hover .line-bottom {
 	top: auto;
 	left: auto;
 	bottom: 25px;
@@ -1799,7 +1799,7 @@ h1 strong {
 }
 
 
-.main-proyectos__img--hidden {
+.__img--hidden {
 	position: relative;
 	width: 80%;
 	overflow: hidden;
@@ -1807,7 +1807,7 @@ h1 strong {
 }
 
 
-.main-proyectos__img:hover .img-proyectos,
+.__img:hover .img-proyectos,
 .main-experiencia__img:hover img {
 	transition: all 500ms ease;
 	transform: scale(1.3);
@@ -1887,7 +1887,7 @@ h1 strong {
 
 }
 
-.main-proyectos  {
+.__proyectos  {
     padding-bottom: 70px;
     padding-top: 105px;
 	background-image: url(../img/bg.png);
@@ -2124,7 +2124,7 @@ strong {
 
 }
 
-.main-projects__img:hover .main-proyecto__icono,
+.__img:hover .main-proyecto__icono,
 .main-proyectos__grid--img:hover .main-proyecto__icono {
 	transition: all 500ms ease;
 	z-index: 1;
