@@ -3934,3 +3934,118 @@ iframe{
 	color: #d71f26;
 	transition: 0.3s ease-in-out;
 }
+
+.__text{
+	display: flex;
+    justify-content: center;
+}
+.__items{
+	width: 100%;
+    display: grid !important;
+    grid-template-columns: 535px 1fr !important;
+	padding-top: 190px;
+}
+
+.__card{
+	padding-left: 95px;
+}
+.__img{
+	overflow: hidden;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 110px
+}
+.__img--hidden{
+	width: 70%;
+    height: 430px;
+}
+
+
+
+.__content .slick-next,
+.__content .slick-prev {
+	width: 60px !important;
+	height: 50px !important;
+	position: absolute;
+	display: inline-block;
+	background: transparent !important;
+	top: initial;
+	bottom: 245px !important;
+	cursor: pointer;
+	transition: all 500ms ease;
+	transform: translateX(-50%);
+	z-index: 1;
+}
+
+
+
+
+
+.__content .slick-next {
+	left: 93.5% !important;
+}
+
+.__content .slick-next:hover {
+	left: 96% !important;
+}
+
+.__content .slick-prev {
+	right: 88% !important;
+}
+
+.__content .slick-prev:hover {
+	right: 91% !important;
+}
+
+
+
+.__content .slick-next:before {
+	left: auto;
+	content: '';
+	position: absolute;
+	top: 17px;
+	right: 5px;
+	border-top: 2px solid #444444;
+	border-right: 2px solid #444444;
+}
+
+.__content .slick-prev:before {
+
+	left: auto !important;
+	content: '';
+	position: absolute;
+	top: 17px;
+	left: 5px !important;
+
+	border-bottom: 2px solid #444444;
+	border-left: 2px solid #444444;
+	right: 6px;
+
+}
+
+.__content .slick-prev:before,
+.__content .slick-next:before {
+	content: "";
+	width: 20px;
+	height: 20px;
+	opacity: 1 !important;
+
+	-webkit-transform: rotate(45deg) !important;
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg) !important;
+	-webkit-transition: .7s cubic-bezier(.2, .96, .34, 1) !important;
+	-o-transition: .7s cubic-bezier(.2, .96, .34, 1);
+	transition: .7s cubic-bezier(.2, .96, .34, 1) !important;
+}
+
+
+
+.__content .slick-prev:hover:before {
+	border-bottom: 2px solid #d71f26;
+	border-left: 2px solid #d71f26;
+}
+
+.__content .slick-next:hover:before {
+	border-top: 2px solid #d71f26;
+	border-right: 2px solid #d71f26;
+}

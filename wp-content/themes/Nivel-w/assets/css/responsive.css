@@ -1579,7 +1579,7 @@
         bottom: 195px !important;
     }
     .slider-prueba .slick-dots:after{
-        width: 100%;
+        width: 85% !important;
         left: 70px;
     }
 
@@ -1592,11 +1592,11 @@
     }
 
     .slider-prueba .slick-prev {
-        right: 91% !important;
+        right: 89% !important;
     }
 
     .slider-prueba .slick-next {
-        left: 96.5% !important;
+        left: 95.5% !important;
     }
 
     .slider-prueba .slick-prev:hover {
@@ -1604,7 +1604,7 @@
     }
 
     .slider-prueba .slick-next:hover {
-        left: 97.5% !important;
+        left: 96.5% !important;
     }
     .slider-prueba .slick-dots li{
         margin-right: 25px;
