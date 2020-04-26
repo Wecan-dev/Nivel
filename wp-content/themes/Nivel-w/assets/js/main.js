@@ -60,7 +60,7 @@ $(".hamburger").on("click", function () {
 
 // Menú fixed
 $(window).scroll(function () {
-  if ($(document).scrollTop() > 70 && ($(window).width() <= 767)) {
+  if ($(document).scrollTop() > 70 && ($(window).width() <= 991)) {
     $('.navbar').addClass('fixed-nav');
 
   } else {

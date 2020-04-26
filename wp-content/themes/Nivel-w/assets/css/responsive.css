@@ -827,6 +827,35 @@
 
 
 @media (min-width: 768px) and (max-width: 991px) {
+    .navbar-toggler{
+        position: static;
+    }
+    .__img {
+        margin-right: 20px;
+    }
+    .__card {
+        padding-left: 25px;
+    }
+    .__items {
+        grid-template-columns: 270px 1fr !important;
+        
+    }
+    .slider-prueba .slick-prev {
+        right: 82% !important;
+    }
+    .slider-prueba .slick-prev:hover {
+        right: 83% !important;
+    }
+
+    .slider-prueba .slick-next {
+        left: 15% !important;
+    }
+    .slider-prueba .slick-next:hover {
+        left: 16% !important;
+    }
+    .__content .slick-next, .__content .slick-prev{
+        bottom: 500px !important;
+    }
     .main-contactform__boxtext {
         padding: 0 30px 0 0;
     }
