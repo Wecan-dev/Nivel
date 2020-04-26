@@ -94,6 +94,9 @@ $('cite.fn').addClass('')
 
 
 $(".comment-author img").attr("src","http://localhost/Nivel/wp-content/themes/Nivel-w/assets/img/Blog/image_7.png");
+
+
+
  
 
 $( ".comment" ).append("<div style='order:-1; margin-right:40px;' class='img-avatar'></div>" );
@@ -102,3 +105,5 @@ $(".img-avatar").append("<img alt='' src='http://localhost/Nivel/wp-content/them
 $('.commentlist').append("<div class='main-contactform__btnbox main-contactform__btnbox1'></div>")
 $('.main-contactform__btnbox1').append("<a href='#comments' class='btn_custom btn--medium btn--filled--black'>Comenta aquí</a>")
 
+
+$("input#field_29yf4d").attr("pattern","[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{1,5}");

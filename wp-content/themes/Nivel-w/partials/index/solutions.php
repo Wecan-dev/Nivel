@@ -36,10 +36,10 @@
             </div>
           </div>
         
-          
-            <video class="img-video" src="<?php the_field('video') ?>">
-            <source src="<?php the_field('video') ?>" type="video/mp4">
-          </video>   
+          <img class="nosotros-video__img" src="<?php echo get_template_directory_uri();?>/assets/img/section-03-bg.jpg" alt="">
+            <!-- <video class="img-video" src="< ?php the_field('video') ?>">
+            <source src="< ?php the_field('video') ?>" type="video/mp4">
+          </video>    -->
           
         </div>
       </div>
