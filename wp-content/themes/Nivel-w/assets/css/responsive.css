@@ -1,4 +1,7 @@
 @media (min-width: 0px) and (max-width: 767px) {
+    .navbar-toggler {
+        position: static;
+    }
     .container-prueba{
         height: 60vh;
     }

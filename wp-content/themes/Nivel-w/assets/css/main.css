@@ -468,6 +468,10 @@ a {
 	margin-right: 50px;
 	border-bottom: 3px solid #9b9b9b30;
 }
+.navbar-toggler{
+	position: fixed;
+	top: 0;
+}
 .navbar.fixed-nav{
 	background-color: #212121;
 	position: fixed;
@@ -1497,7 +1501,7 @@ h1 strong {
 	right: 0;
 	top: 0;
 	bottom: 0;
-	background: rgba(0, 0, 0, 0.5);
+	background: rgba(0, 0, 0, 0);
 	display: flex;
 	padding: 50px 45px;
 	z-index: 1;
