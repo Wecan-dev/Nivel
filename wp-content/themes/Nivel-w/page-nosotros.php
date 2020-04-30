@@ -16,15 +16,14 @@
   <?php endif;?>
 
    <!-- Testimonials-->
-   <!-- < ?php get_template_part('partials/about/testimonials'); ?> -->
+  
   <!-- End Testimonials-->
 
   <!-- Video-->
-  <?php get_template_part('partials/about/video'); ?>
+  
   <!-- End Video-->
 
    <!-- Projects Grid-->
- <?php get_template_part('partials/index/projects-grid'); ?>
   <!-- End Projects Grid--->
 
 <?php get_footer();?>

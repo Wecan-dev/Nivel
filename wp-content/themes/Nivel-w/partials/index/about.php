@@ -56,7 +56,9 @@
 
               </div>
             </div>
-            <img class="img-about" src="<?php echo get_the_post_thumbnail_url(); ?>">
+            <a class="main-about__links" href="<?php echo bloginfo('url').'/proyecto';?>">
+              <img class="img-about" src="<?php echo get_the_post_thumbnail_url(); ?>">
+            </a>
           </div>
         </div>
         <?php $counterNumber++; endwhile; ?>

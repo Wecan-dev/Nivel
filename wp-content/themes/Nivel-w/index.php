@@ -12,7 +12,7 @@
   <!-- End About-->
 
   <!-- Solutions-->
-  <?php get_template_part('partials/index/solutions'); ?>
+  
   <!-- End Solutions-->
 
    <!-- Projects-->
@@ -20,7 +20,7 @@
   <!-- End Projects-->
 
   <!-- Projects Grid-->
- <?php get_template_part('partials/index/projects-grid'); ?>
+ 
   <!-- End Projects Grid--->
 
   <!-- Blog-->

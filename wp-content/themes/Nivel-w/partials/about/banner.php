@@ -6,7 +6,7 @@
       <div class="main-banner__item">
         <div class="mask">
           <div class="main-banner__boxtext container">
-            <div class="main-banner__palabra main-banner__palabra--contacto main-banner__palabra--about ">
+            <div class="main-banner__palabra main-banner__palabra--contacto main-banner__palabra--projects ">
               <p>experi</p>
               <p>encia</p>
             </div>
@@ -21,7 +21,7 @@
             </div>
           </div>
         </div>
-        <div class="main-banner__img">
+        <div class="main-banner__img2 ">
           <img src="<?php echo get_the_post_thumbnail_url(); ?>">
         </div>
       </div>

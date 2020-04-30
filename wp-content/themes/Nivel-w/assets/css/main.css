@@ -718,6 +718,14 @@ a {
 	margin-top: -7rem;
 }
 
+.main-about__links{
+	position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 8;
+}
 .main-about-card__body {
 	background-color: white;
 	height: 9rem;
@@ -728,7 +736,7 @@ a {
 	flex-direction: column;
 	align-items: center;
 	position: absolute;
-	z-index: 1;
+	z-index: 9;
 	transition: all 500ms ease;
 	bottom: 0;
 	opacity: 1;
@@ -3968,10 +3976,10 @@ iframe{
 	overflow: hidden;
     display: flex;
     justify-content: flex-end;
-    margin-right: 110px
+    margin-right: 80px
 }
 .__img--hidden{
-	width: 70%;
+	width: 100%;
     height: 430px;
 }
 

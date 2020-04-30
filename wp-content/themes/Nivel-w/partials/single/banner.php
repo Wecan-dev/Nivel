@@ -3,7 +3,7 @@
     <div class="main-banner__item">
       <div class="mask">
         <div class="main-banner__boxtext container">
-          <div class="main-banner__palabra main-banner__palabra--contacto main-banner__palabra--blog">
+          <div class="main-banner__palabra main-banner__palabra--contacto main-banner__palabra--projects">
             <p>innova</p>
             <p>ción</p>
           </div>
@@ -20,7 +20,7 @@
           </div>
         </div>
       </div>
-      <div class="main-banner__img main-banner__img--project">
+      <div class="main-banner__img2">
         <img src="<?php echo get_template_directory_uri();?>/assets/img/Contact/image_8.png">
       </div>
     </div>

@@ -1526,7 +1526,7 @@
         width: 45%;
     }
     .main-banner .mask .main-banner__text .main-banner__title p, .main-banner .mask .main-banner__text .main-banner__title h1, .main-banner .mask .main-banner__text .main-banner__title h2, .main-banner .mask .main-banner__text .main-banner__title h3, .main-banner .mask .main-banner__text .main-banner__title h4, .main-banner .mask .main-banner__text .main-banner__title h5, .main-banner .mask .main-banner__text .main-banner__title h6{
-            font-size: 75px;
+            font-size: 60px;
     }
 
     .main-banner__content .slick-next, .main-banner__content .slick-prev{
