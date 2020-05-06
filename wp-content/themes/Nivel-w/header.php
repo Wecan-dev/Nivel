@@ -79,11 +79,11 @@
               <a class="nav-link " href="<?php echo bloginfo('url').'/contacto';?>">contacto</a>
             </li>
             <li class="nav-item">
-              <a href="https://www.facebook.com/nivelpropiedadraiz" target="_blank" class="mr-2">
+              <a href="https://www.facebook.com/nivelpropiedadraiz" target="_blank" class="mr-4">
                 <img src="<?php echo get_template_directory_uri();?>/assets/img/fb_2.png" alt="">
 
               </a>
-              <a href="https://www.instagram.com/nivelpropiedadraiz/" target="_blank" class="mr-2">
+              <a href="https://www.instagram.com/nivelpropiedadraiz/" target="_blank" class="mr-4">
                 <img src="<?php echo get_template_directory_uri();?>/assets/img/instagram.png" alt="">
 
               </a>

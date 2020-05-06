@@ -337,7 +337,7 @@ button:focus {
 	transition: .3s ease-in-out;
 	font-weight: 500;
 	font-size: 16px;
-	text-transform: capitalize;
+	text-transform: uppercase;
 	/* font-family: "Century Gothic", sans-serif; */
 }
 
