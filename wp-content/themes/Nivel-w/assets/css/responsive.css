@@ -1,4 +1,21 @@
 @media (min-width: 0px) and (max-width: 767px) {
+    .navbar-brand{
+        display: block !important;
+    }
+    .navbar-nav{
+        flex-direction: column !important;
+        justify-content: flex-start;
+        padding-top: 90px !important;
+        padding-left: 10px !important;
+        margin-right: 0px;
+    }
+    .nav-item:last-child {
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    .nav-link{
+        font-size: 18px;
+    }
     .navbar-toggler {
         position: static;
     }
@@ -153,10 +170,7 @@
     .main-banner .mask .main-banner__text{
         padding-left: 0px;
     }
-    .main-video {
-        /* margin-bottom: 100px; */
-    }
-
+  
     .main-proyectos__grid {
         padding-bottom: 30px;
     }
@@ -827,6 +841,19 @@
 
 
 @media (min-width: 768px) and (max-width: 991px) {
+    .navbar-nav{
+        flex-direction: column !important;
+        justify-content: flex-start;
+        padding-top: 90px !important;
+        padding-left: 10px !important;
+    }
+    .nav-item:last-child {
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    .nav-link{
+        font-size: 18px;
+    }
     .navbar-toggler{
         position: static;
     }
@@ -1298,6 +1325,9 @@
 
 
 @media (min-width: 992px) and (max-width: 1199px) {
+    .navbar-nav{
+        margin-right: 0px;
+    }
     .main-banner__palabra.main-banner__palabra--contact {
         top: 165px;
         right: -40px;
@@ -1449,11 +1479,11 @@
     .main-logo__collapse{
         margin-bottom: 40px;
     }
-    .navbar-expand-lg .navbar-nav{
+    /* .navbar-expand-lg .navbar-nav{
         margin-left: -10px;
         padding-right: 3rem;
-    }
-    .offcanvas-collapse{
+    } */
+    /* .offcanvas-collapse{
         padding-top: 55px;
     }
     .offcanvas-collapse.open{
@@ -1461,13 +1491,13 @@
     }
     .offcanvas-collapse{
         width: 26%;
-    }
+    } */
 
     .navbar-expand-lg .navbar-nav .nav-link{
-        padding-left: 3px;
+        padding-left: 40px;
         padding-right: 0px;
         padding-bottom: 3px;
-        font-size: 15px;
+        font-size: 17px;
     }
 
     .main-banner__angle-down{
@@ -1490,12 +1520,12 @@
         margin-left: -5px;
         
     }
-    .nav-item{
+    /* .nav-item{
         padding-top: 30px;
-    }
-    .offcanvas-collapse{
+    } */
+    /* .offcanvas-collapse{
         height: 80%;
-    }
+    } */
 
 
     .main-about__content {
@@ -1527,6 +1557,9 @@
     }
     .main-banner .mask .main-banner__text .main-banner__title p, .main-banner .mask .main-banner__text .main-banner__title h1, .main-banner .mask .main-banner__text .main-banner__title h2, .main-banner .mask .main-banner__text .main-banner__title h3, .main-banner .mask .main-banner__text .main-banner__title h4, .main-banner .mask .main-banner__text .main-banner__title h5, .main-banner .mask .main-banner__text .main-banner__title h6{
             font-size: 60px;
+    }
+    .main-banner__title.main-banner__title--home p{
+        font-size: 75px !important;
     }
 
     .main-banner__content .slick-next, .main-banner__content .slick-prev{

@@ -32,6 +32,7 @@
 </head>
 
 <body>
+  
   <header id="home">
     <nav class="navbar navbar-expand-lg fixed-top navbar-fixed-js">
 
@@ -49,11 +50,11 @@
           </button>
         </div>
 
-        <div class="navbar-collapse offcanvas-collapse">ss
+        <div class="navbar-collapse offcanvas-collapse">
           <div class="navbar-nav mr-autos">
-            <a href="<?php echo bloginfo('url').'/';?>" class="main-logo__collapse">
-              <img class="logo-collapse" src="<?php echo get_template_directory_uri();?>/assets/img/logo_4.png">
-            </a>
+            <!-- <a href="< ?php echo bloginfo('url').'/';?>" class="main-logo__collapse">
+              <img class="logo-collapse" src="< ?php echo get_template_directory_uri();?>/assets/img/logo_4.png">
+            </a> -->
             <li class="nav-item">
               <a class="nav-link nav-link__mobile active" href="<?php echo bloginfo('url').'/';?>">Inicio</a>
             </li>
@@ -71,13 +72,13 @@
             </li>
 
             <!--<li class="nav-item">
-              <a class="nav-link nav-link__mobile" href="<?php echo bloginfo('url').'/inversion';?>">invierte desde el
+              <a class="nav-link nav-link__mobile" href="< ?php echo bloginfo('url').'/inversion';?>">invierte desde el
                 exterior</a>
             </li>-->
-            <li class="nav-item nav-item--last">
+            <li class="nav-item">
               <a class="nav-link " href="<?php echo bloginfo('url').'/contacto';?>">contacto</a>
             </li>
-            <li class="mt-4 pb-4">
+            <li class="nav-item">
               <a href="https://www.facebook.com/nivelpropiedadraiz" target="_blank" class="mr-2">
                 <img src="<?php echo get_template_directory_uri();?>/assets/img/fb_2.png" alt="">
 

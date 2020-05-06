@@ -1,12 +1,9 @@
-@media (max-width:997px) {
+@media (max-width:991px) {
   .offcanvas-collapse {
     height: 100% !important;
     width: 100%;
-
-
     position: fixed;
     top: 0px !important;
-    /* Height of navbar */
     bottom: 0;
     left: 100%;
 
@@ -32,7 +29,7 @@
   .offcanvas-collapse.open {
 
     visibility: visible;
-    text-align: center;
+    text-align: left;
     left: 0 !important;
     width: 100% !important;
   }
@@ -42,11 +39,10 @@
   }
 }
 
-@media (min-width: 997px) and (max-width:5000px) {
+/* @media (min-width: 997px) and (max-width:5000px) {
   .offcanvas-collapse {
     position: fixed;
     top: 0px !important;
-    /* Height of navbar */
     bottom: 0;
     left: 100%;
     width: 27%;
@@ -70,12 +66,7 @@
     text-align: center;
     left: 74%;
   }
-
-
-}
-
-
-
+} */
 
 .nav-scroller {
   position: relative;
@@ -207,7 +198,7 @@
   transition-delay: 0.075s;
 }
 
-@media (min-width: 992px) {
+/* @media (min-width: 992px) {
   .navbar-expand-lg .navbar-toggler {
     display: block;
   }
@@ -220,10 +211,7 @@
     -ms-flex-direction: row;
     flex-direction: column;
     height: 100%;
-    text-align: left;
-
-
-
+    text-align: left
   }
 
   .navbar-toggler {
@@ -235,12 +223,17 @@
   }
 
   .p-2 {
-        padding: 32px 25px 32px 30px !important;
+    padding: 32px 25px 32px 30px !important;
   }
   .p-2.p-10{
     padding: 10px !important
   }
-}
+} */
 .hamburger-inner.inner-small,.hamburger-inner.inner-small::before, .hamburger-inner.inner-small::after{
   width: 20px;
+}
+
+
+.navbar-expand-lg .navbar-collapse{
+  justify-content:  flex-end !important;
 }

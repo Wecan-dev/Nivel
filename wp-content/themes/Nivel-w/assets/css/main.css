@@ -164,6 +164,9 @@ html {
 	scroll-behavior: smooth;
 }
 
+html.fixed{
+	overflow: hidden;
+}
 body {
 	margin: 0;
 	padding: 0;
@@ -324,7 +327,11 @@ button:focus {
 }
 
 /*HOME*/
-
+.navbar-nav{
+	display: flex;
+	flex-direction: inherit !important;
+	margin-right: -60px;
+}
 .nav-link {
 	color: #fff;
 	transition: .3s ease-in-out;
@@ -342,20 +349,20 @@ button:focus {
 }
 
 .nav-item {
-	border-top: 2px solid #9d9d9d;
+	/* border-top: 2px solid #9d9d9d; */
 	padding-bottom: 0px;
-	padding-top: 25px;
+	/* padding-top: 25px; */
 }
 
-.nav-item.nav-item--last{
+/* .nav-item.nav-item--last{
 	border-bottom: 2px solid #9d9d9d !important;
 }
 .nav-item:first-child {
 	border-top: 2px solid #9d9d9d;
-}
+} */
 
 .nav-item:last-child {
-	border-bottom: 2px solid #9d9d9d !important;
+	margin-left: 20px;
 }
 
 .is-active {
@@ -461,7 +468,7 @@ a {
 }
 
 .navbar {
-	position: absolute;
+	/* position: absolute; */
 	text-align: right;
 	width: 100%;
 	padding: 22px 20px;
@@ -3657,9 +3664,9 @@ iframe{
 	display: flex;
 }
 
-.service-form .nav-item:nth-child(2){
+/* .service-form .nav-item:nth-child(2){
 	border: 0.1px solid #212121;
-}
+} */
 
 .service-form .nav-item a {
 	padding-top: .7rem;
