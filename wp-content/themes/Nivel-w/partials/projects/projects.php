@@ -1,32 +1,48 @@
 <section class="main-projects" id="main-projects">
   <div class="main-projects__tabs container">
+    <ul class="nav nav-pills ">
+     <?php $args = array(
 
-    <ul class="nav nav-pills " id="pills-tab" role="tablist">
+      'orderby' => 'slug',
+      'order' => 'ASC'
+    );
+     $proyecto_categories = get_terms('proyectos_nivel', $args);
+     $counterNumber = 1;
+     foreach ($proyecto_categories as $proyecto_category): ?>
       <li class="nav-item__tabs">
-        <a class="nav-link__tabs " id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab"
-        aria-controls="pills-home" aria-selected="true">Preventa</a>
+        <a class="nav-link__tabs " href="<?php echo $url_category = get_term_link( $proyecto_category ); ?>" ><?php echo $proyecto_category->name;?></a>
       </li>
-      <li class="nav-item__tabs">
-        <a class="nav-link__tabs" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab"
-        aria-controls="pills-profile" aria-selected="false">Construcción</a>
-      </li>
-      <li class="nav-item__tabs">
-        <a class="nav-link__tabs" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab"
-        aria-controls="pills-contact" aria-selected="false">Entrega inmediata</a>
-      </li>
-      <li class="nav-item__tabs ">
-        <a class="nav-link__tabs active" id="pills-totals-tab" data-toggle="pill" href="#pills-totals" role="tab"
-        aria-controls="pills-totals" aria-selected="false">Todos</a>
-      </li>
-    </ul>
+
+    <?php endforeach; ?>
+  </ul>
+
+  <ul class="nav nav-pills " id="pills-tab" role="tablist">
+    <li class="nav-item__tabs ">
+      <a class="nav-link__tabs active" id="pills-totals-tab" data-toggle="pill" href="#pills-totals" role="tab"
+      aria-controls="pills-totals" aria-selected="false">Todos</a>
+    </li>
+    <li class="nav-item__tabs">
+      <a class="nav-link__tabs " id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab"
+      aria-controls="pills-home" aria-selected="true">Preventa</a>
+    </li>
+    <li class="nav-item__tabs">
+      <a class="nav-link__tabs" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab"
+      aria-controls="pills-profile" aria-selected="false">Construcción</a>
+    </li>
+    <li class="nav-item__tabs">
+      <a class="nav-link__tabs" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab"
+      aria-controls="pills-contact" aria-selected="false">Entrega inmediata</a>
+    </li>
+
+  </ul>
 
 
 
-    <div class="tab-content" id="pills-tabContent">
-      <div class="tab-pane fade " id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-        <div class="main-projects__content">
+  <div class="tab-content" id="pills-tabContent">
+    <div class="tab-pane fade " id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+      <div class="main-projects__content">
 
-          <?php while ( have_posts() ) : the_post(); ?>
+        <?php while ( have_posts() ) : the_post(); ?>
     <?php // proyectos ( value )
     $proyectos_array = get_field( 'proyectos' );
     if ( $proyectos_array ):

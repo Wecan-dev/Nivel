@@ -34,30 +34,6 @@
 	</div>
 </div>
 <!-- End Banner-->
-<?php $args = array(
 
-	'orderby' => 'slug',
-	'order' => 'ASC'
-);
-$proyecto_categories = get_terms('proyectos_nivel', $args);
-
-foreach ($proyecto_categories as $proyecto_category): ?>
-
-
-
-
-
-
-	<a class="content-category" href="<?php echo $url_category = get_term_link( $proyecto_category ); ?>">
-		<div class="category-column">
-			<div class="category">
-				<div class="icon">
-					<img style="width: 10px;" src="">
-				</div>
-				<p class="name-category"><?php echo $proyecto_category->name;?></p>
-			</div>
-		</div>
-	</a>
-<?php endforeach; ?>
 
 <?php get_footer();?>
