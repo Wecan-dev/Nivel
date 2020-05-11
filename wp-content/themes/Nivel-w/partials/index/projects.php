@@ -20,49 +20,52 @@
     <div class=" __content container-prueba">
       <div class="slider-prueba ">
         <div class="slider-prueba2">
-          <?php $args = array( 'post_type' => 'Proyectos'); ?>   
+          <?php 
+          
+          $args = array( 'post_type' => 'Proyectos'); ?>   
           <?php $loop = new WP_Query( $args ); ?>
           <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
-      
+
             <?php // proyectos ( value )
-$proyectos_array = get_field( 'proyectos' );
-if ( $proyectos_array ):
-	foreach ( $proyectos_array as $proyectos_item ): if($proyectos_item == 'Preventa'): ?>
-            <div class="__items">
-              <div class="__card">
-                <div class="main-card__proyectos--img">
-                  <img class="img-card__proyectos" src="<?php the_field('logo_de_ubicacion') ?>" alt="">
+            $proyectos_array = get_field( 'proyectos' );
+            if ( $proyectos_array ):
+             foreach ( $proyectos_array as $proyectos_item ): if($proyectos_item == 'Preventa'): ?>
+              <div class="__items">
+                <div class="__card">
+                  <div class="main-card__proyectos--img">
+                    <img class="img-card__proyectos" src="<?php the_field('logo_de_ubicacion') ?>" alt="">
+                  </div>
+                  <div class="__body">
+                    <div class="main-card__proyectos--title">
+                      <p class="title-card__proyectos">
+
+                        <?php the_title(); ?>
+                      </p>
+                    </div>
+                    <div class="main-card__proyectos--text">
+                      <p class="text-card__proyectos main-general__description">
+                        <?php echo excerpt(30); ?>
+                      </p>
+                    </div>
+                    <div class="main-card__proyectos--buttom">
+                      <a class="btn_custom btn--medium btn--filled2" href="<?php the_permalink(); ?>">
+                        Ver más
+                      </a>
+                    </div>
+                  </div>
                 </div>
-                <div class="__body">
-                  <div class="main-card__proyectos--title">
-                    <p class="title-card__proyectos">
-                      <?php the_title(); ?>
-                    </p>
-                  </div>
-                  <div class="main-card__proyectos--text">
-                    <p class="text-card__proyectos main-general__description">
-                    <?php echo excerpt(30); ?>
-                    </p>
-                  </div>
-                  <div class="main-card__proyectos--buttom">
-                    <a class="btn_custom btn--medium btn--filled2" href="<?php the_permalink(); ?>">
-                      Ver más
-                    </a>
+                <div class="__img">
+                  <div class="__img--hidden">
+                    <span class="line"></span>
+                    <span class="line line-bottom"></span>
+
+                    <img class="img-proyectos" src="<?php echo get_the_post_thumbnail_url(); ?>">
                   </div>
                 </div>
               </div>
-              <div class="__img">
-                <div class="__img--hidden">
-                  <span class="line"></span>
-                  <span class="line line-bottom"></span>
-    
-                  <img class="img-proyectos" src="<?php echo get_the_post_thumbnail_url(); ?>">
-                </div>
-              </div>
-            </div>
-         <?php endif;
-	endforeach;
-endif;  endwhile; ?>
+            <?php endif;
+          endforeach;
+        endif;  endwhile; ?>
           <!-- <div class="__items">
             <div class="__card">
               <div class="main-card__proyectos--img">
@@ -98,146 +101,146 @@ endif;  endwhile; ?>
             </div>
           </div> -->
         </div>
-  
-  
+
+
         <div class="slider-prueba2">
           <?php $args = array( 'post_type' => 'Proyectos'); ?>   
           <?php $loop = new WP_Query( $args ); ?>
           <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
-      
+
 
             <?php // proyectos ( value )
-$proyectos_array = get_field( 'proyectos' );
-if ( $proyectos_array ):
-	foreach ( $proyectos_array as $proyectos_item ): if($proyectos_item == 'Construcción'): ?>
-            <div class="__items">
-              <div class="__card">
-                <div class="main-card__proyectos--img">
-                  <img class="img-card__proyectos" src="<?php the_field('logo_de_ubicacion') ?>" alt="">
+            $proyectos_array = get_field( 'proyectos' );
+            if ( $proyectos_array ):
+             foreach ( $proyectos_array as $proyectos_item ): if($proyectos_item == 'Construcción'): ?>
+              <div class="__items">
+                <div class="__card">
+                  <div class="main-card__proyectos--img">
+                    <img class="img-card__proyectos" src="<?php the_field('logo_de_ubicacion') ?>" alt="">
+                  </div>
+                  <div class="__body">
+                    <div class="main-card__proyectos--title">
+                      <p class="title-card__proyectos">
+                        <?php the_title(); ?>
+                      </p>
+                    </div>
+                    <div class="main-card__proyectos--text">
+                      <p class="text-card__proyectos main-general__description">
+                        <?php echo excerpt(30); ?>
+                      </p>
+                    </div>
+                    <div class="main-card__proyectos--buttom">
+                      <a class="btn_custom btn--medium btn--filled2" href="<?php the_permalink(); ?>">
+                        Ver más
+                      </a>
+                    </div>
+                  </div>
                 </div>
-                <div class="__body">
-                  <div class="main-card__proyectos--title">
-                    <p class="title-card__proyectos">
-                      <?php the_title(); ?>
-                    </p>
-                  </div>
-                  <div class="main-card__proyectos--text">
-                    <p class="text-card__proyectos main-general__description">
-                    <?php echo excerpt(30); ?>
-                    </p>
-                  </div>
-                  <div class="main-card__proyectos--buttom">
-                    <a class="btn_custom btn--medium btn--filled2" href="<?php the_permalink(); ?>">
-                      Ver más
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="__img">
-                <div class="__img--hidden">
-                  <span class="line"></span>
-                  <span class="line line-bottom"></span>
-    
-                  <img class="img-proyectos" src="<?php echo get_the_post_thumbnail_url(); ?>">
-                </div>
-              </div>
-            </div>
-         <?php endif;
-	endforeach;
-endif;  endwhile; ?>
-        </div>
-  
-        <div class="slider-prueba2">
-        <?php $args = array( 'post_type' => 'Proyectos'); ?>   
-          <?php $loop = new WP_Query( $args ); ?>
-          <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
-         
-            
-            <?php // proyectos ( value )
-$proyectos_array = get_field( 'proyectos' );
-if ( $proyectos_array ):
-	foreach ( $proyectos_array as $proyectos_item ): if($proyectos_item == 'Entrega inmediata'): ?>
-            <div class="__items">
-              <div class="__card">
-                <div class="main-card__proyectos--img">
-                  <img class="img-card__proyectos" src="<?php the_field('logo_de_ubicacion') ?>" alt="">
-                </div>
-                <div class="__body">
-                  <div class="main-card__proyectos--title">
-                    <p class="title-card__proyectos">
-                      <?php the_title(); ?>
-                    </p>
-                  </div>
-                  <div class="main-card__proyectos--text">
-                    <p class="text-card__proyectos main-general__description">
-                    <?php echo excerpt(30); ?>
-                    </p>
-                  </div>
-                  <div class="main-card__proyectos--buttom">
-                    <a class="btn_custom btn--medium btn--filled2" href="<?php the_permalink(); ?>">
-                      Ver más
-                    </a>
+                <div class="__img">
+                  <div class="__img--hidden">
+                    <span class="line"></span>
+                    <span class="line line-bottom"></span>
+
+                    <img class="img-proyectos" src="<?php echo get_the_post_thumbnail_url(); ?>">
                   </div>
                 </div>
               </div>
-              <div class="__img">
-                <div class="__img--hidden">
-                  <span class="line"></span>
-                  <span class="line line-bottom"></span>
-    
-                  <img class="img-proyectos" src="<?php echo get_the_post_thumbnail_url(); ?>">
-                </div>
-              </div>
-            </div>
-         <?php endif;
-	endforeach;
-endif;  endwhile; ?>
-        </div>
-  
-        <div class="slider-prueba2">
-        <?php $args = array( 'post_type' => 'Proyectos'); ?>   
-          <?php $loop = new WP_Query( $args ); ?>
-          <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
-            <div class="__items">
-              <div class="__card">
-                <div class="main-card__proyectos--img">
-                  <img class="img-card__proyectos" src="<?php the_field('logo_de_ubicacion') ?>" alt="">
-                </div>
-                <div class="__body">
-                  <div class="main-card__proyectos--title">
-                    <p class="title-card__proyectos">
-                      <?php the_title(); ?>
-                    </p>
-                  </div>
-                  <div class="main-card__proyectos--text">
-                    <p class="text-card__proyectos main-general__description">
-                    <?php echo excerpt(30); ?>
-                    </p>
-                  </div>
-                  <div class="main-card__proyectos--buttom">
-                    <a class="btn_custom btn--medium btn--filled2" href="<?php the_permalink(); ?>">
-                      Ver más
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="__img">
-                <div class="__img--hidden">
-                  <span class="line"></span>
-                  <span class="line line-bottom"></span>
-    
-                  <img class="img-proyectos" src="<?php echo get_the_post_thumbnail_url(); ?>">
-                </div>
-              </div>
-            </div>
-          <?php endwhile; ?>
-        </div>
-  
+            <?php endif;
+          endforeach;
+        endif;  endwhile; ?>
       </div>
+
+      <div class="slider-prueba2">
+        <?php $args = array( 'post_type' => 'Proyectos'); ?>   
+        <?php $loop = new WP_Query( $args ); ?>
+        <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
+
+
+            <?php // proyectos ( value )
+            $proyectos_array = get_field( 'proyectos' );
+            if ( $proyectos_array ):
+             foreach ( $proyectos_array as $proyectos_item ): if($proyectos_item == 'Entrega inmediata'): ?>
+              <div class="__items">
+                <div class="__card">
+                  <div class="main-card__proyectos--img">
+                    <img class="img-card__proyectos" src="<?php the_field('logo_de_ubicacion') ?>" alt="">
+                  </div>
+                  <div class="__body">
+                    <div class="main-card__proyectos--title">
+                      <p class="title-card__proyectos">
+                        <?php the_title(); ?>
+                      </p>
+                    </div>
+                    <div class="main-card__proyectos--text">
+                      <p class="text-card__proyectos main-general__description">
+                        <?php echo excerpt(30); ?>
+                      </p>
+                    </div>
+                    <div class="main-card__proyectos--buttom">
+                      <a class="btn_custom btn--medium btn--filled2" href="<?php the_permalink(); ?>">
+                        Ver más
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="__img">
+                  <div class="__img--hidden">
+                    <span class="line"></span>
+                    <span class="line line-bottom"></span>
+
+                    <img class="img-proyectos" src="<?php echo get_the_post_thumbnail_url(); ?>">
+                  </div>
+                </div>
+              </div>
+            <?php endif;
+          endforeach;
+        endif;  endwhile; ?>
+      </div>
+
+      <div class="slider-prueba2">
+        <?php $args = array( 'post_type' => 'Proyectos'); ?>   
+        <?php $loop = new WP_Query( $args ); ?>
+        <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
+          <div class="__items">
+            <div class="__card">
+              <div class="main-card__proyectos--img">
+                <img class="img-card__proyectos" src="<?php the_field('logo_de_ubicacion') ?>" alt="">
+              </div>
+              <div class="__body">
+                <div class="main-card__proyectos--title">
+                  <p class="title-card__proyectos">
+                    <?php the_title(); ?>
+                  </p>
+                </div>
+                <div class="main-card__proyectos--text">
+                  <p class="text-card__proyectos main-general__description">
+                    <?php echo excerpt(30); ?>
+                  </p>
+                </div>
+                <div class="main-card__proyectos--buttom">
+                  <a class="btn_custom btn--medium btn--filled2" href="<?php the_permalink(); ?>">
+                    Ver más
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="__img">
+              <div class="__img--hidden">
+                <span class="line"></span>
+                <span class="line line-bottom"></span>
+
+                <img class="img-proyectos" src="<?php echo get_the_post_thumbnail_url(); ?>">
+              </div>
+            </div>
+          </div>
+        <?php endwhile; ?>
+      </div>
+
     </div>
   </div>
-  <div class="mask-images-text">
-    <p>PROYECTO</p>
-  </div>
+</div>
+<div class="mask-images-text">
+  <p>PROYECTO</p>
+</div>
 </section>
 

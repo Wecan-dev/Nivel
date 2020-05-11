@@ -408,7 +408,7 @@ function twentyseventeen_widgets_init() {
 			'before_title'  => '<h2 class="widget-title">',
 			'after_title'   => '</h2>',
 		)
-    );
+	);
 
 }
 add_action( 'widgets_init', 'twentyseventeen_widgets_init' );
@@ -478,27 +478,27 @@ function proyectos() {
 add_action( 'init', 'proyectos', 0 );
 
 /*******************Taxonomy Products *****************/
-/*
+
 // Register Proyectos Custom Taxonomy
-function proyectos_taxonomy() {
+function proyectos_nivel_taxonomy() {
 
 	$labels = array(
-		'name'                       => _x( 'Proyectos', 'Taxonomy General Name', 'text_domain' ),
-		'singular_name'              => _x( 'Proyectos', 'Taxonomy Singular Name', 'text_domain' ),
-		'menu_name'                  => __( 'Proyectos', 'text_domain' ),
-		'all_items'                  => __( 'Todas las Duraciones', 'text_domain' ),
-		'parent_item'                => __( 'Parent Proyectos', 'text_domain' ),
-		'parent_item_colon'          => __( 'Parent Proyectos:', 'text_domain' ),
-		'new_item_name'              => __( 'Nueva Proyectos', 'text_domain' ),
-		'add_new_item'               => __( 'Agregar Nueva Proyectos', 'text_domain' ),
-		'edit_item'                  => __( 'Editar Proyectos', 'text_domain' ),
-		'update_item'                => __( 'Actualizar Proyectos', 'text_domain' ),
+		'name'                       => _x( 'Proyectos Nivel', 'Taxonomy General Name', 'text_domain' ),
+		'singular_name'              => _x( 'Proyectos Nivel', 'Taxonomy Singular Name', 'text_domain' ),
+		'menu_name'                  => __( 'Proyectos Nivel', 'text_domain' ),
+		'all_items'                  => __( 'Todas los proyectos-nivel', 'text_domain' ),
+		'parent_item'                => __( 'Parent proyectos-nivel', 'text_domain' ),
+		'parent_item_colon'          => __( 'Parent proyectos-nivel:', 'text_domain' ),
+		'new_item_name'              => __( 'Nueva proyectos-nivel', 'text_domain' ),
+		'add_new_item'               => __( 'Agregar Nueva proyectos-nivel', 'text_domain' ),
+		'edit_item'                  => __( 'Editar proyectos-nivel', 'text_domain' ),
+		'update_item'                => __( 'Actualizar proyectos-nivel', 'text_domain' ),
 		'view_item'                  => __( 'Ver Item', 'text_domain' ),
 		'separate_items_with_commas' => __( 'Separate items with commas', 'text_domain' ),
 		'add_or_remove_items'        => __( 'Add or remove items', 'text_domain' ),
 		'choose_from_most_used'      => __( 'Choose from the most used items', 'text_domain' ),
 		'popular_items'              => __( 'Popular Items', 'text_domain' ),
-		'search_items'               => __( 'Buscar Proyectos', 'text_domain' ),
+		'search_items'               => __( 'Buscar proyectos-nivel', 'text_domain' ),
 		'not_found'                  => __( 'Not Found', 'text_domain' ),
 		'no_terms'                   => __( 'No items', 'text_domain' ),
 		'items_list'                 => __( 'Items list', 'text_domain' ),
@@ -512,30 +512,31 @@ function proyectos_taxonomy() {
 		'show_admin_column'          => true,
 		'show_in_nav_menus'          => true,
 		'show_tagcloud'              => true,
+		
 	);
-	register_taxonomy( 'proyectos', array( 'proyectos' ), $args );
+	register_taxonomy( 'proyectos_nivel', array( 'proyectos' ), $args );
 }
-add_action( 'init', 'proyectos_taxonomy', 0 );*/
+add_action( 'init', 'proyectos_nivel_taxonomy', 0 );
 
 // colocar en el title el nombre de la page 
 function wpdocs_filter_wp_title( $title, $sep ) {
-    global $paged, $page;
- 
-    if ( is_feed() )
-        return $title;
- 
-    // Add the site name.
-    $title .= get_bloginfo( 'name' );
- 
-    // Add the site description for the home/front page.
-    $site_description = get_bloginfo( 'description', 'display' );
-    if ( $site_description && ( is_home() || is_front_page() ) )
-        $title = "$title $sep $site_description";
- 
-    // Add a page number if necessary.
-    if ( $paged >= 2 || $page >= 2 )
-        $title = "$title $sep " . sprintf( __( 'Page %s', 'twentytwelve' ), max( $paged, $page ) );
+	global $paged, $page;
 
-    return $title;
+	if ( is_feed() )
+		return $title;
+
+    // Add the site name.
+	$title .= get_bloginfo( 'name' );
+
+    // Add the site description for the home/front page.
+	$site_description = get_bloginfo( 'description', 'display' );
+	if ( $site_description && ( is_home() || is_front_page() ) )
+		$title = "$title $sep $site_description";
+
+    // Add a page number if necessary.
+	if ( $paged >= 2 || $page >= 2 )
+		$title = "$title $sep " . sprintf( __( 'Page %s', 'twentytwelve' ), max( $paged, $page ) );
+
+	return $title;
 }
 add_filter( 'wp_title', 'wpdocs_filter_wp_title', 10, 2 );
