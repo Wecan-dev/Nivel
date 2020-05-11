@@ -14,24 +14,28 @@
   </div>
   <div class="main-about__content container">
     <div class="main-about-carousel">
-      <?php $args = array( 'post_type' => 'quehacemos');
+      <?php $args = array(
+
+        'orderby' => 'slug',
+        'order' => 'ASC'
+      );
+      $proyecto_categories = get_terms('proyectos_nivel', $args);
       $counterNumber = 1;
-      ?>   
-      <?php $loop = new WP_Query( $args ); ?>
-      <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
+      foreach ($proyecto_categories as $proyecto_category): ?>
+
         <div class="main-about__card">
           <div class="main-about-card__body">
             <span class="main-about__counter"><?php if($counterNumber < 10 ): echo '0'.$counterNumber; else:echo $counterNumber; endif;  ?> </span>
             <div class="main-about-card__title">
-              <a href="<?php echo bloginfo('url').'/proyecto';?>">
+              <a href="<?php echo $url_category = get_term_link( $proyecto_category ); ?>">
                 <p class="about-card__title">
-                  <?php the_title() ?>
+                  <?php echo $proyecto_category->name;?>
                 </p>
-              
+
               </a>
-              
+
               <div class="main-about__buttom">
-                <a class="btn--filled--about" href="<?php echo bloginfo('url').'/proyecto';?>">
+                <a class="btn--filled--about" href="<?php echo $url_category = get_term_link( $proyecto_category ); ?>">
                   LEER MÁS
                 </a>
               </div>
@@ -44,24 +48,24 @@
                 <img class="icono-mask" src="<?php the_field('icono')?>">
               </div>
               <div class="main-about__icono--title">
-                <img class="icono-mask" src="<?php the_field('icono')?>">
-                <a href="<?php echo bloginfo('url').'/proyecto';?>" class="about-title__icono">
-                  <?php the_title(); ?>
+                <img class="icono-mask" src="<?php the_field( 'icono', $proyecto_category ); ?>">
+                <a href="<?php echo $url_category = get_term_link( $proyecto_category ); ?>" class="about-title__icono">
+                  <?php echo $proyecto_category->name;?>
                 </a>
                 <div class="main-about__icono--text">
                   <p class="about-text__icono">
-                    <?php the_content(); ?>
+                    <?php echo $proyecto_category->description;?>
                   </p>
                 </div>
 
               </div>
             </div>
-            <a class="main-about__links" href="<?php echo bloginfo('url').'/proyecto';?>">
-              <img class="img-about" src="<?php echo get_the_post_thumbnail_url(); ?>">
+            <a class="main-about__links" href="<?php echo $url_category = get_term_link( $proyecto_category ); ?>">
+              <img class="img-about" src="<?php the_field( 'imagen_principal', $proyecto_category ); ?>">
             </a>
           </div>
         </div>
-        <?php $counterNumber++; endwhile; ?>
+        <?php $counterNumber++; endforeach; ?>
 
       <!-- <div class="main-about__card">
         <div class="main-about-card__body">
