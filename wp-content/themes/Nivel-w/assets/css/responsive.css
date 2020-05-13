@@ -1,4 +1,13 @@
 @media (min-width: 0px) and (max-width: 767px) {
+    #pills-tab{
+        margin-top: 20px;
+    }
+    .container-brochure {
+        flex-direction: column;
+    }
+    .container-brochure .main-contacto__text {
+        margin-right: 0px;
+    }
     .navbar-brand{
         display: block !important;
     }
@@ -9,9 +18,15 @@
         padding-left: 10px !important;
         margin-right: 0px;
     }
+    .main-details__projects{
+        padding-bottom: 0;
+    }
     .nav-item:last-child {
         margin-left: 0px;
-        margin-top: 10px;
+        /* margin-top: 10px; */
+    }
+    .main-details__icono {
+        width: 100%;
     }
     .nav-link{
         font-size: 18px;
@@ -405,6 +420,9 @@
         padding-left: 5px;
         padding-right: 5px;
     }
+    .main-details__descripcion{
+        order: -1;
+    }
     .main-video .main-nivel__title{
         margin-bottom: 60px;
     }
@@ -418,8 +436,24 @@
     .title-nivel2--line-initial strong::before{
         width: 11rem;
         bottom: -5px;
+        left: -2rem;
     }
-
+    .slider-nav .slick-next{
+        right: -1rem;
+    }
+    .slider-nav .slick-next, .slider-nav .slick-prev{
+        bottom: 7rem !important;
+    }
+    .slider-nav .slick-prev{
+        left: 2rem;
+    }
+    .planos-center {
+        width: 100%;
+    }
+    .slider-for .slick-dots {
+        position: absolute;
+        bottom: -120px;
+    }
     .main-details__projects--avance .main-details__projects--slick {
         padding-left: 0;
     }
@@ -528,7 +562,7 @@
         padding: 0 20px;
     }
     .main-details__projects {
-        padding: 80px 10px;
+        padding: 80px 10px 0px 10px;
     }
     .main-details__projects--avance{
         padding: 70px 10px 80px 10px !important;
@@ -550,7 +584,7 @@
         height: 250px;
     }
     .main-details__projects--planos {
-        padding: 95px 10px 10px 10px;   
+        padding: 50px 10px 10px 10px;   
     }
     .main-details__projects--zona{
         padding: 20px 10px 0 10px;
@@ -606,7 +640,11 @@
         padding: 40px 0px 0 0px;
     }
     .main-details__video--presentation {
-        padding: 60px 20px 0 20px;
+        padding: 0px 20px 0 20px;
+    }
+    .title-nivel2--line-initial.title-nivel2--line-initial--gallery strong::before {
+        left: 2.5rem;
+        width: 12rem;
     }
     .btn--filled2{
         width: 100%;
@@ -849,7 +887,7 @@
     }
     .nav-item:last-child {
         margin-left: 0px;
-        margin-top: 10px;
+        /* margin-top: 10px; */
     }
     .nav-link{
         font-size: 18px;
@@ -1208,7 +1246,13 @@
         padding-bottom: 60px;
     }
     .main-details__video--buttom.main-details__video--presentation {
-        padding-top: 65px;
+        /* padding-top: 65px; */
+    }
+    .slider-nav .slick-prev {
+        left: 7rem;
+    }
+    .slider-nav .slick-next {
+        right: 4rem;
     }
 
     .main-details__ubicacion--content .main-contactform__box, .invert-form__grid .main-contactform__box {
@@ -2156,9 +2200,6 @@
     #frm_checkbox_33-0 .main-contactform__textlink{
         margin-top: -10px !important;
     }
-    .main-details__projects--zona,.main-details__galeria{
-        padding-top: 50px;
-    }
     .main-details__projects{
         padding-top: 50px;
     }
@@ -2168,5 +2209,8 @@
     }
     .slick-next:after, .slick-prev:after {
         top: 50%;
+    }
+    .main-details__galeria {
+        padding-top: 0;
     }
 }

@@ -53,7 +53,7 @@
             <span><?php the_field('ubicacion') ?></span>
           </li>
           <li>
-            <strong>inmueble</strong>
+            <strong>inmueble:</strong>
             
           </li>
         </ul>

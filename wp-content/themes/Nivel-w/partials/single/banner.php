@@ -11,7 +11,7 @@
 
             <div class="main-banner__title main-banner__title--single">
               <p>
-                BL<strong>o</strong>G
+              <?php the_title(); ?>
               </p>
 
             </div>

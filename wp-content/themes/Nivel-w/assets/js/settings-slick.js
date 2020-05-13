@@ -153,7 +153,8 @@ $('.main-details__slick--content').slick({
         slidesToScroll: 1,
         // centerPadding: '0',
         infinite: true,
-        dots: true
+        dots: true,
+        arrows:false,
       }
     },
     {
@@ -171,6 +172,7 @@ $('.main-details__slick--content').slick({
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1,
+        arrows:false,
         // centerPadding: '0px',
         // centerMode: false,
       }
@@ -550,6 +552,7 @@ $('.slider-nav').slick({
   slidesToScroll: 1,
   asNavFor: '.slider-for',
   arrows: true,
+  fade:true,
   dots: true,
   responsive: [
     {
@@ -583,6 +586,7 @@ $('.slider-for').slick({
   slidesToScroll: 1,
   arrows: true,
   dots:true,
+  fade:true,
   asNavFor: '.slider-nav',
   responsive: [
     {

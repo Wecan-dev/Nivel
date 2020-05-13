@@ -35,7 +35,7 @@
 	<meta property="og:type" content="">
 	<meta property="og:image" content="">
 
-  	<!-- Links -->
+  <!-- Links -->
 	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri();?>/assets/css/bootstrap.min.css">
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/assets/css/offcanvas.css">
 	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri();?>/assets/css/slick.css">
