@@ -1494,10 +1494,10 @@
     } */
 
     .navbar-expand-lg .navbar-nav .nav-link{
-        padding-left: 80px;
-        padding-right: 0px;
+        padding-left: 0px;
+        padding-right: 85px;
         padding-bottom: 3px;
-        font-size: 17px;
+        font-size: 15px;
     }
 
     .main-banner__angle-down{
@@ -1559,7 +1559,7 @@
             font-size: 60px;
     }
     .main-banner__title.main-banner__title--home p{
-        font-size: 75px !important;
+        font-size: 62px !important;
     }
 
     .main-banner__content .slick-next, .main-banner__content .slick-prev{

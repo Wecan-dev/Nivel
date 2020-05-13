@@ -13,9 +13,17 @@
             <div class="main-banner__text">
 
               <div class="main-banner__title main-banner__title--home">
+                <div class="main-banner__logo">
+                  <img class="img-card__proyectos" src="<?php echo get_template_directory_uri();?>/assets/img/logo-projects3.png" alt="">
+                </div>
                 <p>
                   <?php the_content(); ?>
                 </p>
+                <div class="main-card__proyectos--buttom">
+                  <a class="btn_custom btn--medium btn--filled3" href="<?php the_permalink(); ?>">
+                    Conoce más
+                  </a>
+                </div>
               </div>
 
 

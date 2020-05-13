@@ -137,19 +137,21 @@ $('.main-proyectos__content').slick({
 });
 
 $('.main-details__slick--content').slick({
-  infinite: true,
-  slidesToShow: 2,
-  centerMode: true,
-  centerPadding: '60px',
   slidesToScroll: 1,
+  infinite: true,
+  slidesToShow: 1,
+  autoPlay: true,
+  autoplaySpeed: 3000,
+  dots: true,
   arrows: true,
+  // centerMode: true,
+  // centerPadding: '60px',
   responsive: [{
       breakpoint: 1024,
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1,
-        centerPadding: '0',
-
+        // centerPadding: '0',
         infinite: true,
         dots: true
       }
@@ -159,9 +161,8 @@ $('.main-details__slick--content').slick({
       settings: {
         slidesToShow: 2,
         slidesToScroll: 2,
-        centerPadding: '0px',
-
-        centerMode: false,
+        // centerPadding: '0px',
+        // centerMode: false,
 
       }
     },
@@ -170,16 +171,17 @@ $('.main-details__slick--content').slick({
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1,
-        centerPadding: '0px',
-
-        centerMode: false,
+        // centerPadding: '0px',
+        // centerMode: false,
       }
     }
-    // You can unslick at a given breakpoint now by adding:
-    // settings: "unslick"
-    // instead of a settings object
+
   ]
 });
+
+
+
+
 $('.main-details__planos--content').slick({
   infinite: true,
   slidesToShow: 1,
@@ -220,6 +222,11 @@ $('.main-details__planos--content').slick({
     // instead of a settings object
   ]
 });
+
+
+
+
+
 $('.main-details__galeria--content').slick({
   infinite: true,
   slidesToShow: 3,
@@ -537,3 +544,68 @@ $('.slider-prueba2').slick({
 });
 
 
+$('.slider-nav').slick({
+  infinite: true,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  asNavFor: '.slider-for',
+  arrows: true,
+  dots: true,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        infinite: true,
+      }
+    },
+    {
+      breakpoint: 767,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+  ]
+});
+
+$('.slider-for').slick({
+  infinite: true,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  arrows: true,
+  dots:true,
+  asNavFor: '.slider-nav',
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        infinite: true,
+      }
+    },
+    {
+      breakpoint: 767,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+  ]
+});

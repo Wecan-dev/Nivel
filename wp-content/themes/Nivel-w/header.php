@@ -77,7 +77,7 @@
               <a class="nav-link nav-link__mobile active" href="<?php echo bloginfo('url').'/';?>">Inicio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link nav-link__mobile active" href="<?php echo bloginfo('url').'/proyecto';?>">Proyectos</a>
+              <a class="nav-link nav-link__mobile" href="<?php echo bloginfo('url').'/proyecto';?>">Proyectos</a>
             </li>
             <li class="nav-item">
               <a class="nav-link nav-link__mobile" href="<?php echo bloginfo('url').'/blog';?>">Blog</a>

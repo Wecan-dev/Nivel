@@ -14,17 +14,11 @@
   <?php get_template_part('partials/project/details'); ?>
   <!-- End Details-->
 
-  <!-- Zone-->
-  <?php get_template_part('partials/project/zone'); ?>
-  <!-- End Zone-->
 
     <!-- Map-->
     <?php get_template_part('partials/project/maps'); ?>
   <!-- End Map-->
 
-   <!-- Advances-->
-   <?php get_template_part('partials/project/advances'); ?>
-  <!-- End Advances-->
 
    <!-- Gallery-->
    <?php get_template_part('partials/project/gallery'); ?>

@@ -15,14 +15,6 @@
               </video>
 
         
-            <div class="quare-text">
-              <p class="text-ubications-projects"><?php the_field('ubicacion') ?></p>
-              <p  class="text-price-projects">DESDE:  
-                <span><?php the_field('precio') ?></span>
-              </p>
-              <p class="text-impuesto-projects ">Valor impuestos incluido*</p>
-            </div>
-        
         </div>
       <?php else:?>
         <div class="main-video__details">
@@ -33,14 +25,6 @@
               </div>
               <img class="img-video__details" src="<?php the_field('imagen')?>">
             
-            <div class="quare-text">
-              <p class="text-ubications-projects"><?php the_field('ubicacion') ?></p>
-              <p  class="text-price-projects">DESDE:  
-                <span><?php the_field('precio') ?></span>
-              </p>
-              <p class="text-impuesto-projects ">Valor impuestos incluido*</p>
-            </div>
-        
         </div>
 
       <?php endif; ?>
@@ -49,20 +33,41 @@
     <div class="main-details__video--card">
       <div class="details-video__img">
 
-        <img class="details-video__logo" src="<?php the_field('logo_de_ubicacion') ?>">
+        <div class="content__logo">
+          <img class="details-video__logo" src="<?php the_field('logo_de_ubicacion') ?>">
+        </div>
+        <h1 class="title-nivel2--line title-nivel2--line-initial title-nivel2--line-initial--gallery">
+          <p> <?php the_title(); ?></p>
+        </h1>
       </div>
       <div class="details-video__body">
-        <div class="main-details__video--title">
+        <ul class="ul-project__info">
+          
+          <li>
+            <strong>PRECIO:</strong>
+            <span>Desde <?php the_field('precio') ?></span>
+            <span class="text-impuesto-projects">Valor impuestos incluido*</span>
+          </li>
+          <li>
+            <strong>Ubicación:</strong>
+            <span><?php the_field('ubicacion') ?></span>
+          </li>
+          <li>
+            <strong>inmueble</strong>
+            
+          </li>
+        </ul>
+        <!-- <div class="main-details__video--title">
           <p class="details-video__title">
-            <?php the_field('titulo_pequeno')?>
+            < ?php the_field('titulo_pequeno')?>
           </p>
         </div>
         <div class="main-details__video--text">
           <p class="details-video__text">
-            <?php the_content() ?>
+            < ?php the_content() ?>
             
           </p>
-        </div>
+        </div> -->
         <div class="main-details__video--buttom">
           <a class="btn_custom btn--medium btn--filled2" href="#main-details__ubicacion">
             QUIERO MÁS INFO
@@ -71,13 +76,4 @@
       </div>
     </div>
   </div>
-  <!-- <div class="main-video__details--etiqueta">
-    <p class="details-video__etiqueta">
-      VILLA LAURA, LA CEJA 
-    </p>
-    <h2><strong>DESDE: $125.917.451</strong> </h2>
-    <p class="details-video__etiqueta">
-      Valor impuestos incluido
-    </p>
-  </div> -->
 </section>
