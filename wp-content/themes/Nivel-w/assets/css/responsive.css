@@ -1,6 +1,9 @@
 @media (min-width: 0px) and (max-width: 767px) {
+    .main-banner__title.main-banner__title--home{
+        flex-direction: column;
+    }
     #pills-tab{
-        margin-top: 20px;
+        margin-top: 0px;
     }
     .container-brochure {
         flex-direction: column;
@@ -35,7 +38,7 @@
         position: static;
     }
     .container-prueba{
-        height: 60vh;
+        height: 80vh;
     }
     .__items{
         width: 100%;
@@ -378,7 +381,7 @@
     }
 
     .slick-next:after, .slick-prev:after{
-        top:52% !important;
+        top:54% !important;
     }
     .main-video__content .slick-prev:hover {
         right: 68% !important;
@@ -528,13 +531,23 @@
     .main-projects__tabs ul {
         justify-content: center;
         /* flex-direction: column; */
-        align-items: center;
+        align-items: flex-start;
         padding-top: 0px;
+        flex-direction: column;
     }
     .nav-item__tabs{
         padding-right: 5px;
     }
-
+    .nav-link__tabs{
+        padding-bottom: 0;
+        font-size: 13px;
+    }
+    .content_uls p {
+        margin-bottom: 5px;
+    }
+    .content_uls:nth-child(2) .nav-pills{
+        align-items: flex-end;
+    }
     .main-projects {
         padding-top: 40px;
         padding-bottom: 60px;
