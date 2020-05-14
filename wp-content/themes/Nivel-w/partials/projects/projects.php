@@ -30,16 +30,16 @@
         <p>Estado de proyectos</p>
         
         <ul class="nav nav-pills " id="pills-tab" role="tablist">
-
+          <li class="nav-item__tabs ">
+            <a class="nav-link__tabs active" id="pills-totals-tab" data-toggle="pill" href="#pills-totals" role="tab"
+            aria-controls="pills-totals" aria-selected="false">Todos</a>
+          </li>
     <?php // proyectos ( value )
     $proyectos_array = get_field( 'proyectos' );
     if ( $proyectos_array ):
      foreach ( $proyectos_array as $proyectos_item ): ?>
 
-      <li class="nav-item__tabs ">
-        <a class="nav-link__tabs active" id="pills-totals-tab" data-toggle="pill" href="#pills-totals" role="tab"
-        aria-controls="pills-totals" aria-selected="false">Todos</a>
-      </li>
+      
       <?php if($proyectos_item == 'Preventa'): ?>
         <li class="nav-item__tabs">
           <a class="nav-link__tabs " id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab"
