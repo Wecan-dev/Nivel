@@ -79,15 +79,37 @@
           <?php endif; ?>
         </div>
         <div class="slider slider-nav" >
-          <div class="main-details__planos--img">
-            <img style="height:100%;width:100%;" src="<?php the_field('imagen_del_plano') ?>">
-          </div>
-          <div class="main-details__planos--img">
-            <img style="" src="<?php the_field('imagen_del_plano_2') ?>">
-          </div>
-          <div class="main-details__planos--img">
-            <img style="height:100%;width:100%;" src="<?php the_field('imagen_del_plano_3') ?>">          
-          </div>
+          <?php  if(get_field('imagen_del_plano')):?>
+            <div class="main-details__planos--img">
+              <img style="height:100%;width:100%;" src="<?php the_field('imagen_del_plano') ?>">
+            </div>
+          <?php else: ?>
+      
+          <?php endif; ?>
+          <?php  if(get_field('imagen_del_plano_2')):?>
+            <div class="main-details__planos--img">
+              <img style="" src="<?php the_field('imagen_del_plano_2') ?>">
+            </div>
+            <?php else: ?>
+      
+            <?php endif; ?>
+          <?php  if(get_field('imagen_del_plano_3')):?>
+            <div class="main-details__planos--img">
+              <img style="height:100%;width:100%;" src="<?php the_field('imagen_del_plano_3') ?>">          
+            </div>
+          <?php else: ?>
+      
+          <?php endif; ?>
+        
+          <?php  if(get_field('imagen_del_plano_4')):?>
+            <div class="main-details__planos--img">
+              <img style="height:100%;width:100%;" src="<?php the_field('imagen_del_plano_4') ?>">          
+            </div>
+          <?php else: ?>
+      
+          <?php endif; ?>
+
+         
         </div>
 
       </div>
