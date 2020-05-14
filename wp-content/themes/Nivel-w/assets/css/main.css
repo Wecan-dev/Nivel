@@ -2824,7 +2824,7 @@ h1 strong {
 
 
 .main-details__video-pd{
-	padding: 55px 0 120px 0;
+	padding: 55px 0 50px 0;
 }
 
 
@@ -2999,7 +2999,8 @@ span.dots_font{
 
 .main-details__projects {
 	background-color: #fbfbfb;
-	padding-top: 0;
+	padding-top: 40px;
+	padding-bottom: 40px;
 }
 
 .main-details__projects--content {
@@ -3153,9 +3154,9 @@ span.dots_font{
 }
 
 .main-details__projects--planos {
-	padding-top: 0px;
-	background-color: #fbfbfb;
-	padding-bottom: 80px;
+	padding-top: 40px;
+	background-color: #fff;
+	padding-bottom: 40px;
 }
 
 .details-planos__text {
@@ -3260,7 +3261,7 @@ span.dots_font{
 
 .main-details__galeria {
 	background-color: #fbfbfb;
-	padding-top: 0;
+	padding-top: 40px;
 }
 
 .main-details__galeria--title {
