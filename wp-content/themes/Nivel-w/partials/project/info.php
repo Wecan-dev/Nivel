@@ -2,61 +2,75 @@
   <div class="main-details__video--content">
 
 
-      <?php if(get_field('carga_de_video')):?>
-        <div class="main-video__details" data-toggle="modal" data-target="#videoProject-<?php the_id();?>">
-            
-              <div class="mask-video">
-                <div class="main-details__video--icono">
-                  <img class="video-icono" src="<?php echo get_template_directory_uri();?>/assets/img/play.png">
+    <?php if(get_field('carga_de_video')):?>
+      <div class="main-video__details" data-toggle="modal" data-target="#videoProject-<?php the_id();?>">
 
-                </div>
-              </div>
-              <video class="img-video__details" src="<?php the_field('video')?>">
-              </video>
+        <div class="mask-video">
+          <div class="main-details__video--icono">
+            <img class="video-icono" src="<?php echo get_template_directory_uri();?>/assets/img/play.png">
+
+          </div>
+        </div>
+        <video class="img-video__details" src="<?php the_field('video')?>">
+        </video>
 
         
-        </div>
+      </div>
       <?php else:?>
         <div class="main-video__details">
-        
 
-              <div class="mask-video">
-      
-              </div>
-              <img class="img-video__details" src="<?php the_field('imagen')?>">
-            
+
+          <div class="mask-video">
+
+          </div>
+          <img class="img-video__details" src="<?php the_field('imagen')?>">
+
         </div>
 
       <?php endif; ?>
-    
-      
-    <div class="main-details__video--card">
-      <div class="details-video__img">
 
-        <div class="content__logo">
-          <img class="details-video__logo" src="<?php the_field('logo_de_ubicacion') ?>">
+      
+      <div class="main-details__video--card">
+        <div class="details-video__img">
+
+          <div class="content__logo">
+            <img class="details-video__logo" src="<?php the_field('logo_de_ubicacion') ?>">
+          </div>
+          <h1 class="title-nivel2--line title-nivel2--line-initial title-nivel2--line-initial--gallery">
+            <p> <?php the_title(); ?></p>
+          </h1>
         </div>
-        <h1 class="title-nivel2--line title-nivel2--line-initial title-nivel2--line-initial--gallery">
-          <p> <?php the_title(); ?></p>
-        </h1>
-      </div>
-      <div class="details-video__body">
-        <ul class="ul-project__info">
-          
-          <li>
-            <strong>PRECIO:</strong>
-            <span>Desde <?php the_field('precio') ?></span>
-            <span class="text-impuesto-projects">Valor impuestos incluido*</span>
-          </li>
-          <li>
-            <strong>Ubicación:</strong>
-            <span><?php the_field('ubicacion') ?></span>
-          </li>
-          <li>
-            <strong>inmueble:</strong>
-            
-          </li>
-        </ul>
+        <div class="details-video__body">
+          <ul class="ul-project__info">
+
+            <li>
+              <strong>PRECIO:</strong>
+              <span>Desde <?php the_field('precio') ?></span>
+              <span class="text-impuesto-projects">Valor impuestos incluido*</span>
+            </li>
+            <li>
+              <strong>Ubicación:</strong>
+              <span><?php the_field('ubicacion') ?></span>
+            </li>
+            <li>
+              <strong>inmueble:</strong>
+              <?php // proyectos ( value )
+              $proyectos_array = get_field( 'proyectos' );
+              if ( $proyectos_array ):
+               foreach ( $proyectos_array as $proyectos_item ):  ?>
+                <?php if($proyectos_item == 'Construcción'): ?>
+                  <span> <?php echo $proyectos_item; ?></span>
+                  <?php elseif($proyectos_item == 'Preventa'): ?>
+                   <span> <?php echo $proyectos_item; ?></span>
+                   <?php elseif($proyectos_item == 'Entrega inmediata'): ?>
+                     <span> <?php echo $proyectos_item; ?></span>
+                     <?php
+                   endif;
+                 endforeach;
+               endif
+               ?>
+             </li>
+           </ul>
         <!-- <div class="main-details__video--title">
           <p class="details-video__title">
             < ?php the_field('titulo_pequeno')?>
