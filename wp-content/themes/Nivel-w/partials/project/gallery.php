@@ -2,51 +2,15 @@
   <section class="main-details__galeria ">
       <div class="container">
         <div class="main-details__galeria--title">
-          <h1 class="title-nivel2--line title-nivel2--line-initial title-nivel2--line-initial--gallery">
-            <strong> CONOCE</strong> el proyecto
+        <h1 class="title-nivel2--line title-nivel2--line-initial title-nivel2--line-initial--projects">
+            <strong> video</strong> 360
           </h1>
 
         </div>
         
         <div class="main-details__video">
-          <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-            
-            
-            <?php if( get_field('link_vista_360')): ?>
-              <li class="nav-item">
-                <a class="nav-link__video active" id="pills-Video360-tab" data-toggle="pill" href="#pills-Video360" role="tab" aria-controls="pills-Video360" aria-selected="true">Video 360</a>
-              </li>
-      
-              <?php elseif(get_field('video') and get_field('link_vista_360') ): ?>
-                <li class="nav-item">
-                <a class="nav-link__video active" id="pills-Video360-tab" data-toggle="pill" href="#pills-Video360" role="tab" aria-controls="pills-Video360" aria-selected="true">Video 360</a>
-              </li>
-                
+          <iframe class="mt-3" src="<?php the_field('link_vista_360');?>" width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
           
-                <?php elseif(get_field('video')): ?>
-           
-                <li class="nav-item">
-                  <a class="nav-link__video" id="pills-video-tab" data-toggle="pill" href="#pills-video" role="tab" aria-controls="pills-video" aria-selected="false">video</a>
-                </li>
-              
-              
-            <?php endif; ?>
-           
-          
-          </ul>
-          <div class="tab-content" id="pills-tabContent">
-            <div class="tab-pane fade show active" id="pills-Video360" role="tabpanel" aria-labelledby="pills-Video360-tab">
-
-              <iframe class="mt-3" src="<?php the_field('link_vista_360');?>" width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-            </div>
-            <div class="tab-pane fade" id="pills-video" role="tabpanel" aria-labelledby="pills-video-tab">
-               <!-- <video controls class="img-video" src="<c?php the_field('video') ?>">
-                  <source src="<c?php the_field('video') ?>" type="video/mp4">
-                </video>   
-                 -->
-            </div>
-            
-          </div>
 
         </div>
       </div>
