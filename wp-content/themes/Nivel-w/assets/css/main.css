@@ -2969,7 +2969,9 @@ span.dots_font{
 	margin-left: -5px;
 	font-size: 20px;
 }
-
+.ul-project__info li span{
+	font-size: 17px;
+}
 .ul-project__info span a:hover{
 	color:#d71f26;
 	transition: 0.3s ease-in-out;
@@ -2977,7 +2979,7 @@ span.dots_font{
 }
 .ul-project__info li strong{
 	text-transform: uppercase;
-    font-size: 18px;
+    font-size: 20px;
     font-family: 'Oswald';
     letter-spacing: 1px;
     margin-right: 2px;
@@ -3075,7 +3077,7 @@ span.dots_font{
 	margin-right: 10px;
 	width: 46%;
 	justify-content: flex-start;
-	align-items: center;
+	/* align-items: center; */
 }
 
 .main-details__icono.main-details__icono--full{
@@ -4268,13 +4270,13 @@ display: block;
 padding: 0px 5px 0px 20px;
 color: #000;
 font-size: 19px;
-font-weight: bold;
+font-weight: 500;
 text-transform: uppercase;
 letter-spacing: 1px;
 word-spacing: 0px;
 text-decoration: none;
 position: relative;
-letter-spacing: 1px;
+letter-spacing: 2px;
 }
 .panel-title>a::before{
 position: absolute;
