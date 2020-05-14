@@ -1128,7 +1128,8 @@ a:hover{
 .main-nosotros__carousel .slick-prev:hover:before,
 .main-details__slick--content .slick-prev:hover:before,
 .main-about-carousel .slick-prev:hover:before,
-.slider-nav .slick-prev:hover:before  {
+.slider-nav .slick-prev:hover:before,
+.main-details__galeria--content .slick-prev:hover:before {
 	border-bottom: 2px solid #d71f26;
 	border-left: 2px solid #d71f26;
 }
@@ -1155,7 +1156,8 @@ a:hover{
 
 .main-about-carousel .slick-next:hover:before,
 .main-details__slick--content .slick-next:hover:before,
-.slider-nav .slick-next:hover:before {
+.slider-nav .slick-next:hover:before,
+.main-details__galeria--content .slick-next:hover:before {
 	border-top: 2px solid #d71f26;
 	border-right: 2px solid #d71f26;
 }
@@ -3072,7 +3074,7 @@ span.dots_font{
 }
 
 .main-details__descripcion {
-	margin-left: 4.5rem;
+	margin-left: 3.5rem;
 }
 
 .main-details__icono {
@@ -3322,6 +3324,11 @@ span.dots_font{
 	border:1px solid red;
 	border-radius: 50%;
 	background-color: red;
+}
+.main-details__galeria .slick-dots li,
+.main-details__avance .slick-dots li {
+	height: 13px !important;
+  width: 13px !important;;
 }
 
 
@@ -4262,7 +4269,7 @@ padding-top: 40px;
 
 
 .wrapper{
-width:100%;
+width:115%;
 }
 @media(max-width:992px){
 .wrapper{

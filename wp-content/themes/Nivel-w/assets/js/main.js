@@ -16,13 +16,21 @@ $(function () {
   })
 })
 
-$('.panel-collapse').on('show.bs.collapse', function () {
-  $(this).siblings('.panel-heading').addClass('active');
-});
 
-$('.panel-collapse').on('hide.bs.collapse', function () {
-  $(this).siblings('.panel-heading').removeClass('active');
-});
+$('.panel-heading').click(function(){
+  $('.panel-collapse').removeClass('show');
+  $('.panel-heading').removeClass('active');
+  $(this).addClass('active')
+  // $('.panel-collapse').on('show.bs.collapse', function () {
+  //   $('.panel-heading').removeClass('active');
+  //   $(this).siblings('.panel-heading').addClass('active');
+  // });
+
+  // $('.panel-collapse').on('hide.bs.collapse', function () {
+  //   $('.panel-collapse').removeClass('show');
+  //   $(this).siblings('.panel-heading').removeClass('active');
+  // });
+})
 
 
 // MOdal static

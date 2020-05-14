@@ -213,11 +213,14 @@
                  position: absolute;
                  left: 2rem;
                }
-
-               .slider-for .slick-dots li.slick-active:nth-child(4):after{
-                 color: #fff;
-                 top: 0.7rem;
-                 position: absolute;
-                 left: 2rem;
-               }
-             </style>
+               .slider-nav .slick-dots li {
+                height: 13px !important;
+                width: 13px !important;;
+              }
+              .slider-for .slick-dots li.slick-active:nth-child(4):after{
+               color: #fff;
+               top: 0.7rem;
+               position: absolute;
+               left: 2rem;
+             }
+           </style>
