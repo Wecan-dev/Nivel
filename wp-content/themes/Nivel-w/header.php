@@ -50,7 +50,6 @@
 </head>
 
 <body>
-  
   <header id="home">
     <nav class="navbar navbar-expand-lg fixed-top navbar-fixed-js">
 
