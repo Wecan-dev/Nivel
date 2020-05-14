@@ -43,7 +43,7 @@
 					</li>
 					<li class="items-menu">
 						<a class="link-enlaces" href="<?php echo bloginfo('url').'/nosotros';?>">
-							La empresa
+						Quiénes Somos
 						</a>
 					</li>
 					<li class="items-menu">

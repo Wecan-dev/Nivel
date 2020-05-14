@@ -19,7 +19,7 @@
 <?php else: ?>
 
 <?php endif ?>
-<?php if(get_field('agregar_galeria') == 1): ?>
+<?php if(get_field('agregar_avances') == 1): ?>
   <section class="main-details__galeria ">
     <div class="container">
       <div class="main-details__galeria--title">
@@ -31,85 +31,57 @@
      
       <div class="main-details__galeria--content">
 
-        <?php if(get_field('imagen_galeria')): ?>
+        <?php if(get_field('imagen_de_avances')): ?>
           <div class="main-details__galeria--items">
             <div class="main-details__galeria--img">
-              <img class="details-galeria__img" src="<?php the_field('imagen_galeria');?>">
+            <img class="details-slick__img" src="<?php the_field('imagen_de_avances');?>">
             </div>
           </div>
         <?php else: ?>
 
         <?php endif ?>
 
-        <?php if(get_field('imagen_galeria_2')): ?>
+        <?php if(get_field('imagen_de_avances_2')): ?>
           <div class="main-details__galeria--items">
             <div class="main-details__galeria--img">
-              <img class="details-galeria__img" src="<?php the_field('imagen_galeria_2');?>">
+            <img class="details-slick__img" src="<?php the_field('imagen_de_avances_2');?>">
+            </div>
+          </div>
+        <?php else: ?>
+
+        <?php endif ?>
+        
+        <?php if(get_field('imagen_de_avances_3')): ?>
+          <div class="main-details__galeria--items">
+            <div class="main-details__galeria--img">
+            <img class="details-slick__img" src="<?php the_field('imagen_de_avances_3');?>">
             </div>
           </div>
         <?php else: ?>
 
         <?php endif ?>
 
-        <?php if(get_field('imagen_galeria_3')): ?>
+        <?php if(get_field('imagen_de_avances_4')): ?>
           <div class="main-details__galeria--items">
             <div class="main-details__galeria--img">
-              <img class="details-galeria__img" src="<?php the_field('imagen_galeria_3');?>">
+            <img class="details-slick__img" src="<?php the_field('imagen_de_avances_4');?>">
             </div>
           </div>
         <?php else: ?>
 
         <?php endif ?>
 
-        <?php if(get_field('imagen_galeria_4')): ?>
+        <?php if(get_field('imagen_de_avances_5')): ?>
           <div class="main-details__galeria--items">
             <div class="main-details__galeria--img">
-              <img class="details-galeria__img" src="<?php the_field('imagen_galeria_4');?>">
+            <img class="details-slick__img" src="<?php the_field('imagen_de_avances_5');?>">
             </div>
           </div>
         <?php else: ?>
 
         <?php endif ?>
+       
 
-        <?php if(get_field('imagen_galeria_5')): ?>
-          <div class="main-details__galeria--items">
-            <div class="main-details__galeria--img">
-              <img class="details-galeria__img" src="<?php the_field('imagen_galeria_5');?>">
-            </div>
-          </div>
-        <?php else: ?>
-
-        <?php endif ?>
-
-        <?php if(get_field('imagen_galeria_6')): ?>
-          <div class="main-details__galeria--items">
-            <div class="main-details__galeria--img">
-              <img class="details-galeria__img" src="<?php the_field('imagen_galeria_6');?>">
-            </div>
-          </div>
-        <?php else: ?>
-
-        <?php endif ?>
-
-        <?php if(get_field('imagen_galeria_7')): ?>
-          <div class="main-details__galeria--items">
-            <div class="main-details__galeria--img">
-              <img class="details-galeria__img" src="<?php the_field('imagen_galeria_7');?>">
-            </div>
-          </div>
-        <?php else: ?>
-
-        <?php endif ?>
-
-        <?php if(get_field('imagen_galeria_8')): ?>
-          <div class="main-details__galeria--items">
-            <div class="main-details__galeria--img">
-              <img class="details-galeria__img" src="<?php the_field('imagen_galeria_8');?>">
-            </div>
-          </div>
-        <?php else: ?>
-
-        <?php endif ?>
       </div>
     </div>
   
