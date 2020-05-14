@@ -3078,7 +3078,7 @@ span.dots_font{
 	margin-right: 10px;
 	width: 46%;
 	justify-content: flex-start;
-	/* align-items: center; */
+	align-items: flex-start;
 }
 
 .main-details__icono.main-details__icono--full{
