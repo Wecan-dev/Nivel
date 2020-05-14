@@ -81,7 +81,7 @@
               <a class="nav-link nav-link__mobile <?php if(is_page( 11 )){echo ' active';}?>" href="<?php echo bloginfo('url').'/blog';?>">Blog</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link nav-link__mobile <?php if(is_page( 5 )){echo ' active';}?>" href="<?php echo bloginfo('url').'/nosotros';?>">La empresa</a>
+              <a class="nav-link nav-link__mobile <?php if(is_page( 5 )){echo ' active';}?>" href="<?php echo bloginfo('url').'/nosotros';?>">Quiénes Somos</a>
             </li>
             <li class="nav-item">
               <a class="nav-link nav-link__mobile <?php if(is_page( 19 )){echo ' active';}?>" href="<?php echo bloginfo('url').'/servicios';?>">Servicio al cliente</a>
