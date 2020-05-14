@@ -4266,7 +4266,6 @@ width:100%;
 .panel-heading {
 padding: 0;
 border: solid 1px rgba(255, 255, 255, 0.12);
-background-color: #fff;
 }
 .panel-title>a, .panel-title>a:active{
 display: block;
