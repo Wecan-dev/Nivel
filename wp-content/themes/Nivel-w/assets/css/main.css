@@ -1247,6 +1247,7 @@ h1 strong {
 }
 .title-nivel2--line p{
 	font-weight: bold;
+	line-height: 65px;
 }
 
 .title-nivel2--line strong {
