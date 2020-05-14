@@ -1539,7 +1539,7 @@
 
     .navbar-expand-lg .navbar-nav .nav-link{
         padding-left: 0px;
-        padding-right: 85px;
+        padding-right: 85px !important;
         padding-bottom: 3px;
         font-size: 15px;
     }
