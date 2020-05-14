@@ -1390,23 +1390,8 @@
                 </div>
                 <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
                   <div class="panel-body">
-                    <?php if(get_field('cantidad_de_apartamento')):?>
-                      <div class="main-details__icono">
-                        <div class="main-details__icono--img">
-                          <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/icono-detalle9.png">
-                        </div>
-                        <div class="main-details__icono--text">
-                          <p class="text-icono__projects">
-                            <?php the_field('cantidad_de_apartamento');?>
-                          </p>
-                        </div>
-                      </div>
-                    <?php else:?>
-                    
-                    <?php endif; ?>
 
-
-                    <?php if(get_field('bloques_y_piso')):?>
+                  <?php if(get_field('bloques_y_piso')):?>
                       <div class="main-details__icono">
                         <div class="main-details__icono--img">
                           <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/icono-detalle8.png">
@@ -1437,6 +1422,24 @@
                     <?php else:?>
                     
                     <?php endif; ?>
+                    
+                    <?php if(get_field('cantidad_de_apartamento')):?>
+                      <div class="main-details__icono">
+                        <div class="main-details__icono--img">
+                          <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/icono-detalle9.png">
+                        </div>
+                        <div class="main-details__icono--text">
+                          <p class="text-icono__projects">
+                            <?php the_field('cantidad_de_apartamento');?>
+                          </p>
+                        </div>
+                      </div>
+                    <?php else:?>
+                    
+                    <?php endif; ?>
+
+
+                    
 
 
                     <?php if(get_field('metros_cuadrados')):?>
