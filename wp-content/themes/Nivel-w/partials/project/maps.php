@@ -155,7 +155,7 @@
 .slider-for .slick-dots li.slick-active {
 	width: 100px;
     height: 50px;
-    border: 1px solid #d71f26;
+
     border-radius: 0;
 	background-color: #d71f26;
 	
@@ -172,6 +172,10 @@
 	top: 0.7rem;
     position: absolute;
     left: 2rem;
+}
+.slider-nav .slick-dots li {
+  height: 13px !important;
+  width: 13px !important;;
 }
 
 .slider-for .slick-dots li:nth-child(2):after{

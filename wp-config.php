@@ -27,7 +27,7 @@ define( 'DB_NAME', 'db_nivel' );
 define( 'DB_USER', 'admin' );
 
 /** MySQL database password */
-define( 'DB_PASSWORD', 'di mi clave' );
+define( 'DB_PASSWORD', '123456' );
 
 /** MySQL hostname */
 define( 'DB_HOST', 'localhost' );

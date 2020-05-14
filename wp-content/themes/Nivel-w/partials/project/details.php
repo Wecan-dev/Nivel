@@ -1062,27 +1062,7 @@
                       endforeach;
                     endif; ?>
 
-                    <?php // descripcion_zonas ( value )
-                    $descripcion_zonas_array = get_field( 'descripcion_zonas' );
-                    if ( $descripcion_zonas_array ):
-                      foreach ( $descripcion_zonas_array as $descripcion_zonas_item ):?>
-                        <?php if( $descripcion_zonas_item == 'Redes eléctricas y telecomunicaciones subterráneas'): ?>
-                          <div class="main-details__icono">
-                            <div class="main-details__icono--img">
-                              <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/Icons/iconos1-18.png">
-                            </div>
-                            <div class="main-details__icono--text">
-                              <p class="text-icono__projects">
-                              Redes eléctricas y telecomunicaciones subterráneas
-                              </p>
-                            </div>
-                          </div>
-                          <?php else:?>
-
-                          <?php
-                      endif;
-                      endforeach;
-                    endif; ?>
+                    
 
                     <?php // descripcion_zonas ( value )
                     $descripcion_zonas_array = get_field( 'descripcion_zonas' );
@@ -1384,6 +1364,27 @@
                             <div class="main-details__icono--text">
                               <p class="text-icono__projects">
                               Salón de juegos infantiles 
+                              </p>
+                            </div>
+                          </div>
+                          <?php else:?>
+
+                          <?php
+                      endif;
+                      endforeach;
+                    endif; ?>
+                    <?php // descripcion_zonas ( value )
+                    $descripcion_zonas_array = get_field( 'descripcion_zonas' );
+                    if ( $descripcion_zonas_array ):
+                      foreach ( $descripcion_zonas_array as $descripcion_zonas_item ):?>
+                        <?php if( $descripcion_zonas_item == 'Redes eléctricas y telecomunicaciones subterráneas'): ?>
+                          <div class="main-details__icono">
+                            <div class="main-details__icono--img">
+                              <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/Icons/iconos1-18.png">
+                            </div>
+                            <div class="main-details__icono--text">
+                              <p class="text-icono__projects">
+                              Redes eléctricas y telecomunicaciones subterráneas
                               </p>
                             </div>
                           </div>
