@@ -50,7 +50,9 @@
 </head>
 
 <body>
+
   <header id="home">
+
     <nav class="navbar navbar-expand-lg fixed-top navbar-fixed-js">
 
       <div class="container">
@@ -73,19 +75,19 @@
               <img class="logo-collapse" src="< ?php echo get_template_directory_uri();?>/assets/img/logo_4.png">
             </a> -->
             <li class="nav-item">
-              <a class="nav-link nav-link__mobile active" href="<?php echo bloginfo('url').'/';?>">Inicio</a>
+              <a class="nav-link nav-link__mobile <?php if(is_home()){echo ' active';}?> " href="<?php echo bloginfo('url').'/';?>">Inicio </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link nav-link__mobile" href="<?php echo bloginfo('url').'/proyecto';?>">Proyectos</a>
+              <a class="nav-link nav-link__mobile <?php if(is_page( 7 )){echo ' active';}?> " href="<?php echo bloginfo('url').'/proyecto';?>">Proyectos  </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link nav-link__mobile" href="<?php echo bloginfo('url').'/blog';?>">Blog</a>
+              <a class="nav-link nav-link__mobile <?php if(is_page( 11 )){echo ' active';}?>" href="<?php echo bloginfo('url').'/blog';?>">Blog</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link nav-link__mobile" href="<?php echo bloginfo('url').'/nosotros';?>">La empresa</a>
+              <a class="nav-link nav-link__mobile <?php if(is_page( 5 )){echo ' active';}?>" href="<?php echo bloginfo('url').'/nosotros';?>">La empresa</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link nav-link__mobile" href="<?php echo bloginfo('url').'/servicios';?>">Servicio al cliente</a>
+              <a class="nav-link nav-link__mobile <?php if(is_page( 19 )){echo ' active';}?>" href="<?php echo bloginfo('url').'/servicios';?>">Servicio al cliente</a>
             </li>
 
             <!--<li class="nav-item">
@@ -93,7 +95,7 @@
                 exterior</a>
               </li>-->
               <li class="nav-item">
-                <a class="nav-link " href="<?php echo bloginfo('url').'/contacto';?>">contacto</a>
+                <a class="nav-link <?php if(is_page( 17 )){echo ' active';}?> " href="<?php echo bloginfo('url').'/contacto';?>">contacto</a>
               </li>
               <li class="nav-item">
                 <a href="https://www.facebook.com/nivelpropiedadraiz" target="_blank" class="mr-3">
