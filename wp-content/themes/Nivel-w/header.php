@@ -50,9 +50,8 @@
 </head>
 
 <body>
-
+  
   <header id="home">
-
     <nav class="navbar navbar-expand-lg fixed-top navbar-fixed-js">
 
       <div class="container">
@@ -71,9 +70,7 @@
 
       <div class="navbar-collapse offcanvas-collapse">
         <div class="navbar-nav mr-autos">
-            <!-- <a href="< ?php echo bloginfo('url').'/';?>" class="main-logo__collapse">
-              <img class="logo-collapse" src="< ?php echo get_template_directory_uri();?>/assets/img/logo_4.png">
-            </a> -->
+  
             <li class="nav-item">
               <a class="nav-link nav-link__mobile <?php if(is_home()){echo ' active';}?> " href="<?php echo bloginfo('url').'/';?>">Inicio </a>
             </li>
@@ -84,7 +81,7 @@
               <a class="nav-link nav-link__mobile <?php if(is_page( 11 )){echo ' active';}?>" href="<?php echo bloginfo('url').'/blog';?>">Blog</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link nav-link__mobile <?php if(is_page( 5 )){echo ' active';}?>" href="<?php echo bloginfo('url').'/nosotros';?>">La empresa</a>
+              <a class="nav-link nav-link__mobile <?php if(is_page( 5 )){echo ' active';}?>" href="<?php echo bloginfo('url').'/nosotros';?>">Quiénes Somos</a>
             </li>
             <li class="nav-item">
               <a class="nav-link nav-link__mobile <?php if(is_page( 19 )){echo ' active';}?>" href="<?php echo bloginfo('url').'/servicios';?>">Servicio al cliente</a>

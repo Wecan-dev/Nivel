@@ -1193,7 +1193,7 @@
         padding: 0px 0px 40px 0px;
     }
     .main-banner__content .slick-next, .main-banner__content .slick-prev{
-        bottom: 150px !important;
+        bottom: 160px !important;
     }
     .main-about__title {
         padding: 50px 0 0 50px;
@@ -1539,7 +1539,7 @@
 
     .navbar-expand-lg .navbar-nav .nav-link{
         padding-left: 0px;
-        padding-right: 85px;
+        padding-right: 85px !important;
         padding-bottom: 3px;
         font-size: 15px;
     }
@@ -1598,6 +1598,7 @@
     }
     .main-banner__title.main-banner__title--home{
         width: 45%;
+        margin-top: -5rem;
     }
     .main-banner .mask .main-banner__text .main-banner__title p, .main-banner .mask .main-banner__text .main-banner__title h1, .main-banner .mask .main-banner__text .main-banner__title h2, .main-banner .mask .main-banner__text .main-banner__title h3, .main-banner .mask .main-banner__text .main-banner__title h4, .main-banner .mask .main-banner__text .main-banner__title h5, .main-banner .mask .main-banner__text .main-banner__title h6{
             font-size: 60px;
@@ -1950,7 +1951,7 @@
         height: 405px;
     }
     .main-enlaces__nivel {
-        padding-top: 30px;
+        padding-top: 10px;
     }
     .enlaces-nivel__text, .list-title{
         font-size:13px;
@@ -2200,9 +2201,7 @@
     #frm_checkbox_33-0 .main-contactform__textlink{
         margin-top: -10px !important;
     }
-    .main-details__projects{
-        padding-top: 50px;
-    }
+
     .main-banner__img2 {
         width: 100%;
         height: 55vh;

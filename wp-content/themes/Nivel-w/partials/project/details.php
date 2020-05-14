@@ -61,11 +61,46 @@
               <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
               <div class="panel panel-default">
                 <div class="panel-heading" role="tab" id="headingOne">
-                  <h4 class="panel-title">
-                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                      zonas comunes
-                    </a>
-                  </h4>
+                  <?php if(get_field('zonas_comunes') == 1): ?>
+                    <h4 class="panel-title">
+
+                    <?php  if(get_field( 'titulo_de_zonas' ) == 'Zonas comunes'): ?>
+                      <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        zonas comunes
+                      </a>
+                    <?php else: ?>
+
+                    <?php endif; ?>
+
+                    <?php  if(get_field( 'titulo_de_zonas' ) == 'Zonas para divertirse'): ?>
+                    
+                      <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        zonas para divertirse
+                      </a>
+                    <?php else: ?>
+                      
+                    <?php endif; ?>
+
+                    <?php  if(get_field( 'titulo_de_zonas' ) == 'Espacios para disfrutar'): ?>
+          
+                      
+                    <?php else: ?>
+                      
+                    <?php endif; ?>
+
+                    <?php  if(get_field( 'titulo_de_zonas' ) == 'Características'): ?>
+              
+                      <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Características
+                      </a>
+                    <?php else: ?>
+                      
+                    <?php endif; ?>
+                      
+                    </h4>
+                    <?php else: ?>
+            
+                  <?php endif; ?>
                 </div>
                 <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
                   <div class="panel-body">
@@ -1355,23 +1390,8 @@
                 </div>
                 <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
                   <div class="panel-body">
-                    <?php if(get_field('cantidad_de_apartamento')):?>
-                      <div class="main-details__icono">
-                        <div class="main-details__icono--img">
-                          <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/icono-detalle9.png">
-                        </div>
-                        <div class="main-details__icono--text">
-                          <p class="text-icono__projects">
-                            <?php the_field('cantidad_de_apartamento');?>
-                          </p>
-                        </div>
-                      </div>
-                    <?php else:?>
-                    
-                    <?php endif; ?>
 
-
-                    <?php if(get_field('bloques_y_piso')):?>
+                  <?php if(get_field('bloques_y_piso')):?>
                       <div class="main-details__icono">
                         <div class="main-details__icono--img">
                           <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/icono-detalle8.png">
@@ -1402,6 +1422,24 @@
                     <?php else:?>
                     
                     <?php endif; ?>
+                    
+                    <?php if(get_field('cantidad_de_apartamento')):?>
+                      <div class="main-details__icono">
+                        <div class="main-details__icono--img">
+                          <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/icono-detalle9.png">
+                        </div>
+                        <div class="main-details__icono--text">
+                          <p class="text-icono__projects">
+                            <?php the_field('cantidad_de_apartamento');?>
+                          </p>
+                        </div>
+                      </div>
+                    <?php else:?>
+                    
+                    <?php endif; ?>
+
+
+                    
 
 
                     <?php if(get_field('metros_cuadrados')):?>
@@ -1423,7 +1461,7 @@
 
                     <?php if(get_field('descripcion_completa')):?>
                   
-                      <div class="main-details__icono">
+                      <div class="main-details__icono main-details__icono--full">
                         <!--
                         <div class="main-details__icono--img">
                           <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/icono-detalle6.png">

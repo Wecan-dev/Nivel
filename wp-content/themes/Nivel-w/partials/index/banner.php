@@ -14,16 +14,20 @@
 
               <div class="main-banner__title main-banner__title--home">
                 <div class="main-banner__logo">
-                  <img class="img-card__proyectos" src="<?php echo get_template_directory_uri();?>/assets/img/logo-projects3.png" alt="">
+                  <img class="img-card__proyectos" src="<?php the_field('logo_de_proyecto')?>" alt="">
                 </div>
                 <p>
                   <?php the_content(); ?>
                 </p>
+
+                <?php $link_del_proyecto = get_field( 'link_del_proyecto' ); ?>
                 <div class="main-card__proyectos--buttom">
-                  <a class="btn_custom btn--medium btn--filled3" href="<?php the_permalink(); ?>">
-                    Conoce más
-                  </a>
+                  <?php if ( $link_del_proyecto ) { ?>
+                    <a class="btn_custom btn--medium btn--filled3" href="<?php echo $link_del_proyecto['url']; ?>"> Conoce más</a>
+                  <?php } ?>
                 </div>
+               
+                
               </div>
 
 

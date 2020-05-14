@@ -3,7 +3,7 @@
     <div class="filter-flex">
 
       <div class="content_uls">
-        <p>Estado de proyectos</p>
+        <p>Tipos de inmueble</p>
         <ul class="nav nav-pills ">
           <?php  $tax = $wp_query->get_queried_object(); ?>
 
@@ -27,7 +27,8 @@
         </ul>
       </div>
       <div class="content_uls">
-        <p>Tipos de inmueble</p>
+        <p>Estado de proyectos</p>
+        
         <ul class="nav nav-pills " id="pills-tab" role="tablist">
           <li class="nav-item__tabs ">
             <a class="nav-link__tabs active" id="pills-totals-tab" data-toggle="pill" href="#pills-totals" role="tab"

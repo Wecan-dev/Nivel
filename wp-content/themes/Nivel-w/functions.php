@@ -483,7 +483,7 @@ add_action( 'init', 'proyectos', 0 );
 function proyectos_nivel_taxonomy() {
 
 	$labels = array(
-		'name'                       => _x( 'Proyectos Nivel', 'Taxonomy General Name', 'text_domain' ),
+		'name'                       => _x( '<span class="name_none">Proyectos Nivel</span>', 'Taxonomy General Name', 'text_domain' ),
 		'singular_name'              => _x( 'Proyectos Nivel', 'Taxonomy Singular Name', 'text_domain' ),
 		'menu_name'                  => __( 'Proyectos Nivel', 'text_domain' ),
 		'all_items'                  => __( 'Todas los proyectos-nivel', 'text_domain' ),
