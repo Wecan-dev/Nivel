@@ -3392,6 +3392,9 @@ span.dots_font{
 	position: relative;
 }
 
+.main-details__ubicacion--img iframe{
+	height: 100%;
+}
 .main-details__ubicacion {
 	padding-top: 0;
 	padding-bottom: 0;
