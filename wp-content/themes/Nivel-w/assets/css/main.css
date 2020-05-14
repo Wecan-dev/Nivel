@@ -307,12 +307,12 @@ a:hover{
 		padding: 15px 35px !important;
 		border: 1px solid #d71f26;
 		font-size: 18px;
-		font-family: 'Roboto';
+		font-family: 'Oswald';
 		font-weight: 800 !important;
 		text-transform: none !important;
 	}
 	.btn--filled2.fonts{
-		font-family: 'Roboto' !important;
+		font-family: 'Oswald' !important;
 	}
 
 	.btn--filled2:hover {
@@ -349,7 +349,7 @@ a:hover{
 		padding: 15px 35px !important;
 		border: 1px solid #fff;
 		font-size: 18px;
-		font-family: 'Roboto';
+		font-family: 'Oswald';
 		font-weight: 800 !important;
 		text-transform: none !important;
 	}
@@ -3185,6 +3185,7 @@ span.dots_font{
 .main-details__video .nav-link__video.active{
 	color: #fff !important;
 	background-color: #d71f26;
+	font-family: 'Oswald';
 	border: 1px solid #d71f26;
 }
 
@@ -4095,6 +4096,7 @@ padding-top: 40px;
 .main-details__slick--img img{
 	height: 100%;
 	object-fit: cover;
+	object-position: bottom;
 }
 
 .main-nosotros .slick-slide.slick-current.slick-center .main-nosotros__item{
@@ -4271,13 +4273,14 @@ display: block;
 padding: 0px 5px 0px 20px;
 color: #000;
 font-size: 19px;
-font-weight: 500;
+font-weight: 600;
 text-transform: uppercase;
 letter-spacing: 1px;
 word-spacing: 0px;
 text-decoration: none;
 position: relative;
-letter-spacing: 2px;
+letter-spacing: 1px;
+font-family: 'Roboto';
 }
 .panel-title>a::before{
 position: absolute;
