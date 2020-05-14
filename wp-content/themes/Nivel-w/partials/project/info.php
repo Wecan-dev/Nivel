@@ -1,33 +1,14 @@
 <section class="main-details__video main-details__video-pd container">
   <div class="main-details__video--content">
+    <div class="main-video__details">
 
 
-    <?php if(get_field('carga_de_video')):?>
-      <div class="main-video__details" data-toggle="modal" data-target="#videoProject-<?php the_id();?>">
+    <div class="mask-video">
 
-        <div class="mask-video">
-          <div class="main-details__video--icono">
-            <img class="video-icono" src="<?php echo get_template_directory_uri();?>/assets/img/play.png">
+    </div>
+    <img class="img-video__details" src="<?php echo get_the_post_thumbnail_url(); ?>">
 
-          </div>
-        </div>
-        <video class="img-video__details" src="<?php the_field('video')?>">
-        </video>
-
-        
-      </div>
-      <?php else:?>
-        <div class="main-video__details">
-
-
-          <div class="mask-video">
-
-          </div>
-          <img class="img-video__details" src="<?php the_field('imagen')?>">
-
-        </div>
-
-      <?php endif; ?>
+    </div>
 
       
       <div class="main-details__video--card">
