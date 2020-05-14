@@ -54,23 +54,9 @@
             </li>
             <li>
               <strong>inmueble:</strong>
-              <?php // proyectos ( value )
-              $proyectos_array = get_field( 'proyectos' );
-              if ( $proyectos_array ):
-               foreach ( $proyectos_array as $proyectos_item ):  ?>
-                <?php if($proyectos_item == 'Construcción'): ?>
-                  <span> <?php echo $proyectos_item; ?></span>
-                  <?php elseif($proyectos_item == 'Preventa'): ?>
-                   <span> <?php echo $proyectos_item; ?></span>
-                   <?php elseif($proyectos_item == 'Entrega inmediata'): ?>
-                     <span> <?php echo $proyectos_item; ?></span>
-                     <?php
-                   endif;
-                 endforeach;
-               endif
-               ?>
-             </li>
-           </ul>
+              <?php the_taxonomies(); ?>
+            </li>
+          </ul>
         <!-- <div class="main-details__video--title">
           <p class="details-video__title">
             < ?php the_field('titulo_pequeno')?>
