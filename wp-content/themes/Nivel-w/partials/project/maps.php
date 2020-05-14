@@ -97,10 +97,11 @@
       
 <?php endif; ?>
 
-
-
-
 <style>
+
+
+
+
 
 /* PLANOS */
 .slider-nav {
@@ -165,6 +166,13 @@
     position: absolute;
     left: 2rem;
 }
+.slider-for .slick-dots li:nth-child(4):after{
+	content: '49 m';
+	color: #d71f26;
+	top: 0.7rem;
+    position: absolute;
+    left: 2rem;
+}
 .slider-for .slick-dots li.slick-active:nth-child(1):after{
 	color: #fff;
 	top: 0.7rem;
@@ -184,5 +192,10 @@
     left: 2rem;
 }
 
-
+.slider-for .slick-dots li.slick-active:nth-child(4):after{
+	color: #fff;
+	top: 0.7rem;
+    position: absolute;
+    left: 2rem;
+}
 </style>
