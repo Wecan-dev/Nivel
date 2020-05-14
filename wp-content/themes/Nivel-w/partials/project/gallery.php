@@ -3,7 +3,7 @@
       <div class="container">
         <div class="main-details__galeria--title">
         <h1 class="title-nivel2--line title-nivel2--line-initial title-nivel2--line-initial--projects">
-            <strong> video</strong> 360
+            <strong> video <span> 360</span></strong>
           </h1>
 
         </div>

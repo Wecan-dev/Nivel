@@ -1255,6 +1255,9 @@ h1 strong {
 	z-index: 1;
 }
 
+.title-nivel2--line strong span{
+	font-weight: 300 !important;
+}
 .title-nivel2--line-center {
 	position: relative;
 	z-index: 1;
