@@ -1810,6 +1810,15 @@ h1 strong {
 .content_uls p{
 	color: #360714;
 }
+.content_uls:nth-child(2){
+	display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: flex-end;
+}
+.nav-item__tabs:last-child .nav-link__tabs{
+	margin-right: 0 !important;
+}
 .nav {
 	display: -webkit-box;
 	display: -ms-flexbox;

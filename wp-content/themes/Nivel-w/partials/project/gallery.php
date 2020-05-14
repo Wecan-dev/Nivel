@@ -16,11 +16,19 @@
               <li class="nav-item">
                 <a class="nav-link__video active" id="pills-Video360-tab" data-toggle="pill" href="#pills-Video360" role="tab" aria-controls="pills-Video360" aria-selected="true">Video 360</a>
               </li>
-              <?php elseif(get_field('carga_de_video')): ?>
+      
+              <?php elseif(get_field('video') and get_field('link_vista_360') ): ?>
+                <li class="nav-item">
+                <a class="nav-link__video active" id="pills-Video360-tab" data-toggle="pill" href="#pills-Video360" role="tab" aria-controls="pills-Video360" aria-selected="true">Video 360</a>
+              </li>
                 
+          
+                <?php elseif(get_field('video')): ?>
+           
                 <li class="nav-item">
                   <a class="nav-link__video" id="pills-video-tab" data-toggle="pill" href="#pills-video" role="tab" aria-controls="pills-video" aria-selected="false">video</a>
                 </li>
+              
               
             <?php endif; ?>
            
@@ -32,7 +40,10 @@
               <iframe class="mt-3" src="<?php the_field('link_vista_360');?>" width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
             </div>
             <div class="tab-pane fade" id="pills-video" role="tabpanel" aria-labelledby="pills-video-tab">
-
+               <!-- <video controls class="img-video" src="<c?php the_field('video') ?>">
+                  <source src="<c?php the_field('video') ?>" type="video/mp4">
+                </video>   
+                 -->
             </div>
             
           </div>
