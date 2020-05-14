@@ -1,50 +1,58 @@
 <section class="main-projects" id="main-projects">
   <div class="main-projects__tabs container">
     <div class="filter-flex">
+      <div   class="content_uls">
+
+        
+        <p>Estado de proyectos</p>
+        <ul class="nav nav-pills ">
+
+          <?php  $tax = $wp_query->get_queried_object(); ?>
+
+          <?php $args = array(
+
+            'orderby' => 'slug',
+            'order' => 'ASC'
+          );
 
 
-      <ul class="nav nav-pills ">
-        <?php  $tax = $wp_query->get_queried_object(); ?>
+          $proyecto_categories = get_terms('proyectos_nivel', $args);
+          $counterNumber = 1;
+          foreach ($proyecto_categories as $proyecto_category): ?>
+            <li class="nav-item__tabs">
+              <a class="nav-link__tabs <?php if($tax->name == $proyecto_category->name ){ echo 'active';} ?> " href="<?php echo $url_category = get_term_link( $proyecto_category ); ?>" ><?php echo $proyecto_category->name;?> </a>
 
-        <?php $args = array(
+            </li>
 
-          'orderby' => 'slug',
-          'order' => 'ASC'
-        );
+          <?php endforeach; ?>
+
+        </ul>
+      </div>
+      <div class="content_uls">
 
 
-        $proyecto_categories = get_terms('proyectos_nivel', $args);
-        $counterNumber = 1;
-        foreach ($proyecto_categories as $proyecto_category): ?>
+        <p>Tipos de inmueble</p>
+        <ul class="nav nav-pills " id="pills-tab" role="tablist">
+
+          <li class="nav-item__tabs ">
+            <a class="nav-link__tabs active" id="pills-totals-tab" data-toggle="pill" href="#pills-totals" role="tab"
+            aria-controls="pills-totals" aria-selected="false">Todos</a>
+          </li>
           <li class="nav-item__tabs">
-            <a class="nav-link__tabs <?php if($tax->name == $proyecto_category->name ){ echo 'active';} ?> " href="<?php echo $url_category = get_term_link( $proyecto_category ); ?>" ><?php echo $proyecto_category->name;?> </a>
-
+            <a class="nav-link__tabs " id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab"
+            aria-controls="pills-home" aria-selected="true">Preventa</a>
+          </li>
+          <li class="nav-item__tabs">
+            <a class="nav-link__tabs" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab"
+            aria-controls="pills-profile" aria-selected="false">Construcción</a>
+          </li>
+          <li class="nav-item__tabs">
+            <a class="nav-link__tabs" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab"
+            aria-controls="pills-contact" aria-selected="false">Entrega inmediata</a>
           </li>
 
-        <?php endforeach; ?>
-
-      </ul>
-
-      <ul class="nav nav-pills " id="pills-tab" role="tablist">
-        <li class="nav-item__tabs ">
-          <a class="nav-link__tabs active" id="pills-totals-tab" data-toggle="pill" href="#pills-totals" role="tab"
-          aria-controls="pills-totals" aria-selected="false">Todos</a>
-        </li>
-        <li class="nav-item__tabs">
-          <a class="nav-link__tabs " id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab"
-          aria-controls="pills-home" aria-selected="true">Preventa</a>
-        </li>
-        <li class="nav-item__tabs">
-          <a class="nav-link__tabs" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab"
-          aria-controls="pills-profile" aria-selected="false">Construcción</a>
-        </li>
-        <li class="nav-item__tabs">
-          <a class="nav-link__tabs" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab"
-          aria-controls="pills-contact" aria-selected="false">Entrega inmediata</a>
-        </li>
-
-      </ul>
-
+        </ul>
+      </div>
     </div>
 
     <div class="tab-content" id="pills-tabContent">
