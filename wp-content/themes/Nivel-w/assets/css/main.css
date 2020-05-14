@@ -385,7 +385,7 @@ a:hover{
 		font-weight: 500;
 		text-transform: uppercase;
 		padding-left: 0px;
-        padding-right: 75px !important;
+        padding-right: 60px !important;
         padding-bottom: 3px;
         font-size: 15px;
 		/* font-family: "Century Gothic", sans-serif; */
@@ -427,7 +427,9 @@ a:hover{
 		overflow: hidden;
 	}
 	.main-banner__logo{
-		width: 85px;
+		width: 155px;
+		margin-bottom: -35px;
+		/* margin-left: -25px; */
 	}
 	.main-banner__logo img{
 		width: 100%;
@@ -549,6 +551,7 @@ a:hover{
 		color: white;
 	}
 	.main-banner__title.main-banner__title--home{
+		margin-top: -10rem;
 		width: 48%;
 	}
 	.main-banner__title{
@@ -568,7 +571,7 @@ a:hover{
 		text-transform: uppercase;
 		text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 		font-family: 'Oswald';
-		font-size: 67px;
+		font-size: 60px;
 		font-weight: 500;
 		font-stretch: normal;
 		font-style: normal;
@@ -1317,6 +1320,8 @@ h1 strong {
 .container-brochure .main-contacto__text{
 	margin-right: 50px;
 }
+
+.main-contacto
 .main-video{
 	padding-top: 75px;
 
@@ -2001,7 +2006,7 @@ h1 strong {
 
 	.__proyectos  {
 		padding-bottom: 70px;
-		padding-top: 105px;
+		padding-top: 30px;
 		background-image: url(../img/bg.png);
 		background-repeat: no-repeat;
 		background-position: bottom right;
@@ -2610,7 +2615,7 @@ h1 strong {
 }
 
 .main-enlaces__redes {
-	padding-top: 35px;
+	padding-top: 5px;
 }
 
 .main-redes__instagram {
@@ -2940,6 +2945,27 @@ iframe{
 	padding-left: 0;
 }
 
+.ul-project__info span.name_none{
+	display: none !important;
+}
+
+.ul-project__info span a{
+	color:#212529;
+	transition: 0.3s ease-in-out;
+	font-size: 16px;
+	font-weight: normal;
+}
+
+span.dots_font{
+	margin-left: -5px;
+	font-size: 20px;
+}
+
+.ul-project__info span a:hover{
+	color:#d71f26;
+	transition: 0.3s ease-in-out;
+	text-decoration: none;
+}
 .ul-project__info li strong{
 	text-transform: uppercase;
     font-size: 18px;
@@ -2956,6 +2982,7 @@ iframe{
 
 .main-details__projects {
 	background-color: #fbfbfb;
+	padding-top: 0;
 }
 
 .main-details__projects--content {
@@ -3040,6 +3067,10 @@ iframe{
 	width: 46%;
 	justify-content: flex-start;
 	align-items: center;
+}
+
+.main-details__icono.main-details__icono--full{
+	width: 100%;
 }
 
 .main-details__icono--text {
@@ -3194,6 +3225,12 @@ iframe{
 .main-details__projects--avance .main-details__projects--content {
 	grid-template-columns: 44% 56%;
 }
+.main-details__projects--content ul.slick-dots {
+	
+	position: absolute;
+	bottom: -35px;
+	
+}
 
 .main-details__projects--avance .main-details__descripcion {
 	padding-right: 3rem;
@@ -3205,6 +3242,7 @@ iframe{
 
 .main-details__galeria {
 	background-color: #fbfbfb;
+	padding-top: 0;
 }
 
 .main-details__galeria--title {

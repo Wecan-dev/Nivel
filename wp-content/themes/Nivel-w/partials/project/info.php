@@ -44,31 +44,21 @@
           <ul class="ul-project__info">
 
             <li>
-              <strong>PRECIO:</strong>
+              <strong>PRECIO</strong>
+              <span class="dots_font">:</span>
               <span>Desde <?php the_field('precio') ?></span>
               <span class="text-impuesto-projects">Valor impuestos incluido*</span>
             </li>
             <li>
-              <strong>Ubicación:</strong>
+              <strong>Ubicación</strong>
+              <span class="dots_font">:</span>
               <span><?php the_field('ubicacion') ?></span>
             </li>
             <li>
-              <strong>inmueble:</strong>
-              <?php // proyectos ( value )
-              $proyectos_array = get_field( 'proyectos' );
-              if ( $proyectos_array ):
-               foreach ( $proyectos_array as $proyectos_item ):  ?>
-                <?php if($proyectos_item == 'Construcción'): ?>
-                  <span> <?php echo $proyectos_item; ?></span>
-                  <?php elseif($proyectos_item == 'Preventa'): ?>
-                   <span> <?php echo $proyectos_item; ?></span>
-                   <?php elseif($proyectos_item == 'Entrega inmediata'): ?>
-                     <span> <?php echo $proyectos_item; ?></span>
-                     <?php
-                   endif;
-                 endforeach;
-               endif
-               ?>
+              <strong>inmueble</strong>
+             
+              <span class="dots_font"><?php the_taxonomies(); ?></span>
+            
              </li>
            </ul>
         <!-- <div class="main-details__video--title">

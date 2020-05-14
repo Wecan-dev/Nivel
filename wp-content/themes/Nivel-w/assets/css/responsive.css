@@ -1193,7 +1193,7 @@
         padding: 0px 0px 40px 0px;
     }
     .main-banner__content .slick-next, .main-banner__content .slick-prev{
-        bottom: 150px !important;
+        bottom: 160px !important;
     }
     .main-about__title {
         padding: 50px 0 0 50px;
@@ -1603,7 +1603,7 @@
             font-size: 60px;
     }
     .main-banner__title.main-banner__title--home p{
-        font-size: 62px !important;
+        font-size: 65px !important;
     }
 
     .main-banner__content .slick-next, .main-banner__content .slick-prev{
@@ -1950,7 +1950,7 @@
         height: 405px;
     }
     .main-enlaces__nivel {
-        padding-top: 30px;
+        padding-top: 10px;
     }
     .enlaces-nivel__text, .list-title{
         font-size:13px;
@@ -2200,9 +2200,7 @@
     #frm_checkbox_33-0 .main-contactform__textlink{
         margin-top: -10px !important;
     }
-    .main-details__projects{
-        padding-top: 50px;
-    }
+
     .main-banner__img2 {
         width: 100%;
         height: 55vh;

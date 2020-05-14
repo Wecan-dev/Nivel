@@ -50,6 +50,7 @@
 </head>
 
 <body>
+  
   <header id="home">
     <nav class="navbar navbar-expand-lg fixed-top navbar-fixed-js">
 
@@ -69,9 +70,7 @@
 
       <div class="navbar-collapse offcanvas-collapse">
         <div class="navbar-nav mr-autos">
-            <!-- <a href="< ?php echo bloginfo('url').'/';?>" class="main-logo__collapse">
-              <img class="logo-collapse" src="< ?php echo get_template_directory_uri();?>/assets/img/logo_4.png">
-            </a> -->
+  
             <li class="nav-item">
               <a class="nav-link nav-link__mobile active" href="<?php echo bloginfo('url').'/';?>">Inicio</a>
             </li>

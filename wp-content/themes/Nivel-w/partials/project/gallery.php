@@ -1,4 +1,4 @@
-<?php if(the_field('link_vista_360')): ?>
+<?php if(get_field('link_vista_360') or get_field('video')): ?>
   <section class="main-details__galeria ">
       <div class="container">
         <div class="main-details__galeria--title">
@@ -10,12 +10,20 @@
         
         <div class="main-details__video">
           <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-            <li class="nav-item">
-              <a class="nav-link__video active" id="pills-Video360-tab" data-toggle="pill" href="#pills-Video360" role="tab" aria-controls="pills-Video360" aria-selected="true">Video 360</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link__video" id="pills-video-tab" data-toggle="pill" href="#pills-video" role="tab" aria-controls="pills-video" aria-selected="false">video</a>
-            </li>
+            
+            
+            <?php if( get_field('link_vista_360')): ?>
+              <li class="nav-item">
+                <a class="nav-link__video active" id="pills-Video360-tab" data-toggle="pill" href="#pills-Video360" role="tab" aria-controls="pills-Video360" aria-selected="true">Video 360</a>
+              </li>
+              <?php elseif(get_field('carga_de_video')): ?>
+                
+                <li class="nav-item">
+                  <a class="nav-link__video" id="pills-video-tab" data-toggle="pill" href="#pills-video" role="tab" aria-controls="pills-video" aria-selected="false">video</a>
+                </li>
+              
+            <?php endif; ?>
+           
           
           </ul>
           <div class="tab-content" id="pills-tabContent">
@@ -23,7 +31,9 @@
 
               <iframe class="mt-3" src="<?php the_field('link_vista_360');?>" width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
             </div>
-            <div class="tab-pane fade" id="pills-video" role="tabpanel" aria-labelledby="pills-video-tab">...</div>
+            <div class="tab-pane fade" id="pills-video" role="tabpanel" aria-labelledby="pills-video-tab">
+
+            </div>
             
           </div>
 
