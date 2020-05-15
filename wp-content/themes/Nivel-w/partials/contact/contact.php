@@ -48,9 +48,22 @@
               <!-- Correo-->
               <?php if(get_field('correo')): ?>
                 <li>
-                  <a href="" class="d-flex">
+                  <a href="mailto:<?php the_field('correo')?>" class="d-flex">
                     <img src="<?php echo get_template_directory_uri();?>/assets/img/Contact/icon_3.png" alt="">
                     <p><?php the_field('correo')?></p>
+                  </a>
+
+                </li>
+              <?php else: ?>
+
+              <?php endif; ?>
+
+              <!-- Correo-->
+              <?php if(get_field('correo_2')): ?>
+                <li>
+                  <a href="mailto:<?php the_field('correo_2')?>" class="d-flex">
+                    <img src="<?php echo get_template_directory_uri();?>/assets/img/Contact/icon_3.png" alt="">
+                    <p><?php the_field('correo_2')?></p>
                   </a>
 
                 </li>
