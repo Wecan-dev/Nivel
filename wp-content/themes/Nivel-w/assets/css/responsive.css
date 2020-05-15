@@ -122,10 +122,13 @@
     .details-video__body{
         padding-right: 0px;
     }
-    .main-brand button.openMenu{
+    /* .main-brand button.openMenu{
         position: absolute;
         right: 0px;
         top: 10px;    
+    } */
+    .title-nivel2--line p {
+        line-height: 35px;
     }
     .nav-item{
         padding-top: 15px;
@@ -575,7 +578,7 @@
         padding: 0 20px;
     }
     .main-details__projects {
-        padding: 80px 10px 0px 10px;
+        padding: 50px 0px 0px 0px;
     }
     .main-details__projects--avance{
         padding: 70px 10px 80px 10px !important;
@@ -650,7 +653,7 @@
         padding: 35px 0 0px 0;
     }
     .main-details__video--buttom {
-        padding: 40px 0px 0 0px;
+        padding: 15px 0px 0 0px;
     }
     .main-details__video--presentation {
         padding: 0px 20px 0 20px;

@@ -142,7 +142,7 @@
 .hamburger-inner,
 .hamburger-inner::before,
 .hamburger-inner::after {
-  width: 25px;
+  width: 35px;
   height: 2px;
   background-color: #e1e2e2;
   border-radius: 3px;
@@ -230,7 +230,7 @@
   }
 } */
 .hamburger-inner.inner-small,.hamburger-inner.inner-small::before, .hamburger-inner.inner-small::after{
-  width: 20px;
+  width: 35px;
 }
 
 
