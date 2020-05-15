@@ -24,7 +24,7 @@
     <div class="container">
       <div class="main-details__galeria--title">
         <h1 class="title-nivel2--line title-nivel2--line-initial title-nivel2--line-initial--gallery">
-          <strong> GALERÍA avance</strong> de obra
+          <strong> GALERÍA avance <span>de obra</span></strong> 
         </h1>
 
       </div>
