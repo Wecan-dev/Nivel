@@ -1022,6 +1022,9 @@ a:hover{
 	height: 3rem;*/
 	object-fit: contain;
 }
+.slider-nav--mt {
+	margin-top: 70px;
+}
 
 .main-nosotros__carousel .slick-prev,
 .main-nosotros__carousel .slick-next,
@@ -1288,7 +1291,7 @@ h1 strong {
 	background-repeat: no-repeat;
 	bottom: 0;
 	z-index: -1;
-	left: 0;
+	left: -2rem;
 	width: 15rem;
 	background-size: contain;
 }
@@ -3327,7 +3330,8 @@ span.dots_font{
 	background-color: red;
 }
 .main-details__galeria .slick-dots li,
-.main-details__avance .slick-dots li {
+.main-details__avance .slick-dots li,
+.main-details__projects--content .slick-dots li {
 	height: 13px !important;
   width: 13px !important;;
 }

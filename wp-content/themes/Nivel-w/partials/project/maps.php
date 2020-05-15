@@ -78,7 +78,7 @@
 
                   <?php endif; ?>
                 </div>
-                <div class="slider slider-nav" >
+                <div class="slider slider-nav  <?php if(get_field('imagen_del_plano_2')){ echo 'slider-nav--mt';} ?>" >
                   <?php  if(get_field('imagen_del_plano')):?>
                     <div class="main-details__planos--img">
                       <img style="height:100%;width:100%;" src="<?php the_field('imagen_del_plano') ?>">
@@ -126,9 +126,7 @@
 
 
                     /* PLANOS */
-                    .slider-nav {
-                     margin-top: 70px;
-                   }
+                   
                    .slider-nav .slick-dots li.slick-active {
                     width: 13px;
                     height: 13px;
@@ -151,6 +149,7 @@
                    border-radius: 0;
                    background-color: transparent;
                    position: relative;
+                   font-size: 14px;
                  }
                  .slider-for .slick-dots li.slick-active {
                    width: 100px;
@@ -169,49 +168,49 @@
                 .slider-for .slick-dots li:nth-child(1):after{
                  content: '<?php the_field('item_plano_1') ?>';
                  color: #d71f26;
-                 top: 0.7rem;
+                 /* top: 0.7rem;
                  position: absolute;
-                 left: 2rem;
+                 left: 1.5rem; */
                }
 
                .slider-for .slick-dots li:nth-child(2):after{
                  content: '<?php the_field('item_plano_2') ?>';
                  color: #d71f26;
-                 top: 0.7rem;
+                 /* top: 0.7rem;
                  position: absolute;
-                 left: 2rem;
+                 left: 1.5rem; */
                }
                .slider-for .slick-dots li:nth-child(3):after{
                  content: '<?php the_field('item_plano_3') ?>';
                  color: #d71f26;
-                 top: 0.7rem;
-                 position: absolute;
-                 left: 2rem;
+                 /* top: 0.7rem; */
+                 /* position: absolute;
+                 left: 1.5rem; */
                }
                .slider-for .slick-dots li:nth-child(4):after{
                  content: '<?php the_field('item_plano_4') ?>';
                  color: #d71f26;
-                 top: 0.7rem;
-                 position: absolute;
-                 left: 2rem;
+                 /* top: 0.7rem; */
+                 /* position: absolute;
+                 left: 1.5rem; */
                }
                .slider-for .slick-dots li.slick-active:nth-child(1):after{
                  color: #fff;
-                 top: 0.7rem;
-                 position: absolute;
-                 left: 2rem;
+                 /* top: 0.7rem; */
+                 /* position: absolute;
+                 left: 1.5rem; */
                }
                .slider-for .slick-dots li.slick-active:nth-child(2):after{
                  color: #fff;
-                 top: 0.7rem;
-                 position: absolute;
-                 left: 2rem;
+                 /* top: 0.7rem; */
+                 /* position: absolute;
+                 left: 1.5rem; */
                }
                .slider-for .slick-dots li.slick-active:nth-child(3):after{
                  color: #fff;
-                 top: 0.7rem;
-                 position: absolute;
-                 left: 2rem;
+                 /* top: 0.7rem; */
+                 /* position: absolute;
+                 left: 1.5rem; */
                }
                .slider-nav .slick-dots li {
                 height: 13px !important;
@@ -219,8 +218,14 @@
               }
               .slider-for .slick-dots li.slick-active:nth-child(4):after{
                color: #fff;
-               top: 0.7rem;
+               /* top: 0.7rem;
                position: absolute;
-               left: 2rem;
+               left: 1.5rem; */
+             }
+             .slider-for .slick-dots li button{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 12px;
              }
            </style>

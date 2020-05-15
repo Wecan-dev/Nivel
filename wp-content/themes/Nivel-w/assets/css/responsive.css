@@ -1,7 +1,53 @@
 @media (min-width: 0px) and (max-width: 767px) {
+    .ul-project__info li strong {
+        font-size: 16px;
+
+    }
+    .slider-for .slick-dots li.slick-active:nth-child(1):after,.slider-for .slick-dots li:nth-child(1):after {
+        color: #fff;
+        top: 0.5rem !important;
+        /* position: absolute;
+        left: 0.7rem !important; */
+        font-size: 13px;
+    }
+    .slider-for .slick-dots li.slick-active:nth-child(2):after,.slider-for .slick-dots li:nth-child(2):after {
+        color: #fff;
+        top: 0.5rem !important;
+        /* position: absolute;
+        left: 0.7rem !important; */
+        font-size: 15px;
+    }
+    .slider-for .slick-dots li.slick-active:nth-child(3):after,.slider-for .slick-dots li:nth-child(3):after {
+        color: #fff;
+        top: 0.5rem !important;
+        /* position: absolute;
+        left: 0.7rem !important; */
+        font-size: 15px;
+    }
+    .slider-for .slick-dots li.slick-active:nth-child(4):after,.slider-for .slick-dots li:nth-child(4):after {
+        color: #fff;
+        top: 0.5rem !important;
+        /* position: absolute;
+        left: 0.7rem !important; */
+        font-size: 15px;
+    }
+    .slider-for .slick-dots li.slick-active,.slider-for .slick-dots li {
+        width: 90px !important;
+        height: 50px !important;
+    }    
     .main-banner__title.main-banner__title--home{
         flex-direction: column;
     }
+    .slider-for .slick-dots {
+        bottom: -110px !important;
+    }
+    .slider-for .slick-dots li {
+        margin-bottom: 5px;
+    }
+    .slider-for .slick-dots{
+        z-index: 99999;
+    }
+    
     #pills-tab{
         margin-top: 0px;
     }
@@ -890,11 +936,18 @@
     .main-contactform__item:nth-child(2) {
         padding: 0px;
     }
+    .slider-nav .slick-next:after,.slider-nav  .slick-prev:after{
+        top: 50% !important;
+    }
 }
 
 
 
 @media (min-width: 768px) and (max-width: 991px) {
+    .title-nivel2--line-initial strong::before{
+        left: -30px;
+        width: 12rem;
+    }
     .navbar-nav{
         flex-direction: column !important;
         justify-content: flex-start;
@@ -1385,6 +1438,10 @@
 
 
 @media (min-width: 992px) and (max-width: 1199px) {
+    .title-nivel2--line-initial strong::before{
+        left: -30px;
+        width: 12rem;
+    }
     .navbar-nav{
         margin-right: 0px;
     }
@@ -2226,6 +2283,6 @@
         top: 50%;
     }
     .main-details__galeria {
-        padding-top: 0;
+        padding-top: 40px;
     }
 }
