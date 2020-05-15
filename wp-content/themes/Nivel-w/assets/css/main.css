@@ -2476,6 +2476,11 @@ h1 strong {
 		margin-bottom: 20px !important;
 	}
 
+	.grid-col:nth-child(2){
+		display: flex !important;
+		flex-direction: column !important;
+		justify-content: flex-end !important;
+	}
 	input[type="text"],
 	input[type="tel"],
 	input[type="email"],
@@ -2485,7 +2490,6 @@ h1 strong {
 		border-radius: 0px;
 		padding: 8px 10px;
 		border: none;
-		margin: -3px 0;
 		font-family: 'Roboto';
 		font-weight: 300;
 		margin-bottom: -10px;
@@ -3853,6 +3857,7 @@ padding-top: 40px;
 	width: 62%;
 	height: 65vh !important;
 }
+
 
 .service-form .nav-item {
 	width: 100%;

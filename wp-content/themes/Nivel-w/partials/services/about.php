@@ -6,7 +6,7 @@
     
       </small>
       <h1 class="title-nivel2--line title-nivel2--line-initial">
-        <strong><?php the_field('titulo_bold') ?> </strong><?php the_field('titulo_light') ?>
+        <strong><?php the_field('titulo_bold') ?> <span><?php the_field('titulo_light') ?></span> </strong>
       </h1>
     </div>
 
