@@ -2469,8 +2469,11 @@ h1 strong {
 		grid-template-columns: 255px 1fr;
 		grid-gap: 25px;
 	}
-	#field_22h1y,#field_ffjj72{
+	#field_22h1y{
 		margin-bottom: 13px !important;
+	}
+	#frm_field_31_container{
+		margin-bottom: 20px !important;
 	}
 
 	input[type="text"],
