@@ -16,6 +16,7 @@
           </div>
           <div class="main-contactform__info">
             <p><?php the_field('descripcion')?></p>
+            <br>
             <ul class="main-contactform__ul">
 
             <!-- Direccion-->
@@ -34,7 +35,7 @@
               <!-- Telefono-->
               <?php if(get_field('telefono')): ?>
                 <li>
-                  <a href="<?php echo '+'.the_field('telefono')?>" class="d-flex">
+                  <a href="tel:<?php the_field('telefono')?>" class="d-flex">
                     <img src="<?php echo get_template_directory_uri();?>/assets/img/Contact/icon_2.png" alt="">
                     <p><?php the_field('telefono')?></p>
                   </a>

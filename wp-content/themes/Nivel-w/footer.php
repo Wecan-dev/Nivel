@@ -123,7 +123,7 @@
 				</div>
 				<ul class="list-direccion">
 					<li class="items-direccion">
-						<a class="link-enlaces" href="+574320200">
+						<a class="link-enlaces" href="tel:4320200">
 							432 02 00
 						</a>
 

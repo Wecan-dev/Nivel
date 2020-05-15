@@ -7,13 +7,13 @@
       <div class="main-banner__item">
         <div class="mask">
           <div class="main-banner__boxtext container">
-            <div class="main-banner__palabra main-banner__palabra--contacto main-banner__palabra--services">
+            <div class="main-banner__palabra main-banner__palabra--contacto main-banner__palabra--projects">
               <p>compro</p>
               <p>miso</p>
             </div>
             <div class="main-banner__text">
 
-              <div class="main-banner__title main-banner__title--services">
+              <div class="main-banner__title main-banner__title--projects">
               <p><?php the_content();?></p>
 
               </div>
@@ -22,7 +22,7 @@
             </div>
           </div>
         </div>
-        <div class="main-banner__img">
+        <div class="main-banner__img2">
           <img src="<?php echo get_the_post_thumbnail_url(); ?>">
         </div>
       </div>

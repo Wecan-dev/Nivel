@@ -427,9 +427,8 @@ a:hover{
 		overflow: hidden;
 	}
 	.main-banner__logo{
-		width: 155px;
-		margin-bottom: -35px;
-		/* margin-left: -25px; */
+		width: 200px;
+		margin-bottom: -10px;
 	}
 	.main-banner__logo img{
 		width: 100%;
@@ -536,6 +535,7 @@ a:hover{
 		padding: 22px 20px;
 		margin-right: 50px;
 		border-bottom: 3px solid #9b9b9b30;
+		z-index: 999;
 	}
 	.navbar-toggler{
 		position: fixed;
@@ -2468,6 +2468,9 @@ h1 strong {
 		display: grid;
 		grid-template-columns: 255px 1fr;
 		grid-gap: 25px;
+	}
+	#field_22h1y{
+		margin-bottom: 13px !important;
 	}
 
 	input[type="text"],

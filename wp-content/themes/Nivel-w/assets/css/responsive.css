@@ -50,7 +50,7 @@
         margin-bottom: 5px;
     }
     .slider-for .slick-dots{
-        z-index: 99999;
+        z-index: 8888;
     }
     
     #pills-tab{
@@ -506,6 +506,7 @@
     }
     .planos-center {
         width: 100%;
+        align-items: flex-start;
     }
     .slider-for .slick-dots {
         position: absolute;
@@ -575,7 +576,7 @@
 
     .main-experiencia {
         padding-top: 0;
-        padding-bottom: 0;
+        padding-bottom: 40px;
     }
 
     .main-projects__content {
@@ -695,6 +696,7 @@
     }
     .details-planos__text{
         margin-top: 20px;
+        text-align: left;
     }
 
     #frm_form_4_container, #frm_form_3_container {
@@ -710,8 +712,9 @@
         padding: 0px 20px 0 20px;
     }
     .title-nivel2--line-initial.title-nivel2--line-initial--gallery strong::before {
-        left: 2.5rem;
+        left: -0.5rem;
         width: 12rem;
+        top: 2rem;
     }
     .btn--filled2{
         width: 100%;
@@ -2278,6 +2281,7 @@
     }
     .details-planos__text {
         font-size: 15px;
+
     }
     .main-details__projects--avance{
         padding-bottom: 120px;
