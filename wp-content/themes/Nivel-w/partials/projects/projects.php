@@ -91,7 +91,7 @@
               </div>
               <div class="mask"></div>
               <a href="<?php the_permalink(); ?>">
-                <img class="img-projects" src="<?php echo get_the_post_thumbnail_url(); ?>">
+                <img class="img-projects" alt="<?php the_title();?>"  src="<?php echo get_the_post_thumbnail_url(); ?>">
               </a>
             </a>
           </div>
@@ -180,7 +180,7 @@ endif;  endwhile; ?>
             </div>
             <div class="mask"></div>
             <a href="<?php the_permalink(); ?>">
-              <img class="img-projects" src="<?php echo get_the_post_thumbnail_url(); ?>">
+              <img class="img-projects" alt="<?php the_title();?>"  src="<?php echo get_the_post_thumbnail_url(); ?>">
             </a>
           </a>
         </div>
@@ -236,7 +236,7 @@ endif;  endwhile; ?>
                     </div>
                     <div class="mask"></div>
                     <a href="<?php the_permalink(); ?>">
-                      <img class="img-projects" src="<?php echo get_the_post_thumbnail_url(); ?>">
+                      <img class="img-projects" alt="<?php the_title();?>"  src="<?php echo get_the_post_thumbnail_url(); ?>">
                     </a>
                   </a>
                 </div>
@@ -289,7 +289,7 @@ endif;  endwhile; ?>
              </div>
              <div class="mask"></div>
              <a href="<?php the_permalink(); ?>">
-               <img class="img-projects" src="<?php echo get_the_post_thumbnail_url(); ?>">
+               <img class="img-projects" alt="<?php the_title();?>"  src="<?php echo get_the_post_thumbnail_url(); ?>">
              </a>
            </a>
          </div>
