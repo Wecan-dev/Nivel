@@ -1864,7 +1864,7 @@ h1 strong {
 .line {
 	position: absolute;
 
-	z-index: 999;
+	z-index: 88;
 	width: -webkit-calc(50% - 20px);
 	width: -moz-calc(50% - 20px);
 	width: calc(50% - 20px);

@@ -493,7 +493,7 @@
     .title-nivel2--line-initial strong::before{
         width: 11rem;
         bottom: -5px;
-        left: -2rem;
+        left: -1rem;
     }
     .slider-nav .slick-next{
         right: -1rem;
