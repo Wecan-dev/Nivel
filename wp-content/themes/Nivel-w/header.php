@@ -3,7 +3,7 @@
 
 <head>
 	<meta charset="utf-8">
-	<title><?php bloginfo('name');?></title>
+	<title>Nivel Propiedad Raíz: Proyectos inmobiliarios y comerciales en Antioquia.</title>
 
 	<!-- Behavioral Meta Data -->
 	<meta content='width=device-width, initial-scale=1, user-scalable=no' name='viewport'>
@@ -11,7 +11,12 @@
 	<meta name="theme-color" content="#212121">
 	
 	<!-- Google Meta Data -->
-	<meta name='description', content='<?php bloginfo('description');?>'>
+	<meta name='description', content='<?php if(is_home()){echo 'Estructuramos, gerenciamos y comercializamos proyectos en lugares increíbles. Apartamentos, Lotes de Vivienda, Parques Empresariales y Locales Comerciales.';}?>'>
+  <meta name='description', content='<?php if(is_page( 7 )){echo 'Apartamentos, Lotes de Vivienda, Parques Empresariales y Locales Comerciales.';}?>'>
+  <meta name='description', content='<?php if(is_page( 11 )){echo 'Descubre en nuestro blog las últimas tendencias en proyectos inmobiliarios y estilo de vida.';}?>'>
+  <meta name='description', content='<?php if(is_page( 5 )){echo 'Somos una empresa con más de 30 años de experiencia en el sector inmobiliario.';}?>'>
+  <meta name='description', content='<?php if(is_page( 19 )){echo 'Regístrate y haz tu solicitud de cotización.';}?>'>
+  <meta name='description', content='<?php if(is_page( 17 )){echo 'Teléfono: 432 02 00. Horario de atención: 8:00 a. m - 6:00 p.m, lunes a viernes.';}?>'>
 	<meta name='keywords', content=''>
 	<meta name="robots" content="index, follow">
 

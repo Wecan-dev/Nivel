@@ -3131,6 +3131,7 @@ span.dots_font{
 	font-style: normal;
 	line-height: 1.25;
 	letter-spacing: 0.55px;
+	color:#212529 !important;
 }
 
 .main-details__icono--content2 {

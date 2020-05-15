@@ -1527,9 +1527,9 @@
                           <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/phone.png">
                         </div>
                         <div class="main-details__icono--text">
-                          <p class="text-icono__projects2">
+                          <a href="tel:<?php the_field('telefono');?>" class="text-icono__projects2">
                             <?php the_field('telefono');?>
-                          </p>
+                          </a>
                         </div>
                       </div>
                     <?php else:?>
@@ -1542,9 +1542,9 @@
                           <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/cell.png">
                         </div>
                         <div class="main-details__icono--text">
-                          <p class="text-icono__projects2">
+                          <a href="tel:<?php the_field('celular');?>" class="text-icono__projects2">
                             <?php the_field('celular');?>
-                          </p>
+                          </a>
                         </div>
                       </div>
                     <?php else:?>
@@ -1558,9 +1558,9 @@
                           <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/icono-detalle10.png">
                         </div>
                         <div class="main-details__icono--text">
-                          <p class="text-icono__projects2">
+                          <a href="mailto:<?php the_field('correo_electronico');?>" class="text-icono__projects2">
                             <?php the_field('correo_electronico');?>
-                          </p>
+                          </a>
                         </div>
                       </div>
 
