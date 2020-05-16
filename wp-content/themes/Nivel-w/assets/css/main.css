@@ -2480,6 +2480,11 @@ h1 strong {
 		display: flex !important;
 		flex-direction: column !important;
 		justify-content: flex-end !important;
+		margin-top: 1.5rem !important;
+	}
+	#form_contact-form textarea {
+		margin-top: -3px !important;
+		height: 93px !important;
 	}
 	input[type="text"],
 	input[type="tel"],
@@ -2540,7 +2545,7 @@ h1 strong {
 
 	.main-contacto {
 		background-color: #d71f26;
-		padding: 0px 0;
+		padding: 20px 0;
 	}
 
 	.main-contacto__text {
@@ -4278,10 +4283,6 @@ padding-top: 40px;
 	align-items: center !important;
 	margin-top: 50px !important;
 	justify-content: center !important;
-}
-#form_contact-form textarea{
-	margin-top: -3px !important;
-	height: 99px !important;
 }
 
 
