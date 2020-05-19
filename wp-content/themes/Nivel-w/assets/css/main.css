@@ -612,17 +612,17 @@ a:hover{
 	}
 
 	.main-banner__palabra.main-banner__palabra--projects{
-		top: 145px;
-		right: -160px;
+		top: 130px;
+		right: -120px;
 	}
 
 	.main-banner__palabra.main-banner__palabra--projects p{
-		font-size: 192px !important;
+		font-size: 160px !important;
 	}
 	.main-banner__palabra.main-banner__palabra--projects p:nth-child(2) {
-		top: 160px;
+		top: 135px;
 		right: 20px;
-		font-size: 100px !important;
+		font-size: 90px !important;
 	}
 	.main-banner__palabra.main-banner__palabra--inversion{
 		top: 185px;
@@ -2837,7 +2837,7 @@ h1 strong {
 
 .main-banner__img2 {
 	width: 100%;
-	height: 75vh;
+	height: 60vh;
 }
 
 

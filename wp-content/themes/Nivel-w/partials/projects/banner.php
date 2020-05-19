@@ -12,7 +12,7 @@
           </div>
           <div class="main-banner__text">
 
-            <div class="main-banner__title main-banner__title--full">
+            <div class="main-banner__title main-banner__title--projects">
               <p>NUESTROS<br>
                 PR<span class="letra-color">O</span>YECTOS
               </p>

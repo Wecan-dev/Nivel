@@ -12,7 +12,7 @@
             </div>
             <div class="main-banner__text main-banner__text--contact">
 
-              <div class="main-banner__title main-banner__title--full">
+              <div class="main-banner__title main-banner__title--projects">
                 <p>
                   <?php the_content(); ?>
                 </p>
