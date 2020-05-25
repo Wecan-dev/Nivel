@@ -947,11 +947,38 @@
     .slider-nav .slick-next:after,.slider-nav  .slick-prev:after{
         top: 50% !important;
     }
+    .main-maps__content {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .main-maps__items {
+        width: 100%;
+    }
+    .next {
+        right: 4rem;
+        
+      }
+      .prev{
+        left: 4rem;
+      }
+    
+      #myModal .modal-content .close, #myModal1 .modal-content .close, #myModal2 .modal-content .close {
+        top: -5rem;
+        right: 0rem;
+      }
+      #myModal .modal-content, #myModal1 .modal-content, #myModal2 .modal-content {
+        width: 95%;
+      }
+     
 }
 
 
 
 @media (min-width: 768px) and (max-width: 991px) {
+    .planos-center {
+        width: 100%;
+    }
     .main-banner__title.main-banner__title--home {
         flex-direction: column;
         margin-top: -2rem;
@@ -1450,6 +1477,18 @@
 
 
 @media (min-width: 992px) and (max-width: 1199px) {
+    .next {
+        right: 10rem;
+        
+      }
+      .prev{
+        left: 10rem;
+      }
+    
+      #myModal .modal-content .close, #myModal1 .modal-content .close, #myModal2 .modal-content .close {
+        top: -5rem;
+        right: -16rem;
+      }
     .main-banner__title.main-banner__title--home {
         margin-top: 0rem;
     }
