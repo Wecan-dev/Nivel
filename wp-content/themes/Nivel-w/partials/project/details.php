@@ -7,7 +7,7 @@
           <div class="main-details__slick--content">
 
             <?php if(get_field('imagen_1')): ?>
-              <div class="main-details__slick--items">
+              <div class="main-details__slick--items" onclick="openModal();currentSlide(1)" >
                 <div class="main-details__slick--img">
                   <img class="details-galeria__img" src="<?php the_field('imagen_1');?>">
                 </div>
@@ -16,7 +16,7 @@
 
             <?php endif ?>
             <?php if(get_field('imagen_2')): ?>
-              <div class="main-details__slick--items">
+              <div class="main-details__slick--items" onclick="openModal();currentSlide(2)">
                 <div class="main-details__slick--img">
                   <img class="details-galeria__img" src="<?php the_field('imagen_2');?>">
                 </div>
@@ -25,7 +25,7 @@
 
             <?php endif ?>
             <?php if(get_field('imagen_3')): ?>
-              <div class="main-details__slick--items">
+              <div class="main-details__slick--items" onclick="openModal();currentSlide(3)">
                 <div class="main-details__slick--img">
                   <img class="details-galeria__img" src="<?php the_field('imagen_3');?>">
                 </div>
@@ -34,7 +34,7 @@
 
             <?php endif ?>
             <?php if(get_field('imagen_4')): ?>
-              <div class="main-details__slick--items">
+              <div class="main-details__slick--items" onclick="openModal();currentSlide(4)">
                 <div class="main-details__slick--img">
                   <img class="details-galeria__img" src="<?php the_field('imagen_4');?>">
                 </div>
@@ -43,7 +43,7 @@
 
             <?php endif ?>
             <?php if(get_field('imagen_5')): ?>
-              <div class="main-details__slick--items">
+              <div class="main-details__slick--items" onclick="openModal();currentSlide(5)">
                 <div class="main-details__slick--img">
                   <img class="details-galeria__img" src="<?php the_field('imagen_5');?>">
                 </div>
@@ -55,7 +55,7 @@
 
 
             <?php if(get_field('imagen_zona_1')): ?>
-              <div class="main-details__slick--items">
+              <div class="main-details__slick--items" onclick="openModal();currentSlide(6)">
                 <div class="main-details__slick--img">
                   <img class="details-galeria__img" src="<?php the_field('imagen_zona_1');?>">
                 </div>
@@ -64,7 +64,7 @@
 
             <?php endif ?>
             <?php if(get_field('imagen_zona_2')): ?>
-              <div class="main-details__slick--items">
+              <div class="main-details__slick--items" onclick="openModal();currentSlide(7)">
                 <div class="main-details__slick--img">
                   <img class="details-galeria__img" src="<?php the_field('imagen_zona_2');?>">
                 </div>
@@ -73,7 +73,7 @@
 
             <?php endif ?>
             <?php if(get_field('imagen_zona_3')): ?>
-              <div class="main-details__slick--items">
+              <div class="main-details__slick--items" onclick="openModal();currentSlide(8)">
                 <div class="main-details__slick--img">
                   <img class="details-galeria__img" src="<?php the_field('imagen_zona_3');?>">
                 </div>
@@ -82,7 +82,7 @@
 
             <?php endif ?>
             <?php if(get_field('imagen_zona_4')): ?>
-              <div class="main-details__slick--items">
+              <div class="main-details__slick--items" onclick="openModal();currentSlide(9)">
                 <div class="main-details__slick--img">
                   <img class="details-galeria__img" src="<?php the_field('imagen_zona_4');?>">
                 </div>
@@ -92,7 +92,7 @@
             <?php endif ?>
          
             <?php if(get_field('imagen_galeria')): ?>
-              <div class="main-details__slick--items">
+              <div class="main-details__slick--items" onclick="openModal();currentSlide(10)">
                 <div class="main-details__slick--img">
                   <img class="details-galeria__img" src="<?php the_field('imagen_galeria');?>">
                 </div>
@@ -102,7 +102,7 @@
             <?php endif ?>
 
             <?php if(get_field('imagen_galeria_2')): ?>
-              <div class="main-details__slick--items">
+              <div class="main-details__slick--items" onclick="openModal();currentSlide(11)">
                 <div class="main-details__slick--img">
                   <img class="details-galeria__img" src="<?php the_field('imagen_galeria_2');?>">
                 </div>
@@ -113,7 +113,7 @@
 
 
             <?php if(get_field('imagen_galeria')): ?>
-              <div class="main-details__slick--items">
+              <div class="main-details__slick--items" onclick="openModal();currentSlide(12)">
                 <div class="main-details__slick--img">
                   <img class="details-galeria__img" src="<?php the_field('imagen_galeria');?>">
                 </div>
@@ -123,7 +123,7 @@
             <?php endif ?>
 
             <?php if(get_field('imagen_galeria_2')): ?>
-              <div class="main-details__slick--items">
+              <div class="main-details__slick--items" onclick="openModal();currentSlide(13)">
                 <div class="main-details__slick--img">
                   <img class="details-galeria__img" src="<?php the_field('imagen_galeria_2');?>">
                 </div>
@@ -133,7 +133,7 @@
             <?php endif ?>
 
             <?php if(get_field('imagen_galeria_3')): ?>
-              <div class="main-details__slick--items">
+              <div class="main-details__slick--items" onclick="openModal();currentSlide(14)">
                 <div class="main-details__slick--img">
                   <img class="details-galeria__img" src="<?php the_field('imagen_galeria_3');?>">
                 </div>
@@ -143,7 +143,7 @@
             <?php endif ?>
 
             <?php if(get_field('imagen_galeria_4')): ?>
-              <div class="main-details__slick--items">
+              <div class="main-details__slick--items" onclick="openModal();currentSlide(15)">
                 <div class="main-details__slick--img">
                   <img class="details-galeria__img" src="<?php the_field('imagen_galeria_4');?>">
                 </div>
@@ -153,7 +153,7 @@
             <?php endif ?>
 
             <?php if(get_field('imagen_galeria_5')): ?>
-              <div class="main-details__slick--items">
+              <div class="main-details__slick--items" onclick="openModal();currentSlide(16)">
                 <div class="main-details__slick--img">
                   <img class="details-galeria__img" src="<?php the_field('imagen_galeria_5');?>">
                 </div>
@@ -163,7 +163,7 @@
             <?php endif ?>
 
             <?php if(get_field('imagen_galeria_6')): ?>
-              <div class="main-details__slick--items">
+              <div class="main-details__slick--items" onclick="openModal();currentSlide(17)">
                 <div class="main-details__slick--img">
                   <img class="details-galeria__img" src="<?php the_field('imagen_galeria_6');?>">
                 </div>
@@ -173,7 +173,7 @@
             <?php endif ?>
 
             <?php if(get_field('imagen_galeria_7')): ?>
-              <div class="main-details__slick--items">
+              <div class="main-details__slick--items" onclick="openModal();currentSlide(18)">
                 <div class="main-details__slick--img">
                   <img class="details-galeria__img" src="<?php the_field('imagen_galeria_7');?>">
                 </div>
@@ -183,7 +183,7 @@
             <?php endif ?>
 
             <?php if(get_field('imagen_galeria_8')): ?>
-              <div class="main-details__slick--items">
+              <div class="main-details__slick--items" onclick="openModal();currentSlide(19)">
                 <div class="main-details__slick--img">
                   <img class="details-galeria__img" src="<?php the_field('imagen_galeria_8');?>">
                 </div>
@@ -1693,3 +1693,241 @@
   <?php endif ?>
   </div>
 </section>
+
+
+
+<!-- MODAL -->
+
+
+<div id="myModal" class="modal">
+
+
+				<div class="modal-content">
+					<button aria-label='Close' class='close' data-dismiss='modal' type='button' onclick="closeModal()">
+						<span aria-hidden='true' class='fa fa-close'></span>
+					</button>
+
+            <?php if(get_field('imagen_1')): ?>
+					    <div class="mySlides">			
+              <div class="main-details__slick--items" >
+                <div class="main-details__slick--img">
+                  <img class="details-galeria__img" src="<?php the_field('imagen_1');?>">
+                </div>
+              </div>
+					    </div>
+            <?php else: ?>
+
+            <?php endif ?>
+
+				
+            <?php if(get_field('imagen_2')): ?>
+              <div class="mySlides">
+                <div class="main-details__slick--items" >
+                  <div class="main-details__slick--img">
+                    <img class="details-galeria__img" src="<?php the_field('imagen_2');?>">
+                  </div>
+                </div>
+              </div>
+            <?php else: ?>
+
+            <?php endif ?>
+					
+
+            <?php if(get_field('imagen_3')): ?>
+					    <div class="mySlides">
+                <div class="main-details__slick--items" >
+                  <div class="main-details__slick--img">
+                    <img class="details-galeria__img" src="<?php the_field('imagen_3');?>">
+                  </div>
+                </div>
+					    </div>
+            <?php else: ?>
+
+            <?php endif ?>
+
+            <?php if(get_field('imagen_4')): ?>
+					    <div class="mySlides">
+                <div class="main-details__slick--items" >
+                  <div class="main-details__slick--img">
+                    <img class="details-galeria__img" src="<?php the_field('imagen_4');?>">
+                  </div>
+                </div>
+					    </div>
+            <?php else: ?>
+
+            <?php endif ?>
+            <?php if(get_field('imagen_5')): ?>
+					    <div class="mySlides">
+                <div class="main-details__slick--items" >
+                  <div class="main-details__slick--img">
+                    <img class="details-galeria__img" src="<?php the_field('imagen_5');?>">
+                  </div>
+                </div>
+					    </div>
+            <?php else: ?>
+
+            <?php endif ?>
+            <?php if(get_field('imagen_zona_1')): ?>
+					    <div class="mySlides">
+                <div class="main-details__slick--items">
+                  <div class="main-details__slick--img">
+                    <img class="details-galeria__img" src="<?php the_field('imagen_zona_1');?>">
+                  </div>
+                </div>
+					    </div>
+            <?php else: ?>
+
+            <?php endif ?>
+            <?php if(get_field('imagen_zona_2')): ?>
+					    <div class="mySlides">
+                <div class="main-details__slick--items">
+                  <div class="main-details__slick--img">
+                    <img class="details-galeria__img" src="<?php the_field('imagen_zona_2');?>">
+                  </div>
+                </div>
+					    </div>
+            <?php else: ?>
+
+            <?php endif ?>
+
+            <?php if(get_field('imagen_zona_3')): ?>
+              <div class="mySlides">
+                <div class="main-details__slick--items">
+                  <div class="main-details__slick--img">
+                    <img class="details-galeria__img" src="<?php the_field('imagen_zona_3');?>">
+                  </div>
+                </div>
+					    </div>
+            <?php else: ?>
+
+            <?php endif ?>
+					<div class="mySlides">
+            <?php if(get_field('imagen_zona_4')): ?>
+              <div class="main-details__slick--items">
+                <div class="main-details__slick--img">
+                  <img class="details-galeria__img" src="<?php the_field('imagen_zona_4');?>">
+                </div>
+              </div>
+            <?php else: ?>
+
+            <?php endif ?>
+					</div>
+              
+            <?php if(get_field('imagen_galeria')): ?>
+              <div class="mySlides">
+                <div class="main-details__slick--items">
+                  <div class="main-details__slick--img">
+                    <img class="details-galeria__img" src="<?php the_field('imagen_galeria');?>">
+                  </div>
+                </div>
+					    </div>
+            <?php else: ?>
+
+            <?php endif ?>
+					
+            <?php if(get_field('imagen_galeria_2')): ?>
+					    <div class="mySlides">
+                <div class="main-details__slick--items">
+                  <div class="main-details__slick--img">
+                    <img class="details-galeria__img" src="<?php the_field('imagen_galeria_2');?>">
+                  </div>
+                </div>
+					    </div>
+            <?php else: ?>
+
+            <?php endif ?>
+            <?php if(get_field('imagen_galeria')): ?>
+              <div class="mySlides">
+                <div class="main-details__slick--items">
+                  <div class="main-details__slick--img">
+                    <img class="details-galeria__img" src="<?php the_field('imagen_galeria');?>">
+                  </div>
+                </div>
+					    </div>
+            <?php else: ?>
+
+            <?php endif ?>
+            <?php if(get_field('imagen_galeria_2')): ?>
+					  <div class="mySlides">
+                <div class="main-details__slick--items">
+                  <div class="main-details__slick--img">
+                    <img class="details-galeria__img" src="<?php the_field('imagen_galeria_2');?>">
+                  </div>
+                </div>
+					    </div>
+            <?php else: ?>
+
+            <?php endif ?>
+              
+            <?php if(get_field('imagen_galeria_3')): ?>
+              <div class="mySlides">
+                <div class="main-details__slick--items">
+                  <div class="main-details__slick--img">
+                    <img class="details-galeria__img" src="<?php the_field('imagen_galeria_3');?>">
+                  </div>
+                </div>
+              </div>
+            <?php else: ?>
+
+            <?php endif ?>
+            <?php if(get_field('imagen_galeria_4')): ?>
+            <div class="mySlides">
+                <div class="main-details__slick--items">
+                  <div class="main-details__slick--img">
+                    <img class="details-galeria__img" src="<?php the_field('imagen_galeria_4');?>">
+                  </div>
+                </div>
+					    </div>
+            <?php else: ?>
+
+            <?php endif ?>
+            <?php if(get_field('imagen_galeria_5')): ?>
+              <div class="mySlides">
+                <div class="main-details__slick--items">
+                  <div class="main-details__slick--img">
+                    <img class="details-galeria__img" src="<?php the_field('imagen_galeria_5');?>">
+                  </div>
+                </div>
+					    </div>
+            <?php else: ?>
+
+            <?php endif ?>
+
+            <?php if(get_field('imagen_galeria_6')): ?>
+              <div class="mySlides">
+                <div class="main-details__slick--items">
+                  <div class="main-details__slick--img">
+                    <img class="details-galeria__img" src="<?php the_field('imagen_galeria_5');?>">
+                  </div>
+                </div>
+					    </div>
+            <?php else: ?>
+
+            <?php endif ?>
+            <?php if(get_field('imagen_galeria_7')): ?>
+              <div class="mySlides">
+                <div class="main-details__slick--items">
+                  <div class="main-details__slick--img">
+                    <img class="details-galeria__img" src="<?php the_field('imagen_galeria_5');?>">
+                  </div>
+                </div>
+					    </div>
+            <?php else: ?>
+
+            <?php endif ?>
+            <?php if(get_field('imagen_galeria_8')): ?>
+              <div class="mySlides">
+                <div class="main-details__slick--items">
+                  <div class="main-details__slick--img">
+                    <img class="details-galeria__img" src="<?php the_field('imagen_galeria_5');?>">
+                  </div>
+                </div>
+					    </div>
+            <?php else: ?>
+
+            <?php endif ?>
+
+					<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+					<a class="next" onclick="plusSlides(1)">&#10095;</a>
+		</div>
+	</div>

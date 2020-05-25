@@ -32,7 +32,7 @@
       <div class="main-details__galeria--content">
 
         <?php if(get_field('imagen_de_avances')): ?>
-          <div class="main-details__galeria--items">
+          <div class="main-details__galeria--items" onclick="openModal2();currentSlide2(1)">
             <div class="main-details__galeria--img">
             <img class="details-slick__img" src="<?php the_field('imagen_de_avances');?>">
             </div>
@@ -42,7 +42,7 @@
         <?php endif ?>
 
         <?php if(get_field('imagen_de_avances_2')): ?>
-          <div class="main-details__galeria--items">
+          <div class="main-details__galeria--items" onclick="openModal2();currentSlide2(2)">
             <div class="main-details__galeria--img">
             <img class="details-slick__img" src="<?php the_field('imagen_de_avances_2');?>">
             </div>
@@ -52,7 +52,7 @@
         <?php endif ?>
         
         <?php if(get_field('imagen_de_avances_3')): ?>
-          <div class="main-details__galeria--items">
+          <div class="main-details__galeria--items" onclick="openModal2();currentSlide2(3)">
             <div class="main-details__galeria--img">
             <img class="details-slick__img" src="<?php the_field('imagen_de_avances_3');?>">
             </div>
@@ -62,7 +62,7 @@
         <?php endif ?>
 
         <?php if(get_field('imagen_de_avances_4')): ?>
-          <div class="main-details__galeria--items">
+          <div class="main-details__galeria--items" onclick="openModal2();currentSlide2(4)">
             <div class="main-details__galeria--img">
             <img class="details-slick__img" src="<?php the_field('imagen_de_avances_4');?>">
             </div>
@@ -72,7 +72,7 @@
         <?php endif ?>
 
         <?php if(get_field('imagen_de_avances_5')): ?>
-          <div class="main-details__galeria--items">
+          <div class="main-details__galeria--items" onclick="openModal2();currentSlide2(5)">
             <div class="main-details__galeria--img">
             <img class="details-slick__img" src="<?php the_field('imagen_de_avances_5');?>">
             </div>
@@ -117,3 +117,68 @@
 <?php else: ?>
 
 <?php endif ?>
+
+
+<div id="myModal2" class="modal">
+
+
+	<div class="modal-content">
+		<button aria-label='Close' class='close' data-dismiss='modal' type='button' onclick="closeModal2()">
+			<span aria-hidden='true' class='fa fa-close'></span>
+		</button>
+	
+    <?php  if(get_field('imagen_de_avances')):?>
+			  <div class="mySlides2">
+          <div class="main-details__planos--img">
+            <img style="height:100%;width:100%;" src="<?php the_field('imagen_de_avances') ?>">
+          </div>
+        </div>
+      <?php else: ?>
+
+      <?php endif; ?>
+        <?php  if(get_field('imagen_de_avances_2')):?>
+          <div class="mySlides2">
+            <div class="main-details__planos--img">
+              <img style="" src="<?php the_field('imagen_de_avances_2') ?>">
+            </div>
+          </div>
+        <?php else: ?>
+
+        <?php endif; ?>
+        <?php  if(get_field('imagen_de_avances_3')):?>
+          <div class="mySlides2">
+            <div class="main-details__planos--img">
+              <img style="height:100%;width:100%;" src="<?php the_field('imagen_de_avances_3') ?>">          
+            </div>
+          </div>
+        <?php else: ?>
+
+        <?php endif; ?>
+        <?php  if(get_field('imagen_de_avances_4')):?>
+          <div class="mySlides2">
+            <div class="main-details__planos--img">
+              <img style="height:100%;width:100%;" src="<?php the_field('imagen_de_avances_4') ?>">          
+            </div>
+          </div>
+        <?php else: ?>
+
+        <?php endif; ?>
+
+        <?php  if(get_field('imagen_de_avances_5')):?>
+          <div class="mySlides2">
+            <div class="main-details__planos--img">
+              <img style="height:100%;width:100%;" src="<?php the_field('imagen_de_avances_5') ?>">          
+            </div>
+          </div>
+        <?php else: ?>
+
+        <?php endif; ?>
+
+
+		<a class="prev" onclick="plusSlides2(-1)">&#10094;</a>
+		<a class="next" onclick="plusSlides2(1)">&#10095;</a>
+
+
+
+	</div>
+</div>

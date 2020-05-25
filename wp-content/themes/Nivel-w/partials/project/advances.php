@@ -29,7 +29,7 @@
             <?php if(get_field('imagen_de_avances')): ?>
               <div class="main-details__slick--items">
                 <div class="main-details__slick--img">
-                  <img class="details-slick__img" src="<?php the_field('imagen_de_avances');?>">
+                  <img onclick="openModal2();currentSlide2(1)" class="details-slick__img" src="<?php the_field('imagen_de_avances');?>">
                 </div>
               </div>
             <?php else: ?>
@@ -40,7 +40,7 @@
             <?php if(get_field('imagen_de_avances_2')): ?>
               <div class="main-details__slick--items">
                 <div class="main-details__slick--img">
-                  <img class="details-slick__img" src="<?php the_field('imagen_de_avances_2');?>">
+                  <img onclick="openModal2();currentSlide2(2)" class="details-slick__img" src="<?php the_field('imagen_de_avances_2');?>">
                 </div>
               </div>
             <?php else: ?>
@@ -49,7 +49,7 @@
             <?php if(get_field('imagen_de_avances_3')): ?>
               <div class="main-details__slick--items">
                 <div class="main-details__slick--img">
-                  <img class="details-slick__img" src="<?php the_field('imagen_de_avances_3');?>">
+                  <img onclick="openModal2();currentSlide2(3)" class="details-slick__img" src="<?php the_field('imagen_de_avances_3');?>">
                 </div>
               </div>
             <?php else: ?>
@@ -59,7 +59,7 @@
             <?php if(get_field('imagen_de_avances_4')): ?>
               <div class="main-details__slick--items">
                 <div class="main-details__slick--img">
-                  <img class="details-slick__img" src="<?php the_field('imagen_de_avances_4');?>">
+                  <img onclick="openModal2();currentSlide2(4)" class="details-slick__img" src="<?php the_field('imagen_de_avances_4');?>">
                 </div>
               </div>
             <?php else: ?>
@@ -69,7 +69,7 @@
             <?php if(get_field('imagen_de_avances_5')): ?>
               <div class="main-details__slick--items">
                 <div class="main-details__slick--img">
-                  <img class="details-slick__img" src="<?php the_field('imagen_de_avances_5');?>">
+                  <img onclick="openModal2();currentSlide2(5)" class="details-slick__img" src="<?php the_field('imagen_de_avances_5');?>">
                 </div>
               </div>
             <?php else: ?>
@@ -84,3 +84,26 @@
 <?php else: ?>
           
 <?php endif ?>
+
+
+<div id="myModal2" class="modal">
+
+
+	<div class="modal-content">
+		<button aria-label='Close' class='close' data-dismiss='modal' type='button' onclick="closeModal2()">
+			<span aria-hidden='true' class='fa fa-close'></span>
+		</button>
+	
+			<div class="mySlides2">
+				<img src="<?php echo get_the_post_thumbnail_url(); ?>" style="width:100%">
+			</div>
+
+
+
+		<a class="prev" onclick="plusSlides2(-1)">&#10094;</a>
+		<a class="next" onclick="plusSlides2(1)">&#10095;</a>
+
+
+
+	</div>
+</div>
