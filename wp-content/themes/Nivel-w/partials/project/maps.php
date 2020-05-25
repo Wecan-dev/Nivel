@@ -446,7 +446,7 @@
                           <?php if( $descripcion_zonas_item == 'Área de 55 mts2'): ?>
                             <div class="main-maps__items">
                               <div class="main-details__icono--img">
-                                <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/icono-detalle9.png">
+                                <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/icono-detalle6.png">
                               </div>
                               <div class="main-details__icono--text">
                                 <p class="text-icono__projects">

@@ -947,11 +947,22 @@
     .slider-nav .slick-next:after,.slider-nav  .slick-prev:after{
         top: 50% !important;
     }
+    .main-maps__content {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .main-maps__items {
+        width: 100%;
+    }
 }
 
 
 
 @media (min-width: 768px) and (max-width: 991px) {
+    .planos-center {
+        width: 100%;
+    }
     .main-banner__title.main-banner__title--home {
         flex-direction: column;
         margin-top: -2rem;
