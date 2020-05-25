@@ -28,7 +28,7 @@
             <strong>PRECIO</strong>
             <span class="dots_font">:</span>
             <span>Desde <?php the_field('precio') ?></span>
-            <span class="text-impuesto-projects">Valor impuestos incluido*</span>
+            <!-- <span class="text-impuesto-projects">Valor impuestos incluido*</span> -->
           </li>
           <li>
             <strong>Ubicación</strong>

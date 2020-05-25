@@ -4354,5 +4354,16 @@ flex-wrap: wrap;
 }
 
   
-  
-  
+.main-maps__content {
+    display: flex;
+    flex-wrap: wrap;
+	width: 90%;
+	justify-content: center;
+	margin: 1rem 0 1rem 0rem;
+	
+}
+.main-maps__items{
+	width: 33%;
+	display: flex;
+	margin-bottom: 0.5rem;
+}

@@ -6,7 +6,112 @@
         <div class="main-details__projects--slick">
           <div class="main-details__slick--content">
 
+            <?php if(get_field('imagen_1')): ?>
+              <div class="main-details__slick--items">
+                <div class="main-details__slick--img">
+                  <img class="details-galeria__img" src="<?php the_field('imagen_1');?>">
+                </div>
+              </div>
+            <?php else: ?>
+
+            <?php endif ?>
+            <?php if(get_field('imagen_2')): ?>
+              <div class="main-details__slick--items">
+                <div class="main-details__slick--img">
+                  <img class="details-galeria__img" src="<?php the_field('imagen_2');?>">
+                </div>
+              </div>
+            <?php else: ?>
+
+            <?php endif ?>
+            <?php if(get_field('imagen_3')): ?>
+              <div class="main-details__slick--items">
+                <div class="main-details__slick--img">
+                  <img class="details-galeria__img" src="<?php the_field('imagen_3');?>">
+                </div>
+              </div>
+            <?php else: ?>
+
+            <?php endif ?>
+            <?php if(get_field('imagen_4')): ?>
+              <div class="main-details__slick--items">
+                <div class="main-details__slick--img">
+                  <img class="details-galeria__img" src="<?php the_field('imagen_4');?>">
+                </div>
+              </div>
+            <?php else: ?>
+
+            <?php endif ?>
+            <?php if(get_field('imagen_5')): ?>
+              <div class="main-details__slick--items">
+                <div class="main-details__slick--img">
+                  <img class="details-galeria__img" src="<?php the_field('imagen_5');?>">
+                </div>
+              </div>
+            <?php else: ?>
+
+            <?php endif ?>
+              
+
+
+            <?php if(get_field('imagen_zona_1')): ?>
+              <div class="main-details__slick--items">
+                <div class="main-details__slick--img">
+                  <img class="details-galeria__img" src="<?php the_field('imagen_zona_1');?>">
+                </div>
+              </div>
+            <?php else: ?>
+
+            <?php endif ?>
+            <?php if(get_field('imagen_zona_2')): ?>
+              <div class="main-details__slick--items">
+                <div class="main-details__slick--img">
+                  <img class="details-galeria__img" src="<?php the_field('imagen_zona_2');?>">
+                </div>
+              </div>
+            <?php else: ?>
+
+            <?php endif ?>
+            <?php if(get_field('imagen_zona_3')): ?>
+              <div class="main-details__slick--items">
+                <div class="main-details__slick--img">
+                  <img class="details-galeria__img" src="<?php the_field('imagen_zona_3');?>">
+                </div>
+              </div>
+            <?php else: ?>
+
+            <?php endif ?>
+            <?php if(get_field('imagen_zona_4')): ?>
+              <div class="main-details__slick--items">
+                <div class="main-details__slick--img">
+                  <img class="details-galeria__img" src="<?php the_field('imagen_zona_4');?>">
+                </div>
+              </div>
+            <?php else: ?>
+
+            <?php endif ?>
          
+            <?php if(get_field('imagen_galeria')): ?>
+              <div class="main-details__slick--items">
+                <div class="main-details__slick--img">
+                  <img class="details-galeria__img" src="<?php the_field('imagen_galeria');?>">
+                </div>
+              </div>
+            <?php else: ?>
+
+            <?php endif ?>
+
+            <?php if(get_field('imagen_galeria_2')): ?>
+              <div class="main-details__slick--items">
+                <div class="main-details__slick--img">
+                  <img class="details-galeria__img" src="<?php the_field('imagen_galeria_2');?>">
+                </div>
+              </div>
+            <?php else: ?>
+
+            <?php endif ?>
+
+
             <?php if(get_field('imagen_galeria')): ?>
               <div class="main-details__slick--items">
                 <div class="main-details__slick--img">
@@ -1404,7 +1509,7 @@
                 <div class="panel-heading" role="tab" id="headingFour">
                   <h4 class="panel-title">
                     <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                      acerca de proyectos
+                      acerca del proyectos
                     </a>
                   </h4>
                 </div>
@@ -1428,7 +1533,7 @@
                 <div class="panel-heading active" role="tab" id="headingThree">
                   <h4 class="panel-title">
                     <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                      Detalles de proyectos
+                      Detalles del proyectos
                     </a>
                   </h4>
                 </div>
