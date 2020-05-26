@@ -2342,36 +2342,3 @@
     }
 }
 
-
-@media (min-width: 2560px) and (max-height: 1500px) {
-    .main-banner__content .slick-next, .main-banner__content .slick-prev {
-        bottom: 20rem !important;
-    }
-    /* .main-banner__content .slick-prev {
-        right: 66% !important;
-    }
-    .main-banner__content .slick-next {
-        left: 34% !important;
-    } */
-    .container-prueba {
-        height: 50vh;
-    }
-    .main-banner__img2 {
-        height: 40vh;
-    }
-    .container {
-        max-width: 2000px;
-    }
-    .nav-link {
-
-        padding-right: 10rem !important;
-
-    }
-    .main-banner .mask .main-banner__text .main-banner__title p, .main-banner .mask .main-banner__text .main-banner__title h1, .main-banner .mask .main-banner__text .main-banner__title h2, .main-banner .mask .main-banner__text .main-banner__title h3, .main-banner .mask .main-banner__text .main-banner__title h4, .main-banner .mask .main-banner__text .main-banner__title h5, .main-banner .mask .main-banner__text .main-banner__title h6 {
-        font-size: 100px;
-    }
-    .main-banner__logo {
-        width: 200px;
-    }
-
-}
