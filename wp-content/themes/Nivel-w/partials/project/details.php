@@ -1516,7 +1516,7 @@
                 <div class="panel-heading" role="tab" id="headingFour">
                   <h4 class="panel-title">
                     <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                      acerca del proyectos
+                      acerca del proyecto
                       <span class="arrowline"></span>
                     </a>
                   </h4>
@@ -1541,7 +1541,7 @@
                 <div class="panel-heading active" role="tab" id="headingThree">
                   <h4 class="panel-title">
                     <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                      Detalles del proyectos
+                      Detalles del proyecto
                       <span class="arrowline"></span>
                     </a>
                   </h4>
