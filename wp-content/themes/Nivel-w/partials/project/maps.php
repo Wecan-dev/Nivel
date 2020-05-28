@@ -746,7 +746,7 @@
                           <?php if( $descripcion_zonas_item == 'Profundidad desde 10.70 mts'): ?>
                             <div class="main-maps__items">
                               <div class="main-details__icono--img">
-                                <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/icono-detalle7.png">
+                                <img class="icono-img__projects" src="http://localhost/Nivel/wp-content/uploads/2020/05/profundidad.png">
                               </div>
                               <div class="main-details__icono--text">
                                 <p class="text-icono__projects">
