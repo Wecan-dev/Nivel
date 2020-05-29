@@ -3,6 +3,9 @@
         font-size: 16px;
 
     }
+    .prev, .next {
+     top: 24rem;
+    }
     .main-banner__logo {
         width: 140px;
     }
@@ -50,9 +53,11 @@
         margin-bottom: 5px;
     }
     .slider-for .slick-dots{
-        z-index: 8888;
+        z-index: 777;
     }
-    
+    .slider-nav--mt {
+        margin-top: 115px;
+    }
     #pills-tab{
         margin-top: 0px;
     }
@@ -639,7 +644,10 @@
         width: 100%;
     }
     .main-details__slick--img {
-        height: 350px !important;
+        height: 400px !important;
+    }
+    .mySlides img, .mySlides1 img, .mySlides2 img{
+        object-fit: cover;
     }
     .main-details__projects--avance, .main-details__projects--zona {
         padding-top: 20px;
@@ -956,17 +964,17 @@
         width: 100%;
     }
     .next {
-        right: 4rem;
+        right: 0rem;
         
       }
       .prev{
-        left: 4rem;
+        left: 0rem;
       }
     
-      #myModal .modal-content .close, #myModal1 .modal-content .close, #myModal2 .modal-content .close {
-        top: -5rem;
+      /* #myModal .modal-content .close, #myModal1 .modal-content .close, #myModal2 .modal-content .close {
+        top: 0rem;
         right: 0rem;
-      }
+      } */
       #myModal .modal-content, #myModal1 .modal-content, #myModal2 .modal-content {
         width: 95%;
       }
@@ -976,6 +984,17 @@
 
 
 @media (min-width: 768px) and (max-width: 991px) {
+    #myModal .modal-content, #myModal1 .modal-content,#myModal2 .modal-content{
+        width: 95%;
+    }
+    .next {
+        right: 0rem;
+        
+      }
+      .prev{
+        left: 0rem;
+      }
+    
     .planos-center {
         width: 100%;
     }
@@ -1477,17 +1496,20 @@
 
 
 @media (min-width: 992px) and (max-width: 1199px) {
+    #myModal .modal-content, #myModal1 .modal-content,#myModal2 .modal-content{
+        width: 95%;
+    }
     .next {
-        right: 10rem;
+        right: 0rem;
         
       }
       .prev{
-        left: 10rem;
+        left: 0rem;
       }
     
       #myModal .modal-content .close, #myModal1 .modal-content .close, #myModal2 .modal-content .close {
-        top: -5rem;
-        right: -16rem;
+        top: 0rem;
+        right: 0rem;
       }
     .main-banner__title.main-banner__title--home {
         margin-top: 0rem;
@@ -2339,6 +2361,15 @@
     }
     .main-details__galeria {
         padding-top: 40px;
+    }
+    .prev, .next{
+        top: 20rem;
+    }
+    .next{
+        right: 0;
+    }
+    .prev {
+        left: 0rem;
     }
 }
 

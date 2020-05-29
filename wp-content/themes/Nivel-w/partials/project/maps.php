@@ -19,7 +19,7 @@
                           <?php if( $descripcion_zonas_item == '2 Alcobas'): ?>
                             <div class="main-maps__items">
                               <div class="main-details__icono--img">
-                                <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/icono-detalle2.png">
+                                <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/Icons/alcobas-terminadas.png">
                               </div>
                               <div class="main-details__icono--text">
                                 <p class="text-icono__projects">
@@ -40,7 +40,7 @@
                           <?php if( $descripcion_zonas_item == '2 Baños'): ?>
                             <div class="main-maps__items">
                               <div class="main-details__icono--img">
-                                <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/icono-detalle2.png">
+                                <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/Icons/baño.png">
                               </div>
                               <div class="main-details__icono--text">
                                 <p class="text-icono__projects">
@@ -61,7 +61,7 @@
                           <?php if( $descripcion_zonas_item == 'Salón comedor'): ?>
                             <div class="main-maps__items">
                               <div class="main-details__icono--img">
-                                <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/icono-detalle2.png">
+                                <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/Icons/salon-comedor.png">
                               </div>
                               <div class="main-details__icono--text">
                                 <p class="text-icono__projects">
@@ -103,7 +103,7 @@
                           <?php if( $descripcion_zonas_item == 'Zona de ropa'): ?>
                             <div class="main-maps__items">
                               <div class="main-details__icono--img">
-                                <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/icono-detalle2.png">
+                                <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/Icons/zona-de-ropas.png">
                               </div>
                               <div class="main-details__icono--text">
                                 <p class="text-icono__projects">
@@ -166,7 +166,7 @@
                           <?php if( $descripcion_zonas_item == 'Áreas de 55 m2 a 69.9 m2'): ?>
                             <div class="main-maps__items">
                               <div class="main-details__icono--img">
-                                <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/icono-detalle9.png">
+                                <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/icono-detalle6.png">
                               </div>
                               <div class="main-details__icono--text">
                                 <p class="text-icono__projects">
@@ -186,7 +186,7 @@
                           <?php if( $descripcion_zonas_item == 'Alcobas 2 o 3  terminados'): ?>
                             <div class="main-maps__items">
                               <div class="main-details__icono--img">
-                                <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/icono-detalle9.png">
+                                <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/Icons/alcobas-terminadas.png">
                               </div>
                               <div class="main-details__icono--text">
                                 <p class="text-icono__projects">
@@ -206,7 +206,7 @@
                           <?php if( $descripcion_zonas_item == 'Zona Social'): ?>
                             <div class="main-maps__items">
                               <div class="main-details__icono--img">
-                                <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/icono-detalle9.png">
+                                <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/Icons/zona-social-habitaciones.png">
                               </div>
                               <div class="main-details__icono--text">
                                 <p class="text-icono__projects">
@@ -226,7 +226,7 @@
                           <?php if( $descripcion_zonas_item == 'Piso laminado en madera'): ?>
                             <div class="main-maps__items">
                               <div class="main-details__icono--img">
-                                <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/icono-detalle9.png">
+                                <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/Icons/piso-madera.png">
                               </div>
                               <div class="main-details__icono--text">
                                 <p class="text-icono__projects">
@@ -246,7 +246,7 @@
                           <?php if( $descripcion_zonas_item == 'Balcón'): ?>
                             <div class="main-maps__items">
                               <div class="main-details__icono--img">
-                                <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/icono-detalle9.png">
+                                <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/Icons/amplio-balcon.png">
                               </div>
                               <div class="main-details__icono--text">
                                 <p class="text-icono__projects">
@@ -286,7 +286,7 @@
                           <?php if( $descripcion_zonas_item == 'Piso y/o enchapes en cerámica'): ?>
                             <div class="main-maps__items">
                               <div class="main-details__icono--img">
-                                <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/icono-detalle9.png">
+                                <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/Icons/piso-ceramica.png">
                               </div>
                               <div class="main-details__icono--text">
                                 <p class="text-icono__projects">
@@ -306,7 +306,7 @@
                           <?php if( $descripcion_zonas_item == 'Se entrega horno'): ?>
                             <div class="main-maps__items">
                               <div class="main-details__icono--img">
-                                <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/icono-detalle9.png">
+                                <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/Icons/horno.png">
                               </div>
                               <div class="main-details__icono--text">
                                 <p class="text-icono__projects">
@@ -326,7 +326,7 @@
                           <?php if( $descripcion_zonas_item == 'Cubierta y extractor'): ?>
                             <div class="main-maps__items">
                               <div class="main-details__icono--img">
-                                <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/icono-detalle9.png">
+                                <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/Icons/extractor.png">
                               </div>
                               <div class="main-details__icono--text">
                                 <p class="text-icono__projects">
@@ -346,7 +346,7 @@
                           <?php if( $descripcion_zonas_item == 'Baños'): ?>
                             <div class="main-maps__items">
                               <div class="main-details__icono--img">
-                                <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/icono-detalle9.png">
+                                <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/Icons/baño.png">
                               </div>
                               <div class="main-details__icono--text">
                                 <p class="text-icono__projects">
@@ -366,7 +366,7 @@
                           <?php if( $descripcion_zonas_item == 'Muebles'): ?>
                             <div class="main-maps__items">
                               <div class="main-details__icono--img">
-                                <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/icono-detalle9.png">
+                                <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/Icons/muebles.png">
                               </div>
                               <div class="main-details__icono--text">
                                 <p class="text-icono__projects">
@@ -386,7 +386,7 @@
                           <?php if( $descripcion_zonas_item == 'Quartzstone'): ?>
                             <div class="main-maps__items">
                               <div class="main-details__icono--img">
-                                <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/icono-detalle9.png">
+                                <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/Icons/quartzstone.png">
                               </div>
                               <div class="main-details__icono--text">
                                 <p class="text-icono__projects">
@@ -426,7 +426,7 @@
                           <?php if( $descripcion_zonas_item == 'Iluminación LED'): ?>
                             <div class="main-maps__items">
                               <div class="main-details__icono--img">
-                                <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/icono-detalle9.png">
+                                <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/Icons/Iluminación-led.png">
                               </div>
                               <div class="main-details__icono--text">
                                 <p class="text-icono__projects">
@@ -566,7 +566,7 @@
                           <?php if( $descripcion_zonas_item == 'Alcoba principal con baño y vestier'): ?>
                             <div class="main-maps__items">
                               <div class="main-details__icono--img">
-                                <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/icono-detalle9.png">
+                                <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/Icons/alcoba-principal-con-baño-y-vestier.png">
                               </div>
                               <div class="main-details__icono--text">
                                 <p class="text-icono__projects">
@@ -586,7 +586,7 @@
                           <?php if( $descripcion_zonas_item == '2 alcobas auxiliares'): ?>
                             <div class="main-maps__items">
                               <div class="main-details__icono--img">
-                                <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/icono-detalle9.png">
+                                <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/Icons/2-alcobas-auxiliares.png">
                               </div>
                               <div class="main-details__icono--text">
                                 <p class="text-icono__projects">
@@ -606,7 +606,7 @@
                           <?php if( $descripcion_zonas_item == 'Independiente Baño social'): ?>
                             <div class="main-maps__items">
                               <div class="main-details__icono--img">
-                                <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/icono-detalle9.png">
+                                <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/Icons/independiente-baño-social.png">
                               </div>
                               <div class="main-details__icono--text">
                                 <p class="text-icono__projects">
@@ -626,7 +626,7 @@
                           <?php if( $descripcion_zonas_item == 'Alcoba principal con futuro baño'): ?>
                             <div class="main-maps__items">
                               <div class="main-details__icono--img">
-                                <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/icono-detalle9.png">
+                                <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/Icons/independiente-baño-social.png">
                               </div>
                               <div class="main-details__icono--text">
                                 <p class="text-icono__projects">
@@ -867,7 +867,7 @@
                           <?php if( $descripcion_zonas_item == '2 Baños'): ?>
                             <div class="main-maps__items">
                               <div class="main-details__icono--img">
-                                <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/icono-detalle2.png">
+                                <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/Icons/baño.png">
                               </div>
                               <div class="main-details__icono--text">
                                 <p class="text-icono__projects">
@@ -1073,7 +1073,7 @@
                           <?php if( $descripcion_zonas_item == 'Balcón'): ?>
                             <div class="main-maps__items">
                               <div class="main-details__icono--img">
-                                <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/icono-detalle9.png">
+                                <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/Icons/amplio-balcon.png">
                               </div>
                               <div class="main-details__icono--text">
                                 <p class="text-icono__projects">
@@ -1213,7 +1213,7 @@
                           <?php if( $descripcion_zonas_item == 'Quartzstone'): ?>
                             <div class="main-maps__items">
                               <div class="main-details__icono--img">
-                                <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/icono-detalle9.png">
+                                <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/Icons/quartzstone.png.png">
                               </div>
                               <div class="main-details__icono--text">
                                 <p class="text-icono__projects">
@@ -3479,7 +3479,7 @@
 
       <?php  if(get_field('imagen_del_plano')):?>
 			  <div class="mySlides1">
-          <div class="main-details__planos--img">
+          <div class="main-details__slick--img">
             <img style="height:100%;width:100%;" src="<?php the_field('imagen_del_plano') ?>">
           </div>
         </div>
@@ -3488,7 +3488,7 @@
       <?php endif; ?>
         <?php  if(get_field('imagen_del_plano_2')):?>
           <div class="mySlides1">
-            <div class="main-details__planos--img">
+            <div class="main-details__slick--img">
               <img style="" src="<?php the_field('imagen_del_plano_2') ?>">
             </div>
           </div>
@@ -3497,7 +3497,7 @@
         <?php endif; ?>
         <?php  if(get_field('imagen_del_plano_3')):?>
           <div class="mySlides1">
-            <div class="main-details__planos--img">
+            <div class="main-details__slick--img">
               <img style="height:100%;width:100%;" src="<?php the_field('imagen_del_plano_3') ?>">          
             </div>
           </div>
@@ -3506,7 +3506,7 @@
         <?php endif; ?>
         <?php  if(get_field('imagen_del_plano_4')):?>
           <div class="mySlides1">
-            <div class="main-details__planos--img">
+            <div class="main-details__slick--img">
               <img style="height:100%;width:100%;" src="<?php the_field('imagen_del_plano_4') ?>">          
             </div>
           </div>

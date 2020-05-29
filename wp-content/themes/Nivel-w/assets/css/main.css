@@ -4135,7 +4135,8 @@ padding-top: 40px;
 
 
 .main-details__slick--img{
-	height: 500px !important;
+	/* height: 500px !important; */
+	height: 75vh;
 }
 .main-details__slick--img img{
 	height: 100%;
@@ -4383,7 +4384,7 @@ bottom: 3px;
     -webkit-transform: translateY(-50%) scaleX(0);
     -ms-transform: translateY(-50%) scaleX(0);
     transform: translateY(-50%) scaleX(0);
-    background: transparent
+    background: transparent;
     -webkit-transform: translateY(-50%) scaleX(1);
     -ms-transform: translateY(-50%) scaleX(1);
 	transform: translateY(-50%) scaleX(1);
@@ -4506,7 +4507,7 @@ flex-wrap: wrap;
 
 .mySlides, .mySlides1, .mySlides2 {
 	display: none;
-	height: 500px;
+	/* height: 500px; */
 }
 .mySlides img, .mySlides1 img,.mySlides2 img{
 	width: 100%;
@@ -4522,7 +4523,7 @@ flex-wrap: wrap;
 .next {
 	cursor: pointer;
 	position: absolute;
-	top: 35rem;
+	top: 15rem;
 	width: auto;
 	padding: 16px;
 	margin-top: -50px;
@@ -4533,16 +4534,16 @@ flex-wrap: wrap;
 	border-radius: 0px !important;
 	user-select: none;
 	-webkit-user-select: none;
-	/* background-color: rgba(0, 0, 0, 0.8); */
+	background-color: rgba(0, 0, 0, 0.8);
 }
 
 /* Position the "next button" to the right */
 .next {
-	right: 15rem;
+	right: -22rem;
 	border-radius: 3px 0 0 3px;
 }
 .prev{
-	left: 15rem;
+	left: -22rem;
 }
 
 /* On hover, add a black background color with a little bit see-through */
@@ -4589,7 +4590,8 @@ img.hover-shadow {
 }
 
 #myModal .modal-content, #myModal1 .modal-content,#myModal2 .modal-content{
-	width: 45%;
+	width: 100%;
+	overflow: hidden;
 	background-color: transparent;
 	border: none;
 }
@@ -4597,8 +4599,8 @@ img.hover-shadow {
 #myModal .modal-content .close, #myModal1 .modal-content .close, #myModal2 .modal-content .close{
 	color: white;
 	position: absolute;
-	top: -5rem;
-    right: -23rem;
+	top: 0rem;
+    right: 0rem;
 	font-size: 30px;
 	font-weight: bold;
 	background-color: rgba(0,0,0,0.5) !important;
