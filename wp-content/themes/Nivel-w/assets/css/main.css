@@ -4135,8 +4135,8 @@ padding-top: 40px;
 
 
 .main-details__slick--img{
-	/* height: 500px !important; */
-	height: 75vh;
+	height: 500px !important;
+	/* height: 75vh; */
 }
 .main-details__slick--img img{
 	height: 100%;
@@ -4614,4 +4614,10 @@ img.hover-shadow {
 
 .mySlides2 .main-details__planos--img{
 	height: 500px;
+}
+
+
+.mySlides .main-details__slick--img, .mySlides2 .main-details__slick--img, .mySlides3 .main-details__slick--img{
+	/* height: 500px !important; */
+	height: 75vh !important;
 }
