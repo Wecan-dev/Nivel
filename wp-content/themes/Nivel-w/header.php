@@ -38,12 +38,12 @@
 
   <!-- Open Graph Meta Data -->
   <meta content='website' property='og:type'>
-  <meta content='<?php echo get_template_directory_uri(); ?>/assets/img/logo-header.png' property='og:image'>
+  <meta content='<?php echo get_template_directory_uri();?>/assets/img/logo.png' property='og:image'>
   <meta property="og:site_name" content="">
   <meta property="og:title" content="">
   <meta content='' property='og:description'>
   <meta property="og:type" content="">
-  <meta property="og:image" content="">
+  <meta property="og:image" content="<?php echo get_template_directory_uri();?>/assets/img/logo.png">
 
   <!-- Links -->
   <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri();?>/assets/css/bootstrap.min.css">
@@ -55,7 +55,9 @@
   <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri();?>/assets/css/main.css">
   <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri();?>/assets/css/contacto.css">
   <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri();?>/assets/css/responsive.css">
-  <!-- <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700&display=swap" rel="stylesheet"> -->
+  <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="<?php echo get_template_directory_uri();?>/assets/img/favicon-32x32.png">
+
   <?php wp_head(); ?>
 </head>
 
@@ -63,7 +65,6 @@
   
   <header id="home">
     <nav class="navbar navbar-expand-lg fixed-top navbar-fixed-js">
-
       <div class="container">
         <div class="main-brand">
           <a class="navbar-brand" href="<?php echo bloginfo('url').'/';?>">
