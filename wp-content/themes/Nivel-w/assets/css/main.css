@@ -4449,7 +4449,7 @@ flex-wrap: wrap;
     display: flex;
     flex-wrap: wrap;
 	width: 90%;
-	justify-content: center;
+	justify-content: start;
 	margin: 1rem 0 1rem 0rem;
 	
 }
