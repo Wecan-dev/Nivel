@@ -27,9 +27,14 @@
 
   <!-- Twitter Card Meta Data -->
   <meta content='summary' name='twitter:card'>
-  <meta content='Paginas web' name='twitter:site'>
-  <meta content='Paginas web' name='twitter:title'>
-  <meta content='Paginas web' name='twitter:description'>
+  <meta content='<?php bloginfo('url');?>' name='twitter:site'>
+  <meta content='Nivel Propiedad Raíz: Proyectos inmobiliarios y comerciales en Antioquia.' name='twitter:title'>
+  <meta name='twitter:description', content='<?php if(is_home()){echo 'Estructuramos, gerenciamos y comercializamos proyectos en lugares increíbles. Apartamentos, Lotes de Vivienda, Parques Empresariales y Locales Comerciales.';}?>'>
+  <meta name='twitter:description', content='<?php if(is_page( 7 )){echo 'Apartamentos, Lotes de Vivienda, Parques Empresariales y Locales Comerciales.';}?>'>
+  <meta name='twitter:description', content='<?php if(is_page( 11 )){echo 'Descubre en nuestro blog las últimas tendencias en proyectos inmobiliarios y estilo de vida.';}?>'>
+  <meta name='twitter:description', content='<?php if(is_page( 5 )){echo 'Somos una empresa con más de 30 años de experiencia en el sector inmobiliario.';}?>'>
+  <meta name='twitter:description', content='<?php if(is_page( 19 )){echo 'Regístrate y haz tu solicitud de cotización.';}?>'>
+  <meta name='twitter:description', content='<?php if(is_page( 17 )){echo 'Teléfono: 432 02 00. Horario de atención: 8:00 a. m - 6:00 p.m, lunes a viernes.';}?>'>
 
   <!-- Open Graph Meta Data -->
   <meta content='website' property='og:type'>
