@@ -46,7 +46,8 @@ $('.main-details__slick--content').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
         infinite: true,
-        dots: true
+        dots: true,
+        arrows: false,
       }
     },
     {
@@ -54,6 +55,7 @@ $('.main-details__slick--content').slick({
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1,
+        arrows: false,
       }
     },
     {

@@ -1,4 +1,7 @@
 @media (min-width: 0px) and (max-width: 767px) {
+    .main-maps__content {
+        margin: 1rem 0 1rem 0rem;
+    }
     .ul-project__info li strong {
         font-size: 16px;
 
@@ -984,8 +987,14 @@
 
 
 @media (min-width: 768px) and (max-width: 991px) {
+    .main-maps__content {
+        margin: 1rem 0 1rem 0rem;
+    }
     #myModal .modal-content, #myModal1 .modal-content,#myModal2 .modal-content{
         width: 95%;
+    }
+    .main-details__icono{
+        width: 100%
     }
     .next {
         right: 0rem;
@@ -1496,6 +1505,21 @@
 
 
 @media (min-width: 992px) and (max-width: 1199px) {
+    .nav-link {
+        padding-right: 35px !important;
+    }
+    .main-maps__content{
+        margin: 1rem 0 1rem 2rem;
+    }
+    .main-details__slick--content .slick-next {
+        left: 30.5rem;
+    }
+    .main-details__icono{
+        width: 50%;
+    }
+    .main-details__slick--content .slick-prev {
+        left: 0rem;
+    }
     #myModal .modal-content, #myModal1 .modal-content,#myModal2 .modal-content{
         width: 95%;
     }
