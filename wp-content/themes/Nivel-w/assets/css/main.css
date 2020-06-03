@@ -3288,7 +3288,7 @@ span.dots_font{
 	position: absolute;
 	font-size: 20px;
 	font-family: 'FontAwesome';
-	top:50%;
+	top:45%;
 	left: 50%;
 	transform: translate(-50%);
 	opacity: 0;
