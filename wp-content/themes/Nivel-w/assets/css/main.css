@@ -3238,12 +3238,110 @@ span.dots_font{
 .main-details__planos--img {
 	/* padding-right: 60px; */
 	height: 400px;
-
+	position: relative;
 }
 .main-details__planos--img img{
 	height: 100%;
 	width: 100%;
 	object-fit: contain;
+	position: relative;
+	
+}
+.main-details__planos--img img:before{
+	content: '';
+	position: absolute;
+	top:0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0)
+}
+
+.main-details__planos--img:after{
+	content:'\f00e';
+	position: absolute;
+	font-size: 30px;
+	font-family: 'FontAwesome';
+	top:40%;
+	left: 50%;
+	transform: translate(-50%);
+	opacity: 0;
+	color: rgba(0, 0, 0, 0.7);
+	transition: 0.3s ease-in-out;
+	background-color: #fff;
+	width: 50px;
+	display: flex;
+	justify-content: center;
+	border-radius: 5px;
+
+}
+.main-details__planos--img:hover:after{
+	opacity: 1;
+	transition: 0.3s ease-in-out;
+}
+
+.main-details__galeria--img{
+	position: relative;
+}
+.main-details__galeria--img:after{
+	content:'\f00e';
+	position: absolute;
+	font-size: 30px;
+	font-family: 'FontAwesome';
+	top:40%;
+	left: 50%;
+	transform: translate(-50%);
+	opacity: 0;
+	color: rgba(0, 0, 0, 0.7);
+	transition: 0.3s ease-in-out;
+	background-color: #fff;
+	width: 40px;
+	display: flex;
+	justify-content: center;
+	border-radius: 5px;
+
+}
+.main-details__galeria--img:hover:after{
+	opacity: 1;
+	transition: 0.3s ease-in-out;
+}
+
+.mySlides2 .main-details__planos--img:after{
+	opacity: 0;
+}
+
+
+
+
+.main-details__slick--img{
+	position: relative;
+}
+
+.main-details__slick--img:after{
+	content:'\f00e';
+	position: absolute;
+	font-size: 20px;
+	font-family: 'FontAwesome';
+	top:0%;
+	right: 0%;
+	transform: translate(-50%);
+	opacity: 0;
+	color: rgba(0, 0, 0, 0.7);
+	transition: 0.3s ease-in-out;
+
+
+}
+
+.main-details__slick--img:hover:after{
+	opacity: 1;
+	transition: 0.3s ease-in-out;
+}
+
+.mySlides .main-details__slick--img:after{
+	display: none;
+}
+.main-details__planos--img:hover .main-details__planos--img img{
+	width: 200%;
 }
 
 .main-details__projects--zona .main-details__descripcion {
@@ -4606,6 +4704,7 @@ img.hover-shadow {
 	background-color: rgba(0,0,0,0.5) !important;
 	padding: 5px !important;
 	opacity: 1;
+	z-index: 999;
 }
 
 #myModal, #myModal1, #myModal2{

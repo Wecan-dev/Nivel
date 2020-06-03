@@ -1565,6 +1565,21 @@
                     <?php else:?>
                     
                     <?php endif; ?>
+                    <?php if(get_field('cerca_de')):?>
+
+                      <div class="main-details__icono">
+                        <div class="main-details__icono--img">
+                          <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/icono-detalle7.png">
+                        </div>
+                        <div class="main-details__icono--text">
+                          <p class="text-icono__projects">
+                            <?php the_field('cerca_de');?>
+                          </p>
+                        </div>
+                      </div>
+                    <?php else:?>
+                    
+                    <?php endif; ?>
 
 
                     <?php if(get_field('descripcion_completa')):?>

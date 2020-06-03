@@ -179,6 +179,26 @@
                         endif;
                         endforeach;
                       endif; ?>
+                      <?php // descripcion_zonas ( value )
+                      $descripcion_zonas_array = get_field( 'descripcion_planos' );
+                      if ( $descripcion_zonas_array ):
+                        foreach ( $descripcion_zonas_array as $descripcion_zonas_item ):?>
+                          <?php if( $descripcion_zonas_item == 'Áreas desde 62 m2 hasta 79.9 m2'): ?>
+                            <div class="main-maps__items">
+                              <div class="main-details__icono--img">
+                                <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/icono-detalle6.png">
+                              </div>
+                              <div class="main-details__icono--text">
+                                <p class="text-icono__projects">
+                                  Áreas desde 62 m2 hasta 79.9 m2
+                                </p>
+                              </div>
+                            </div>
+                            <?php else:?>
+                            <?php
+                        endif;
+                        endforeach;
+                      endif; ?>
                        <?php // descripcion_zonas ( value )
                       $descripcion_zonas_array = get_field( 'descripcion_planos' );
                       if ( $descripcion_zonas_array ):
@@ -998,6 +1018,26 @@
                               <div class="main-details__icono--text">
                                 <p class="text-icono__projects">
                                   Áreas de 55 m2 a 69.9 m2
+                                </p>
+                              </div>
+                            </div>
+                            <?php else:?>
+                            <?php
+                        endif;
+                        endforeach;
+                      endif; ?>
+                      <?php // descripcion_zonas ( value )
+                      $descripcion_zonas_array = get_field( 'descripcion_planos' );
+                      if ( $descripcion_zonas_array ):
+                        foreach ( $descripcion_zonas_array as $descripcion_zonas_item ):?>
+                          <?php if( $descripcion_zonas_item == 'Áreas desde 62 m2 hasta 79.9 m2'): ?>
+                            <div class="main-maps__items">
+                              <div class="main-details__icono--img">
+                                <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/icono-detalle6.png">
+                              </div>
+                              <div class="main-details__icono--text">
+                                <p class="text-icono__projects">
+                                  Áreas desde 62 m2 hasta 79.9 m2
                                 </p>
                               </div>
                             </div>
@@ -1834,6 +1874,26 @@
                         endif;
                         endforeach;
                       endif; ?>
+                      <?php // descripcion_zonas ( value )
+                      $descripcion_zonas_array = get_field( 'descripcion_planos' );
+                      if ( $descripcion_zonas_array ):
+                        foreach ( $descripcion_zonas_array as $descripcion_zonas_item ):?>
+                          <?php if( $descripcion_zonas_item == 'Áreas desde 62 m2 hasta 79.9 m2'): ?>
+                            <div class="main-maps__items">
+                              <div class="main-details__icono--img">
+                                <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/icono-detalle6.png">
+                              </div>
+                              <div class="main-details__icono--text">
+                                <p class="text-icono__projects">
+                                  Áreas desde 62 m2 hasta 79.9 m2
+                                </p>
+                              </div>
+                            </div>
+                            <?php else:?>
+                            <?php
+                        endif;
+                        endforeach;
+                      endif; ?>
                        <?php // descripcion_zonas ( value )
                       $descripcion_zonas_array = get_field( 'descripcion_planos' );
                       if ( $descripcion_zonas_array ):
@@ -2662,6 +2722,26 @@
                         endif;
                         endforeach;
                       endif; ?>
+                      <?php // descripcion_zonas ( value )
+                      $descripcion_zonas_array = get_field( 'descripcion_planos' );
+                      if ( $descripcion_zonas_array ):
+                        foreach ( $descripcion_zonas_array as $descripcion_zonas_item ):?>
+                          <?php if( $descripcion_zonas_item == 'Áreas desde 62 m2 hasta 79.9 m2'): ?>
+                            <div class="main-maps__items">
+                              <div class="main-details__icono--img">
+                                <img class="icono-img__projects" src="<?php echo get_template_directory_uri();?>/assets/img/icono-detalle6.png">
+                              </div>
+                              <div class="main-details__icono--text">
+                                <p class="text-icono__projects">
+                                  Áreas desde 62 m2 hasta 79.9 m2
+                                </p>
+                              </div>
+                            </div>
+                            <?php else:?>
+                            <?php
+                        endif;
+                        endforeach;
+                      endif; ?>
                        <?php // descripcion_zonas ( value )
                       $descripcion_zonas_array = get_field( 'descripcion_planos' );
                       if ( $descripcion_zonas_array ):
@@ -3324,6 +3404,7 @@
                   <?php  if(get_field('imagen_del_plano')):?>
                     <div class="main-details__planos--img">
                       <img onclick="openModal1();currentSlide1(1)" style="height:100%;width:100%;" src="<?php the_field('imagen_del_plano') ?>">
+                    
                     </div>
                     <?php else: ?>
 
