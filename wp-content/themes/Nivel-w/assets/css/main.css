@@ -3322,16 +3322,18 @@ span.dots_font{
 	position: absolute;
 	font-size: 20px;
 	font-family: 'FontAwesome';
-	top:0%;
-	right: 0%;
+	top:45%;
+	left: 50%;
 	transform: translate(-50%);
 	opacity: 0;
 	color: rgba(0, 0, 0, 0.7);
 	transition: 0.3s ease-in-out;
-
-
+	background-color: #fff;
+	width: 40px;
+	display: flex;
+	justify-content: center;
+	border-radius: 5px;
 }
-
 .main-details__slick--img:hover:after{
 	opacity: 1;
 	transition: 0.3s ease-in-out;
